@@ -22,6 +22,7 @@ Depois do login, no cabeçalho haverá seu nome e um botão DESCONECTAR
 
 Perfil
 	Dados básicos
+		Botão para alterar dados do usuário (Criar uma tela para alteração desses dados)
 	Simulações salvas (lista)
 		Informações das simulações
 			nome
@@ -38,6 +39,9 @@ Perfil
 		
 	Botão "imprimir todas" com informações detalhadas de cada uma
 	
+Página de altração de dados básicos
+	Dados do cadastro
+	Caixas de preenchimento
 
 Simulador
 	
@@ -85,8 +89,6 @@ Simulador
 						
 						Selecionar barra desejada
 							Especificações abrem na esquerda abaixo do endereço
-
-
 
 
 
