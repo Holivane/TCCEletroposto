@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="apimodel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="barras">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="barra" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="latitude" Type="decimal" Precision="25" Scale="18" />
+          <Property Name="longitude" Type="decimal" Precision="25" Scale="18" />
+        </EntityType>
+        <EntityType Name="pessoas">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="tipodepessoa" Type="char" MaxLength="2" />
+          <Property Name="nome" Type="varchar" MaxLength="50" />
+          <Property Name="documento" Type="char" MaxLength="19" />
+          <Property Name="email" Type="varchar" MaxLength="100" />
+          <Property Name="senha" Type="varchar" MaxLength="100" />
+          <Property Name="situacao" Type="int" />
+          <Property Name="datadecriacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="simulacoes">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idpessoa" Type="int" />
+          <Property Name="nome" Type="varchar" MaxLength="50" />
+          <Property Name="potencia" Type="float" />
+          <Property Name="barra" Type="varchar" MaxLength="50" />
+          <Property Name="endereco" Type="varchar" MaxLength="350" />
+          <Property Name="tensao" Type="float" />
+          <Property Name="sistema" Type="varchar" MaxLength="100" />
+          <Property Name="nivelcc" Type="float" />
+          <Property Name="nota" Type="int" />
+          <Property Name="datadasimulacao" Type="datetime" />
+          <Property Name="dadoscomplementares" Type="int" />
+          <Property Name="solicitacaodeacesso" Type="int" />
+        </EntityType>
+        <EntityType Name="simulacoes_ppu">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idsimulacao" Type="int" />
+          <Property Name="quantidade" Type="int" />
+          <Property Name="potencia" Type="float" />
+        </EntityType>
+        <Association Name="FK_simulacoes_pessoas">
+          <End Role="pessoas" Type="Self.pessoas" Multiplicity="0..1" />
+          <End Role="simulacoes" Type="Self.simulacoes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pessoas">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="simulacoes">
+              <PropertyRef Name="idpessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_simulacoes_ppu_simulacoes">
+          <End Role="simulacoes" Type="Self.simulacoes" Multiplicity="0..1" />
+          <End Role="simulacoes_ppu" Type="Self.simulacoes_ppu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="simulacoes">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="simulacoes_ppu">
+              <PropertyRef Name="idsimulacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="apimodelStoreContainer">
+          <EntitySet Name="barras" EntityType="Self.barras" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pessoas" EntityType="Self.pessoas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="simulacoes" EntityType="Self.simulacoes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="simulacoes_ppu" EntityType="Self.simulacoes_ppu" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_simulacoes_pessoas" Association="Self.FK_simulacoes_pessoas">
+            <End Role="pessoas" EntitySet="pessoas" />
+            <End Role="simulacoes" EntitySet="simulacoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_simulacoes_ppu_simulacoes" Association="Self.FK_simulacoes_ppu_simulacoes">
+            <End Role="simulacoes" EntitySet="simulacoes" />
+            <End Role="simulacoes_ppu" EntitySet="simulacoes_ppu" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="apimodel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="barras">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="barra" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="latitude" Type="Decimal" Precision="25" Scale="18" />
+          <Property Name="longitude" Type="Decimal" Precision="25" Scale="18" />
+        </EntityType>
+        <EntityType Name="pessoas">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="tipodepessoa" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="documento" Type="String" MaxLength="19" FixedLength="true" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="senha" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="situacao" Type="Int32" />
+          <Property Name="datadecriacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="simulacoes" Relationship="Self.FK_simulacoes_pessoas" FromRole="pessoas" ToRole="simulacoes" />
+        </EntityType>
+        <EntityType Name="simulacoes">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idpessoa" Type="Int32" />
+          <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="potencia" Type="Double" />
+          <Property Name="barra" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="endereco" Type="String" MaxLength="350" FixedLength="false" Unicode="false" />
+          <Property Name="tensao" Type="Double" />
+          <Property Name="sistema" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="nivelcc" Type="Double" />
+          <Property Name="nota" Type="Int32" />
+          <Property Name="datadasimulacao" Type="DateTime" Precision="3" />
+          <Property Name="dadoscomplementares" Type="Int32" />
+          <Property Name="solicitacaodeacesso" Type="Int32" />
+          <NavigationProperty Name="pessoas" Relationship="Self.FK_simulacoes_pessoas" FromRole="simulacoes" ToRole="pessoas" />
+          <NavigationProperty Name="simulacoes_ppu" Relationship="apimodel.FK_simulacoes_ppu_simulacoes" FromRole="simulacoes" ToRole="simulacoes_ppu" />
+        </EntityType>
+        <EntityType Name="simulacoes_ppu">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idsimulacao" Type="Int32" />
+          <Property Name="quantidade" Type="Int32" />
+          <Property Name="potencia" Type="Double" />
+          <NavigationProperty Name="simulacoes" Relationship="apimodel.FK_simulacoes_ppu_simulacoes" FromRole="simulacoes_ppu" ToRole="simulacoes" />
+        </EntityType>
+        <Association Name="FK_simulacoes_pessoas">
+          <End Role="pessoas" Type="Self.pessoas" Multiplicity="0..1" />
+          <End Role="simulacoes" Type="Self.simulacoes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pessoas">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="simulacoes">
+              <PropertyRef Name="idpessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="apitcceletroEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="barras" EntityType="Self.barras" />
+          <EntitySet Name="pessoas" EntityType="Self.pessoas" />
+          <EntitySet Name="simulacoes" EntityType="Self.simulacoes" />
+          <EntitySet Name="simulacoes_ppu" EntityType="Self.simulacoes_ppu" />
+          <AssociationSet Name="FK_simulacoes_pessoas" Association="Self.FK_simulacoes_pessoas">
+            <End Role="pessoas" EntitySet="pessoas" />
+            <End Role="simulacoes" EntitySet="simulacoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_simulacoes_ppu_simulacoes" Association="apimodel.FK_simulacoes_ppu_simulacoes">
+            <End Role="simulacoes" EntitySet="simulacoes" />
+            <End Role="simulacoes_ppu" EntitySet="simulacoes_ppu" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_simulacoes_ppu_simulacoes">
+          <End Type="apimodel.simulacoes" Role="simulacoes" Multiplicity="0..1" />
+          <End Type="apimodel.simulacoes_ppu" Role="simulacoes_ppu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="simulacoes">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="simulacoes_ppu">
+              <PropertyRef Name="idsimulacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="apimodelStoreContainer" CdmEntityContainer="apitcceletroEntities">
+          <EntitySetMapping Name="barras">
+            <EntityTypeMapping TypeName="apimodel.barras">
+              <MappingFragment StoreEntitySet="barras">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="barra" ColumnName="barra" />
+                <ScalarProperty Name="latitude" ColumnName="latitude" />
+                <ScalarProperty Name="longitude" ColumnName="longitude" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pessoas">
+            <EntityTypeMapping TypeName="apimodel.pessoas">
+              <MappingFragment StoreEntitySet="pessoas">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="tipodepessoa" ColumnName="tipodepessoa" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="senha" ColumnName="senha" />
+                <ScalarProperty Name="situacao" ColumnName="situacao" />
+                <ScalarProperty Name="datadecriacao" ColumnName="datadecriacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="simulacoes">
+            <EntityTypeMapping TypeName="apimodel.simulacoes">
+              <MappingFragment StoreEntitySet="simulacoes">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="idpessoa" ColumnName="idpessoa" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="potencia" ColumnName="potencia" />
+                <ScalarProperty Name="barra" ColumnName="barra" />
+                <ScalarProperty Name="endereco" ColumnName="endereco" />
+                <ScalarProperty Name="tensao" ColumnName="tensao" />
+                <ScalarProperty Name="sistema" ColumnName="sistema" />
+                <ScalarProperty Name="nivelcc" ColumnName="nivelcc" />
+                <ScalarProperty Name="nota" ColumnName="nota" />
+                <ScalarProperty Name="datadasimulacao" ColumnName="datadasimulacao" />
+                <ScalarProperty Name="dadoscomplementares" ColumnName="dadoscomplementares" />
+                <ScalarProperty Name="solicitacaodeacesso" ColumnName="solicitacaodeacesso" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="simulacoes_ppu">
+            <EntityTypeMapping TypeName="apimodel.simulacoes_ppu">
+              <MappingFragment StoreEntitySet="simulacoes_ppu">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="idsimulacao" ColumnName="idsimulacao" />
+                <ScalarProperty Name="quantidade" ColumnName="quantidade" />
+                <ScalarProperty Name="potencia" ColumnName="potencia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
