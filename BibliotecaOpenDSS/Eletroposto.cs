@@ -55,7 +55,8 @@ namespace BibliotecaOpenDSS
             this.DSSCmath = DSSobj.CmathLib;
             this.DSSPDElement = DSSCircuit.PDElements;
             this.DSSCktElement = DSSCircuit.ActiveCktElement;
-
+            this.DSSBus = DSSCircuit.ActiveBus;
+         
             this.DSSText.Command = "Set Mode = Snapshot";
 
             retorno = true;
@@ -65,7 +66,7 @@ namespace BibliotecaOpenDSS
         
         public void AddLoad(Carga carga)
         {
-            this.DSSText.Command = "NEW " + carga.Nome;
+            //this.DSSText.Command = "NEW " + carga.Nome;
         }
 
         public float ConvertPower(float power)
@@ -87,19 +88,28 @@ namespace BibliotecaOpenDSS
             {
                 barra = new Barra();
                 DSSBus = DSSCircuit.Buses[i];
-
-                //DSSBus.
                 //Ativar a barra para obter as informações de coordenadas para a geolocalização
                 barra.barra = DSSBus.Name;
-                barra.latitudade = DSSBus.x;
-                barra.longitude = DSSBus.y;
-                
-
                 list.Add(barra);
             }
 
             return list;
         }
+
+
+        public List<Barra> GetCoordinates(List<Barra> list)
+        {
+            foreach(Barra b in list)
+            {
+                DSSCircuit.SetActiveBus(b.barra);
+                double d = DSSBus.kVBase;
+                Bus bb = DSSBus;
+                b.longitude = DSSBus.y;
+            }
+            return list;
+        }
+
+        
 
         public bool Solve()
         {
