@@ -1,0 +1,30 @@
+clear
+
+set datapath=(E:\Desenvolvimentos\SINAPSIS-DEV\Sinap\Rev4.0_XE\Usuarios\SINAPgrid4.3-FL-ADA-NEOENERGIA\Dat\FaultLocation\Dados\CMC01P320180322102500\RedeDSS)
+
+!suprimento
+New object=Circuit.CMC-01P3 baseKV=138 pu=1.000 Bus1=19991 r0=6.6216 x0=53.2946 r1=13.1023 x1=42.4757
+
+New Transformer.trafoSE Windings=2 Phases=3 Buses=(19991, 19990)
+~ Conns=(delta wye)
+~ kvs=(138, 13.8) kvas=(20000, 20000)
+~ xhl=5
+~ wdg=1 %r=0.5
+~ wdg=2 %r=0.5
+
+Redirect linecodes.dss
+Redirect lines.dss
+Redirect loadshapes.dss
+Redirect loads.dss
+
+Set voltagebases=[138, 13.8]
+Calcvoltagebases
+!Buscoords coords.dat
+
+Set mode=daily
+!Set number=1
+!Solve
+
+!Show voltage ln nodes
+!Show current elements
+!Plot circuit power dots=n labels=n subs=y
