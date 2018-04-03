@@ -4,3 +4,11 @@ C:\Users\anand\Documents\Canindé\Aplicacao\TCCEletroposto\BibliotecaOpenDSS\obj
 C:\Users\anand\Documents\Canindé\Aplicacao\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csproj.CoreCompileInputs.cache
 C:\Users\anand\Documents\Canindé\Aplicacao\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.dll
 C:\Users\anand\Documents\Canindé\Aplicacao\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.pdb
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\bin\Debug\BibliotecaOpenDSS.dll
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\bin\Debug\BibliotecaOpenDSS.pdb
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csprojResolveAssemblyReference.cache
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\Interop.OpenDSSengine.dll
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csproj.ResolveComReference.cache
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csproj.CoreCompileInputs.cache
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.dll
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.pdb
