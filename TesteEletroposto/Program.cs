@@ -32,7 +32,9 @@ namespace TesteEletroposto
 
             List<Barra> xyz = new List<Barra>();
             xyz = lib.AllScore();
-            foreach(Barra b in xyz)
+            xyz = lib.GetCoordinates(xyz);
+
+            foreach (Barra b in xyz)
             {
                 Console.Out.WriteLine(b.barra);
                 Console.Out.WriteLine(b.latitudade.ToString());

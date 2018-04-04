@@ -1,0 +1,13 @@
+New Linecode.96 nphases=3 basefreq=60 units=km r0=0.8737 x0=1.981 r1=0.696 x1=0.5182
+New Linecode.75 nphases=3 basefreq=60 units=km r0=1.2908 x0=2.7203 r1=1.113 x1=0.3212
+New Linecode.85 nphases=3 basefreq=60 units=km r0=1.7067 x0=1.9592 r1=1.529 x1=0.496
+New Linecode.100 nphases=3 basefreq=60 units=km r0=0.5456 x0=1.9345 r1=0.3679 x1=0.4716
+New Linecode.109 nphases=2 basefreq=60 units=km r0=1.2908 x0=2.7203 r1=1.113 x1=0.3212
+New Linecode.116 nphases=2 basefreq=60 units=km r0=1.228 x0=1.9867 r1=1.0501 x1=0.5238
+New Linecode.93 nphases=2 basefreq=60 units=km r0=1.7747 x0=1.983 r1=1.597 x1=0.52
+New Linecode.80 nphases=3 basefreq=60 units=km r0=1.228 x0=1.9867 r1=1.0501 x1=0.5238
+New Linecode.88 nphases=3 basefreq=60 units=km r0=0.3686 x0=1.865 r1=0.1908 x1=0.402
+New Linecode.112 nphases=2 basefreq=60 units=km r0=0.3686 x0=1.865 r1=0.1908 x1=0.402
+New Linecode.105 nphases=1 basefreq=60 units=km r0=1.7747 x0=1.983 r1=1.597 x1=0.52
+New Linecode.83 nphases=2 basefreq=60 units=km r0=1.7747 x0=1.983 r1=1.597 x1=0.52
+New Linecode.74 nphases=3 basefreq=60 units=km r0=1.7747 x0=1.983 r1=1.597 x1=0.52

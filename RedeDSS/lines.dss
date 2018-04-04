@@ -1,0 +1,2497 @@
+New Line.1311112 Bus1=6023.1.2.3 Bus2=6065.1.2.3 Length=0.03052 LineCode=96
+New Line.1306019 Bus1=6023.1.2.3 Bus2=6022.1.2.3 Length=0.02425 LineCode=96
+New Line.1306020 Bus1=6022.1.2.3 Bus2=6025.1.2.3 Length=0.02708 LineCode=96
+New Line.1306017 Bus1=6025.1.2.3 Bus2=6024.1.2.3 Length=0.033 LineCode=96
+New Line.3548834 Bus1=4215.1.2.3 Bus2=6024.1.2.3 Length=0.03881 LineCode=96
+New Line.3548826 Bus1=4215.1.2.3 Bus2=4216.1.2.3 Length=0.05894 LineCode=80
+New Line.3548142 Bus1=4216.1.2.3 Bus2=6039.1.2.3 Length=0.0332 LineCode=96
+New Line.1306000 Bus1=6038.1.2.3 Bus2=6039.1.2.3 Length=0.03221 LineCode=96
+New Line.1306001 Bus1=6038.1.2.3 Bus2=6037.1.2.3 Length=0.0369 LineCode=74
+New Line.1306002 Bus1=6036.1.2.3 Bus2=6037.1.2.3 Length=0.03467 LineCode=96
+New Line.1306003 Bus1=6035.1.2.3 Bus2=6036.1.2.3 Length=0.03566 LineCode=80
+New Line.1306004 Bus1=6034.1.2.3 Bus2=6035.1.2.3 Length=0.03241 LineCode=96
+New Line.1306005 Bus1=6033.1.2.3 Bus2=6034.1.2.3 Length=0.03823 LineCode=96
+New Line.1306006 Bus1=6032.1.2.3 Bus2=6033.1.2.3 Length=0.04585 LineCode=96
+New Line.1306007 Bus1=6031.1.2.3 Bus2=6032.1.2.3 Length=0.02957 LineCode=96
+New Line.1306008 Bus1=6030.1.2.3 Bus2=6031.1.2.3 Length=0.03112 LineCode=96
+New Line.1306009 Bus1=6030.1.2.3 Bus2=6029.1.2.3 Length=0.03849 LineCode=96
+New Line.1306010 Bus1=6028.1.2.3 Bus2=6029.1.2.3 Length=0.05598 LineCode=96
+New Line.1306011 Bus1=6027.1.2.3 Bus2=6028.1.2.3 Length=0.03627 LineCode=96
+New Line.1306012 Bus1=6026.1.2.3 Bus2=6027.1.2.3 Length=0.02283 LineCode=96
+New Line.1306013 Bus1=6026.1.2.3 Bus2=6048.1.2.3 Length=0.04654 LineCode=96
+New Line.3927480 Bus1=6048.1.2.3 Bus2=4197.1.2.3 Length=0.00865 LineCode=96
+New Line.1305995 Bus1=6057.1.2.3 Bus2=6048.1.2.3 Length=0.07505 LineCode=74
+New Line.1305987 Bus1=6056.1.2.3 Bus2=6057.1.2.3 Length=0.03231 LineCode=74
+New Line.1305988 Bus1=6055.1.2.3 Bus2=6056.1.2.3 Length=0.04231 LineCode=74
+New Line.1305989 Bus1=6055.1.2.3 Bus2=6054.1.2.3 Length=0.03449 LineCode=74
+New Line.1305990 Bus1=6053.1.2.3 Bus2=6054.1.2.3 Length=0.03423 LineCode=74
+New Line.1305991 Bus1=6052.1.2.3 Bus2=6053.1.2.3 Length=0.03466 LineCode=74
+New Line.1305992 Bus1=6051.1.2.3 Bus2=6052.1.2.3 Length=0.03423 LineCode=74
+New Line.1305993 Bus1=6050.1.2.3 Bus2=6051.1.2.3 Length=0.03679 LineCode=74
+New Line.1305994 Bus1=6049.1.2.3 Bus2=6050.1.2.3 Length=0.04317 LineCode=74
+New Line.1307376 Bus1=6062.1.2.3 Bus2=6049.1.2.3 Length=0.03646 LineCode=74
+New Line.1305983 Bus1=6061.1.2.3 Bus2=6062.1.2.3 Length=0.03322 LineCode=74
+New Line.1305984 Bus1=6061.1.2.3 Bus2=6060.1.2.3 Length=0.0367 LineCode=74
+New Line.1305985 Bus1=6060.1.2.3 Bus2=6059.1.2.3 Length=0.02703 LineCode=74
+New Line.1305986 Bus1=6058.1.2.3 Bus2=6059.1.2.3 Length=0.03458 LineCode=74
+New Line.1307206 Bus1=5167.1.2.3 Bus2=6058.1.2.3 Length=0.03115 LineCode=96
+New Line.1307380 Bus1=5071.1.2.3 Bus2=5166.1.2.3 Length=0.13664 LineCode=96
+New Line.1308319 Bus1=4284.1.2.3 Bus2=5071.1.2.3 Length=0.06173 LineCode=96
+New Line.1308320 Bus1=4284.1.2.3 Bus2=4285.1.2.3 Length=0.06757 LineCode=96
+New Line.1308318 Bus1=4285.1.2.3 Bus2=4286.1.2.3 Length=0.23771 LineCode=96
+New Line.1308317 Bus1=5165.1.2.3 Bus2=4286.1.2.3 Length=0.15105 LineCode=96
+New Line.1307207 Bus1=5165.1.2.3 Bus2=5171.1.2.3 Length=0.21614 LineCode=96
+New Line.1307202 Bus1=5173.1.2.3 Bus2=5171.1.2.3 Length=0.13156 LineCode=96
+New Line.1307201 Bus1=5172.1.2.3 Bus2=5173.1.2.3 Length=0.24853 LineCode=96
+New Line.11738464 Bus1=5170.1.2.3 Bus2=5172.1.2.3 Length=0.26212 LineCode=96
+New Line.1307203 Bus1=5170.1.2.3 Bus2=5174.1.2.3 Length=0.21645 LineCode=96
+New Line.1307200 Bus1=5174.1.2.3 Bus2=5175.1.2.3 Length=0.1412 LineCode=96
+New Line.1307199 Bus1=5175.1.2.3 Bus2=5181.1.2.3 Length=0.20114 LineCode=96
+New Line.1307379 Bus1=5072.1.2.3 Bus2=5181.1.2.3 Length=0.15677 LineCode=80
+New Line.1307196 Bus1=5180.1.2.3 Bus2=5181.1.2.3 Length=0.02478 LineCode=74
+New Line.1307378 Bus1=5072.1.2.3 Bus2=5177.1.2.3 Length=0.14713 LineCode=80
+New Line.1307198 Bus1=5177.1.2.3 Bus2=5176.1.2.3 Length=0.15021 LineCode=80
+New Line.1307204 Bus1=5168.1.2.3 Bus2=5169.1.2.3 Length=0.00361 LineCode=74
+New Line.1307377 Bus1=5179.1.2.3 Bus2=5176.1.2.3 Length=0.13127 LineCode=80
+New Line.1307197 Bus1=5179.1.2.3 Bus2=5178.1.2.3 Length=0.04543 LineCode=80
+New Line.1307273 Bus1=5178.1.2.3 Bus2=5254.1.2.3 Length=0.22192 LineCode=74
+New Line.1307113 Bus1=5254.1.2.3 Bus2=5256.1.2.3 Length=0.13193 LineCode=74
+New Line.1307112 Bus1=5256.1.2.3 Bus2=5255.1.2.3 Length=0.09595 LineCode=74
+New Line.1307271 Bus1=5102.1.2.3 Bus2=5255.1.2.3 Length=0.14669 LineCode=74
+New Line.1307272 Bus1=5257.1.2.3 Bus2=5101.1.2.3 Length=0.11712 LineCode=74
+New Line.1307269 Bus1=5102.1.2.3 Bus2=5103.1.2.3 Length=0.16692 LineCode=74
+New Line.1307111 Bus1=5258.1.2.3 Bus2=5257.1.2.3 Length=0.09417 LineCode=74
+New Line.1307268 Bus1=5103.1.2.3 Bus2=5104.1.2.3 Length=0.07718 LineCode=74
+New Line.1307110 Bus1=5258.1.2.3 Bus2=5260.1.2.3 Length=0.06089 LineCode=74
+New Line.1307267 Bus1=5104.1.2.3 Bus2=5107.1.2.3 Length=0.12596 LineCode=74
+New Line.1307109 Bus1=5260.1.2.3 Bus2=5261.1.2.3 Length=0.04368 LineCode=74
+New Line.1307108 Bus1=5259.1.2.3 Bus2=5260.1.2.3 Length=0.00282 LineCode=74
+New Line.1307264 Bus1=5107.1.2.3 Bus2=5108.1.2.3 Length=0.07033 LineCode=74
+New Line.1307266 Bus1=5105.1.2.3 Bus2=5106.1.2.3 Length=0.00299 LineCode=74
+New Line.1307263 Bus1=5108.1.2.3 Bus2=5109.1.2.3 Length=0.12805 LineCode=74
+New Line.1307106 Bus1=5262.1 Bus2=5263.1 Length=0.12227 LineCode=105
+New Line.1307262 Bus1=5109.1.2.3 Bus2=5110.1.2.3 Length=0.2112 LineCode=74
+New Line.1307105 Bus1=5264.1 Bus2=5263.1 Length=0.2366 LineCode=105
+New Line.1307261 Bus1=5110.1.2.3 Bus2=5111.1.2.3 Length=0.05149 LineCode=74
+New Line.1307104 Bus1=5264.1 Bus2=5266.1 Length=0.01977 LineCode=105
+New Line.1307260 Bus1=5112.1.2.3 Bus2=5111.1.2.3 Length=0.14742 LineCode=74
+New Line.1307103 Bus1=5265.1 Bus2=5266.1 Length=0.00318 LineCode=105
+New Line.1307259 Bus1=5112.1.2.3 Bus2=5115.1.2.3 Length=0.16832 LineCode=74
+New Line.1307257 Bus1=5115.1.2.3 Bus2=5268.1.2.3 Length=0.13367 LineCode=74
+New Line.1307256 Bus1=5114.1.2.3 Bus2=5115.1.2.3 Length=0.0406 LineCode=74
+New Line.1307102 Bus1=5267.1.2.3 Bus2=5268.1.2.3 Length=0.18528 LineCode=74
+New Line.1307258 Bus1=5113.1.2.3 Bus2=5114.1.2.3 Length=0.00361 LineCode=74
+New Line.1307255 Bus1=5267.1.2.3 Bus2=5116.1.2.3 Length=0.07722 LineCode=74
+New Line.1307254 Bus1=5117.1.2.3 Bus2=5116.1.2.3 Length=0.10011 LineCode=74
+New Line.1307253 Bus1=5117.1.2.3 Bus2=5119.1.2.3 Length=0.26955 LineCode=74
+New Line.3696526 Bus1=4204.1.2.3 Bus2=5119.1.2.3 Length=0.02532 LineCode=74
+New Line.1307252 Bus1=5118.1.2.3 Bus2=5119.1.2.3 Length=0.1842 LineCode=74
+New Line.1307275 Bus1=5100.1.2.3 Bus2=5118.1.2.3 Length=0.09297 LineCode=74
+New Line.1307274 Bus1=5100.1.2.3 Bus2=5121.1.2.3 Length=0.09769 LineCode=74
+New Line.3696642 Bus1=4200.1.3 Bus2=4201.1.3 Length=0.06088 LineCode=93
+New Line.1307247 Bus1=5121.1.2.3 Bus2=5122.1.2.3 Length=0.1 LineCode=74
+New Line.3696662 Bus1=4199.1.3 Bus2=4205.1.3 Length=0.0233 LineCode=93
+New Line.1307246 Bus1=5132.1.2.3 Bus2=5122.1.2.3 Length=0.44285 LineCode=74
+New Line.3696521 Bus1=4206.1.3 Bus2=4208.1.3 Length=0.03347 LineCode=93
+New Line.1307226 Bus1=5132.1.2.3 Bus2=5134.1.2.3 Length=0.06715 LineCode=74
+New Line.3696520 Bus1=4207.1.3 Bus2=4208.1.3 Length=0.05088 LineCode=93
+New Line.1307225 Bus1=5134.1.2.3 Bus2=5133.1.2.3 Length=0.15321 LineCode=74
+New Line.3696528 Bus1=4207.1.3 Bus2=4203.1.3 Length=0.12058 LineCode=93
+New Line.1307245 Bus1=5123.1.2.3 Bus2=5133.1.2.3 Length=0.41168 LineCode=74
+New Line.3696527 Bus1=4203.1.3 Bus2=4202.1.3 Length=0.04474 LineCode=93
+New Line.1308327 Bus1=4280.1.2.3 Bus2=5123.1.2.3 Length=0.34471 LineCode=74
+New Line.11730991 Bus1=4280.1.2.3 Bus2=5138.1.2.3 Length=0.32688 LineCode=74
+New Line.1307222 Bus1=5137.1.2.3 Bus2=5138.1.2.3 Length=0.17859 LineCode=74
+New Line.1307224 Bus1=5135.1.2.3 Bus2=5136.1.2.3 Length=0.04392 LineCode=74
+New Line.1307244 Bus1=5124.1.2.3 Bus2=5137.1.2.3 Length=0.25845 LineCode=74
+New Line.1307243 Bus1=5125.1 Bus2=5137.1 Length=0.05283 LineCode=105
+New Line.1307249 Bus1=5120.1.2.3 Bus2=5135.1.2.3 Length=0.00317 LineCode=74
+New Line.11752552 Bus1=5141.1.2.3 Bus2=5124.1.2.3 Length=0.21656 LineCode=74
+New Line.1307220 Bus1=5141.1.2.3 Bus2=5162.1.2.3 Length=0.14707 LineCode=74
+New Line.1307221 Bus1=5139.1 Bus2=5140.1 Length=0.00301 LineCode=105
+New Line.1307210 Bus1=5160.1.2.3 Bus2=5162.1.2.3 Length=0.14505 LineCode=74
+New Line.1307209 Bus1=5162.1.2.3 Bus2=5161.1.2.3 Length=0.16344 LineCode=74
+New Line.1307241 Bus1=5160.1.2.3 Bus2=5145.1.2.3 Length=0.18687 LineCode=74
+New Line.1307852 Bus1=5088.1.2.3 Bus2=5161.1.2.3 Length=0.08483 LineCode=74
+New Line.1307219 Bus1=5142.1.2.3 Bus2=5143.1.2.3 Length=0.17001 LineCode=74
+New Line.1307218 Bus1=5144.1.2.3 Bus2=5145.1.2.3 Length=0.00317 LineCode=74
+New Line.1307231 Bus1=5128.1.2.3 Bus2=5129.1.2.3 Length=0.04069 LineCode=74
+New Line.1307330 Bus1=5087.1.2.3 Bus2=5088.1.2.3 Length=0.04933 LineCode=74
+New Line.1307239 Bus1=5147.1.2.3 Bus2=5142.1.2.3 Length=0.09556 LineCode=74
+New Line.1307230 Bus1=5129.1.2.3 Bus2=5159.1.2.3 Length=0.06807 LineCode=74
+New Line.10920256 Bus1=5087.1.2.3 Bus2=6047.1.2.3 Length=0.11583 LineCode=74
+New Line.1307217 Bus1=5146.1.2.3 Bus2=5147.1.2.3 Length=0.17084 LineCode=74
+New Line.1307211 Bus1=5158.1.2.3 Bus2=5159.1.2.3 Length=0.087 LineCode=74
+New Line.1307336 Bus1=6047.1.2 Bus2=5084.1.2 Length=0.06932 LineCode=83
+New Line.1307328 Bus1=5090.1.2.3 Bus2=6047.1.2.3 Length=0.05695 LineCode=74
+New Line.1307238 Bus1=5146.1.2.3 Bus2=5149.1.2.3 Length=0.29293 LineCode=74
+New Line.1307229 Bus1=5158.1.2.3 Bus2=5164.1.2.3 Length=0.08248 LineCode=74
+New Line.1306557 Bus1=5804.1.2.3 Bus2=6046.1.2.3 Length=0.05482 LineCode=96
+New Line.1307329 Bus1=5090.1.2.3 Bus2=5089.1.2.3 Length=0.00316 LineCode=74
+New Line.1307216 Bus1=5148.1.2.3 Bus2=5149.1.2.3 Length=0.08438 LineCode=74
+New Line.1307208 Bus1=5164.1.2.3 Bus2=5163.1.2.3 Length=0.07957 LineCode=74
+New Line.1307334 Bus1=6045.1.2 Bus2=5085.1.2 Length=0.07931 LineCode=83
+New Line.1307237 Bus1=5148.1.2.3 Bus2=5151.1.2.3 Length=0.09431 LineCode=74
+New Line.1307228 Bus1=5131.1.2.3 Bus2=5163.1.2.3 Length=0.07244 LineCode=74
+New Line.1306555 Bus1=5806.1.2.3 Bus2=5805.1.2.3 Length=0.05819 LineCode=96
+New Line.1305997 Bus1=6044.1.2 Bus2=6045.1.2 Length=0.14337 LineCode=83
+New Line.1307215 Bus1=5150.1.2.3 Bus2=5151.1.2.3 Length=0.15801 LineCode=74
+New Line.1307227 Bus1=5130.1.2.3 Bus2=5131.1.2.3 Length=0.00317 LineCode=74
+New Line.1306554 Bus1=5807.1.2.3 Bus2=5806.1.2.3 Length=0.29533 LineCode=96
+New Line.1307333 Bus1=6043.1.2 Bus2=6044.1.2 Length=0.12581 LineCode=83
+New Line.1307236 Bus1=5150.1.2.3 Bus2=5153.1.2.3 Length=0.08342 LineCode=74
+New Line.1306553 Bus1=5807.1.2.3 Bus2=5808.1.2.3 Length=0.17827 LineCode=96
+New Line.1305998 Bus1=6042.1.2 Bus2=6043.1.2 Length=0.19715 LineCode=83
+New Line.1307214 Bus1=5153.1.2.3 Bus2=5152.1.2.3 Length=0.14717 LineCode=74
+New Line.1306552 Bus1=5808.1.2.3 Bus2=5844.1.2.3 Length=0.06445 LineCode=96
+New Line.1307332 Bus1=5086.1.2 Bus2=6042.1.2 Length=0.09208 LineCode=83
+New Line.1307235 Bus1=5127.1.2.3 Bus2=5152.1.2.3 Length=0.03647 LineCode=74
+New Line.1306520 Bus1=5843.1.2.3 Bus2=5844.1.2.3 Length=0.34013 LineCode=100
+New Line.1307331 Bus1=5086.1.2 Bus2=6041.1.2 Length=0.02689 LineCode=83
+New Line.1307234 Bus1=5127.1.2.3 Bus2=5126.1.2.3 Length=0.00361 LineCode=74
+New Line.1306531 Bus1=5831.1.2.3 Bus2=5843.1.2.3 Length=0.22681 LineCode=74
+New Line.1305999 Bus1=6040.1.2 Bus2=6041.1.2 Length=0.00315 LineCode=83
+New Line.1307213 Bus1=5154.1.2 Bus2=5155.1.2 Length=0.435 LineCode=83
+New Line.1306530 Bus1=5831.1.2.3 Bus2=5832.1.2.3 Length=0.09408 LineCode=96
+New Line.1307232 Bus1=5154.1.2 Bus2=5157.1.2 Length=0.04417 LineCode=83
+New Line.1306529 Bus1=5832.1.2.3 Bus2=5835.1.2.3 Length=0.16103 LineCode=96
+New Line.1307212 Bus1=5156.1.2 Bus2=5157.1.2 Length=0.00881 LineCode=83
+New Line.1306528 Bus1=5833.1.2.3 Bus2=5835.1.2.3 Length=0.01699 LineCode=74
+New Line.1306527 Bus1=5835.1.2.3 Bus2=5845.1.2.3 Length=0.1609 LineCode=96
+New Line.3623469 Bus1=5834.1.2.3 Bus2=5840.1.2.3 Length=0.03767 LineCode=74
+New Line.1306519 Bus1=5845.1.2.3 Bus2=5846.1.2.3 Length=0.10071 LineCode=96
+New Line.3623471 Bus1=4213.1.2.3 Bus2=4214.1.2.3 Length=0.00525 LineCode=74
+New Line.1306522 Bus1=5839.1.2.3 Bus2=5840.1.2.3 Length=0.00318 LineCode=74
+New Line.1306550 Bus1=5809.1.2.3 Bus2=5810.1.2.3 Length=0.00317 LineCode=74
+New Line.1306518 Bus1=5846.1.2.3 Bus2=5848.1.2.3 Length=0.11193 LineCode=96
+New Line.1306681 Bus1=5811.1.2.3 Bus2=5848.1.2.3 Length=0.18056 LineCode=96
+New Line.1306525 Bus1=5847.1.2.3 Bus2=5836.1.2.3 Length=0.00301 LineCode=74
+New Line.1306524 Bus1=5838.1.2.3 Bus2=5847.1.2.3 Length=0.04548 LineCode=74
+New Line.1306549 Bus1=5811.1.2.3 Bus2=6021.1.2.3 Length=0.11247 LineCode=74
+New Line.1306107 Bus1=6021.1.2.3 Bus2=6236.1.2.3 Length=0.1731 LineCode=80
+New Line.1306680 Bus1=5519.1.2.3 Bus2=5837.1.2.3 Length=0.238 LineCode=74
+New Line.3976224 Bus1=4196.1.2 Bus2=5812.1.2 Length=0.03735 LineCode=83
+New Line.1306678 Bus1=5812.1.2.3 Bus2=5842.1.2.3 Length=0.20625 LineCode=74
+New Line.1306108 Bus1=6020.1.2.3 Bus2=6236.1.2.3 Length=0.09302 LineCode=80
+New Line.1306675 Bus1=5518.1.2.3 Bus2=5519.1.2.3 Length=0.06808 LineCode=74
+New Line.3976223 Bus1=4195.1.2 Bus2=4196.1.2 Length=0.04463 LineCode=83
+New Line.1306521 Bus1=5841.1.2.3 Bus2=5842.1.2.3 Length=0.06367 LineCode=74
+New Line.1306176 Bus1=6221.1.2 Bus2=6235.1.2 Length=0.06056 LineCode=83
+New Line.1306109 Bus1=6019.1.2.3 Bus2=6020.1.2.3 Length=0.12197 LineCode=80
+New Line.1306679 Bus1=5517.1.2.3 Bus2=5518.1.2.3 Length=0.00315 LineCode=74
+New Line.1306547 Bus1=5841.1.2.3 Bus2=5813.1.2.3 Length=0.04923 LineCode=74
+New Line.1306177 Bus1=6221.1.2 Bus2=6220.1.2 Length=0.00302 LineCode=83
+New Line.1306110 Bus1=6019.1.2.3 Bus2=6018.1.2.3 Length=0.12388 LineCode=80
+New Line.1306546 Bus1=5813.1.2.3 Bus2=5814.1.2.3 Length=0.2589 LineCode=74
+New Line.1306111 Bus1=6017.1.2.3 Bus2=6018.1.2.3 Length=0.13606 LineCode=80
+New Line.1306545 Bus1=5814.1.2.3 Bus2=5815.1.2.3 Length=0.06722 LineCode=74
+New Line.1306112 Bus1=6016.1.2.3 Bus2=6017.1.2.3 Length=0.10704 LineCode=80
+New Line.1306544 Bus1=5815.1.2.3 Bus2=5818.1.2.3 Length=0.08174 LineCode=74
+New Line.1306141 Bus1=6009.1.2.3 Bus2=6016.1.2.3 Length=0.10982 LineCode=80
+New Line.1306542 Bus1=5817.1.2.3 Bus2=5816.1.2.3 Length=0.00301 LineCode=74
+New Line.1306541 Bus1=5820.1.2.3 Bus2=5818.1.2.3 Length=0.09418 LineCode=74
+New Line.1306121 Bus1=6009.1.2.3 Bus2=6267.1.2.3 Length=0.19801 LineCode=80
+New Line.1306539 Bus1=5819.1.2.3 Bus2=5820.1.2.3 Length=0.25821 LineCode=74
+New Line.1306118 Bus1=6010.1.2.3 Bus2=6015.1.2.3 Length=0.06012 LineCode=74
+New Line.1306145 Bus1=6267.1.2.3 Bus2=6266.1.2.3 Length=0.10207 LineCode=74
+New Line.1306538 Bus1=5821.1.2.3 Bus2=5822.1.2.3 Length=0.00317 LineCode=74
+New Line.3976264 Bus1=4194.1.2.3 Bus2=5819.1.2.3 Length=0.03566 LineCode=74
+New Line.1306159 Bus1=6245.1.2 Bus2=6246.1.2 Length=0.06381 LineCode=83
+New Line.1306114 Bus1=6013.1.2.3 Bus2=6015.1.2.3 Length=0.1178 LineCode=74
+New Line.1306113 Bus1=6014.1.2.3 Bus2=6015.1.2.3 Length=0.00318 LineCode=74
+New Line.1306147 Bus1=6264.1.2.3 Bus2=6265.1.2.3 Length=0.04712 LineCode=74
+New Line.1306124 Bus1=6239.1.2.3 Bus2=6266.1.2.3 Length=0.19832 LineCode=74
+New Line.3976266 Bus1=4194.1.2.3 Bus2=5823.1.2.3 Length=0.0609 LineCode=74
+New Line.1306160 Bus1=6244.1.2 Bus2=6245.1.2 Length=0.07365 LineCode=83
+New Line.1306122 Bus1=6264.1.2.3 Bus2=6008.1.2.3 Length=0.00283 LineCode=74
+New Line.1306148 Bus1=6262.1.2.3 Bus2=6263.1.2.3 Length=0.14825 LineCode=74
+New Line.1306164 Bus1=6238.1.2.3 Bus2=6239.1.2.3 Length=0.19136 LineCode=80
+New Line.1306628 Bus1=5560.1.2.3 Bus2=5823.1.2.3 Length=0.12913 LineCode=74
+New Line.1306161 Bus1=6244.1.2 Bus2=6243.1.2 Length=0.00283 LineCode=83
+New Line.1306115 Bus1=6012.1.2.3 Bus2=6271.1.2.3 Length=0.13443 LineCode=74
+New Line.1306149 Bus1=6261.1.2.3 Bus2=6262.1.2.3 Length=0.05142 LineCode=74
+New Line.1306125 Bus1=6238.1.2.3 Bus2=6242.1.2.3 Length=0.05892 LineCode=80
+New Line.1306536 Bus1=5824.1.2.3 Bus2=5826.1.2.3 Length=0.1522 LineCode=74
+New Line.1306639 Bus1=5560.1.2.3 Bus2=5562.1.2.3 Length=0.08261 LineCode=74
+New Line.1306143 Bus1=6270.1.2.3 Bus2=6271.1.2.3 Length=0.19329 LineCode=74
+New Line.1306150 Bus1=6260.1.2.3 Bus2=6261.1.2.3 Length=0.00317 LineCode=74
+New Line.1306162 Bus1=6241.1.2.3 Bus2=6242.1.2.3 Length=0.11457 LineCode=80
+New Line.1306535 Bus1=5825.1.2.3 Bus2=5826.1.2.3 Length=0.06008 LineCode=74
+New Line.1306626 Bus1=5561.1.2.3 Bus2=5562.1.2.3 Length=0.14812 LineCode=74
+New Line.1306116 Bus1=6011.1.2.3 Bus2=6270.1.2.3 Length=0.14601 LineCode=74
+New Line.1306126 Bus1=6241.1.2.3 Bus2=6282.1.2.3 Length=0.08249 LineCode=80
+New Line.1306677 Bus1=5825.1.2.3 Bus2=5521.1.2.3 Length=0.15987 LineCode=74
+New Line.1306625 Bus1=5564.1.2.3 Bus2=5563.1.2.3 Length=0.00317 LineCode=74
+New Line.1306637 Bus1=5556.1.2.3 Bus2=5561.1.2.3 Length=0.19337 LineCode=74
+New Line.1306117 Bus1=6011.1.2.3 Bus2=6269.1.2.3 Length=0.0252 LineCode=74
+New Line.11476792 Bus1=6281.1.2.3 Bus2=6282.1.2.3 Length=0.02345 LineCode=96
+New Line.1306673 Bus1=5520.1.2.3 Bus2=5521.1.2.3 Length=0.14415 LineCode=74
+New Line.1306624 Bus1=5565.1.2.3 Bus2=5566.1.2.3 Length=0.00317 LineCode=74
+New Line.1306636 Bus1=5556.1.2.3 Bus2=5568.1.2.3 Length=0.06552 LineCode=74
+New Line.1306144 Bus1=6269.1.2.3 Bus2=6268.1.2.3 Length=0.02757 LineCode=74
+New Line.1306128 Bus1=6281.1.2.3 Bus2=6355.1.2.3 Length=0.04974 LineCode=80
+New Line.1306676 Bus1=5523.1.2.3 Bus2=5520.1.2.3 Length=0.19063 LineCode=74
+New Line.1306623 Bus1=5567.1.2.3 Bus2=5568.1.2.3 Length=0.09499 LineCode=74
+New Line.1308329 Bus1=4279.1.2.3 Bus2=6268.1.2.3 Length=0.00415 LineCode=74
+New Line.1306127 Bus1=6006.1.2.3 Bus2=6007.1.2.3 Length=0.00317 LineCode=74
+New Line.10962661 Bus1=6354.1.2.3 Bus2=6355.1.2.3 Length=0.11038 LineCode=80
+New Line.1306672 Bus1=5522.1.2.3 Bus2=5523.1.2.3 Length=0.12836 LineCode=74
+New Line.1306635 Bus1=5567.1.2.3 Bus2=5737.1.2.3 Length=0.07539 LineCode=74
+New Line.10962659 Bus1=6352.1.2 Bus2=6353.1.2 Length=0.03068 LineCode=83
+New Line.1306151 Bus1=6354.1.2.3 Bus2=6259.1.2.3 Length=0.15537 LineCode=80
+New Line.1306674 Bus1=5522.1.2.3 Bus2=5828.1.2.3 Length=0.13684 LineCode=74
+New Line.1306622 Bus1=5736.1.2.3 Bus2=5737.1.2.3 Length=0.10446 LineCode=74
+New Line.11476791 Bus1=6351.1.2 Bus2=6352.1.2 Length=0.07903 LineCode=83
+New Line.1306130 Bus1=6005.1.2.3 Bus2=6259.1.2.3 Length=0.12991 LineCode=80
+New Line.1306534 Bus1=5828.1.2.3 Bus2=5827.1.2.3 Length=0.11164 LineCode=74
+New Line.1306533 Bus1=5828.1.2.3 Bus2=5830.1.2.3 Length=0.04082 LineCode=74
+New Line.1306633 Bus1=5736.1.2.3 Bus2=5557.1.2.3 Length=0.09914 LineCode=74
+New Line.10962658 Bus1=6350.1.2 Bus2=6351.1.2 Length=0.16074 LineCode=83
+New Line.1306131 Bus1=6004.1.2.3 Bus2=6005.1.2.3 Length=0.139 LineCode=80
+New Line.1306670 Bus1=5528.1.2.3 Bus2=5827.1.2.3 Length=0.11364 LineCode=74
+New Line.1306669 Bus1=5524.1.2.3 Bus2=5827.1.2.3 Length=0.06491 LineCode=74
+New Line.1306532 Bus1=5829.1.2.3 Bus2=5830.1.2.3 Length=0.00316 LineCode=74
+New Line.1306621 Bus1=5738.1.2 Bus2=5740.1.2 Length=0.12384 LineCode=83
+New Line.1306632 Bus1=5558.1.2.3 Bus2=5557.1.2.3 Length=0.16331 LineCode=74
+New Line.10962657 Bus1=6349.1.2 Bus2=6350.1.2 Length=0.09084 LineCode=83
+New Line.1306132 Bus1=6258.1.2.3 Bus2=6004.1.2.3 Length=0.13144 LineCode=80
+New Line.1306664 Bus1=5533.1.2.3 Bus2=5528.1.2.3 Length=0.15194 LineCode=74
+New Line.1306620 Bus1=5741.1.2 Bus2=5740.1.2 Length=0.03689 LineCode=83
+New Line.1306619 Bus1=5739.1.2 Bus2=5740.1.2 Length=0.00316 LineCode=83
+New Line.1306631 Bus1=5558.1.2.3 Bus2=5559.1.2.3 Length=0.16155 LineCode=74
+New Line.10962654 Bus1=6346.1.2 Bus2=6349.1.2 Length=0.09078 LineCode=83
+New Line.10962656 Bus1=6349.1.2 Bus2=6348.1.2 Length=0.06046 LineCode=83
+New Line.1306152 Bus1=6257.1.2.3 Bus2=6258.1.2.3 Length=0.1475 LineCode=80
+New Line.1306663 Bus1=5529.1.2.3 Bus2=5530.1.2.3 Length=0.08235 LineCode=74
+New Line.1306661 Bus1=5533.1.2.3 Bus2=5534.1.2.3 Length=0.07702 LineCode=74
+New Line.1306667 Bus1=5525.1.2.3 Bus2=5527.1.2.3 Length=0.04698 LineCode=74
+New Line.1306629 Bus1=5559.1.2.3 Bus2=5751.1.2.3 Length=0.1545 LineCode=74
+New Line.10962653 Bus1=6345.1.2 Bus2=6346.1.2 Length=0.13961 LineCode=83
+New Line.10962655 Bus1=6347.1.2 Bus2=6348.1.2 Length=0.01529 LineCode=83
+New Line.1306133 Bus1=6256.1.2.3 Bus2=6257.1.2.3 Length=0.17409 LineCode=80
+New Line.1306671 Bus1=5532.1.2.3 Bus2=5529.1.2.3 Length=0.07454 LineCode=74
+New Line.1306660 Bus1=5534.1.2.3 Bus2=5535.1.2.3 Length=0.09923 LineCode=74
+New Line.1306666 Bus1=5527.1.2.3 Bus2=5526.1.2.3 Length=0.00315 LineCode=74
+New Line.1306617 Bus1=5742.1.2 Bus2=5743.1.2 Length=0.16821 LineCode=83
+New Line.1306612 Bus1=5748.1.2.3 Bus2=5749.1.2.3 Length=0.00302 LineCode=74
+New Line.1306611 Bus1=5750.1.2.3 Bus2=5751.1.2.3 Length=0.10142 LineCode=74
+New Line.10962652 Bus1=6344.1.2 Bus2=6345.1.2 Length=0.10658 LineCode=83
+New Line.1306153 Bus1=6255.1.2.3 Bus2=6256.1.2.3 Length=0.11374 LineCode=80
+New Line.1306662 Bus1=5531.1.2.3 Bus2=5532.1.2.3 Length=0.00283 LineCode=74
+New Line.1306659 Bus1=5553.1.2.3 Bus2=5535.1.2.3 Length=0.14379 LineCode=74
+New Line.1306616 Bus1=5743.1.2 Bus2=5744.1.2 Length=0.14995 LineCode=83
+New Line.1306770 Bus1=5750.1.2.3 Bus2=5753.1.2.3 Length=0.1454 LineCode=74
+New Line.10962651 Bus1=6344.1.2 Bus2=6343.1.2 Length=0.14775 LineCode=83
+New Line.1306154 Bus1=6254.1.2.3 Bus2=6255.1.2.3 Length=0.08698 LineCode=80
+New Line.1306641 Bus1=5553.1.2.3 Bus2=5555.1.2.3 Length=0.18778 LineCode=74
+New Line.1306615 Bus1=5744.1.2 Bus2=5745.1.2 Length=0.27371 LineCode=83
+New Line.1306610 Bus1=5752.1.2.3 Bus2=5753.1.2.3 Length=0.1216 LineCode=74
+New Line.10962650 Bus1=6343.1.2 Bus2=6342.1.2 Length=0.11507 LineCode=83
+New Line.1306134 Bus1=6237.1.2.3 Bus2=6254.1.2.3 Length=0.12416 LineCode=80
+New Line.1306640 Bus1=5555.1.2.3 Bus2=5554.1.2.3 Length=0.19626 LineCode=74
+New Line.1306769 Bus1=5438.1.2.3 Bus2=5752.1.2.3 Length=0.03893 LineCode=74
+New Line.10962649 Bus1=6341.1.2 Bus2=6342.1.2 Length=0.08751 LineCode=83
+New Line.1306165 Bus1=6237.1.2.3 Bus2=6253.1.2.3 Length=0.13786 LineCode=80
+New Line.1306651 Bus1=5539.1.2.3 Bus2=5554.1.2.3 Length=0.23991 LineCode=74
+New Line.1306613 Bus1=5746.1.2 Bus2=5747.1.2 Length=0.00315 LineCode=83
+New Line.1307851 Bus1=5438.1.2.3 Bus2=5439.1.2.3 Length=0.12994 LineCode=74
+New Line.10962648 Bus1=6340.1.2 Bus2=6341.1.2 Length=0.12514 LineCode=83
+New Line.1306155 Bus1=6252.1.2.3 Bus2=6253.1.2.3 Length=0.18017 LineCode=80
+New Line.1306658 Bus1=5536.1.2.3 Bus2=5539.1.2.3 Length=0.13123 LineCode=74
+New Line.1306608 Bus1=5754.1.2.3 Bus2=5755.1.2.3 Length=0.18835 LineCode=74
+New Line.1306766 Bus1=5440.1.2.3 Bus2=5439.1.2.3 Length=0.07718 LineCode=74
+New Line.10962647 Bus1=6339.1.2 Bus2=6340.1.2 Length=0.04408 LineCode=83
+New Line.1306136 Bus1=6003.1.2.3 Bus2=6252.1.2.3 Length=0.10522 LineCode=80
+New Line.1306650 Bus1=5541.1.2.3 Bus2=5540.1.2.3 Length=0.11278 LineCode=74
+New Line.1306657 Bus1=5536.1.2.3 Bus2=5538.1.2.3 Length=0.0241 LineCode=74
+New Line.1306607 Bus1=5756.1.2.3 Bus2=5755.1.2.3 Length=0.20677 LineCode=74
+New Line.1306765 Bus1=5440.1.2.3 Bus2=5441.1.2.3 Length=0.08933 LineCode=74
+New Line.1306156 Bus1=6250.1.2.3 Bus2=6251.1.2.3 Length=0.00301 LineCode=74
+New Line.1306137 Bus1=6002.1.2.3 Bus2=6003.1.2.3 Length=0.14651 LineCode=80
+New Line.1306656 Bus1=5540.1.2.3 Bus2=5542.1.2.3 Length=0.14877 LineCode=74
+New Line.1306654 Bus1=5538.1.2.3 Bus2=5547.1.2.3 Length=0.1105 LineCode=74
+New Line.1306606 Bus1=5756.1.2.3 Bus2=5758.1.2.3 Length=0.03399 LineCode=74
+New Line.1306138 Bus1=6002.1.2.3 Bus2=6001.1.2.3 Length=0.14036 LineCode=80
+New Line.1306649 Bus1=5542.1.2.3 Bus2=5543.1.2.3 Length=0.1497 LineCode=74
+New Line.1306646 Bus1=5546.1.2.3 Bus2=5547.1.2.3 Length=0.08849 LineCode=74
+New Line.1306605 Bus1=5757.1.2.3 Bus2=5758.1.2.3 Length=0.00283 LineCode=74
+New Line.10034763 Bus1=6335.1.2.3 Bus2=6336.1.2.3 Length=0.07885 LineCode=74
+New Line.1306139 Bus1=6249.1.2.3 Bus2=6001.1.2.3 Length=0.05501 LineCode=80
+New Line.1306648 Bus1=5543.1.2.3 Bus2=5545.1.2.3 Length=0.06027 LineCode=74
+New Line.1306653 Bus1=5546.1.2.3 Bus2=5548.1.2.3 Length=0.20142 LineCode=74
+New Line.10034769 Bus1=6333.1.2.3 Bus2=6334.1.2.3 Length=0.14279 LineCode=74
+New Line.1306756 Bus1=5760.1.2.3 Bus2=6335.1.2.3 Length=0.12873 LineCode=74
+New Line.1306157 Bus1=6248.1.2.3 Bus2=6249.1.2.3 Length=0.20285 LineCode=80
+New Line.1306647 Bus1=5544.1.2.3 Bus2=5545.1.2.3 Length=0.0443 LineCode=74
+New Line.1306645 Bus1=5548.1.2.3 Bus2=5550.1.2.3 Length=0.1506 LineCode=74
+New Line.10034770 Bus1=6332.1.2.3 Bus2=6333.1.2.3 Length=0.06798 LineCode=74
+New Line.1306762 Bus1=5442.1.2 Bus2=5443.1.2 Length=0.00315 LineCode=83
+New Line.1306604 Bus1=5759.1.2.3 Bus2=5760.1.2.3 Length=0.11819 LineCode=74
+New Line.1306158 Bus1=6247.1.2.3 Bus2=6248.1.2.3 Length=0.08969 LineCode=80
+New Line.1306655 Bus1=5537.1.2.3 Bus2=5544.1.2.3 Length=0.00301 LineCode=74
+New Line.1306643 Bus1=5549.1.2.3 Bus2=5550.1.2.3 Length=0.18317 LineCode=74
+New Line.10034771 Bus1=6331.1.2.3 Bus2=6332.1.2.3 Length=0.1133 LineCode=74
+New Line.1306754 Bus1=5764.1.2.3 Bus2=5759.1.2.3 Length=0.10846 LineCode=74
+New Line.1306163 Bus1=6240.1.2.3 Bus2=6247.1.2.3 Length=0.09318 LineCode=80
+New Line.1306644 Bus1=5549.1.2.3 Bus2=5552.1.2.3 Length=0.07775 LineCode=74
+New Line.10034772 Bus1=6331.1.2.3 Bus2=6330.1.2.3 Length=0.08501 LineCode=74
+New Line.1306601 Bus1=5764.1.2.3 Bus2=5763.1.2.3 Length=0.213 LineCode=74
+New Line.1306514 Bus1=5858.1.2.3 Bus2=6240.1.2.3 Length=0.15404 LineCode=96
+New Line.1306140 Bus1=6234.1.2.3 Bus2=6240.1.2.3 Length=0.07812 LineCode=80
+New Line.3626025 Bus1=4211.1.2.3 Bus2=4212.1.2.3 Length=0.12661 LineCode=74
+New Line.1306642 Bus1=5551.1.2.3 Bus2=5552.1.2.3 Length=0.00363 LineCode=74
+New Line.10034773 Bus1=6330.1.2.3 Bus2=6329.1.2.3 Length=0.04253 LineCode=74
+New Line.1306603 Bus1=5761.1.2.3 Bus2=5762.1.2.3 Length=0.00317 LineCode=74
+New Line.1306753 Bus1=5765.1.2.3 Bus2=5763.1.2.3 Length=0.03823 LineCode=80
+New Line.1306500 Bus1=5858.1.2.3 Bus2=5860.1.2.3 Length=0.1512 LineCode=80
+New Line.3626026 Bus1=4211.1.2.3 Bus2=4210.1.2.3 Length=0.02579 LineCode=74
+New Line.10034775 Bus1=6328.1.2.3 Bus2=6329.1.2.3 Length=0.02381 LineCode=74
+New Line.4051414 Bus1=4188.1.2 Bus2=4190.1.2 Length=0.17513 LineCode=83
+New Line.1306600 Bus1=5767.1.2.3 Bus2=5765.1.2.3 Length=0.12635 LineCode=74
+New Line.1306499 Bus1=5859.1.2.3 Bus2=5860.1.2.3 Length=0.19048 LineCode=80
+New Line.1306168 Bus1=6232.1.2.3 Bus2=6233.1.2.3 Length=0.11649 LineCode=80
+New Line.3626027 Bus1=4209.1.2.3 Bus2=4210.1.2.3 Length=0.00624 LineCode=74
+New Line.10034778 Bus1=6327.1.2.3 Bus2=6328.1.2.3 Length=0.03548 LineCode=74
+New Line.4051412 Bus1=4189.1.2 Bus2=4190.1.2 Length=0.09423 LineCode=83
+New Line.1306599 Bus1=5766.1.2.3 Bus2=5767.1.2.3 Length=0.08445 LineCode=74
+New Line.1306501 Bus1=5862.1.2.3 Bus2=5859.1.2.3 Length=0.16875 LineCode=80
+New Line.1306178 Bus1=6232.1.2.3 Bus2=6231.1.2.3 Length=0.12662 LineCode=80
+New Line.10034780 Bus1=6326.1.2.3 Bus2=6327.1.2.3 Length=0.01941 LineCode=74
+New Line.4051413 Bus1=4189.1.2 Bus2=4193.1.2 Length=0.23457 LineCode=83
+New Line.1306752 Bus1=5444.1.2 Bus2=5445.1.2 Length=0.00316 LineCode=83
+New Line.1306751 Bus1=5475.1.2.3 Bus2=5766.1.2.3 Length=0.39074 LineCode=74
+New Line.1306498 Bus1=5861.1.2.3 Bus2=5862.1.2.3 Length=0.18856 LineCode=80
+New Line.3849661 Bus1=4198.1.2 Bus2=6231.1.2 Length=0.00793 LineCode=83
+New Line.1306169 Bus1=6230.1.2.3 Bus2=6231.1.2.3 Length=0.13055 LineCode=80
+New Line.10034781 Bus1=6325.1.2.3 Bus2=6326.1.2.3 Length=0.0299 LineCode=74
+New Line.4051410 Bus1=4193.1.2 Bus2=4192.1.2 Length=0.02835 LineCode=83
+New Line.1306776 Bus1=5447.1.2.3 Bus2=5475.1.2.3 Length=0.27628 LineCode=74
+New Line.1306513 Bus1=5861.1.2.3 Bus2=5850.1.2.3 Length=0.14379 LineCode=80
+New Line.1306179 Bus1=6229.1.2.3 Bus2=6230.1.2.3 Length=0.08611 LineCode=80
+New Line.4051411 Bus1=4192.1.2 Bus2=4191.1.2 Length=0.02038 LineCode=83
+New Line.1306726 Bus1=5474.1.2.3 Bus2=5473.1.2.3 Length=0.07091 LineCode=74
+New Line.1306750 Bus1=5447.1.2.3 Bus2=5448.1.2.3 Length=0.03053 LineCode=74
+New Line.1306749 Bus1=5446.1.2.3 Bus2=5447.1.2.3 Length=0.14168 LineCode=74
+New Line.1306512 Bus1=5850.1.2.3 Bus2=5863.1.2.3 Length=0.12476 LineCode=80
+New Line.1306170 Bus1=6228.1.2.3 Bus2=6229.1.2.3 Length=0.1336 LineCode=80
+New Line.1306777 Bus1=5435.1.2.3 Bus2=5473.1.2.3 Length=0.00317 LineCode=74
+New Line.1306748 Bus1=5449.1.2.3 Bus2=5448.1.2.3 Length=0.06081 LineCode=74
+New Line.1306775 Bus1=5454.1.2.3 Bus2=5446.1.2.3 Length=0.07003 LineCode=74
+New Line.1306497 Bus1=5865.1.2.3 Bus2=5863.1.2.3 Length=0.16709 LineCode=80
+New Line.1306180 Bus1=6219.1.2.3 Bus2=6227.1.2.3 Length=0.05879 LineCode=80
+New Line.1306172 Bus1=6228.1.2.3 Bus2=6226.1.2.3 Length=0.09631 LineCode=80
+New Line.1306747 Bus1=5449.1.2.3 Bus2=5450.1.2.3 Length=0.14633 LineCode=74
+New Line.1306744 Bus1=5453.1.2.3 Bus2=5454.1.2.3 Length=0.15792 LineCode=74
+New Line.1306496 Bus1=5867.1.2.3 Bus2=5865.1.2.3 Length=0.08636 LineCode=74
+New Line.1306181 Bus1=6218.1.2.3 Bus2=6219.1.2.3 Length=0.00283 LineCode=80
+New Line.1306173 Bus1=6225.1.2.3 Bus2=6226.1.2.3 Length=0.10903 LineCode=80
+New Line.1306746 Bus1=5450.1.2.3 Bus2=5452.1.2.3 Length=0.1332 LineCode=74
+New Line.1306773 Bus1=5453.1.2.3 Bus2=5436.1.2.3 Length=0.23217 LineCode=74
+New Line.1306511 Bus1=5852.1.2.3 Bus2=5864.1.2.3 Length=0.07379 LineCode=74
+New Line.1306493 Bus1=5867.1.2.3 Bus2=5935.1.2.3 Length=0.14945 LineCode=80
+New Line.1306174 Bus1=6224.1.2.3 Bus2=6225.1.2.3 Length=0.12033 LineCode=80
+New Line.1306745 Bus1=5451.1.2.3 Bus2=5452.1.2.3 Length=0.03756 LineCode=74
+New Line.1306743 Bus1=5455.1.2 Bus2=5456.1.2 Length=0.00283 LineCode=83
+New Line.1306772 Bus1=5436.1.2.3 Bus2=5458.1.2.3 Length=0.42322 LineCode=74
+New Line.1306510 Bus1=5851.1.2.3 Bus2=5852.1.2.3 Length=0.00318 LineCode=74
+New Line.1306494 Bus1=5866.1.2.3 Bus2=5941.1.2.3 Length=0.28033 LineCode=74
+New Line.1306380 Bus1=5935.1.2.3 Bus2=5936.1.2.3 Length=0.1043 LineCode=80
+New Line.1306183 Bus1=6224.1.2.3 Bus2=6217.1.2.3 Length=0.10989 LineCode=80
+New Line.1306742 Bus1=5458.1.2.3 Bus2=5459.1.2.3 Length=0.07547 LineCode=74
+New Line.1306376 Bus1=5940.1.2.3 Bus2=5941.1.2.3 Length=0.07958 LineCode=74
+New Line.1306379 Bus1=5936.1.2.3 Bus2=5937.1.2.3 Length=0.11071 LineCode=80
+New Line.1306175 Bus1=6222.1.2 Bus2=6223.1.2 Length=0.06695 LineCode=83
+New Line.1306193 Bus1=6206.1.2.3 Bus2=6217.1.2.3 Length=0.09965 LineCode=80
+New Line.1306771 Bus1=5437.1.2 Bus2=5457.1.2 Length=0.00301 LineCode=83
+New Line.1306740 Bus1=5459.1.2.3 Bus2=5460.1.2.3 Length=0.15013 LineCode=74
+New Line.1306516 Bus1=5849.1.2.3 Bus2=5940.1.2.3 Length=0.10862 LineCode=74
+New Line.1307848 Bus1=5910.1.2.3 Bus2=5937.1.2.3 Length=0.43755 LineCode=80
+New Line.1306184 Bus1=6216.1.2 Bus2=6222.1.2 Length=0.003 LineCode=83
+New Line.1306205 Bus1=6205.1.2.3 Bus2=6206.1.2.3 Length=0.10738 LineCode=80
+New Line.1307850 Bus1=5489.1.2.3 Bus2=5460.1.2.3 Length=0.06111 LineCode=74
+New Line.1306515 Bus1=5849.1.2.3 Bus2=5853.1.2.3 Length=0.17492 LineCode=74
+New Line.1306377 Bus1=5938.1.2.3 Bus2=5939.1.2.3 Length=0.26559 LineCode=74
+New Line.1306194 Bus1=6204.1.2.3 Bus2=6205.1.2.3 Length=0.06549 LineCode=80
+New Line.1306738 Bus1=5463.1.2.3 Bus2=5462.1.2.3 Length=0.1381 LineCode=74
+New Line.1306708 Bus1=5489.1.2.3 Bus2=5488.1.2.3 Length=0.04898 LineCode=74
+New Line.1306509 Bus1=5853.1.2.3 Bus2=5855.1.2.3 Length=0.05358 LineCode=74
+New Line.1306388 Bus1=5938.1.2.3 Bus2=5927.1.2.3 Length=0.33843 LineCode=74
+New Line.1306387 Bus1=5929.1.2.3 Bus2=5938.1.2.3 Length=0.05978 LineCode=74
+New Line.1306453 Bus1=5911.1.2.3 Bus2=5912.1.2.3 Length=0.12228 LineCode=80
+New Line.1306456 Bus1=5908.1.2.3 Bus2=5909.1.2.3 Length=0.09033 LineCode=74
+New Line.1306206 Bus1=6204.1.2.3 Bus2=6203.1.2.3 Length=0.07364 LineCode=80
+New Line.10799530 Bus1=3994.1.2.3 Bus2=5461.1.2.3 Length=0.04848 LineCode=74
+New Line.1306736 Bus1=5463.1.2.3 Bus2=5466.1.2.3 Length=0.05337 LineCode=74
+New Line.1306508 Bus1=5855.1.2.3 Bus2=5854.1.2.3 Length=0.00301 LineCode=74
+New Line.1306507 Bus1=5927.1.2.3 Bus2=5869.1.2.3 Length=0.1356 LineCode=74
+New Line.1306386 Bus1=5929.1.2.3 Bus2=5930.1.2.3 Length=0.08609 LineCode=74
+New Line.1306451 Bus1=5912.1.2.3 Bus2=6324.1.2.3 Length=0.04286 LineCode=74
+New Line.1306457 Bus1=5907.1.2.3 Bus2=5908.1.2.3 Length=0.00567 LineCode=74
+New Line.1306195 Bus1=6203.1.2.3 Bus2=6202.1.2.3 Length=0.11773 LineCode=80
+New Line.1306730 Bus1=5466.1.2.3 Bus2=5468.1.2.3 Length=0.03567 LineCode=74
+New Line.1306696 Bus1=5492.1.2.3 Bus2=5493.1.2.3 Length=0.1991 LineCode=74
+New Line.1306490 Bus1=5868.1.2.3 Bus2=5869.1.2.3 Length=0.27973 LineCode=74
+New Line.1306389 Bus1=5928.1.2.3 Bus2=5926.1.2.3 Length=0.09063 LineCode=74
+New Line.1306384 Bus1=5930.1.2.3 Bus2=5932.1.2.3 Length=0.10187 LineCode=74
+New Line.1306446 Bus1=5916.1.2.3 Bus2=5915.1.2.3 Length=0.10902 LineCode=74
+New Line.10366364 Bus1=6324.1.2.3 Bus2=6323.1.2.3 Length=0.03179 LineCode=74
+New Line.1306197 Bus1=6200.1.2.3 Bus2=6202.1.2.3 Length=0.00283 LineCode=80
+New Line.1306196 Bus1=6201.1.2.3 Bus2=6202.1.2.3 Length=0.02 LineCode=80
+New Line.1306729 Bus1=5467.1.2.3 Bus2=5468.1.2.3 Length=0.15035 LineCode=74
+New Line.1306707 Bus1=5495.1.2 Bus2=5492.1.2 Length=0.0801 LineCode=83
+New Line.1306706 Bus1=5490.1.2.3 Bus2=5492.1.2.3 Length=0.1372 LineCode=74
+New Line.1306506 Bus1=5856.1.2.3 Bus2=5868.1.2.3 Length=0.26905 LineCode=74
+New Line.1306390 Bus1=5925.1.2.3 Bus2=5926.1.2.3 Length=0.00282 LineCode=74
+New Line.1306383 Bus1=5932.1.2.3 Bus2=5934.1.2.3 Length=0.06099 LineCode=74
+New Line.1306445 Bus1=5916.1.2.3 Bus2=5919.1.2.3 Length=0.13076 LineCode=74
+New Line.10366360 Bus1=4178.1.2.3 Bus2=6322.1.2.3 Length=0.04538 LineCode=74
+New Line.1306449 Bus1=5914.1.2.3 Bus2=6323.1.2.3 Length=0.14104 LineCode=80
+New Line.1306207 Bus1=6199.1.2.3 Bus2=6201.1.2.3 Length=0.02783 LineCode=80
+New Line.1306735 Bus1=5467.1.2.3 Bus2=5470.1.2.3 Length=0.28477 LineCode=74
+New Line.1306695 Bus1=5494.1.2 Bus2=5495.1.2 Length=0.00315 LineCode=83
+New Line.1306711 Bus1=5490.1.2.3 Bus2=5662.1.2.3 Length=0.10917 LineCode=74
+New Line.11778621 Bus1=3984.1.2.3 Bus2=5856.1.2.3 Length=0.09693 LineCode=88
+New Line.1306505 Bus1=5856.1.2.3 Bus2=5874.1.2.3 Length=0.08368 LineCode=74
+New Line.1306482 Bus1=5880.1.2.3 Bus2=5931.1.2.3 Length=0.22191 LineCode=74
+New Line.1306381 Bus1=5934.1.2.3 Bus2=5933.1.2.3 Length=0.06769 LineCode=74
+New Line.1306443 Bus1=5917.1.2.3 Bus2=5918.1.2.3 Length=0.00706 LineCode=74
+New Line.1306442 Bus1=5919.1.2.3 Bus2=5921.1.2.3 Length=0.04651 LineCode=74
+New Line.10366359 Bus1=4177.1.2.3 Bus2=4178.1.2.3 Length=0.02518 LineCode=74
+New Line.1306448 Bus1=5913.1.2.3 Bus2=5914.1.2.3 Length=0.12301 LineCode=80
+New Line.1306198 Bus1=6198.1.2.3 Bus2=6199.1.2.3 Length=0.01979 LineCode=80
+New Line.1306728 Bus1=5469.1.2.3 Bus2=5470.1.2.3 Length=0.29058 LineCode=74
+New Line.1306854 Bus1=5662.1.2.3 Bus2=5661.1.2.3 Length=0.10674 LineCode=74
+New Line.11778622 Bus1=3983.1.2.3 Bus2=3984.1.2.3 Length=0.14093 LineCode=88
+New Line.1306486 Bus1=5874.1.2.3 Bus2=5875.1.2.3 Length=0.18994 LineCode=74
+New Line.1306491 Bus1=5870.1.2.3 Bus2=5880.1.2.3 Length=0.36884 LineCode=74
+New Line.1306441 Bus1=5920.1.2.3 Bus2=5921.1.2.3 Length=0.00641 LineCode=74
+New Line.10863037 Bus1=4177.1.2 Bus2=4179.1.2 Length=0.03158 LineCode=83
+New Line.1306593 Bus1=6275.1.2.3 Bus2=5913.1.2.3 Length=0.02952 LineCode=80
+New Line.1306199 Bus1=6197.1.2.3 Bus2=6198.1.2.3 Length=0.02985 LineCode=80
+New Line.1306734 Bus1=5469.1.2.3 Bus2=5472.1.2.3 Length=0.16935 LineCode=74
+New Line.10716659 Bus1=5661.1.3 Bus2=4176.1.3 Length=0.01878 LineCode=93
+New Line.1306710 Bus1=5661.1.2.3 Bus2=5664.1.2.3 Length=0.05677 LineCode=74
+New Line.11778623 Bus1=3982.1.2.3 Bus2=3983.1.2.3 Length=0.07627 LineCode=88
+New Line.1306485 Bus1=5875.1.2.3 Bus2=5877.1.2.3 Length=0.19192 LineCode=74
+New Line.1306489 Bus1=5871.1.2.3 Bus2=5870.1.2.3 Length=0.09104 LineCode=74
+New Line.10863035 Bus1=3987.1.2.3 Bus2=3988.1.2.3 Length=0.03326 LineCode=75
+New Line.10366358 Bus1=4179.1.2 Bus2=4180.1.2 Length=0.11357 LineCode=83
+New Line.11380970 Bus1=6273.1.2.3 Bus2=6275.1.2.3 Length=0.00603 LineCode=80
+New Line.1306200 Bus1=6196.1.2.3 Bus2=6197.1.2.3 Length=0.0326 LineCode=80
+New Line.1306733 Bus1=5464.1 Bus2=5465.1 Length=0.00299 LineCode=105
+New Line.1306727 Bus1=5471.1.2.3 Bus2=5472.1.2.3 Length=0.18958 LineCode=74
+New Line.10716658 Bus1=4175.1.3 Bus2=4176.1.3 Length=0.07011 LineCode=93
+New Line.1306853 Bus1=5664.1.2.3 Bus2=5663.1.2.3 Length=0.00282 LineCode=74
+New Line.1306484 Bus1=5876.1.2.3 Bus2=5877.1.2.3 Length=0.08504 LineCode=74
+New Line.1306488 Bus1=5871.1.2.3 Bus2=5873.1.2.3 Length=0.04622 LineCode=74
+New Line.10863034 Bus1=3987.1.2.3 Bus2=3986.1.2.3 Length=0.03895 LineCode=75
+New Line.10366357 Bus1=4180.1.2 Bus2=4182.1.2 Length=0.05853 LineCode=83
+New Line.11380965 Bus1=6272.1.2.3 Bus2=6276.1.2.3 Length=0.00695 LineCode=80
+New Line.1306201 Bus1=6195.1.2.3 Bus2=6196.1.2.3 Length=0.02763 LineCode=80
+New Line.1306731 Bus1=5471.1.2.3 Bus2=5478.1.2.3 Length=0.15763 LineCode=74
+New Line.10716657 Bus1=4174.1.3 Bus2=4175.1.3 Length=0.06284 LineCode=93
+New Line.1306504 Bus1=5876.1.2.3 Bus2=5879.1.2.3 Length=0.07439 LineCode=74
+New Line.1308328 Bus1=5770.1.2.3 Bus2=5873.1.2.3 Length=0.15166 LineCode=74
+New Line.1306487 Bus1=5872.1.2.3 Bus2=5873.1.2.3 Length=0.00317 LineCode=74
+New Line.10366356 Bus1=4181.1.2 Bus2=4182.1.2 Length=0.04093 LineCode=83
+New Line.11380971 Bus1=6274.1.2.3 Bus2=6278.1.2.3 Length=0.00602 LineCode=80
+New Line.11380975 Bus1=6278.1.2.3 Bus2=6277.1.2.3 Length=0.02526 LineCode=80
+New Line.1306202 Bus1=6194.1.2.3 Bus2=6195.1.2.3 Length=0.02058 LineCode=80
+New Line.1306720 Bus1=5478.1.2.3 Bus2=5481.1.2.3 Length=0.14239 LineCode=74
+New Line.10716656 Bus1=4173.1.3 Bus2=4174.1.3 Length=0.0543 LineCode=93
+New Line.1306483 Bus1=5878.1.2.3 Bus2=5879.1.2.3 Length=0.07213 LineCode=74
+New Line.1306595 Bus1=5770.1.2.3 Bus2=5902.1.2.3 Length=0.22833 LineCode=74
+New Line.1306847 Bus1=5671.1.2.3 Bus2=6277.1.2.3 Length=0.03827 LineCode=74
+New Line.1308409 Bus1=6193.1.2.3 Bus2=6194.1.2.3 Length=0.03115 LineCode=80
+New Line.1306719 Bus1=5481.1.2.3 Bus2=5479.1.2.3 Length=0.07558 LineCode=74
+New Line.1306718 Bus1=5481.1.2.3 Bus2=5480.1.2.3 Length=0.00283 LineCode=74
+New Line.10716655 Bus1=4172.1.3 Bus2=4173.1.3 Length=0.04493 LineCode=93
+New Line.1306503 Bus1=5878.1.2.3 Bus2=5888.1.2.3 Length=0.19592 LineCode=74
+New Line.1306461 Bus1=5903.1.2.3 Bus2=5902.1.2.3 Length=0.10677 LineCode=74
+New Line.1306995 Bus1=5372.1.2.3 Bus2=5373.1.2.3 Length=0.14191 LineCode=74
+New Line.1306846 Bus1=5671.1.2.3 Bus2=5675.1.2.3 Length=0.04023 LineCode=74
+New Line.1306724 Bus1=5479.1.2.3 Bus2=5497.1.2.3 Length=0.28235 LineCode=74
+New Line.10716654 Bus1=4171.1.3 Bus2=4172.1.3 Length=0.06373 LineCode=93
+New Line.1306474 Bus1=5888.1.2.3 Bus2=5923.1.2.3 Length=0.05993 LineCode=74
+New Line.1306473 Bus1=5888.1.2.3 Bus2=5889.1.2.3 Length=0.02948 LineCode=74
+New Line.1306460 Bus1=5903.1.2.3 Bus2=5904.1.2.3 Length=0.0876 LineCode=74
+New Line.1307012 Bus1=5356.1.2.3 Bus2=5372.1.2.3 Length=0.12343 LineCode=74
+New Line.1306837 Bus1=5674.1.2.3 Bus2=5675.1.2.3 Length=0.02728 LineCode=74
+New Line.1306204 Bus1=6191.1.2.3 Bus2=6192.1.2.3 Length=0.20693 LineCode=80
+New Line.1306717 Bus1=5483.1.2.3 Bus2=5497.1.2.3 Length=0.11087 LineCode=74
+New Line.1306694 Bus1=5496.1 Bus2=5497.1 Length=0.13138 LineCode=105
+New Line.10716653 Bus1=4170.1.3 Bus2=4171.1.3 Length=0.05233 LineCode=93
+New Line.1306478 Bus1=5884.1.2.3 Bus2=5923.1.2.3 Length=0.0487 LineCode=74
+New Line.1306440 Bus1=5923.1 Bus2=5922.1 Length=0.07886 LineCode=105
+New Line.1306459 Bus1=5904.1.2.3 Bus2=5906.1.2.3 Length=0.18229 LineCode=74
+New Line.1307011 Bus1=5356.1.2.3 Bus2=5357.1.2.3 Length=0.17255 LineCode=74
+New Line.1306845 Bus1=5674.1.2.3 Bus2=5677.1.2.3 Length=0.03138 LineCode=74
+New Line.1308411 Bus1=6215.1.2.3 Bus2=6191.1.2.3 Length=0.05169 LineCode=74
+New Line.1308410 Bus1=6191.1.2.3 Bus2=4244.1.2.3 Length=0.12265 LineCode=80
+New Line.1306716 Bus1=5482.1.2.3 Bus2=5483.1.2.3 Length=0.16088 LineCode=74
+New Line.10716652 Bus1=4169.1.3 Bus2=4170.1.3 Length=0.04865 LineCode=93
+New Line.1306477 Bus1=5884.1.2.3 Bus2=5885.1.2.3 Length=0.04324 LineCode=74
+New Line.1306471 Bus1=5890.1.2.3 Bus2=5891.1.2.3 Length=0.03281 LineCode=74
+New Line.1306458 Bus1=5905.1.2.3 Bus2=5906.1.2.3 Length=0.00582 LineCode=74
+New Line.1307009 Bus1=5357.1.2.3 Bus2=5361.1.2.3 Length=0.25011 LineCode=74
+New Line.1306836 Bus1=5676.1.2.3 Bus2=5677.1.2.3 Length=0.03303 LineCode=74
+New Line.1308428 Bus1=4241.1.2.3 Bus2=4244.1.2.3 Length=0.1883 LineCode=80
+New Line.1306723 Bus1=5482.1.2.3 Bus2=5484.1.2.3 Length=0.11097 LineCode=74
+New Line.1306693 Bus1=5499.1 Bus2=5498.1 Length=0.11414 LineCode=105
+New Line.10716651 Bus1=4169.1.3 Bus2=4168.1.3 Length=0.04785 LineCode=93
+New Line.1306476 Bus1=5887.1.2.3 Bus2=5885.1.2.3 Length=0.04757 LineCode=74
+New Line.1306597 Bus1=5768.1 Bus2=5769.1 Length=0.2159 LineCode=105
+New Line.1306481 Bus1=5890.1.2.3 Bus2=5883.1.2.3 Length=0.01507 LineCode=74
+New Line.1306480 Bus1=5881.1.2.3 Bus2=5890.1.2.3 Length=0.00317 LineCode=74
+New Line.1307008 Bus1=5358.1.2 Bus2=5360.1.2 Length=0.04031 LineCode=83
+New Line.1307006 Bus1=5361.1.2.3 Bus2=5362.1.2.3 Length=0.10315 LineCode=74
+New Line.1306844 Bus1=5676.1.2.3 Bus2=5678.1.2.3 Length=0.03268 LineCode=74
+New Line.1306186 Bus1=6213.1.2.3 Bus2=6214.1.2.3 Length=0.05098 LineCode=74
+New Line.1308412 Bus1=4242.1.2.3 Bus2=4243.1.2.3 Length=0.00361 LineCode=74
+New Line.1308413 Bus1=4240.1.2.3 Bus2=4241.1.2.3 Length=0.09673 LineCode=80
+New Line.1306715 Bus1=5484.1.2.3 Bus2=5486.1.2.3 Length=0.11471 LineCode=74
+New Line.1306704 Bus1=5491.1 Bus2=5498.1 Length=0.14529 LineCode=105
+New Line.10716650 Bus1=4167.1.3 Bus2=4168.1.3 Length=0.04803 LineCode=93
+New Line.1306475 Bus1=5887.1.2.3 Bus2=5886.1.2.3 Length=0.00317 LineCode=74
+New Line.1306596 Bus1=5769.1 Bus2=5892.1 Length=0.29474 LineCode=105
+New Line.1306479 Bus1=5882.1.2.3 Bus2=5883.1.2.3 Length=0.00301 LineCode=74
+New Line.1307007 Bus1=5360.1.2 Bus2=5359.1.2 Length=0.00315 LineCode=83
+New Line.1307005 Bus1=5362.1.2.3 Bus2=5363.1.2.3 Length=0.13681 LineCode=74
+New Line.1306835 Bus1=5678.1.2.3 Bus2=6284.1.2.3 Length=0.02942 LineCode=74
+New Line.1306190 Bus1=6213.1.2.3 Bus2=6212.1.2.3 Length=0.18633 LineCode=74
+New Line.1308430 Bus1=4240.1.2.3 Bus2=4239.1.2.3 Length=0.16049 LineCode=80
+New Line.1306714 Bus1=5486.1.2.3 Bus2=5487.1.2.3 Length=0.05026 LineCode=74
+New Line.1306713 Bus1=5486.1.2.3 Bus2=5485.1.2.3 Length=0.06723 LineCode=74
+New Line.1306703 Bus1=5491.1 Bus2=5501.1 Length=0.20743 LineCode=105
+New Line.10716649 Bus1=4166.1.3 Bus2=4167.1.3 Length=0.05788 LineCode=93
+New Line.1306470 Bus1=5892.1 Bus2=5894.1 Length=0.19623 LineCode=105
+New Line.1307004 Bus1=5363.1.2.3 Bus2=5364.1.2.3 Length=0.20937 LineCode=74
+New Line.11484113 Bus1=6284.1.2.3 Bus2=6283.1.2.3 Length=0.04327 LineCode=74
+New Line.1306187 Bus1=6211.1.2.3 Bus2=6212.1.2.3 Length=0.15274 LineCode=74
+New Line.1308414 Bus1=4238.1.2.3 Bus2=4239.1.2.3 Length=0.10907 LineCode=80
+New Line.1306712 Bus1=5487.1.2.3 Bus2=5512.1.2.3 Length=0.10793 LineCode=74
+New Line.1306692 Bus1=5500.1 Bus2=5501.1 Length=0.14208 LineCode=105
+New Line.10716648 Bus1=4165.1.3 Bus2=4166.1.3 Length=0.07976 LineCode=93
+New Line.1306466 Bus1=5893.1 Bus2=5894.1 Length=0.12654 LineCode=105
+New Line.1307003 Bus1=5364.1.2.3 Bus2=5367.1.2.3 Length=0.20925 LineCode=74
+New Line.1306843 Bus1=5680.1.2.3 Bus2=6283.1.2.3 Length=0.02833 LineCode=74
+New Line.1306191 Bus1=6210.1.2.3 Bus2=6211.1.2.3 Length=0.11048 LineCode=74
+New Line.1308431 Bus1=4237.1.2.3 Bus2=4238.1.2.3 Length=0.16395 LineCode=80
+New Line.1306685 Bus1=5511.1.2.3 Bus2=5512.1.2.3 Length=0.26512 LineCode=74
+New Line.1306721 Bus1=5476.1.2.3 Bus2=5477.1.2.3 Length=0.00283 LineCode=74
+New Line.1306702 Bus1=5500.1 Bus2=5503.1 Length=0.10101 LineCode=105
+New Line.10716647 Bus1=4164.1.3 Bus2=4165.1.3 Length=0.03852 LineCode=93
+New Line.1306469 Bus1=5896.1 Bus2=5893.1 Length=0.09788 LineCode=105
+New Line.1307001 Bus1=5365.1.2.3 Bus2=5366.1.2.3 Length=0.00283 LineCode=74
+New Line.1307000 Bus1=5367.1.2.3 Bus2=5368.1.2.3 Length=0.02619 LineCode=74
+New Line.1306833 Bus1=5679.1.2.3 Bus2=5680.1.2.3 Length=0.03001 LineCode=74
+New Line.1306188 Bus1=6209.1.2.3 Bus2=6210.1.2.3 Length=0.13924 LineCode=74
+New Line.1308415 Bus1=4237.1.2.3 Bus2=4236.1.2.3 Length=0.10197 LineCode=80
+New Line.1306698 Bus1=5511.1.2.3 Bus2=5514.1.2.3 Length=0.16808 LineCode=74
+New Line.1306691 Bus1=5502.1 Bus2=5503.1 Length=0.27946 LineCode=105
+New Line.10716646 Bus1=4164.1.3 Bus2=4163.1.3 Length=0.05394 LineCode=93
+New Line.1306465 Bus1=5895.1 Bus2=5896.1 Length=0.14774 LineCode=105
+New Line.1306999 Bus1=5368.1.2.3 Bus2=5369.1.2.3 Length=0.10695 LineCode=74
+New Line.1306842 Bus1=5679.1.2.3 Bus2=5682.1.2.3 Length=0.03126 LineCode=74
+New Line.1306192 Bus1=6208.1.2.3 Bus2=6209.1.2.3 Length=0.07681 LineCode=74
+New Line.1308432 Bus1=4235.1.2.3 Bus2=4236.1.2.3 Length=0.10197 LineCode=80
+New Line.1306684 Bus1=5513.1.2.3 Bus2=5514.1.2.3 Length=0.25771 LineCode=74
+New Line.1306701 Bus1=5505.1 Bus2=5502.1 Length=0.06655 LineCode=105
+New Line.10716645 Bus1=4163.1.3 Bus2=4162.1.3 Length=0.02901 LineCode=93
+New Line.1306468 Bus1=5895.1 Bus2=5897.1 Length=0.13319 LineCode=105
+New Line.1306998 Bus1=5369.1.2.3 Bus2=5370.1.2.3 Length=0.11712 LineCode=74
+New Line.1306832 Bus1=5681.1.2.3 Bus2=5682.1.2.3 Length=0.03283 LineCode=74
+New Line.1306189 Bus1=6208.1.2.3 Bus2=6207.1.2.3 Length=0.00317 LineCode=74
+New Line.1308416 Bus1=4234.1.2.3 Bus2=4235.1.2.3 Length=0.03631 LineCode=80
+New Line.1306697 Bus1=5513.1.2.3 Bus2=5515.1.2.3 Length=0.05405 LineCode=74
+New Line.1306690 Bus1=5504.1 Bus2=5505.1 Length=0.20129 LineCode=105
+New Line.10716644 Bus1=4161.1.3 Bus2=4162.1.3 Length=0.03429 LineCode=93
+New Line.1306464 Bus1=5897.1 Bus2=5899.1 Length=0.14879 LineCode=105
+New Line.1306997 Bus1=5370.1.2.3 Bus2=5371.1.2.3 Length=0.07846 LineCode=74
+New Line.1306841 Bus1=5681.1.2.3 Bus2=5684.1.2.3 Length=0.03412 LineCode=74
+New Line.1308417 Bus1=4233.1.2.3 Bus2=4234.1.2.3 Length=0.04874 LineCode=80
+New Line.1306683 Bus1=5515.1.2.3 Bus2=5516.1.2.3 Length=0.07979 LineCode=74
+New Line.1306700 Bus1=5504.1 Bus2=5507.1 Length=0.25195 LineCode=105
+New Line.10716643 Bus1=4160.1.3 Bus2=4161.1.3 Length=0.02228 LineCode=93
+New Line.1306463 Bus1=5898.1 Bus2=5899.1 Length=0.17951 LineCode=105
+New Line.1306996 Bus1=5632.1.2.3 Bus2=5371.1.2.3 Length=0.28117 LineCode=74
+New Line.1306831 Bus1=5683.1.2.3 Bus2=5684.1.2.3 Length=0.02506 LineCode=74
+New Line.1308419 Bus1=4231.1.2.3 Bus2=4233.1.2.3 Length=0.05697 LineCode=80
+New Line.1306682 Bus1=5658.1.2.3 Bus2=5516.1.2.3 Length=0.16047 LineCode=74
+New Line.1306689 Bus1=5506.1 Bus2=5507.1 Length=0.16283 LineCode=105
+New Line.1306467 Bus1=5898.1 Bus2=5901.1 Length=0.08438 LineCode=105
+New Line.1306874 Bus1=5632.1.2.3 Bus2=5633.1.2.3 Length=0.16531 LineCode=74
+New Line.1306840 Bus1=5683.1.2.3 Bus2=5672.1.2.3 Length=0.03087 LineCode=74
+New Line.1308420 Bus1=4230.1.2.3 Bus2=4232.1.2.3 Length=0.00318 LineCode=74
+New Line.1308433 Bus1=4220.1.2.3 Bus2=4231.1.2.3 Length=0.11932 LineCode=80
+New Line.1306699 Bus1=5506.1 Bus2=5510.1 Length=0.20728 LineCode=105
+New Line.1306462 Bus1=5900.1 Bus2=5901.1 Length=0.00361 LineCode=105
+New Line.1306867 Bus1=5641.1.2.3 Bus2=5642.1.2.3 Length=0.0036 LineCode=74
+New Line.1306872 Bus1=5633.1.2.3 Bus2=5635.1.2.3 Length=0.20517 LineCode=74
+New Line.1306839 Bus1=5672.1.2.3 Bus2=5673.1.2.3 Length=0.03728 LineCode=74
+New Line.1308434 Bus1=4220.1.2.3 Bus2=4229.1.2.3 Length=0.15227 LineCode=80
+New Line.1306855 Bus1=5659.1.2.3 Bus2=5660.1.2.3 Length=0.00315 LineCode=74
+New Line.1306686 Bus1=5509.1 Bus2=5510.1 Length=0.10713 LineCode=105
+New Line.1306871 Bus1=5635.1.2.3 Bus2=5634.1.2.3 Length=0.22217 LineCode=74
+New Line.1306838 Bus1=5673.1.2.3 Bus2=5685.1.2.3 Length=0.02366 LineCode=74
+New Line.1308421 Bus1=4229.1.2.3 Bus2=4228.1.2.3 Length=0.13674 LineCode=80
+New Line.1306849 Bus1=5667.1 Bus2=5668.1 Length=0.18125 LineCode=105
+New Line.1306688 Bus1=5508.1 Bus2=5509.1 Length=0.00316 LineCode=105
+New Line.1306878 Bus1=5634.1.2.3 Bus2=5636.1.2.3 Length=0.09838 LineCode=74
+New Line.1306830 Bus1=5685.1.2.3 Bus2=5686.1.2.3 Length=0.02553 LineCode=74
+New Line.1308435 Bus1=4219.1.2.3 Bus2=4227.1.2.3 Length=0.00282 LineCode=74
+New Line.1308424 Bus1=4225.1.2.3 Bus2=4228.1.2.3 Length=0.25853 LineCode=80
+New Line.1308423 Bus1=4228.1.2.3 Bus2=4226.1.2.3 Length=0.04267 LineCode=74
+New Line.1306852 Bus1=5667.1 Bus2=5670.1 Length=0.08662 LineCode=105
+New Line.1306870 Bus1=5636.1.2.3 Bus2=6286.1.2.3 Length=0.1504 LineCode=74
+New Line.1306829 Bus1=5687.1.2.3 Bus2=5686.1.2.3 Length=0.03113 LineCode=74
+New Line.1308426 Bus1=4223.1.2.3 Bus2=4225.1.2.3 Length=0.14664 LineCode=80
+New Line.1306848 Bus1=5670.1 Bus2=5669.1 Length=0.40072 LineCode=105
+New Line.1306877 Bus1=5638.1.2.3 Bus2=6286.1.2.3 Length=0.14381 LineCode=74
+New Line.1306828 Bus1=5687.1.2.3 Bus2=5688.1.2.3 Length=0.03765 LineCode=74
+New Line.1308437 Bus1=4222.1.2.3 Bus2=4223.1.2.3 Length=0.16768 LineCode=80
+New Line.1308436 Bus1=4218.1.2.3 Bus2=4224.1.2.3 Length=0.00283 LineCode=74
+New Line.1306851 Bus1=5666.1 Bus2=5669.1 Length=0.10587 LineCode=105
+New Line.1306869 Bus1=5637.1.2.3 Bus2=5638.1.2.3 Length=0.17406 LineCode=74
+New Line.1306827 Bus1=5688.1.2.3 Bus2=5689.1.2.3 Length=0.02131 LineCode=74
+New Line.1308427 Bus1=4221.1.2.3 Bus2=4222.1.2.3 Length=0.14467 LineCode=80
+New Line.1306850 Bus1=5665.1 Bus2=5666.1 Length=0.00317 LineCode=105
+New Line.1306876 Bus1=5631.1.2.3 Bus2=5637.1.2.3 Length=0.13376 LineCode=74
+New Line.1306826 Bus1=5689.1.2.3 Bus2=5690.1.2.3 Length=0.01876 LineCode=74
+New Line.1308439 Bus1=4221.1.2.3 Bus2=4245.1.2.3 Length=0.10652 LineCode=80
+New Line.1306868 Bus1=5639.1.2.3 Bus2=5640.1.2.3 Length=0.17594 LineCode=74
+New Line.1307041 Bus1=5321.1.2.3 Bus2=5631.1.2.3 Length=0.16495 LineCode=74
+New Line.1306825 Bus1=5690.1.2.3 Bus2=5706.1.2.3 Length=0.03969 LineCode=74
+New Line.1308394 Bus1=4256.1.2.3 Bus2=4255.1.2.3 Length=0.00316 LineCode=74
+New Line.1308408 Bus1=4245.1.2.3 Bus2=4246.1.2.3 Length=0.27356 LineCode=80
+New Line.1306993 Bus1=5375.1.2.3 Bus2=5639.1.2.3 Length=0.15146 LineCode=74
+New Line.1307035 Bus1=5320.1.2.3 Bus2=5321.1.2.3 Length=0.12159 LineCode=74
+New Line.1306808 Bus1=5706.1.2.3 Bus2=5714.1.2.3 Length=0.02552 LineCode=74
+New Line.10799531 Bus1=3993.1.2.3 Bus2=4217.1.2.3 Length=0.02317 LineCode=74
+New Line.1308407 Bus1=4246.1.2.3 Bus2=4247.1.2.3 Length=0.08411 LineCode=80
+New Line.1306992 Bus1=5374.1.2.3 Bus2=5375.1.2.3 Length=0.13342 LineCode=74
+New Line.1307040 Bus1=5320.1.2.3 Bus2=5323.1.2.3 Length=0.22069 LineCode=74
+New Line.1306810 Bus1=5714.1.2.3 Bus2=5705.1.2.3 Length=0.00635 LineCode=74
+New Line.1306809 Bus1=5709.1.2.3 Bus2=5714.1.2.3 Length=0.01695 LineCode=74
+New Line.1306800 Bus1=5714.1.2.3 Bus2=5715.1.2.3 Length=0.00798 LineCode=74
+New Line.1308393 Bus1=4257.1.2.3 Bus2=4259.1.2.3 Length=0.21701 LineCode=74
+New Line.1308405 Bus1=4247.1.2.3 Bus2=4248.1.2.3 Length=0.09826 LineCode=80
+New Line.1306994 Bus1=5374.1.2.3 Bus2=5643.1.2.3 Length=0.17144 LineCode=74
+New Line.1307034 Bus1=5322.1.2.3 Bus2=5323.1.2.3 Length=0.19887 LineCode=74
+New Line.1306804 Bus1=5710.1.2.3 Bus2=5709.1.2.3 Length=0.04012 LineCode=74
+New Line.1306799 Bus1=5715.1.2.3 Bus2=5716.1.2.3 Length=0.03467 LineCode=74
+New Line.1308392 Bus1=4258.1.2.3 Bus2=4259.1.2.3 Length=0.00299 LineCode=74
+New Line.1308404 Bus1=4251.1.2.3 Bus2=4248.1.2.3 Length=0.12889 LineCode=80
+New Line.1306866 Bus1=5657.1.2.3 Bus2=5643.1.2.3 Length=0.10822 LineCode=74
+New Line.1307039 Bus1=5318.1.2.3 Bus2=5322.1.2.3 Length=0.13276 LineCode=74
+New Line.1307038 Bus1=5322.1.2.3 Bus2=5319.1.2.3 Length=0.10209 LineCode=74
+New Line.1306803 Bus1=5711.1.2.3 Bus2=5710.1.2.3 Length=0.0353 LineCode=74
+New Line.1306798 Bus1=5717.1.2.3 Bus2=5716.1.2.3 Length=0.02661 LineCode=74
+New Line.1308402 Bus1=4249.1.2.3 Bus2=4250.1.2.3 Length=0.00299 LineCode=74
+New Line.1308401 Bus1=4251.1.2.3 Bus2=4261.1.2.3 Length=0.30156 LineCode=80
+New Line.1306857 Bus1=5656.1.2.3 Bus2=5657.1.2.3 Length=0.13734 LineCode=74
+New Line.1307037 Bus1=5319.1.2.3 Bus2=5324.1.2.3 Length=0.12385 LineCode=74
+New Line.1306802 Bus1=5711.1.2.3 Bus2=5713.1.2.3 Length=0.0408 LineCode=74
+New Line.1306797 Bus1=5717.1.2.3 Bus2=5718.1.2.3 Length=0.02603 LineCode=74
+New Line.1307013 Bus1=5645.1.2.3 Bus2=5656.1.2.3 Length=0.1679 LineCode=74
+New Line.1307033 Bus1=5324.1.2.3 Bus2=5326.1.2.3 Length=0.09775 LineCode=74
+New Line.1306801 Bus1=5712.1.2.3 Bus2=5713.1.2.3 Length=0.03266 LineCode=74
+New Line.1306796 Bus1=5718.1.2.3 Bus2=5719.1.2.3 Length=0.02665 LineCode=74
+New Line.1308400 Bus1=4252.1.2.3 Bus2=4260.1.2.3 Length=0.00283 LineCode=80
+New Line.1308399 Bus1=4253.1.2.3 Bus2=4260.1.2.3 Length=0.04037 LineCode=80
+New Line.1306865 Bus1=5645.1.2.3 Bus2=5644.1.2.3 Length=0.13408 LineCode=74
+New Line.1307031 Bus1=5325.1.2.3 Bus2=5326.1.2.3 Length=0.10359 LineCode=74
+New Line.1306807 Bus1=5708.1.2.3 Bus2=5712.1.2.3 Length=0.04104 LineCode=74
+New Line.1308398 Bus1=4253.1.2.3 Bus2=4264.1.2.3 Length=0.17236 LineCode=80
+New Line.1306883 Bus1=5647.1.2.3 Bus2=5644.1.2.3 Length=0.1634 LineCode=74
+New Line.1307030 Bus1=5327.1.2 Bus2=5328.1.2 Length=0.08222 LineCode=83
+New Line.1307543 Bus1=4925.1.2.3 Bus2=5325.1.2.3 Length=0.18109 LineCode=80
+New Line.1306806 Bus1=5707.1.2.3 Bus2=5708.1.2.3 Length=0.01651 LineCode=74
+New Line.1306794 Bus1=5720.1.2.3 Bus2=5721.1.2.3 Length=0.03043 LineCode=74
+New Line.1308390 Bus1=4262.1.2.3 Bus2=4264.1.2.3 Length=0.12851 LineCode=80
+New Line.1308389 Bus1=4263.1.2.3 Bus2=4264.1.2.3 Length=0.00317 LineCode=80
+New Line.1306864 Bus1=5646.1.2.3 Bus2=5647.1.2.3 Length=0.15645 LineCode=74
+New Line.1307036 Bus1=5327.1.2 Bus2=5330.1.2 Length=0.05722 LineCode=83
+New Line.1307540 Bus1=4925.1.2.3 Bus2=4926.1.2.3 Length=0.11274 LineCode=80
+New Line.1307844 Bus1=6129.1.2.3 Bus2=5707.1.2.3 Length=0.01707 LineCode=74
+New Line.1306817 Bus1=5698.1.2.3 Bus2=5720.1.2.3 Length=0.02925 LineCode=74
+New Line.1306816 Bus1=5699.1.2.3 Bus2=5720.1.2.3 Length=0.02304 LineCode=74
+New Line.1308396 Bus1=4262.1.2.3 Bus2=4266.1.2.3 Length=0.22604 LineCode=80
+New Line.1306882 Bus1=5646.1.2.3 Bus2=5648.1.2.3 Length=0.11907 LineCode=74
+New Line.1307029 Bus1=5330.1.2 Bus2=5329.1.2 Length=0.00501 LineCode=83
+New Line.1307539 Bus1=4928.1.2.3 Bus2=4926.1.2.3 Length=0.20141 LineCode=80
+New Line.1306261 Bus1=6129.1.2.3 Bus2=6131.1.2.3 Length=0.00449 LineCode=74
+New Line.1306818 Bus1=5698.1.2.3 Bus2=5697.1.2.3 Length=0.03057 LineCode=74
+New Line.1306815 Bus1=5699.1.2.3 Bus2=5700.1.2.3 Length=0.02422 LineCode=74
+New Line.1308395 Bus1=4254.1.2 Bus2=4267.1.2 Length=0.10196 LineCode=83
+New Line.1308388 Bus1=4266.1.2.3 Bus2=4268.1.2.3 Length=0.19169 LineCode=80
+New Line.1308387 Bus1=4265.1.2.3 Bus2=4266.1.2.3 Length=0.00361 LineCode=80
+New Line.1306863 Bus1=5648.1.2.3 Bus2=5653.1.2.3 Length=0.1599 LineCode=74
+New Line.1307537 Bus1=4927.1.2.3 Bus2=4928.1.2.3 Length=0.10718 LineCode=80
+New Line.1306262 Bus1=6131.1.2.3 Bus2=6128.1.2.3 Length=0.01138 LineCode=74
+New Line.1306260 Bus1=6131.1.2.3 Bus2=6132.1.2.3 Length=0.02265 LineCode=74
+New Line.1306259 Bus1=6130.1.2.3 Bus2=6131.1.2.3 Length=0.00706 LineCode=74
+New Line.1306819 Bus1=5696.1.2.3 Bus2=5697.1.2.3 Length=0.04002 LineCode=74
+New Line.1306814 Bus1=5700.1.2.3 Bus2=5701.1.2.3 Length=0.04363 LineCode=74
+New Line.1308386 Bus1=4267.1.2 Bus2=4273.1.2 Length=0.14625 LineCode=83
+New Line.1308385 Bus1=4268.1.2.3 Bus2=4269.1.2.3 Length=0.10165 LineCode=80
+New Line.1306862 Bus1=5649.1.2.3 Bus2=5653.1.2.3 Length=0.1168 LineCode=74
+New Line.1307536 Bus1=4929.1.2.3 Bus2=4930.1.2.3 Length=0.15977 LineCode=74
+New Line.1307542 Bus1=4927.1.2.3 Bus2=4935.1.2.3 Length=0.13461 LineCode=80
+New Line.1306258 Bus1=6132.1.2.3 Bus2=6133.1.2.3 Length=0.02265 LineCode=74
+New Line.1306820 Bus1=5695.1.2.3 Bus2=5696.1.2.3 Length=0.02606 LineCode=74
+New Line.1306813 Bus1=5701.1.2.3 Bus2=5702.1.2.3 Length=0.03053 LineCode=74
+New Line.1308376 Bus1=4273.1.2 Bus2=4272.1.2 Length=0.00315 LineCode=83
+New Line.1306271 Bus1=6113.1.2 Bus2=6114.1.2 Length=0.00283 LineCode=83
+New Line.1308383 Bus1=4269.1.2.3 Bus2=6116.1.2.3 Length=0.09959 LineCode=80
+New Line.1306861 Bus1=5651.1 Bus2=5652.1 Length=0.00412 LineCode=105
+New Line.1306881 Bus1=5629.1.2.3 Bus2=5649.1.2.3 Length=0.10368 LineCode=74
+New Line.1307535 Bus1=4930.1.2.3 Bus2=4931.1.2.3 Length=0.14736 LineCode=74
+New Line.1307532 Bus1=4934.1.2.3 Bus2=4935.1.2.3 Length=0.13993 LineCode=80
+New Line.1306257 Bus1=6134.1.2.3 Bus2=6133.1.2.3 Length=0.02974 LineCode=74
+New Line.1306793 Bus1=5723.1.2.3 Bus2=5722.1.2.3 Length=0.02158 LineCode=74
+New Line.1306821 Bus1=5694.1.2.3 Bus2=5695.1.2.3 Length=0.02898 LineCode=85
+New Line.1306812 Bus1=5702.1.2.3 Bus2=5704.1.2.3 Length=0.03611 LineCode=74
+New Line.1306270 Bus1=6115.1.2.3 Bus2=6116.1.2.3 Length=0.05409 LineCode=80
+New Line.1306860 Bus1=5651.1 Bus2=5650.1 Length=0.00315 LineCode=105
+New Line.1306880 Bus1=5629.1.2.3 Bus2=5630.1.2.3 Length=0.10056 LineCode=74
+New Line.1307534 Bus1=4931.1.2.3 Bus2=4933.1.2.3 Length=0.02386 LineCode=74
+New Line.1307541 Bus1=4934.1.2.3 Bus2=4937.1.2.3 Length=0.24078 LineCode=80
+New Line.1306256 Bus1=6134.1.2.3 Bus2=6140.1.2.3 Length=0.02659 LineCode=74
+New Line.1306779 Bus1=5434.1.2.3 Bus2=5722.1.2.3 Length=0.03699 LineCode=74
+New Line.1306822 Bus1=5693.1.2.3 Bus2=5694.1.2.3 Length=0.03116 LineCode=74
+New Line.1306811 Bus1=5703.1.2.3 Bus2=5704.1.2.3 Length=0.02977 LineCode=74
+New Line.1308381 Bus1=6115.1.2.3 Bus2=4271.1.2.3 Length=0.17259 LineCode=80
+New Line.1306879 Bus1=5630.1.2.3 Bus2=5655.1.2.3 Length=0.27544 LineCode=74
+New Line.1307533 Bus1=4932.1.2.3 Bus2=4933.1.2.3 Length=0.00317 LineCode=74
+New Line.1307531 Bus1=4936.1.2.3 Bus2=4937.1.2.3 Length=0.1177 LineCode=80
+New Line.1306251 Bus1=6139.1.2.3 Bus2=6140.1.2.3 Length=0.03243 LineCode=74
+New Line.1306780 Bus1=5434.1.2.3 Bus2=5730.1.2.3 Length=0.01454 LineCode=74
+New Line.1306824 Bus1=5693.1.2.3 Bus2=5692.1.2.3 Length=0.02828 LineCode=74
+New Line.1307845 Bus1=5077.1.2.3 Bus2=5703.1.2.3 Length=0.03684 LineCode=74
+New Line.1306265 Bus1=6125.1.2.3 Bus2=6127.1.2.3 Length=0.21149 LineCode=74
+New Line.1306264 Bus1=6124.1.2.3 Bus2=6125.1.2.3 Length=0.00317 LineCode=74
+New Line.1308379 Bus1=4271.1.2.3 Bus2=6121.1.2.3 Length=0.07357 LineCode=80
+New Line.1306858 Bus1=5654.1.2.3 Bus2=5655.1.2.3 Length=0.05643 LineCode=74
+New Line.1307676 Bus1=4789.1.2.3 Bus2=4791.1.2.3 Length=0.10371 LineCode=74
+New Line.1307561 Bus1=4936.1.2.3 Bus2=5055.1.2.3 Length=0.21704 LineCode=80
+New Line.1306252 Bus1=6138.1.2.3 Bus2=6139.1.2.3 Length=0.03146 LineCode=74
+New Line.1306786 Bus1=5730.1.2.3 Bus2=5731.1.2.3 Length=0.03101 LineCode=74
+New Line.1306823 Bus1=5692.1.2.3 Bus2=5691.1.2.3 Length=0.02841 LineCode=74
+New Line.1307370 Bus1=5077.1.2.3 Bus2=5076.1.2.3 Length=0.03912 LineCode=74
+New Line.1306263 Bus1=6127.1.2.3 Bus2=6126.1.2.3 Length=0.03634 LineCode=74
+New Line.1306267 Bus1=6121.1.2.3 Bus2=6120.1.2.3 Length=0.19966 LineCode=80
+New Line.10772407 Bus1=4159.1.2.3 Bus2=5654.1.2.3 Length=0.24588 LineCode=74
+New Line.1307702 Bus1=4782.1.2.3 Bus2=4788.1.2.3 Length=0.00315 LineCode=74
+New Line.1307674 Bus1=4790.1.2.3 Bus2=4791.1.2.3 Length=0.22798 LineCode=74
+New Line.1307391 Bus1=5055.1.2.3 Bus2=5057.1.2.3 Length=0.12034 LineCode=80
+New Line.1306253 Bus1=6137.1.2.3 Bus2=6138.1.2.3 Length=0.03596 LineCode=74
+New Line.1306785 Bus1=5731.1.2.3 Bus2=5733.1.2.3 Length=0.02401 LineCode=74
+New Line.1307371 Bus1=5075.1.2.3 Bus2=5076.1.2.3 Length=0.02186 LineCode=74
+New Line.1308380 Bus1=4270.1.2.3 Bus2=6126.1.2.3 Length=0.00319 LineCode=74
+New Line.1308378 Bus1=6120.1.2.3 Bus2=6123.1.2.3 Length=0.24661 LineCode=74
+New Line.10781029 Bus1=4112.1.3 Bus2=4159.1.3 Length=0.04469 LineCode=93
+New Line.10772405 Bus1=4158.1.2.3 Bus2=4159.1.2.3 Length=0.03147 LineCode=74
+New Line.1307701 Bus1=4790.1.2.3 Bus2=4792.1.2.3 Length=0.09185 LineCode=74
+New Line.1307390 Bus1=5056.1.2.3 Bus2=5057.1.2.3 Length=0.10868 LineCode=80
+New Line.1306784 Bus1=5733.1.2.3 Bus2=5735.1.2.3 Length=0.0317 LineCode=74
+New Line.1306783 Bus1=5732.1.2.3 Bus2=5733.1.2.3 Length=0.01617 LineCode=74
+New Line.1307369 Bus1=5078.1.2.3 Bus2=5079.1.2.3 Length=0.02379 LineCode=74
+New Line.10799532 Bus1=3992.1.2.3 Bus2=5075.1.2.3 Length=0.0193 LineCode=74
+New Line.1306266 Bus1=6122.1.2.3 Bus2=6123.1.2.3 Length=0.31311 LineCode=74
+New Line.10772406 Bus1=5382.1.2.3 Bus2=4158.1.2.3 Length=0.02117 LineCode=74
+New Line.1307673 Bus1=4792.1.2.3 Bus2=4794.1.2.3 Length=0.17463 LineCode=74
+New Line.1307560 Bus1=5056.1.2.3 Bus2=5059.1.2.3 Length=0.09333 LineCode=80
+New Line.1306255 Bus1=6135.1.2.3 Bus2=6136.1.2.3 Length=0.04186 LineCode=74
+New Line.1306782 Bus1=5734.1.2.3 Bus2=5735.1.2.3 Length=0.02857 LineCode=74
+New Line.1306792 Bus1=5732.1.2.3 Bus2=5724.1.2.3 Length=0.03525 LineCode=74
+New Line.1307375 Bus1=5073.1.2.3 Bus2=5078.1.2.3 Length=0.03612 LineCode=74
+New Line.1308377 Bus1=6119.1.2.3 Bus2=6122.1.2.3 Length=0.04043 LineCode=74
+New Line.10781027 Bus1=4110.1.3 Bus2=4111.1.3 Length=0.05232 LineCode=93
+New Line.1306983 Bus1=5381.1.2.3 Bus2=5382.1.2.3 Length=0.04771 LineCode=74
+New Line.1307672 Bus1=4794.1.2.3 Bus2=4793.1.2.3 Length=0.10886 LineCode=74
+New Line.1307389 Bus1=5058.1.2.3 Bus2=5059.1.2.3 Length=0.14663 LineCode=80
+New Line.1308303 Bus1=5772.1.2.3 Bus2=6135.1.2.3 Length=0.02754 LineCode=74
+New Line.1306781 Bus1=5734.1.2.3 Bus2=5433.1.2.3 Length=0.02582 LineCode=74
+New Line.1306791 Bus1=5724.1.2.3 Bus2=5725.1.2.3 Length=0.03979 LineCode=74
+New Line.1307374 Bus1=5073.1.2.3 Bus2=5074.1.2.3 Length=0.0377 LineCode=74
+New Line.1306269 Bus1=6117.1.2.3 Bus2=6119.1.2.3 Length=0.00317 LineCode=74
+New Line.1306268 Bus1=6118.1.2.3 Bus2=6119.1.2.3 Length=0.07514 LineCode=74
+New Line.10781026 Bus1=4109.1.3 Bus2=4110.1.3 Length=0.05034 LineCode=93
+New Line.10772404 Bus1=4157.1.2.3 Bus2=5381.1.2.3 Length=0.05083 LineCode=74
+New Line.1307700 Bus1=4793.1.2.3 Bus2=6294.1.2.3 Length=0.16807 LineCode=74
+New Line.1307559 Bus1=5058.1.2.3 Bus2=5060.1.2.3 Length=0.26687 LineCode=80
+New Line.1306588 Bus1=5774.1.2.3 Bus2=5772.1.2.3 Length=0.03356 LineCode=74
+New Line.1306790 Bus1=5725.1.2.3 Bus2=5726.1.2.3 Length=0.02467 LineCode=74
+New Line.1307373 Bus1=5074.1.2.3 Bus2=6064.1.2.3 Length=0.04032 LineCode=74
+New Line.10781025 Bus1=4108.1.3 Bus2=4109.1.3 Length=0.05382 LineCode=93
+New Line.10772403 Bus1=4157.1.2.3 Bus2=5377.1.2.3 Length=0.0464 LineCode=74
+New Line.1307671 Bus1=4795.1.2.3 Bus2=6294.1.2.3 Length=0.28152 LineCode=74
+New Line.1307388 Bus1=5060.1.2.3 Bus2=5097.1.2.3 Length=0.1912 LineCode=80
+New Line.1306586 Bus1=5773.1.2.3 Bus2=5774.1.2.3 Length=0.02499 LineCode=74
+New Line.1306789 Bus1=5726.1.2.3 Bus2=5727.1.2.3 Length=0.02953 LineCode=74
+New Line.1305982 Bus1=6063.1.2.3 Bus2=6064.1.2.3 Length=0.0367 LineCode=74
+New Line.1307129 Bus1=5233.1.2.3 Bus2=5234.1.2.3 Length=0.08464 LineCode=74
+New Line.10781023 Bus1=4106.1.3 Bus2=4108.1.3 Length=0.04256 LineCode=93
+New Line.10781024 Bus1=4108.1.3 Bus2=4107.1.3 Length=0.05362 LineCode=93
+New Line.1306991 Bus1=5377.1.2.3 Bus2=5376.1.2.3 Length=0.04456 LineCode=74
+New Line.11572314 Bus1=6292.1.2.3 Bus2=6293.1.2.3 Length=0.07288 LineCode=74
+New Line.1307699 Bus1=4783.1.2.3 Bus2=4795.1.2.3 Length=0.09207 LineCode=74
+New Line.1307558 Bus1=5097.1.2.3 Bus2=5062.1.2.3 Length=0.2761 LineCode=80
+New Line.1306587 Bus1=5777.1.2.3 Bus2=5773.1.2.3 Length=0.01739 LineCode=74
+New Line.1306788 Bus1=5727.1.2.3 Bus2=5729.1.2.3 Length=0.01522 LineCode=74
+New Line.11639156 Bus1=5233.1.2 Bus2=3952.1.2 Length=0.04911 LineCode=112
+New Line.11639157 Bus1=5233.1.2.3 Bus2=5253.1.2.3 Length=0.02723 LineCode=88
+New Line.10781021 Bus1=4104.1.3 Bus2=4107.1.3 Length=0.05898 LineCode=93
+New Line.10781022 Bus1=4105.1.3 Bus2=4107.1.3 Length=0.05664 LineCode=93
+New Line.10772402 Bus1=4156.1.2.3 Bus2=5376.1.2.3 Length=0.05967 LineCode=74
+New Line.11572313 Bus1=6291.1.2.3 Bus2=6292.1.2.3 Length=0.04286 LineCode=74
+New Line.1307698 Bus1=4783.1.2.3 Bus2=4796.1.2.3 Length=0.11501 LineCode=74
+New Line.1307387 Bus1=5061.1.2.3 Bus2=5062.1.2.3 Length=0.09762 LineCode=80
+New Line.1306584 Bus1=5776.1.2.3 Bus2=5777.1.2.3 Length=0.0036 LineCode=74
+New Line.1306787 Bus1=5729.1.2.3 Bus2=5728.1.2.3 Length=0.03607 LineCode=74
+New Line.1307114 Bus1=5252.1.2.3 Bus2=5253.1.2.3 Length=0.0744 LineCode=74
+New Line.10781013 Bus1=4096.1.3 Bus2=4097.1.3 Length=0.03993 LineCode=93
+New Line.10781020 Bus1=4103.1.3 Bus2=4104.1.3 Length=0.05505 LineCode=93
+New Line.10772401 Bus1=5384.1.2.3 Bus2=4156.1.2.3 Length=0.02092 LineCode=74
+New Line.1307670 Bus1=4796.1.2.3 Bus2=4798.1.2.3 Length=0.12723 LineCode=74
+New Line.1307557 Bus1=5061.1.2.3 Bus2=5064.1.2.3 Length=0.16004 LineCode=80
+New Line.1306591 Bus1=5776.1.2.3 Bus2=5783.1.2.3 Length=0.00761 LineCode=74
+New Line.1306590 Bus1=5771.1.2.3 Bus2=5776.1.2.3 Length=0.0086 LineCode=74
+New Line.1306589 Bus1=5775.1.2.3 Bus2=5776.1.2.3 Length=0.02514 LineCode=74
+New Line.11639154 Bus1=3950.1.2 Bus2=3951.1.2 Length=0.06613 LineCode=112
+New Line.1307115 Bus1=5251.1.2.3 Bus2=5252.1.2.3 Length=0.00283 LineCode=74
+New Line.10781012 Bus1=4096.1.3 Bus2=4095.1.3 Length=0.04693 LineCode=93
+New Line.10781019 Bus1=4103.1.3 Bus2=4102.1.3 Length=0.04419 LineCode=93
+New Line.10781017 Bus1=4101.1.3 Bus2=4100.1.3 Length=0.0324 LineCode=93
+New Line.1306981 Bus1=5383.1.2.3 Bus2=5384.1.2.3 Length=0.13044 LineCode=74
+New Line.1307669 Bus1=4797.1.2.3 Bus2=4798.1.2.3 Length=0.15051 LineCode=74
+New Line.1307386 Bus1=5063.1.2.3 Bus2=5064.1.2.3 Length=0.40648 LineCode=80
+New Line.1306578 Bus1=5782.1.2.3 Bus2=5783.1.2.3 Length=0.02861 LineCode=74
+New Line.1306585 Bus1=5775.1.2.3 Bus2=5803.1.2.3 Length=0.03087 LineCode=74
+New Line.11639153 Bus1=3949.1.2 Bus2=3950.1.2 Length=0.0257 LineCode=112
+New Line.10781011 Bus1=4094.1.3 Bus2=4095.1.3 Length=0.08489 LineCode=93
+New Line.10781016 Bus1=4099.1.3 Bus2=4100.1.3 Length=0.04324 LineCode=93
+New Line.1306990 Bus1=5383.1.2.3 Bus2=5378.1.2.3 Length=0.04659 LineCode=74
+New Line.1307697 Bus1=4797.1.2.3 Bus2=4785.1.2.3 Length=0.19618 LineCode=74
+New Line.1307556 Bus1=5063.1.2.3 Bus2=5065.1.2.3 Length=0.03967 LineCode=80
+New Line.1306583 Bus1=5778.1.2.3 Bus2=5782.1.2.3 Length=0.04245 LineCode=74
+New Line.1306559 Bus1=5802.1.2.3 Bus2=5803.1.2.3 Length=0.02554 LineCode=74
+New Line.11639152 Bus1=3948.1.2 Bus2=3949.1.2 Length=0.05064 LineCode=112
+New Line.10781010 Bus1=4093.1.3 Bus2=4094.1.3 Length=0.08405 LineCode=93
+New Line.10781015 Bus1=4098.1.3 Bus2=4099.1.3 Length=0.03936 LineCode=93
+New Line.1306980 Bus1=5385.1.2.3 Bus2=5386.1.2.3 Length=0.00317 LineCode=74
+New Line.10781003 Bus1=4086.1.2 Bus2=5378.1.2 Length=0.04148 LineCode=83
+New Line.10772400 Bus1=5380.1.2.3 Bus2=5378.1.2.3 Length=0.03901 LineCode=74
+New Line.1307668 Bus1=4799.1.2.3 Bus2=4800.1.2.3 Length=0.14945 LineCode=74
+New Line.1307693 Bus1=4785.1.2.3 Bus2=4804.1.2.3 Length=0.14099 LineCode=74
+New Line.1307385 Bus1=5065.1.2.3 Bus2=5067.1.2.3 Length=0.08569 LineCode=80
+New Line.1306582 Bus1=5779.1.2.3 Bus2=5778.1.2.3 Length=0.02056 LineCode=74
+New Line.1306560 Bus1=5801.1.2.3 Bus2=5802.1.2.3 Length=0.01892 LineCode=74
+New Line.11639151 Bus1=3947.1.2 Bus2=3948.1.2 Length=0.0638 LineCode=112
+New Line.10781009 Bus1=4092.1.3 Bus2=4093.1.3 Length=0.05756 LineCode=93
+New Line.1306988 Bus1=5379.1.2.3 Bus2=5380.1.2.3 Length=0.01915 LineCode=74
+New Line.1307695 Bus1=4799.1.2.3 Bus2=4802.1.2.3 Length=0.17511 LineCode=74
+New Line.1307666 Bus1=4803.1.2.3 Bus2=4804.1.2.3 Length=0.17514 LineCode=74
+New Line.1307384 Bus1=5066.1.2.3 Bus2=5067.1.2.3 Length=0.17067 LineCode=100
+New Line.1306581 Bus1=5779.1.2.3 Bus2=5780.1.2.3 Length=0.03081 LineCode=74
+New Line.1306561 Bus1=5800.1.2.3 Bus2=5801.1.2.3 Length=0.03794 LineCode=74
+New Line.11639150 Bus1=3946.1.2 Bus2=3947.1.2 Length=0.06449 LineCode=112
+New Line.10781008 Bus1=4091.1.3 Bus2=4092.1.3 Length=0.03104 LineCode=93
+New Line.10781001 Bus1=4084.1.2 Bus2=4085.1.2 Length=0.05344 LineCode=83
+New Line.10772399 Bus1=5379.1.2.3 Bus2=5388.1.2.3 Length=0.02474 LineCode=74
+New Line.1307667 Bus1=4801.1.2.3 Bus2=4802.1.2.3 Length=0.06809 LineCode=74
+New Line.1307692 Bus1=4803.1.2.3 Bus2=4806.1.2.3 Length=0.08305 LineCode=74
+New Line.1307518 Bus1=5066.1.2.3 Bus2=5068.1.2.3 Length=0.05525 LineCode=80
+New Line.1306580 Bus1=5780.1.2.3 Bus2=5781.1.2.3 Length=0.02905 LineCode=74
+New Line.1306563 Bus1=5797.1.2.3 Bus2=5800.1.2.3 Length=0.02182 LineCode=74
+New Line.11639149 Bus1=3945.1.2 Bus2=3946.1.2 Length=0.07079 LineCode=112
+New Line.10781007 Bus1=4091.1.3 Bus2=4090.1.3 Length=0.05469 LineCode=93
+New Line.10781000 Bus1=4084.1.2 Bus2=4083.1.2 Length=0.03063 LineCode=83
+New Line.1307140 Bus1=5228.1.2.3 Bus2=5388.1.2.3 Length=0.16264 LineCode=74
+New Line.1306979 Bus1=5388.1.2.3 Bus2=5387.1.2.3 Length=0.03041 LineCode=74
+New Line.1307694 Bus1=4784.1.2.3 Bus2=4801.1.2.3 Length=0.00316 LineCode=74
+New Line.1307665 Bus1=4805.1.2.3 Bus2=4806.1.2.3 Length=0.12789 LineCode=74
+New Line.1307383 Bus1=5070.1.2.3 Bus2=5068.1.2.3 Length=0.14239 LineCode=80
+New Line.1306579 Bus1=5781.1.2.3 Bus2=5799.1.2.3 Length=0.03164 LineCode=74
+New Line.1306564 Bus1=5796.1.2.3 Bus2=5797.1.2.3 Length=0.03296 LineCode=74
+New Line.11639148 Bus1=3944.1.2 Bus2=3945.1.2 Length=0.09915 LineCode=112
+New Line.10781006 Bus1=4090.1.3 Bus2=4089.1.3 Length=0.05852 LineCode=93
+New Line.10780999 Bus1=4082.1.2 Bus2=4083.1.2 Length=0.02933 LineCode=83
+New Line.10772398 Bus1=5228.1.2.3 Bus2=5230.1.2.3 Length=0.05319 LineCode=74
+New Line.10772392 Bus1=4151.1.2.3 Bus2=5387.1.2.3 Length=0.02422 LineCode=74
+New Line.1307691 Bus1=4808.1.2.3 Bus2=4805.1.2.3 Length=0.11642 LineCode=74
+New Line.1307382 Bus1=5069.1.2.3 Bus2=5070.1.2.3 Length=0.11897 LineCode=80
+New Line.1306562 Bus1=5799.1.2.3 Bus2=5798.1.2.3 Length=0.02082 LineCode=74
+New Line.1306570 Bus1=5791.1.2.3 Bus2=5796.1.2.3 Length=0.02995 LineCode=74
+New Line.1306569 Bus1=5792.1.2.3 Bus2=5796.1.2.3 Length=0.03321 LineCode=74
+New Line.11639147 Bus1=3943.1.2 Bus2=3944.1.2 Length=0.05938 LineCode=112
+New Line.10781005 Bus1=4088.1.3 Bus2=4089.1.3 Length=0.01845 LineCode=93
+New Line.1307664 Bus1=4808.1.2.3 Bus2=4807.1.2.3 Length=0.10207 LineCode=74
+New Line.1307555 Bus1=4917.1.2.3 Bus2=5069.1.2.3 Length=0.0347 LineCode=80
+New Line.1306572 Bus1=5789.1.2.3 Bus2=5798.1.2.3 Length=0.03253 LineCode=74
+New Line.1306571 Bus1=5790.1.2.3 Bus2=5791.1.2.3 Length=0.08787 LineCode=74
+New Line.1306568 Bus1=5792.1.2.3 Bus2=5793.1.2.3 Length=0.03139 LineCode=74
+New Line.11639146 Bus1=3942.1.2 Bus2=3943.1.2 Length=0.01724 LineCode=112
+New Line.10781004 Bus1=4087.1.3 Bus2=4088.1.3 Length=0.0164 LineCode=93
+New Line.10772397 Bus1=5205.1.2.3 Bus2=5229.1.2.3 Length=0.22226 LineCode=74
+New Line.1306976 Bus1=5389.1.2.3 Bus2=5391.1.2.3 Length=0.11498 LineCode=74
+New Line.1307690 Bus1=6298.1.2.3 Bus2=4807.1.2.3 Length=0.13077 LineCode=74
+New Line.1307566 Bus1=4917.1.2.3 Bus2=4919.1.2.3 Length=0.39942 LineCode=80
+New Line.1306573 Bus1=5789.1.2.3 Bus2=5788.1.2.3 Length=0.03187 LineCode=74
+New Line.1306575 Bus1=5786.1.2.3 Bus2=5790.1.2.3 Length=0.12533 LineCode=74
+New Line.1306567 Bus1=5793.1.2.3 Bus2=5794.1.2.3 Length=0.03388 LineCode=74
+New Line.11639145 Bus1=3942.1.2 Bus2=3941.1.2 Length=0.06658 LineCode=112
+New Line.1307156 Bus1=5204.1.2.3 Bus2=5205.1.2.3 Length=0.0396 LineCode=74
+New Line.1306974 Bus1=5390.1.2.3 Bus2=5391.1.2.3 Length=0.07867 LineCode=74
+New Line.1307663 Bus1=4810.1.2.3 Bus2=6298.1.2.3 Length=0.18389 LineCode=74
+New Line.1307554 Bus1=4919.1.2.3 Bus2=4918.1.2.3 Length=0.13459 LineCode=80
+New Line.1306574 Bus1=5787.1.2.3 Bus2=5788.1.2.3 Length=0.03733 LineCode=74
+New Line.1306566 Bus1=5794.1.2.3 Bus2=5795.1.2.3 Length=0.04029 LineCode=74
+New Line.11639144 Bus1=3940.1.2 Bus2=3941.1.2 Length=0.10975 LineCode=112
+New Line.10772396 Bus1=4155.1.2.3 Bus2=5204.1.2.3 Length=0.06399 LineCode=74
+New Line.1306975 Bus1=5390.1.2.3 Bus2=5392.1.2.3 Length=0.104 LineCode=74
+New Line.11574407 Bus1=6297.1.2.3 Bus2=6296.1.2.3 Length=0.07265 LineCode=74
+New Line.1307662 Bus1=4809.1.2.3 Bus2=4810.1.2.3 Length=0.22843 LineCode=74
+New Line.1307565 Bus1=4915.1.2.3 Bus2=4918.1.2.3 Length=0.14518 LineCode=80
+New Line.1306577 Bus1=5784.1.2.3 Bus2=5785.1.2.3 Length=0.00315 LineCode=74
+New Line.11639142 Bus1=3938.1.2 Bus2=3940.1.2 Length=0.06083 LineCode=112
+New Line.11639143 Bus1=3939.1.2 Bus2=3940.1.2 Length=0.0449 LineCode=112
+New Line.10772395 Bus1=4155.1.2.3 Bus2=4154.1.2.3 Length=0.03539 LineCode=74
+New Line.1307073 Bus1=5289.1.2.3 Bus2=5392.1.2.3 Length=0.26081 LineCode=74
+New Line.1306973 Bus1=5395.1.2 Bus2=5392.1.2 Length=0.03895 LineCode=83
+New Line.11574406 Bus1=6295.1.2.3 Bus2=6296.1.2.3 Length=0.04389 LineCode=74
+New Line.1307689 Bus1=4809.1.2.3 Bus2=4812.1.2.3 Length=0.1537 LineCode=74
+New Line.1307564 Bus1=4916.1.2.3 Bus2=4915.1.2.3 Length=0.1735 LineCode=80
+New Line.1306233 Bus1=6151.1.2.3 Bus2=6280.1.2.3 Length=0.05026 LineCode=74
+New Line.11639141 Bus1=3937.1.2 Bus2=3939.1.2 Length=0.08431 LineCode=112
+New Line.10780997 Bus1=4080.1.3 Bus2=4154.1.3 Length=0.04287 LineCode=93
+New Line.10780998 Bus1=4081.1.3 Bus2=4154.1.3 Length=0.0382 LineCode=93
+New Line.10772394 Bus1=4153.1.2.3 Bus2=4154.1.2.3 Length=0.14374 LineCode=74
+New Line.1307072 Bus1=5288.1.2.3 Bus2=5289.1.2.3 Length=0.31896 LineCode=74
+New Line.1307661 Bus1=4811.1.2.3 Bus2=4812.1.2.3 Length=0.29396 LineCode=74
+New Line.1307563 Bus1=4920.1.2.3 Bus2=4916.1.2.3 Length=0.22878 LineCode=80
+New Line.11484004 Bus1=6279.1.2.3 Bus2=6280.1.2.3 Length=0.03786 LineCode=74
+New Line.11639140 Bus1=3936.1.2 Bus2=3937.1.2 Length=0.09308 LineCode=112
+New Line.10772393 Bus1=4152.1.2.3 Bus2=4153.1.2.3 Length=0.02666 LineCode=74
+New Line.1307078 Bus1=5288.1.2.3 Bus2=5291.1.2.3 Length=0.14742 LineCode=74
+New Line.10780970 Bus1=4053.1.2 Bus2=5394.1.2 Length=0.03355 LineCode=83
+New Line.10772352 Bus1=4131.1.2 Bus2=5394.1.2 Length=0.05649 LineCode=83
+New Line.1307688 Bus1=4811.1.2.3 Bus2=4814.1.2.3 Length=0.05337 LineCode=74
+New Line.1307552 Bus1=4924.1.2.3 Bus2=4920.1.2.3 Length=0.18203 LineCode=80
+New Line.11639139 Bus1=3935.1.2 Bus2=3936.1.2 Length=0.08749 LineCode=112
+New Line.10780991 Bus1=4074.1.3 Bus2=4075.1.3 Length=0.02866 LineCode=93
+New Line.10780995 Bus1=4078.1.3 Bus2=4079.1.3 Length=0.05972 LineCode=93
+New Line.10780979 Bus1=4152.1.2.3 Bus2=4062.1.2.3 Length=0.03966 LineCode=74
+New Line.1307071 Bus1=5291.1.2.3 Bus2=5290.1.2.3 Length=0.08622 LineCode=74
+New Line.10780969 Bus1=4053.1.2 Bus2=4052.1.2 Length=0.03261 LineCode=83
+New Line.10772353 Bus1=4132.1.2 Bus2=4131.1.2 Length=0.05922 LineCode=83
+New Line.1307660 Bus1=4813.1.2.3 Bus2=4814.1.2.3 Length=0.10687 LineCode=74
+New Line.1307551 Bus1=4921.1.2.3 Bus2=4922.1.2.3 Length=0.20455 LineCode=74
+New Line.1307549 Bus1=4924.1.2.3 Bus2=4959.1.2.3 Length=0.23555 LineCode=80
+New Line.1306232 Bus1=6152.1.2.3 Bus2=6154.1.2.3 Length=0.09443 LineCode=74
+New Line.11639138 Bus1=3934.1.2 Bus2=3935.1.2 Length=0.09393 LineCode=112
+New Line.10780990 Bus1=4073.1.3 Bus2=4074.1.3 Length=0.0748 LineCode=93
+New Line.10780994 Bus1=4077.1.3 Bus2=4078.1.3 Length=0.04661 LineCode=93
+New Line.10780978 Bus1=4061.1.2.3 Bus2=4062.1.2.3 Length=0.05052 LineCode=74
+New Line.1307077 Bus1=5290.1.2.3 Bus2=5293.1.2.3 Length=0.17462 LineCode=74
+New Line.10772354 Bus1=4132.1 Bus2=5393.1 Length=0.04982 LineCode=105
+New Line.1307687 Bus1=4813.1.2.3 Bus2=4816.1.2.3 Length=0.27023 LineCode=74
+New Line.1307562 Bus1=4921.1.2.3 Bus2=4923.1.2.3 Length=0.16032 LineCode=74
+New Line.1307529 Bus1=4940.1.2.3 Bus2=4959.1.2.3 Length=0.02689 LineCode=74
+New Line.1307510 Bus1=4958.1.2.3 Bus2=4959.1.2.3 Length=0.16318 LineCode=80
+New Line.1306231 Bus1=6154.1.2.3 Bus2=6153.1.2.3 Length=0.18636 LineCode=74
+New Line.11639137 Bus1=3934.1.2 Bus2=3933.1.2 Length=0.09556 LineCode=112
+New Line.10780989 Bus1=4072.1.3 Bus2=4073.1.3 Length=0.09147 LineCode=93
+New Line.10780993 Bus1=4076.1.3 Bus2=4077.1.3 Length=0.03526 LineCode=93
+New Line.10780977 Bus1=4060.1.2.3 Bus2=4061.1.2.3 Length=0.05575 LineCode=74
+New Line.1307070 Bus1=5292.1.2.3 Bus2=5293.1.2.3 Length=0.17721 LineCode=74
+New Line.1307659 Bus1=4815.1.2.3 Bus2=4816.1.2.3 Length=0.14508 LineCode=74
+New Line.1307550 Bus1=4923.1.2.3 Bus2=4939.1.2.3 Length=0.03576 LineCode=74
+New Line.1307528 Bus1=4942.1.2.3 Bus2=4940.1.2.3 Length=0.1934 LineCode=74
+New Line.1307517 Bus1=4958.1.2.3 Bus2=4961.1.2.3 Length=0.05768 LineCode=80
+New Line.1306249 Bus1=6153.1.2.3 Bus2=6156.1.2.3 Length=0.26902 LineCode=74
+New Line.11639136 Bus1=3932.1.2 Bus2=3933.1.2 Length=0.08561 LineCode=112
+New Line.10780988 Bus1=4072.1.3 Bus2=4071.1.3 Length=0.03988 LineCode=93
+New Line.10780976 Bus1=4059.1.2.3 Bus2=4060.1.2.3 Length=0.05519 LineCode=74
+New Line.1307076 Bus1=5287.1.2.3 Bus2=5292.1.2.3 Length=0.08157 LineCode=74
+New Line.1306970 Bus1=5397.1 Bus2=5396.1 Length=0.157 LineCode=105
+New Line.1307686 Bus1=4815.1.2.3 Bus2=4818.1.2.3 Length=0.12518 LineCode=74
+New Line.1307530 Bus1=4938.1.2.3 Bus2=4939.1.2.3 Length=0.00316 LineCode=74
+New Line.1307519 Bus1=4954.1.2.3 Bus2=4955.1.2.3 Length=0.00301 LineCode=74
+New Line.1307526 Bus1=4941.1.2.3 Bus2=4942.1.2.3 Length=0.07088 LineCode=74
+New Line.1307509 Bus1=4960.1.2.3 Bus2=4961.1.2.3 Length=0.11726 LineCode=80
+New Line.1306250 Bus1=6141.1.2.3 Bus2=6142.1.2.3 Length=0.00476 LineCode=74
+New Line.1306230 Bus1=6156.1.2.3 Bus2=6155.1.2.3 Length=0.10965 LineCode=74
+New Line.11639135 Bus1=3932.1.2 Bus2=3969.1.2 Length=0.10768 LineCode=112
+New Line.10780983 Bus1=4066.1.3 Bus2=4071.1.3 Length=0.06505 LineCode=93
+New Line.10780987 Bus1=4070.1.3 Bus2=4071.1.3 Length=0.09858 LineCode=93
+New Line.10780975 Bus1=4058.1.2.3 Bus2=4059.1.2.3 Length=0.05051 LineCode=74
+New Line.10772389 Bus1=5287.1.2.3 Bus2=5295.1.2.3 Length=0.11402 LineCode=74
+New Line.1306969 Bus1=5397.1 Bus2=5398.1 Length=0.06779 LineCode=105
+New Line.1307658 Bus1=4817.1.2.3 Bus2=4818.1.2.3 Length=0.10464 LineCode=74
+New Line.1307548 Bus1=4941.1.2.3 Bus2=4944.1.2.3 Length=0.31145 LineCode=74
+New Line.1307516 Bus1=4963.1.2.3 Bus2=4960.1.2.3 Length=0.35988 LineCode=80
+New Line.1306247 Bus1=6155.1.2.3 Bus2=6143.1.2.3 Length=0.17529 LineCode=74
+New Line.11639134 Bus1=3931.1.2 Bus2=3969.1.2 Length=0.09973 LineCode=112
+New Line.11648493 Bus1=5092.1 Bus2=3969.1 Length=0.01938 LineCode=105
+New Line.10780981 Bus1=4063.1.3 Bus2=4066.1.3 Length=0.05216 LineCode=93
+New Line.10780974 Bus1=4058.1.2.3 Bus2=4057.1.2.3 Length=0.05651 LineCode=74
+New Line.1307069 Bus1=5294.1.3 Bus2=5295.1.3 Length=0.04573 LineCode=93
+New Line.1307068 Bus1=5295.1.2.3 Bus2=5404.1.2.3 Length=0.25088 LineCode=74
+New Line.1306968 Bus1=5398.1 Bus2=5399.1 Length=0.14259 LineCode=105
+New Line.1307685 Bus1=4820.1.2.3 Bus2=4817.1.2.3 Length=0.25985 LineCode=74
+New Line.1307525 Bus1=4943.1.2.3 Bus2=4944.1.2.3 Length=0.13915 LineCode=74
+New Line.1307508 Bus1=4962.1.2.3 Bus2=4963.1.2.3 Length=0.16229 LineCode=80
+New Line.1306246 Bus1=6143.1.2.3 Bus2=6157.1.2.3 Length=0.0892 LineCode=74
+New Line.1307321 Bus1=5091.1 Bus2=5092.1 Length=0.01096 LineCode=105
+New Line.10780980 Bus1=4063.1.3 Bus2=4065.1.3 Length=0.04896 LineCode=93
+New Line.10780985 Bus1=4068.1.3 Bus2=4069.1.3 Length=0.05414 LineCode=93
+New Line.10780973 Bus1=4057.1.2.3 Bus2=4056.1.2.3 Length=0.04108 LineCode=74
+New Line.1306962 Bus1=5404.1.2.3 Bus2=5432.1.2.3 Length=0.08469 LineCode=74
+New Line.1306967 Bus1=5399.1 Bus2=5400.1 Length=0.10529 LineCode=105
+New Line.1307657 Bus1=4819.1.2.3 Bus2=4820.1.2.3 Length=0.15396 LineCode=74
+New Line.1307547 Bus1=4946.1.2.3 Bus2=4943.1.2.3 Length=0.14605 LineCode=74
+New Line.1307515 Bus1=4962.1.2.3 Bus2=4964.1.2.3 Length=0.22296 LineCode=80
+New Line.1306229 Bus1=6157.1.2.3 Bus2=6159.1.2.3 Length=0.15199 LineCode=74
+New Line.11639130 Bus1=3930.1.2 Bus2=3928.1.2 Length=0.12878 LineCode=112
+New Line.11639132 Bus1=3930.1.2 Bus2=3970.1.2 Length=0.05204 LineCode=112
+New Line.10780982 Bus1=4064.1.3 Bus2=4065.1.3 Length=0.04541 LineCode=93
+New Line.10780984 Bus1=4067.1.3 Bus2=4068.1.3 Length=0.06278 LineCode=93
+New Line.10780972 Bus1=4055.1.2.3 Bus2=4056.1.2.3 Length=0.02941 LineCode=74
+New Line.10772350 Bus1=4129.1.3 Bus2=4130.1.3 Length=0.04296 LineCode=93
+New Line.1306944 Bus1=5431.1.2.3 Bus2=5432.1.2.3 Length=0.14189 LineCode=74
+New Line.1306966 Bus1=5400.1 Bus2=5401.1 Length=0.13725 LineCode=105
+New Line.1307684 Bus1=4819.1.2.3 Bus2=4821.1.2.3 Length=0.20021 LineCode=74
+New Line.1307524 Bus1=4945.1.2.3 Bus2=4946.1.2.3 Length=0.15478 LineCode=74
+New Line.1307507 Bus1=4966.1.2.3 Bus2=4964.1.2.3 Length=0.04082 LineCode=80
+New Line.1306228 Bus1=6158.1.2.3 Bus2=6159.1.2.3 Length=0.17258 LineCode=74
+New Line.11639129 Bus1=3927.1.2 Bus2=3928.1.2 Length=0.05686 LineCode=112
+New Line.11639131 Bus1=3970.1.2 Bus2=3929.1.2 Length=0.05779 LineCode=112
+New Line.10780971 Bus1=4054.1.2.3 Bus2=4055.1.2.3 Length=0.03184 LineCode=74
+New Line.10772349 Bus1=4128.1.3 Bus2=4129.1.3 Length=0.03779 LineCode=93
+New Line.1307847 Bus1=4662.1.2.3 Bus2=5431.1.2.3 Length=0.10009 LineCode=74
+New Line.1306964 Bus1=5428.1 Bus2=5401.1 Length=0.24451 LineCode=105
+New Line.1307656 Bus1=4821.1.2.3 Bus2=4824.1.2.3 Length=0.14833 LineCode=74
+New Line.1307546 Bus1=4945.1.2.3 Bus2=4948.1.2.3 Length=0.08813 LineCode=74
+New Line.1307506 Bus1=4965.1.2.3 Bus2=4966.1.2.3 Length=0.06674 LineCode=80
+New Line.1306245 Bus1=6146.1.2.3 Bus2=6158.1.2.3 Length=0.16321 LineCode=74
+New Line.11639128 Bus1=3926.1.2 Bus2=3927.1.2 Length=0.12365 LineCode=112
+New Line.1307320 Bus1=5093.1 Bus2=5094.1 Length=0.00315 LineCode=105
+New Line.10772348 Bus1=4127.1.3 Bus2=4128.1.3 Length=0.04841 LineCode=93
+New Line.10772388 Bus1=4150.1.2.3 Bus2=4662.1.2.3 Length=0.04782 LineCode=74
+New Line.1306963 Bus1=5402.1 Bus2=5403.1 Length=0.00699 LineCode=105
+New Line.1306946 Bus1=5428.1 Bus2=5430.1 Length=0.04397 LineCode=105
+New Line.1307655 Bus1=4822.1.2.3 Bus2=4824.1.2.3 Length=0.14392 LineCode=74
+New Line.1307654 Bus1=4824.1.2.3 Bus2=4823.1.2.3 Length=0.00302 LineCode=74
+New Line.1307523 Bus1=4947.1.2.3 Bus2=4948.1.2.3 Length=0.08086 LineCode=74
+New Line.1307514 Bus1=4956.1.2.3 Bus2=4965.1.2.3 Length=0.12937 LineCode=80
+New Line.1306243 Bus1=6144.1.2.3 Bus2=6145.1.2.3 Length=0.00607 LineCode=74
+New Line.1306242 Bus1=6146.1.2.3 Bus2=6160.1.2.3 Length=0.14576 LineCode=74
+New Line.11639127 Bus1=3925.1.2 Bus2=3926.1.2 Length=0.08942 LineCode=112
+New Line.10772345 Bus1=4125.1.2 Bus2=4126.1.2 Length=0.02039 LineCode=83
+New Line.10772387 Bus1=4150.1.2.3 Bus2=5269.1.2.3 Length=0.23122 LineCode=74
+New Line.1306945 Bus1=5429.1 Bus2=5430.1 Length=0.00399 LineCode=105
+New Line.1307683 Bus1=4787.1.2.3 Bus2=4822.1.2.3 Length=0.21881 LineCode=74
+New Line.1307682 Bus1=4822.1.2.3 Bus2=4826.1.2.3 Length=0.24333 LineCode=74
+New Line.1307545 Bus1=4947.1.2.3 Bus2=4950.1.2.3 Length=0.41355 LineCode=74
+New Line.1307505 Bus1=4967.1.2.3 Bus2=4968.1.2.3 Length=0.00283 LineCode=74
+New Line.1307512 Bus1=4956.1.2.3 Bus2=4957.1.2.3 Length=0.07196 LineCode=80
+New Line.1306227 Bus1=6160.1.2.3 Bus2=6162.1.2.3 Length=0.14198 LineCode=74
+New Line.11639126 Bus1=3925.1.2 Bus2=3924.1.2 Length=0.04314 LineCode=112
+New Line.10772346 Bus1=4124.1.2 Bus2=4125.1.2 Length=0.01518 LineCode=83
+New Line.1307101 Bus1=5406.1.2.3 Bus2=5269.1.2.3 Length=0.14375 LineCode=74
+New Line.1307653 Bus1=4825.1.2.3 Bus2=4826.1.2.3 Length=0.09099 LineCode=74
+New Line.1307522 Bus1=4950.1.2.3 Bus2=4949.1.2.3 Length=0.07015 LineCode=74
+New Line.1307511 Bus1=4957.1.2.3 Bus2=4969.1.2.3 Length=0.25577 LineCode=80
+New Line.1306226 Bus1=6161.1.2.3 Bus2=6162.1.2.3 Length=0.18159 LineCode=74
+New Line.11639125 Bus1=3923.1.2 Bus2=3924.1.2 Length=0.05745 LineCode=112
+New Line.1306959 Bus1=5405.1.2.3 Bus2=5406.1.2.3 Length=0.02435 LineCode=74
+New Line.1307650 Bus1=4831.1.2.3 Bus2=4833.1.2.3 Length=0.19614 LineCode=74
+New Line.1307681 Bus1=4828.1.2.3 Bus2=4825.1.2.3 Length=0.12299 LineCode=74
+New Line.1307544 Bus1=4949.1.2.3 Bus2=4951.1.2.3 Length=0.09098 LineCode=74
+New Line.1307504 Bus1=4969.1.2.3 Bus2=4973.1.2.3 Length=0.12677 LineCode=80
+New Line.1306241 Bus1=6147.1.2.3 Bus2=6161.1.2.3 Length=0.23015 LineCode=74
+New Line.11639124 Bus1=3922.1.2 Bus2=3923.1.2 Length=0.05777 LineCode=112
+New Line.1307100 Bus1=5408.1.2.3 Bus2=5405.1.2.3 Length=0.07607 LineCode=74
+New Line.1307649 Bus1=4833.1.2.3 Bus2=4832.1.2.3 Length=0.15872 LineCode=74
+New Line.1307652 Bus1=4827.1.2.3 Bus2=4828.1.2.3 Length=0.10422 LineCode=74
+New Line.1307521 Bus1=4953.1.2.3 Bus2=4951.1.2.3 Length=0.07045 LineCode=74
+New Line.1307490 Bus1=4972.1.2.3 Bus2=4973.1.2.3 Length=0.1713 LineCode=80
+New Line.1306240 Bus1=6147.1.2.3 Bus2=6148.1.2.3 Length=0.22332 LineCode=74
+New Line.11639123 Bus1=3921.1.2 Bus2=3922.1.2 Length=0.05549 LineCode=112
+New Line.1306958 Bus1=5407.1.2.3 Bus2=5408.1.2.3 Length=0.06333 LineCode=74
+New Line.1307678 Bus1=4832.1.2.3 Bus2=4834.1.2.3 Length=0.10955 LineCode=74
+New Line.1307680 Bus1=4827.1.2.3 Bus2=4786.1.2.3 Length=0.21402 LineCode=74
+New Line.1307520 Bus1=4952.1.2.3 Bus2=4953.1.2.3 Length=0.00315 LineCode=74
+New Line.1307503 Bus1=4972.1.2.3 Bus2=4975.1.2.3 Length=0.1769 LineCode=80
+New Line.1306239 Bus1=6148.1.2.3 Bus2=6149.1.2.3 Length=0.14741 LineCode=74
+New Line.11639122 Bus1=3920.1.2 Bus2=3921.1.2 Length=0.09955 LineCode=112
+New Line.10772386 Bus1=5271.1.2.3 Bus2=5407.1.2.3 Length=0.05285 LineCode=74
+New Line.1307648 Bus1=5025.1.2.3 Bus2=4834.1.2.3 Length=0.16174 LineCode=74
+New Line.3312614 Bus1=4830.1.2.3 Bus2=4786.1.2.3 Length=0.21468 LineCode=74
+New Line.1307489 Bus1=4974.1.2.3 Bus2=4975.1.2.3 Length=0.10957 LineCode=80
+New Line.1306238 Bus1=6149.1.2.3 Bus2=6164.1.2.3 Length=0.18921 LineCode=74
+New Line.11639121 Bus1=3920.1.2 Bus2=3919.1.2 Length=0.04375 LineCode=112
+New Line.1307099 Bus1=5270.1.2.3 Bus2=5271.1.2.3 Length=0.05323 LineCode=74
+New Line.1307459 Bus1=5025.1.2.3 Bus2=5031.1.2.3 Length=0.13972 LineCode=80
+New Line.1307651 Bus1=4829.1.2.3 Bus2=4830.1.2.3 Length=0.19352 LineCode=74
+New Line.1307502 Bus1=4977.1.2.3 Bus2=4974.1.2.3 Length=0.20702 LineCode=80
+New Line.1306225 Bus1=6164.1.2.3 Bus2=6163.1.2.3 Length=0.16123 LineCode=74
+New Line.11639120 Bus1=3919.1.2 Bus2=3918.1.2 Length=0.03243 LineCode=112
+New Line.10772385 Bus1=5270.1.2.3 Bus2=5272.1.2.3 Length=0.12892 LineCode=74
+New Line.1307449 Bus1=5033.1.2.3 Bus2=5031.1.2.3 Length=0.11663 LineCode=80
+New Line.1307907 Bus1=4656.1.2.3 Bus2=4829.1.2.3 Length=0.02896 LineCode=80
+New Line.1307488 Bus1=4976.1.2.3 Bus2=4977.1.2.3 Length=0.08549 LineCode=80
+New Line.1306237 Bus1=6163.1.2.3 Bus2=6165.1.2.3 Length=0.17354 LineCode=74
+New Line.11639119 Bus1=3917.1.2 Bus2=3918.1.2 Length=0.05459 LineCode=112
+New Line.1307098 Bus1=5272.1.2.3 Bus2=5410.1.2.3 Length=0.10928 LineCode=74
+New Line.1307448 Bus1=5033.1.2.3 Bus2=5032.1.2.3 Length=0.21649 LineCode=80
+New Line.1308220 Bus1=4374.1.2.3 Bus2=4656.1.2.3 Length=0.09608 LineCode=80
+New Line.1307856 Bus1=4655.1.2.3 Bus2=4656.1.2.3 Length=0.07836 LineCode=80
+New Line.1307501 Bus1=4976.1.2.3 Bus2=4970.1.2.3 Length=0.10448 LineCode=80
+New Line.1306224 Bus1=6165.1.2.3 Bus2=6168.1.2.3 Length=0.11464 LineCode=74
+New Line.11639118 Bus1=3916.1.2 Bus2=3917.1.2 Length=0.10014 LineCode=112
+New Line.1306957 Bus1=5409.1.2.3 Bus2=5410.1.2.3 Length=0.0911 LineCode=74
+New Line.1307460 Bus1=5035.1.2.3 Bus2=5032.1.2.3 Length=0.16173 LineCode=80
+New Line.1308219 Bus1=4374.1.2.3 Bus2=4376.1.2.3 Length=0.18643 LineCode=80
+New Line.1307500 Bus1=4970.1.2.3 Bus2=4979.1.2.3 Length=0.15779 LineCode=80
+New Line.1306223 Bus1=6166.1.2.3 Bus2=6168.1.2.3 Length=0.20602 LineCode=74
+New Line.11639117 Bus1=3915.1.2 Bus2=3916.1.2 Length=0.09228 LineCode=112
+New Line.1307097 Bus1=5273.1.2.3 Bus2=5409.1.2.3 Length=0.11055 LineCode=74
+New Line.1307447 Bus1=5034.1.2.3 Bus2=5035.1.2.3 Length=0.21636 LineCode=80
+New Line.1308227 Bus1=4368.1.2.3 Bus2=4373.1.2.3 Length=0.003 LineCode=80
+New Line.1308217 Bus1=4375.1.2.3 Bus2=4376.1.2.3 Length=0.27104 LineCode=80
+New Line.1307903 Bus1=4653.1.2.3 Bus2=4654.1.2.3 Length=0.11955 LineCode=80
+New Line.1307487 Bus1=4978.1.2.3 Bus2=4979.1.2.3 Length=0.11052 LineCode=80
+New Line.1306236 Bus1=6167.1.2.3 Bus2=6150.1.2.3 Length=0.00538 LineCode=74
+New Line.1306235 Bus1=6166.1.2.3 Bus2=6169.1.2.3 Length=0.25403 LineCode=74
+New Line.11639116 Bus1=3915.1.2 Bus2=3968.1.2 Length=0.1003 LineCode=112
+New Line.10780968 Bus1=4051.1.2 Bus2=5273.1.2 Length=0.01601 LineCode=83
+New Line.10772384 Bus1=5273.1.2.3 Bus2=5282.1.2.3 Length=0.02862 LineCode=74
+New Line.1307458 Bus1=5026.1.2.3 Bus2=5034.1.2.3 Length=0.2792 LineCode=80
+New Line.1308226 Bus1=4370.1.2.3 Bus2=4375.1.2.3 Length=0.1378 LineCode=80
+New Line.1307858 Bus1=4652.1.2.3 Bus2=4653.1.2.3 Length=0.14467 LineCode=80
+New Line.1307499 Bus1=4978.1.2.3 Bus2=4981.1.2.3 Length=0.27529 LineCode=80
+New Line.1306221 Bus1=6169.1.2.3 Bus2=6170.1.2.3 Length=0.04085 LineCode=74
+New Line.11648491 Bus1=5081.1 Bus2=3968.1 Length=0.0492 LineCode=105
+New Line.10780967 Bus1=4050.1.2 Bus2=4051.1.2 Length=0.01478 LineCode=83
+New Line.1307082 Bus1=5282.1.2.3 Bus2=5412.1.2.3 Length=0.11559 LineCode=74
+New Line.1307457 Bus1=5026.1.2.3 Bus2=5027.1.2.3 Length=0.11138 LineCode=80
+New Line.1308225 Bus1=4369.1.2.3 Bus2=4370.1.2.3 Length=0.11535 LineCode=80
+New Line.1307859 Bus1=4651.1.2.3 Bus2=4652.1.2.3 Length=0.24413 LineCode=80
+New Line.1307486 Bus1=4981.1.2.3 Bus2=4980.1.2.3 Length=0.09049 LineCode=80
+New Line.1306220 Bus1=6172.1.2.3 Bus2=6170.1.2.3 Length=0.18397 LineCode=74
+New Line.11639113 Bus1=3912.1.2 Bus2=3914.1.2 Length=0.11647 LineCode=112
+New Line.11639114 Bus1=3914.1.2 Bus2=3913.1.2 Length=0.04216 LineCode=112
+New Line.1307345 Bus1=5080.1 Bus2=5081.1 Length=0.01126 LineCode=105
+New Line.1306955 Bus1=5411.1.2.3 Bus2=5412.1.2.3 Length=0.14169 LineCode=74
+New Line.1307456 Bus1=5027.1.2.3 Bus2=5037.1.2.3 Length=0.1206 LineCode=80
+New Line.1308228 Bus1=4378.1.2.3 Bus2=4369.1.2.3 Length=0.16387 LineCode=80
+New Line.1307904 Bus1=4651.1.2.3 Bus2=4650.1.2.3 Length=0.10449 LineCode=80
+New Line.1307498 Bus1=4980.1.2.3 Bus2=4983.1.2.3 Length=0.13965 LineCode=80
+New Line.1306219 Bus1=6172.1.2.3 Bus2=6171.1.2.3 Length=0.23445 LineCode=74
+New Line.11639112 Bus1=3911.1.2 Bus2=3912.1.2 Length=0.07691 LineCode=112
+New Line.1307084 Bus1=5411.1.2.3 Bus2=5414.1.2.3 Length=0.15646 LineCode=74
+New Line.1307446 Bus1=5036.1.2.3 Bus2=5037.1.2.3 Length=0.36122 LineCode=80
+New Line.1308216 Bus1=4378.1.2.3 Bus2=4377.1.2.3 Length=0.12624 LineCode=80
+New Line.1307860 Bus1=4649.1.2.3 Bus2=4650.1.2.3 Length=0.1206 LineCode=80
+New Line.1307485 Bus1=4982.1.2.3 Bus2=4983.1.2.3 Length=0.18996 LineCode=80
+New Line.1306234 Bus1=6171.1.2.3 Bus2=6176.1.2.3 Length=0.06737 LineCode=74
+New Line.11639111 Bus1=3911.1.2 Bus2=3967.1.2 Length=0.16289 LineCode=112
+New Line.1306954 Bus1=5413.1.2.3 Bus2=5414.1.2.3 Length=0.04392 LineCode=74
+New Line.1307455 Bus1=5039.1.2.3 Bus2=5036.1.2.3 Length=0.10635 LineCode=80
+New Line.1308224 Bus1=4379.1.2.3 Bus2=4377.1.2.3 Length=0.18806 LineCode=80
+New Line.1307905 Bus1=4648.1.2.3 Bus2=4649.1.2.3 Length=0.27423 LineCode=80
+New Line.1307497 Bus1=4982.1.2.3 Bus2=4985.1.2.3 Length=0.19895 LineCode=80
+New Line.1306216 Bus1=6175.1.2.3 Bus2=6176.1.2.3 Length=0.13259 LineCode=74
+New Line.11648489 Bus1=3967.1 Bus2=5096.1 Length=0.02743 LineCode=105
+New Line.10772383 Bus1=5413.1.2.3 Bus2=4149.1.2.3 Length=0.0483 LineCode=74
+New Line.1307445 Bus1=5038.1.2.3 Bus2=5039.1.2.3 Length=0.12099 LineCode=74
+New Line.1308215 Bus1=4379.1.2.3 Bus2=4382.1.2.3 Length=0.05972 LineCode=80
+New Line.1307861 Bus1=4648.1.2.3 Bus2=4647.1.2.3 Length=0.06931 LineCode=80
+New Line.1307484 Bus1=4984.1.2.3 Bus2=4985.1.2.3 Length=0.15371 LineCode=80
+New Line.1307842 Bus1=6175.1.2.3 Bus2=5570.1.2.3 Length=0.0336 LineCode=74
+New Line.1306218 Bus1=6174.1.2.3 Bus2=6175.1.2.3 Length=0.11525 LineCode=74
+New Line.11639109 Bus1=3909.1.2 Bus2=3910.1.2 Length=0.06 LineCode=112
+New Line.1307316 Bus1=5095.1 Bus2=5096.1 Length=0.01157 LineCode=105
+New Line.10772382 Bus1=4148.1.2.3 Bus2=4149.1.2.3 Length=0.04262 LineCode=74
+New Line.1307454 Bus1=5038.1.2.3 Bus2=5041.1.2.3 Length=0.16835 LineCode=74
+New Line.1308214 Bus1=4380.1.2.3 Bus2=4382.1.2.3 Length=0.16119 LineCode=80
+New Line.1307906 Bus1=4646.1.2.3 Bus2=4647.1.2.3 Length=0.05334 LineCode=80
+New Line.1307496 Bus1=4987.1.2.3 Bus2=4984.1.2.3 Length=0.09646 LineCode=80
+New Line.1306217 Bus1=6173.1.2.3 Bus2=6174.1.2.3 Length=0.15621 LineCode=74
+New Line.11639108 Bus1=3908.1.2 Bus2=3909.1.2 Length=0.05651 LineCode=112
+New Line.10772381 Bus1=4148.1.2.3 Bus2=5281.1.2.3 Length=0.05162 LineCode=74
+New Line.1307444 Bus1=5040.1.2.3 Bus2=5041.1.2.3 Length=0.10926 LineCode=74
+New Line.1308229 Bus1=4367.1.2.3 Bus2=4381.1.2.3 Length=0.00318 LineCode=80
+New Line.10925303 Bus1=3985.1.2.3 Bus2=4380.1.2.3 Length=0.10492 LineCode=80
+New Line.1307862 Bus1=4645.1.2.3 Bus2=4646.1.2.3 Length=0.30493 LineCode=80
+New Line.1307483 Bus1=4986.1.2.3 Bus2=4987.1.2.3 Length=0.20407 LineCode=80
+New Line.1306933 Bus1=5572.1.2.3 Bus2=5571.1.2.3 Length=0.11714 LineCode=74
+New Line.1306361 Bus1=6173.1.2.3 Bus2=6177.1.2.3 Length=0.13969 LineCode=74
+New Line.11639107 Bus1=3907.1.2 Bus2=3908.1.2 Length=0.04972 LineCode=112
+New Line.1307085 Bus1=5303.1.2 Bus2=5281.1.2 Length=0.05558 LineCode=83
+New Line.1307813 Bus1=4685.1.2.3 Bus2=5040.1.2.3 Length=0.33047 LineCode=74
+New Line.10925304 Bus1=3985.1.2.3 Bus2=4384.1.2.3 Length=0.2189 LineCode=80
+New Line.1307887 Bus1=4615.1.2.3 Bus2=4645.1.2.3 Length=0.01138 LineCode=74
+New Line.1307886 Bus1=4616.1.2.3 Bus2=4645.1.2.3 Length=0.05307 LineCode=74
+New Line.1307885 Bus1=4617.1.2.3 Bus2=4645.1.2.3 Length=0.16919 LineCode=74
+New Line.1307495 Bus1=4971.1.2.3 Bus2=4986.1.2.3 Length=0.15576 LineCode=80
+New Line.1306941 Bus1=5571.1.2.3 Bus2=5574.1.2.3 Length=0.1391 LineCode=74
+New Line.1306215 Bus1=6177.1.2.3 Bus2=6179.1.2.3 Length=0.11623 LineCode=74
+New Line.11639106 Bus1=3906.1.2 Bus2=3907.1.2 Length=0.04658 LineCode=112
+New Line.1306953 Bus1=5416.1.3 Bus2=5415.1.3 Length=0.14584 LineCode=93
+New Line.1307054 Bus1=5302.1.2 Bus2=5303.1.2 Length=0.05932 LineCode=83
+New Line.1307812 Bus1=4685.1.2.3 Bus2=4686.1.2.3 Length=0.06159 LineCode=74
+New Line.1308211 Bus1=4384.1.2.3 Bus2=4399.1.2.3 Length=0.22093 LineCode=80
+New Line.1307888 Bus1=4614.1.2.3 Bus2=4615.1.2.3 Length=0.00316 LineCode=74
+New Line.1307892 Bus1=4638.1.2.3 Bus2=4617.1.2.3 Length=0.18043 LineCode=74
+New Line.1307494 Bus1=4971.1.2.3 Bus2=4989.1.2.3 Length=0.09645 LineCode=80
+New Line.1306932 Bus1=5573.1.2.3 Bus2=5574.1.2.3 Length=0.12203 LineCode=74
+New Line.1306214 Bus1=6179.1.2.3 Bus2=6178.1.2.3 Length=0.1529 LineCode=74
+New Line.11639105 Bus1=3905.1.2 Bus2=3906.1.2 Length=0.03719 LineCode=112
+New Line.1307087 Bus1=5415.1.3 Bus2=5418.1.3 Length=0.1543 LineCode=93
+New Line.10772379 Bus1=4147.1.2 Bus2=5302.1.2 Length=0.05206 LineCode=83
+New Line.1307810 Bus1=4686.1.2.3 Bus2=4692.1.2.3 Length=0.11691 LineCode=74
+New Line.1308222 Bus1=4383.1.2.3 Bus2=4372.1.2.3 Length=0.03442 LineCode=80
+New Line.1308199 Bus1=4399.1.2.3 Bus2=4402.1.2.3 Length=0.13865 LineCode=80
+New Line.1307901 Bus1=4607.1.2.3 Bus2=4608.1.2.3 Length=0.11456 LineCode=74
+New Line.1307866 Bus1=4638.1.2.3 Bus2=4640.1.2.3 Length=0.16662 LineCode=74
+New Line.1307482 Bus1=4988.1.2.3 Bus2=4989.1.2.3 Length=0.25316 LineCode=80
+New Line.1306940 Bus1=5576.1.2.3 Bus2=5573.1.2.3 Length=0.13052 LineCode=74
+New Line.1306362 Bus1=5949.1.2.3 Bus2=6178.1.2.3 Length=0.11839 LineCode=74
+New Line.11639104 Bus1=3904.1.2 Bus2=3905.1.2 Length=0.08933 LineCode=112
+New Line.1306952 Bus1=5417.1.3 Bus2=5418.1.3 Length=0.05057 LineCode=93
+New Line.10772380 Bus1=4146.1.2 Bus2=4147.1.2 Length=0.05964 LineCode=83
+New Line.1307809 Bus1=4687.1.2.3 Bus2=4688.1.2.3 Length=0.003 LineCode=74
+New Line.1307805 Bus1=4692.1.2.3 Bus2=4693.1.2.3 Length=0.20536 LineCode=74
+New Line.1308221 Bus1=4371.1.2.3 Bus2=4372.1.2.3 Length=0.00315 LineCode=80
+New Line.1308198 Bus1=4400.1.2.3 Bus2=4402.1.2.3 Length=0.15679 LineCode=80
+New Line.1307900 Bus1=4608.1.2.3 Bus2=4618.1.2.3 Length=0.13877 LineCode=74
+New Line.1307865 Bus1=4640.1.2.3 Bus2=4639.1.2.3 Length=0.1298 LineCode=74
+New Line.1307493 Bus1=4988.1.2.3 Bus2=4991.1.2.3 Length=0.12871 LineCode=80
+New Line.1306931 Bus1=5575.1.2.3 Bus2=5576.1.2.3 Length=0.12292 LineCode=74
+New Line.1306364 Bus1=5948.1.2.3 Bus2=5949.1.2.3 Length=0.11691 LineCode=74
+New Line.11639103 Bus1=3904.1.2 Bus2=3903.1.2 Length=0.04229 LineCode=112
+New Line.1307088 Bus1=5417.1.3 Bus2=5420.1.3 Length=0.18901 LineCode=93
+New Line.10772378 Bus1=4145.1.2 Bus2=4146.1.2 Length=0.06017 LineCode=83
+New Line.1307804 Bus1=4706.1.2.3 Bus2=4693.1.2.3 Length=0.14495 LineCode=74
+New Line.1308208 Bus1=4386.1.2.3 Bus2=4401.1.2.3 Length=0.01847 LineCode=80
+New Line.1308375 Bus1=4400.1.2.3 Bus2=4274.1.2.3 Length=0.17972 LineCode=80
+New Line.1307883 Bus1=4618.1.2.3 Bus2=4621.1.2.3 Length=0.1468 LineCode=74
+New Line.1307891 Bus1=4639.1.2.3 Bus2=4642.1.2.3 Length=0.11686 LineCode=74
+New Line.1307481 Bus1=4990.1.2.3 Bus2=4991.1.2.3 Length=0.16279 LineCode=80
+New Line.1306939 Bus1=5575.1.2.3 Bus2=5569.1.2.3 Length=0.08851 LineCode=74
+New Line.1306213 Bus1=6180.1.2.3 Bus2=6181.1.2.3 Length=0.00317 LineCode=74
+New Line.11639102 Bus1=3902.1.2 Bus2=3903.1.2 Length=0.12708 LineCode=112
+New Line.1306951 Bus1=5419.1.3 Bus2=5420.1.3 Length=0.1751 LineCode=93
+New Line.10772377 Bus1=4144.1.2 Bus2=4145.1.2 Length=0.17026 LineCode=83
+New Line.1307795 Bus1=4706.1.2.3 Bus2=4708.1.2.3 Length=0.18389 LineCode=74
+New Line.1308209 Bus1=4385.1.2.3 Bus2=4386.1.2.3 Length=0.00284 LineCode=80
+New Line.1308374 Bus1=4274.1.2.3 Bus2=4275.1.2.3 Length=0.08794 LineCode=80
+New Line.1307882 Bus1=4620.1.2.3 Bus2=4619.1.2.3 Length=0.00283 LineCode=74
+New Line.1307881 Bus1=4621.1.2.3 Bus2=4623.1.2.3 Length=0.14101 LineCode=74
+New Line.1307864 Bus1=4641.1.2.3 Bus2=4642.1.2.3 Length=0.10251 LineCode=74
+New Line.1307492 Bus1=4993.1.2.3 Bus2=4990.1.2.3 Length=0.22616 LineCode=80
+New Line.1306938 Bus1=5569.1.2.3 Bus2=5588.1.2.3 Length=0.1788 LineCode=74
+New Line.1306212 Bus1=6182.1 Bus2=6183.1 Length=0.18578 LineCode=105
+New Line.11639101 Bus1=3901.1.2 Bus2=3902.1.2 Length=0.06072 LineCode=112
+New Line.1307089 Bus1=5419.1.3 Bus2=5422.1.3 Length=0.09688 LineCode=93
+New Line.10772376 Bus1=4144.1.2 Bus2=5297.1.2 Length=0.16426 LineCode=83
+New Line.1307794 Bus1=4707.1.2.3 Bus2=4708.1.2.3 Length=0.21371 LineCode=74
+New Line.1308207 Bus1=4387.1.2.3 Bus2=4389.1.2.3 Length=0.07851 LineCode=80
+New Line.1308372 Bus1=4275.1.2.3 Bus2=4276.1.2.3 Length=0.07656 LineCode=80
+New Line.1307880 Bus1=4622.1.2.3 Bus2=4623.1.2.3 Length=0.24409 LineCode=74
+New Line.1307889 Bus1=4613.1.2.3 Bus2=4641.1.2.3 Length=0.07646 LineCode=74
+New Line.1307480 Bus1=4992.1.2.3 Bus2=4993.1.2.3 Length=0.26424 LineCode=80
+New Line.1306922 Bus1=5587.1.2.3 Bus2=5588.1.2.3 Length=0.11937 LineCode=74
+New Line.1306366 Bus1=5947.1 Bus2=6182.1 Length=0.12032 LineCode=105
+New Line.11639100 Bus1=3900.1.2 Bus2=3901.1.2 Length=0.10041 LineCode=112
+New Line.1306950 Bus1=5421.1.3 Bus2=5422.1.3 Length=0.11783 LineCode=93
+New Line.1307064 Bus1=5296.1.2 Bus2=5297.1.2 Length=0.05244 LineCode=83
+New Line.1307821 Bus1=4703.1.2.3 Bus2=4707.1.2.3 Length=0.19671 LineCode=74
+New Line.1308206 Bus1=4388.1.2.3 Bus2=4389.1.2.3 Length=0.00284 LineCode=80
+New Line.1308371 Bus1=4276.1.2.3 Bus2=4362.1.2.3 Length=0.09617 LineCode=80
+New Line.1307899 Bus1=4624.1.2.3 Bus2=4622.1.2.3 Length=0.18202 LineCode=74
+New Line.1307863 Bus1=4643.1.2.3 Bus2=4644.1.2.3 Length=0.00301 LineCode=74
+New Line.1307491 Bus1=4994.1.2.3 Bus2=4992.1.2.3 Length=0.07936 LineCode=80
+New Line.1306930 Bus1=5586.1.2.3 Bus2=5587.1.2.3 Length=0.09749 LineCode=74
+New Line.1306367 Bus1=5947.1 Bus2=6184.1 Length=0.15837 LineCode=105
+New Line.11639099 Bus1=3899.1.2 Bus2=3900.1.2 Length=0.08268 LineCode=112
+New Line.1307090 Bus1=5421.1.3 Bus2=5423.1.3 Length=0.08567 LineCode=93
+New Line.10772373 Bus1=4142.1.2 Bus2=5296.1.2 Length=0.06041 LineCode=83
+New Line.1307808 Bus1=4689.1.2.3 Bus2=4690.1.2.3 Length=0.00283 LineCode=74
+New Line.1307797 Bus1=4705.1.2.3 Bus2=4703.1.2.3 Length=0.08896 LineCode=74
+New Line.1308205 Bus1=4391.1.2.3 Bus2=4390.1.2.3 Length=0.003 LineCode=80
+New Line.1308369 Bus1=4277.1.2.3 Bus2=4362.1.2.3 Length=0.1418 LineCode=80
+New Line.1307897 Bus1=4610.1.2 Bus2=4609.1.2 Length=0.00301 LineCode=83
+New Line.1307878 Bus1=4624.1.2.3 Bus2=4628.1.2.3 Length=0.14942 LineCode=74
+New Line.1308044 Bus1=4509.1.2.3 Bus2=4517.1.2.3 Length=0.17072 LineCode=74
+New Line.1307478 Bus1=4994.1.2.3 Bus2=5022.1.2.3 Length=0.11753 LineCode=80
+New Line.1306923 Bus1=5585.1.2.3 Bus2=5586.1.2.3 Length=0.14394 LineCode=74
+New Line.1306211 Bus1=6184.1 Bus2=6186.1 Length=0.08508 LineCode=105
+New Line.11639098 Bus1=3898.1.2 Bus2=3899.1.2 Length=0.1068 LineCode=112
+New Line.1306949 Bus1=5423.1.3 Bus2=5425.1.3 Length=0.14076 LineCode=93
+New Line.10772374 Bus1=4142.1.2 Bus2=4143.1.2 Length=0.06031 LineCode=83
+New Line.1307796 Bus1=4704.1.2.3 Bus2=4705.1.2.3 Length=0.37714 LineCode=74
+New Line.1308232 Bus1=4363.1.2.3 Bus2=4366.1.2.3 Length=0.19249 LineCode=80
+New Line.1308368 Bus1=4393.1.2.3 Bus2=4277.1.2.3 Length=0.06855 LineCode=80
+New Line.1307877 Bus1=4625.1.2.3 Bus2=4626.1.2.3 Length=0.00317 LineCode=74
+New Line.1307876 Bus1=4629.1.2.3 Bus2=4628.1.2.3 Length=0.03395 LineCode=74
+New Line.1307875 Bus1=4628.1.2.3 Bus2=4627.1.2.3 Length=0.23389 LineCode=74
+New Line.1308074 Bus1=4509.1.2.3 Bus2=4510.1.2.3 Length=0.04114 LineCode=74
+New Line.1307477 Bus1=5024.1.2.3 Bus2=4995.1.2.3 Length=0.12598 LineCode=74
+New Line.1307462 Bus1=5021.1.2.3 Bus2=5022.1.2.3 Length=0.13374 LineCode=80
+New Line.1306929 Bus1=5577.1.2.3 Bus2=5585.1.2.3 Length=0.1158 LineCode=74
+New Line.1306210 Bus1=6185.1 Bus2=6186.1 Length=0.09577 LineCode=105
+New Line.11639097 Bus1=3897.1.2 Bus2=3898.1.2 Length=0.0933 LineCode=112
+New Line.1306948 Bus1=5424.1.3 Bus2=5425.1.3 Length=0.04816 LineCode=93
+New Line.10772375 Bus1=5305.1.2 Bus2=4143.1.2 Length=0.05283 LineCode=83
+New Line.1307803 Bus1=4694.1.2.3 Bus2=4704.1.2.3 Length=0.11328 LineCode=74
+New Line.1308230 Bus1=4365.1.2.3 Bus2=4366.1.2.3 Length=0.15474 LineCode=80
+New Line.1308204 Bus1=4392.1.2.3 Bus2=4393.1.2.3 Length=0.08659 LineCode=80
+New Line.1307874 Bus1=4629.1.2.3 Bus2=4631.1.2.3 Length=0.41662 LineCode=74
+New Line.1307896 Bus1=4611.1.2.3 Bus2=4627.1.2.3 Length=0.00301 LineCode=74
+New Line.1308043 Bus1=4510.1.2.3 Bus2=4511.1.2.3 Length=0.10456 LineCode=74
+New Line.1307461 Bus1=5024.1.2.3 Bus2=5023.1.2.3 Length=0.12046 LineCode=74
+New Line.1307613 Bus1=4860.1.2.3 Bus2=5021.1.2.3 Length=0.12315 LineCode=80
+New Line.1306937 Bus1=5577.1.2.3 Bus2=5579.1.2.3 Length=0.14516 LineCode=74
+New Line.1306368 Bus1=6185.1 Bus2=6188.1 Length=0.21417 LineCode=105
+New Line.11639096 Bus1=3896.1.2 Bus2=3897.1.2 Length=0.07442 LineCode=112
+New Line.10772361 Bus1=4136.1.3 Bus2=5424.1.3 Length=0.05091 LineCode=93
+New Line.1307051 Bus1=5304.1.2 Bus2=5305.1.2 Length=0.05403 LineCode=83
+New Line.1307807 Bus1=4694.1.2.3 Bus2=4696.1.2.3 Length=0.15073 LineCode=74
+New Line.1308231 Bus1=4364.1.2.3 Bus2=4365.1.2.3 Length=0.07661 LineCode=80
+New Line.1308367 Bus1=4392.1.2.3 Bus2=4394.1.2.3 Length=0.16233 LineCode=80
+New Line.1307871 Bus1=4631.1.2.3 Bus2=4637.1.2.3 Length=0.2789 LineCode=74
+New Line.1308042 Bus1=4511.1.2.3 Bus2=4514.1.2.3 Length=0.05682 LineCode=74
+New Line.1307644 Bus1=4997.1.2.3 Bus2=5023.1.2.3 Length=0.14068 LineCode=74
+New Line.1307846 Bus1=4846.1.2.3 Bus2=4860.1.2.3 Length=0.20144 LineCode=80
+New Line.1306928 Bus1=5578.1.2.3 Bus2=5579.1.2.3 Length=0.12591 LineCode=74
+New Line.1306209 Bus1=6187.1 Bus2=6188.1 Length=0.18344 LineCode=105
+New Line.11639095 Bus1=3896.1.2 Bus2=3895.1.2 Length=0.11533 LineCode=112
+New Line.10772362 Bus1=4136.1.3 Bus2=4137.1.3 Length=0.05136 LineCode=93
+New Line.10772370 Bus1=5304.1.2 Bus2=4140.1.2 Length=0.05561 LineCode=83
+New Line.1307802 Bus1=4695.1.2.3 Bus2=4696.1.2.3 Length=0.09969 LineCode=74
+New Line.1308241 Bus1=4353.1.2.3 Bus2=4364.1.2.3 Length=0.12969 LineCode=80
+New Line.1308203 Bus1=4394.1.2.3 Bus2=6321.1.2.3 Length=0.07769 LineCode=80
+New Line.1307854 Bus1=4659.1.2 Bus2=4661.1.2 Length=0.15364 LineCode=83
+New Line.1307853 Bus1=4660.1.2.3 Bus2=4661.1.2.3 Length=0.01064 LineCode=74
+New Line.1308073 Bus1=4637.1.2.3 Bus2=4467.1.2.3 Length=0.04828 LineCode=74
+New Line.1307867 Bus1=4636.1.2.3 Bus2=4637.1.2.3 Length=0.04107 LineCode=74
+New Line.1308040 Bus1=4513.1.2.3 Bus2=4514.1.2.3 Length=0.08342 LineCode=74
+New Line.1307476 Bus1=4996.1.2.3 Bus2=4997.1.2.3 Length=0.15202 LineCode=74
+New Line.1307622 Bus1=4862.1.2.3 Bus2=4844.1.2.3 Length=0.07337 LineCode=74
+New Line.1307621 Bus1=4845.1.2.3 Bus2=4846.1.2.3 Length=0.18316 LineCode=80
+New Line.1306936 Bus1=5578.1.2.3 Bus2=5581.1.2.3 Length=0.13181 LineCode=74
+New Line.1306369 Bus1=5946.1 Bus2=6187.1 Length=0.05917 LineCode=105
+New Line.11639094 Bus1=3894.1.2 Bus2=3895.1.2 Length=0.11835 LineCode=112
+New Line.10772363 Bus1=4137.1.3 Bus2=5280.1.3 Length=0.1052 LineCode=93
+New Line.10772371 Bus1=4140.1.2 Bus2=4141.1.2 Length=0.05266 LineCode=83
+New Line.1307806 Bus1=4691.1.2.3 Bus2=4695.1.2.3 Length=0.25338 LineCode=74
+New Line.1308240 Bus1=4353.1.2.3 Bus2=4354.1.2.3 Length=0.14244 LineCode=80
+New Line.1308366 Bus1=4395.1.2.3 Bus2=6321.1.2.3 Length=0.27632 LineCode=80
+New Line.1307895 Bus1=4658.1.2 Bus2=4659.1.2 Length=0.11017 LineCode=83
+New Line.1307873 Bus1=4630.1.2.3 Bus2=4660.1.2.3 Length=0.00283 LineCode=74
+New Line.1307868 Bus1=4635.1.2.3 Bus2=4636.1.2.3 Length=0.00315 LineCode=74
+New Line.1308041 Bus1=4512.1.2.3 Bus2=4513.1.2.3 Length=0.00315 LineCode=74
+New Line.1307643 Bus1=4999.1.2.3 Bus2=4996.1.2.3 Length=0.10187 LineCode=74
+New Line.1307612 Bus1=4862.1.2.3 Bus2=4861.1.2.3 Length=0.00316 LineCode=74
+New Line.1307624 Bus1=4843.1.2.3 Bus2=4845.1.2.3 Length=0.15674 LineCode=80
+New Line.1306927 Bus1=5580.1.2.3 Bus2=5581.1.2.3 Length=0.1361 LineCode=74
+New Line.1306370 Bus1=5945.1 Bus2=5946.1 Length=0.12608 LineCode=105
+New Line.11639093 Bus1=3893.1.2 Bus2=3894.1.2 Length=0.10317 LineCode=112
+New Line.1307091 Bus1=5280.1.3 Bus2=5427.1.3 Length=0.12085 LineCode=93
+New Line.10772372 Bus1=4141.1.2 Bus2=5298.1.2 Length=0.04772 LineCode=83
+New Line.1307820 Bus1=4691.1.2.3 Bus2=4835.1.2.3 Length=0.13463 LineCode=74
+New Line.1308239 Bus1=4354.1.2.3 Bus2=4356.1.2.3 Length=0.09149 LineCode=80
+New Line.10291999 Bus1=4187.1.2.3 Bus2=6320.1.2.3 Length=0.18654 LineCode=74
+New Line.1308202 Bus1=4395.1.2.3 Bus2=6312.1.2.3 Length=0.16454 LineCode=80
+New Line.1307855 Bus1=4657.1.2 Bus2=4658.1.2 Length=0.18634 LineCode=83
+New Line.1308071 Bus1=4469.1.2.3 Bus2=4468.1.2.3 Length=0.22935 LineCode=74
+New Line.1307475 Bus1=4998.1.2.3 Bus2=4999.1.2.3 Length=0.14059 LineCode=74
+New Line.1307625 Bus1=4842.1.2.3 Bus2=4843.1.2.3 Length=0.16019 LineCode=80
+New Line.1306935 Bus1=5580.1.2.3 Bus2=5582.1.2.3 Length=0.16806 LineCode=74
+New Line.1306371 Bus1=5945.1 Bus2=5944.1 Length=0.06169 LineCode=105
+New Line.11639092 Bus1=3892.1.2 Bus2=3893.1.2 Length=0.05702 LineCode=112
+New Line.1306947 Bus1=5426.1.3 Bus2=5427.1.3 Length=0.05056 LineCode=93
+New Line.1307063 Bus1=5300.1.2 Bus2=5298.1.2 Length=0.06062 LineCode=83
+New Line.1307647 Bus1=4835.1.2.3 Bus2=4837.1.2.3 Length=0.19045 LineCode=74
+New Line.1308242 Bus1=4361.1.2.3 Bus2=4356.1.2.3 Length=0.09096 LineCode=80
+New Line.10292000 Bus1=4187.1.2.3 Bus2=4186.1.2.3 Length=0.10598 LineCode=74
+New Line.10356923 Bus1=6311.1.2.3 Bus2=6312.1.2.3 Length=0.04769 LineCode=80
+New Line.1307870 Bus1=4632.1.2 Bus2=4657.1.2 Length=0.08211 LineCode=83
+New Line.1308102 Bus1=4452.1.2.3 Bus2=4468.1.2.3 Length=0.05632 LineCode=74
+New Line.1308101 Bus1=4454.1.2.3 Bus2=4468.1.2.3 Length=0.0557 LineCode=74
+New Line.1308100 Bus1=4455.1.2.3 Bus2=4468.1.2.3 Length=0.09521 LineCode=74
+New Line.1307642 Bus1=4998.1.2.3 Bus2=5001.1.2.3 Length=0.19906 LineCode=74
+New Line.1307627 Bus1=4842.1.2.3 Bus2=4850.1.2.3 Length=0.11971 LineCode=80
+New Line.1306926 Bus1=5582.1.2.3 Bus2=5583.1.2.3 Length=0.21568 LineCode=74
+New Line.1306373 Bus1=5943.1 Bus2=5944.1 Length=0.09521 LineCode=105
+New Line.11639091 Bus1=3892.1.2 Bus2=3966.1.2 Length=0.07665 LineCode=112
+New Line.10772360 Bus1=5279.1.3 Bus2=5426.1.3 Length=0.25876 LineCode=93
+New Line.1307062 Bus1=5300.1.2 Bus2=5299.1.2 Length=0.05297 LineCode=83
+New Line.1307646 Bus1=4836.1.2.3 Bus2=4837.1.2.3 Length=0.1616 LineCode=74
+New Line.1308243 Bus1=4355.1.2.3 Bus2=4358.1.2.3 Length=0.04054 LineCode=80
+New Line.1308234 Bus1=4361.1.2.3 Bus2=4360.1.2.3 Length=0.05745 LineCode=80
+New Line.10292001 Bus1=4185.1.2.3 Bus2=4186.1.2.3 Length=0.07676 LineCode=74
+New Line.10356915 Bus1=6299.1.2.3 Bus2=6310.1.2.3 Length=0.1415 LineCode=74
+New Line.1308365 Bus1=4278.1.2.3 Bus2=6311.1.2.3 Length=0.20245 LineCode=80
+New Line.1307894 Bus1=4632.1.2 Bus2=4634.1.2 Length=0.1549 LineCode=83
+New Line.1308103 Bus1=4451.1.2.3 Bus2=4452.1.2.3 Length=0.00317 LineCode=74
+New Line.1308099 Bus1=4453.1.2.3 Bus2=4454.1.2.3 Length=0.00301 LineCode=74
+New Line.1308098 Bus1=4459.1.2.3 Bus2=4455.1.2.3 Length=0.14814 LineCode=74
+New Line.1307474 Bus1=5000.1.2.3 Bus2=5001.1.2.3 Length=0.14548 LineCode=74
+New Line.1307620 Bus1=4847.1 Bus2=4848.1 Length=0.167 LineCode=105
+New Line.1307619 Bus1=4849.1.2.3 Bus2=4850.1.2.3 Length=0.1406 LineCode=80
+New Line.1306925 Bus1=5584.1.2.3 Bus2=5583.1.2.3 Length=0.23038 LineCode=74
+New Line.1306208 Bus1=6189.1 Bus2=6190.1 Length=0.09287 LineCode=105
+New Line.1306374 Bus1=5943.1 Bus2=5952.1 Length=0.27635 LineCode=105
+New Line.11648487 Bus1=3965.1.2 Bus2=3966.1.2 Length=0.14991 LineCode=83
+New Line.1307092 Bus1=5278.1.3 Bus2=5279.1.3 Length=0.038 LineCode=93
+New Line.10772369 Bus1=5299.1.2 Bus2=4139.1.2 Length=0.06075 LineCode=83
+New Line.1307819 Bus1=4678.1.2.3 Bus2=4836.1.2.3 Length=0.13118 LineCode=74
+New Line.1308237 Bus1=4357.1.2.3 Bus2=4358.1.2.3 Length=0.06966 LineCode=80
+New Line.1308235 Bus1=4360.1.2.3 Bus2=4359.1.2.3 Length=0.00608 LineCode=74
+New Line.10292002 Bus1=4184.1.2.3 Bus2=4185.1.2.3 Length=0.01618 LineCode=74
+New Line.10356914 Bus1=6299.1.2.3 Bus2=6300.1.2.3 Length=0.28993 LineCode=74
+New Line.1308364 Bus1=4426.1.2.3 Bus2=4278.1.2.3 Length=0.16834 LineCode=80
+New Line.1307869 Bus1=4634.1.2 Bus2=4633.1.2 Length=0.12187 LineCode=83
+New Line.1308095 Bus1=4458.1.2.3 Bus2=4459.1.2.3 Length=0.06342 LineCode=74
+New Line.1308094 Bus1=4459.1.2.3 Bus2=4470.1.2.3 Length=0.05624 LineCode=74
+New Line.1307641 Bus1=5000.1.2.3 Bus2=5003.1.2.3 Length=0.16458 LineCode=74
+New Line.1307631 Bus1=4847.1 Bus2=4855.1 Length=0.12272 LineCode=105
+New Line.1307628 Bus1=4849.1.2.3 Bus2=4852.1.2.3 Length=0.17219 LineCode=80
+New Line.1306924 Bus1=5584.1.2.3 Bus2=5589.1.2.3 Length=0.15041 LineCode=74
+New Line.1306375 Bus1=5942.1 Bus2=6189.1 Length=0.01258 LineCode=105
+New Line.1306355 Bus1=5951.1 Bus2=5952.1 Length=0.12468 LineCode=105
+New Line.11639087 Bus1=3965.1.2 Bus2=3890.1.2 Length=0.05487 LineCode=112
+New Line.11639088 Bus1=3965.1.2 Bus2=3891.1.2 Length=0.08943 LineCode=112
+New Line.1307093 Bus1=5278.1.3 Bus2=5286.1.3 Length=0.0286 LineCode=93
+New Line.10772368 Bus1=4139.1.2 Bus2=5307.1.2 Length=0.05645 LineCode=83
+New Line.1307818 Bus1=4678.1.2.3 Bus2=4839.1.2.3 Length=0.26436 LineCode=74
+New Line.10292003 Bus1=4183.1.2.3 Bus2=4184.1.2.3 Length=0.03231 LineCode=74
+New Line.10356913 Bus1=6300.1.2.3 Bus2=6301.1.2.3 Length=0.12169 LineCode=74
+New Line.1308201 Bus1=4396.1.2.3 Bus2=4398.1.2.3 Length=0.08832 LineCode=80
+New Line.1308136 Bus1=4426.1.2.3 Bus2=4427.1.2.3 Length=0.10681 LineCode=80
+New Line.1307893 Bus1=4612.1.2 Bus2=4633.1.2 Length=0.06877 LineCode=83
+New Line.1308070 Bus1=4470.1.2.3 Bus2=4471.1.2.3 Length=0.13253 LineCode=74
+New Line.1307473 Bus1=5002.1.2.3 Bus2=5003.1.2.3 Length=0.1429 LineCode=74
+New Line.1307616 Bus1=4855.1 Bus2=4857.1 Length=0.19826 LineCode=105
+New Line.1307618 Bus1=4851.1.2.3 Bus2=4852.1.2.3 Length=0.02414 LineCode=80
+New Line.1306921 Bus1=5589.1.2.3 Bus2=5596.1.2.3 Length=0.14836 LineCode=74
+New Line.1306360 Bus1=5951.1 Bus2=6084.1 Length=0.17728 LineCode=105
+New Line.11639086 Bus1=3889.1.2 Bus2=3890.1.2 Length=0.17076 LineCode=112
+New Line.11639084 Bus1=3887.1.2 Bus2=3891.1.2 Length=0.06484 LineCode=112
+New Line.1307079 Bus1=5285.1.3 Bus2=5286.1.3 Length=0.07048 LineCode=93
+New Line.1307050 Bus1=5307.1.2 Bus2=5306.1.2 Length=0.20147 LineCode=83
+New Line.1307645 Bus1=4838.1.2.3 Bus2=4839.1.2.3 Length=0.2689 LineCode=74
+New Line.10356912 Bus1=6301.1.3 Bus2=6302.1.3 Length=0.1115 LineCode=93
+New Line.1308200 Bus1=4397.1.2.3 Bus2=4398.1.2.3 Length=0.00317 LineCode=80
+New Line.1308135 Bus1=4429.1.2.3 Bus2=4427.1.2.3 Length=0.24634 LineCode=80
+New Line.1308097 Bus1=4456.1.2.3 Bus2=4457.1.2.3 Length=0.00317 LineCode=74
+New Line.1308069 Bus1=4471.1.2.3 Bus2=4472.1.2.3 Length=0.08768 LineCode=74
+New Line.1307640 Bus1=5002.1.2.3 Bus2=5005.1.2.3 Length=0.11594 LineCode=74
+New Line.1307615 Bus1=4856.1 Bus2=4857.1 Length=0.14497 LineCode=105
+New Line.1306906 Bus1=5596.1.2.3 Bus2=5597.1.2.3 Length=0.13536 LineCode=74
+New Line.1306905 Bus1=5595.1.2 Bus2=5596.1.2 Length=0.05267 LineCode=83
+New Line.1306289 Bus1=6084.1 Bus2=6086.1 Length=0.13224 LineCode=105
+New Line.11639085 Bus1=3888.1.2 Bus2=3889.1.2 Length=0.0316 LineCode=112
+New Line.11639083 Bus1=3887.1.2 Bus2=3886.1.2 Length=0.12572 LineCode=112
+New Line.10772355 Bus1=4134.1.3 Bus2=5285.1.3 Length=0.05864 LineCode=93
+New Line.1307061 Bus1=5306.1.2 Bus2=5309.1.2 Length=0.13792 LineCode=83
+New Line.1307817 Bus1=4680.1.2.3 Bus2=4838.1.2.3 Length=0.21066 LineCode=74
+New Line.10356911 Bus1=6302.1.3 Bus2=6303.1.3 Length=0.15646 LineCode=93
+New Line.1308134 Bus1=4428.1.2.3 Bus2=4429.1.2.3 Length=0.21813 LineCode=80
+New Line.1308068 Bus1=4472.1.2.3 Bus2=4474.1.2.3 Length=0.08419 LineCode=74
+New Line.1307472 Bus1=5004.1.2.3 Bus2=5005.1.2.3 Length=0.12104 LineCode=74
+New Line.1307632 Bus1=4856.1 Bus2=4859.1 Length=0.11608 LineCode=105
+New Line.1307617 Bus1=4853.1.2.3 Bus2=4854.1.2.3 Length=0.08816 LineCode=80
+New Line.1306904 Bus1=5597.1.2.3 Bus2=5618.1.2.3 Length=0.14544 LineCode=74
+New Line.1306359 Bus1=5955.1 Bus2=5953.1 Length=0.161 LineCode=105
+New Line.1306288 Bus1=6085.1 Bus2=6086.1 Length=0.25398 LineCode=105
+New Line.11639082 Bus1=3885.1.2 Bus2=3886.1.2 Length=0.05919 LineCode=112
+New Line.10772356 Bus1=4133.1.3 Bus2=4134.1.3 Length=0.05632 LineCode=93
+New Line.1307049 Bus1=5308.1.2 Bus2=5309.1.2 Length=0.07757 LineCode=83
+New Line.1307816 Bus1=4679.1.2.3 Bus2=4680.1.2.3 Length=0.10112 LineCode=74
+New Line.10356910 Bus1=6303.1.3 Bus2=6304.1.3 Length=0.10242 LineCode=93
+New Line.1308139 Bus1=4425.1.2.3 Bus2=4428.1.2.3 Length=0.14716 LineCode=80
+New Line.1308067 Bus1=4473.1.2.3 Bus2=4474.1.2.3 Length=0.21281 LineCode=74
+New Line.1307639 Bus1=5007.1.2.3 Bus2=5004.1.2.3 Length=0.15512 LineCode=74
+New Line.1307614 Bus1=4858.1 Bus2=4859.1 Length=0.00367 LineCode=105
+New Line.1307630 Bus1=4841.1.2.3 Bus2=4853.1.2.3 Length=0.00316 LineCode=80
+New Line.1306891 Bus1=5617.1.2.3 Bus2=5618.1.2.3 Length=0.0784 LineCode=74
+New Line.1306903 Bus1=5599.1.2 Bus2=5598.1.2 Length=0.17536 LineCode=83
+New Line.1306353 Bus1=5955.1 Bus2=5954.1 Length=0.095 LineCode=105
+New Line.1306310 Bus1=6088.1 Bus2=6085.1 Length=0.11216 LineCode=105
+New Line.11639081 Bus1=3884.1.2 Bus2=3885.1.2 Length=0.06161 LineCode=112
+New Line.10772779 Bus1=3989.1.3 Bus2=4133.1.3 Length=0.05775 LineCode=93
+New Line.1307060 Bus1=5308.1.2 Bus2=5312.1.2 Length=0.13802 LineCode=83
+New Line.1307828 Bus1=4679.1.2.3 Bus2=4682.1.2.3 Length=0.14092 LineCode=74
+New Line.10356909 Bus1=6304.1.3 Bus2=6305.1.3 Length=0.32416 LineCode=93
+New Line.10394796 Bus1=4425.1.2.3 Bus2=4431.1.2.3 Length=0.05975 LineCode=80
+New Line.3313078 Bus1=4460.1.2.3 Bus2=4473.1.2.3 Length=0.21645 LineCode=74
+New Line.1307471 Bus1=5006.1.2.3 Bus2=5007.1.2.3 Length=0.14754 LineCode=74
+New Line.1306892 Bus1=5619.1.2.3 Bus2=5617.1.2.3 Length=0.11105 LineCode=74
+New Line.1306919 Bus1=5598.1.2 Bus2=5601.1.2 Length=0.21933 LineCode=83
+New Line.1306358 Bus1=5954.1 Bus2=5957.1 Length=0.09496 LineCode=105
+New Line.1306287 Bus1=6088.1 Bus2=6090.1 Length=0.16445 LineCode=105
+New Line.11639080 Bus1=3883.1.2 Bus2=3884.1.2 Length=0.06105 LineCode=112
+New Line.10772780 Bus1=3989.1.3 Bus2=3990.1.3 Length=0.04213 LineCode=93
+New Line.1307048 Bus1=5310.1.2 Bus2=5312.1.2 Length=0.05177 LineCode=83
+New Line.1307047 Bus1=5311.1.2 Bus2=5312.1.2 Length=0.04711 LineCode=83
+New Line.1307815 Bus1=4682.1.2.3 Bus2=4681.1.2.3 Length=0.22963 LineCode=74
+New Line.10356908 Bus1=6306.1.3 Bus2=6305.1.3 Length=0.08547 LineCode=93
+New Line.1308133 Bus1=4430.1.2.3 Bus2=4431.1.2.3 Length=0.13987 LineCode=80
+New Line.1308093 Bus1=4460.1.2.3 Bus2=4461.1.2.3 Length=0.04727 LineCode=74
+New Line.1307638 Bus1=5009.1.2.3 Bus2=5006.1.2.3 Length=0.14816 LineCode=74
+New Line.1306890 Bus1=5619.1.2.3 Bus2=5620.1.2.3 Length=0.08799 LineCode=74
+New Line.1306902 Bus1=5600.1.2 Bus2=5601.1.2 Length=0.13388 LineCode=83
+New Line.1306352 Bus1=5957.1 Bus2=5956.1 Length=0.06252 LineCode=105
+New Line.1306309 Bus1=5999.1 Bus2=6087.1 Length=0.00631 LineCode=105
+New Line.1306285 Bus1=6089.1 Bus2=6090.1 Length=0.1138 LineCode=105
+New Line.11639079 Bus1=3882.1.2 Bus2=3883.1.2 Length=0.0499 LineCode=112
+New Line.10772781 Bus1=3991.1.3 Bus2=3990.1.3 Length=0.07383 LineCode=93
+New Line.10772366 Bus1=4138.1.2 Bus2=5311.1.2 Length=0.06084 LineCode=83
+New Line.1307827 Bus1=4681.1.2.3 Bus2=4684.1.2.3 Length=0.25443 LineCode=74
+New Line.10356907 Bus1=6306.1.3 Bus2=6307.1.3 Length=0.20634 LineCode=93
+New Line.1308138 Bus1=4430.1.2.3 Bus2=4432.1.2.3 Length=0.14129 LineCode=80
+New Line.1308092 Bus1=4476.1.2.3 Bus2=4461.1.2.3 Length=0.13515 LineCode=74
+New Line.1307470 Bus1=5008.1.2.3 Bus2=5009.1.2.3 Length=0.1529 LineCode=74
+New Line.1306889 Bus1=5620.1.2.3 Bus2=5621.1.2.3 Length=0.10459 LineCode=74
+New Line.1306918 Bus1=5600.1.2 Bus2=5603.1.2 Length=0.10735 LineCode=83
+New Line.1306357 Bus1=5956.1 Bus2=5959.1 Length=0.13316 LineCode=105
+New Line.1306308 Bus1=6089.1 Bus2=6092.1 Length=0.08446 LineCode=105
+New Line.11639078 Bus1=3882.1.2 Bus2=3881.1.2 Length=0.03738 LineCode=112
+New Line.10772782 Bus1=5277.1.3 Bus2=3991.1.3 Length=0.07103 LineCode=109
+New Line.10772364 Bus1=5314.1.2 Bus2=5301.1.2 Length=0.11585 LineCode=83
+New Line.10772367 Bus1=4138.1.2 Bus2=5315.1.2 Length=0.05839 LineCode=83
+New Line.1307814 Bus1=4683.1.2.3 Bus2=4684.1.2.3 Length=0.14008 LineCode=74
+New Line.10356906 Bus1=6307.1.3 Bus2=6309.1.3 Length=0.04153 LineCode=93
+New Line.1308132 Bus1=4432.1.2.3 Bus2=6315.1.2.3 Length=0.14149 LineCode=80
+New Line.1308066 Bus1=4476.1.2.3 Bus2=4475.1.2.3 Length=0.14098 LineCode=74
+New Line.1307637 Bus1=5008.1.2.3 Bus2=5011.1.2.3 Length=0.11635 LineCode=74
+New Line.1306888 Bus1=5621.1.2.3 Bus2=5622.1.2.3 Length=0.18325 LineCode=74
+New Line.1306901 Bus1=5602.1.2 Bus2=5603.1.2 Length=0.13239 LineCode=83
+New Line.1306351 Bus1=5958.1 Bus2=5959.1 Length=0.04322 LineCode=105
+New Line.1306284 Bus1=6091.1 Bus2=6092.1 Length=0.18457 LineCode=105
+New Line.11639077 Bus1=3881.1.2 Bus2=3880.1.2 Length=0.04205 LineCode=112
+New Line.1307095 Bus1=5277.1.3 Bus2=5276.1.3 Length=0.03867 LineCode=109
+New Line.1307046 Bus1=5314.1.2 Bus2=5313.1.2 Length=0.02148 LineCode=83
+New Line.1307045 Bus1=5317.1.2 Bus2=5315.1.2 Length=0.08485 LineCode=83
+New Line.1307826 Bus1=4683.1.2.3 Bus2=4698.1.2.3 Length=0.22448 LineCode=74
+New Line.10356905 Bus1=6308.1.3 Bus2=6309.1.3 Length=0.02507 LineCode=93
+New Line.10386593 Bus1=6315.1.2.3 Bus2=6316.1.2.3 Length=0.0926 LineCode=80
+New Line.1308091 Bus1=4477.1.2.3 Bus2=4475.1.2.3 Length=0.23501 LineCode=74
+New Line.1307469 Bus1=5010.1.2.3 Bus2=5011.1.2.3 Length=0.09743 LineCode=74
+New Line.1306887 Bus1=5622.1.2.3 Bus2=5624.1.2.3 Length=0.16483 LineCode=74
+New Line.1306917 Bus1=5602.1.2 Bus2=5604.1.2 Length=0.1121 LineCode=83
+New Line.1306356 Bus1=5950.1 Bus2=5958.1 Length=0.00809 LineCode=105
+New Line.1306307 Bus1=6091.1 Bus2=6095.1 Length=0.15868 LineCode=105
+New Line.11639075 Bus1=3878.1.2 Bus2=3880.1.2 Length=0.0673 LineCode=112
+New Line.11639076 Bus1=3879.1.2 Bus2=3880.1.2 Length=0.05063 LineCode=112
+New Line.10772359 Bus1=5276.1.3 Bus2=5275.1.3 Length=0.05987 LineCode=109
+New Line.1307042 Bus1=5316.1.2 Bus2=5317.1.2 Length=0.13402 LineCode=83
+New Line.1307801 Bus1=4697.1.2.3 Bus2=4698.1.2.3 Length=0.10904 LineCode=74
+New Line.10386592 Bus1=6316.1.2.3 Bus2=6319.1.2.3 Length=0.04703 LineCode=80
+New Line.1308065 Bus1=4477.1.2.3 Bus2=4480.1.2.3 Length=0.12049 LineCode=74
+New Line.1307636 Bus1=5010.1.2.3 Bus2=5013.1.2.3 Length=0.11302 LineCode=74
+New Line.1307747 Bus1=4881.1.2.3 Bus2=5624.1.2.3 Length=0.12888 LineCode=74
+New Line.1306900 Bus1=5604.1.2 Bus2=5606.1.2 Length=0.23119 LineCode=83
+New Line.1306282 Bus1=6094.1 Bus2=6095.1 Length=0.18454 LineCode=105
+New Line.11639062 Bus1=3866.1.2 Bus2=3878.1.2 Length=0.06702 LineCode=112
+New Line.1307096 Bus1=5274.1.3 Bus2=5275.1.3 Length=0.07027 LineCode=93
+New Line.10781036 Bus1=4123.1.2 Bus2=5316.1.2 Length=0.05015 LineCode=83
+New Line.1307825 Bus1=4697.1.2.3 Bus2=4700.1.2.3 Length=0.36929 LineCode=74
+New Line.10386589 Bus1=6318.1.2.3 Bus2=6319.1.2.3 Length=0.04261 LineCode=80
+New Line.1308064 Bus1=4478.1.2.3 Bus2=4480.1.2.3 Length=0.11267 LineCode=74
+New Line.1308063 Bus1=4479.1.2.3 Bus2=4480.1.2.3 Length=0.04819 LineCode=74
+New Line.1307468 Bus1=5013.1.2.3 Bus2=5015.1.2.3 Length=0.0986 LineCode=74
+New Line.1307744 Bus1=4744.1.2.3 Bus2=5623.1.2.3 Length=0.1469 LineCode=74
+New Line.1307595 Bus1=4880.1.2.3 Bus2=4881.1.2.3 Length=0.1075 LineCode=74
+New Line.1306899 Bus1=5606.1.2 Bus2=5605.1.2 Length=0.15141 LineCode=83
+New Line.1306306 Bus1=6093.1 Bus2=6097.1 Length=0.06412 LineCode=105
+New Line.1306304 Bus1=6094.1 Bus2=6000.1 Length=0.12323 LineCode=105
+New Line.11648485 Bus1=3964.1 Bus2=5083.1 Length=0.07099 LineCode=105
+New Line.11639061 Bus1=3865.1.2 Bus2=3866.1.2 Length=0.0433 LineCode=112
+New Line.11639073 Bus1=3876.1.2 Bus2=3877.1.2 Length=0.08012 LineCode=112
+New Line.10772357 Bus1=5274.1.3 Bus2=5284.1.3 Length=0.151 LineCode=93
+New Line.10780964 Bus1=4123.1.2 Bus2=4122.1.2 Length=0.04412 LineCode=83
+New Line.1307800 Bus1=4699.1.2.3 Bus2=4700.1.2.3 Length=0.14127 LineCode=74
+New Line.10386595 Bus1=6313.1.3 Bus2=6314.1.3 Length=0.05149 LineCode=116
+New Line.10386591 Bus1=6317.1.2.3 Bus2=6318.1.2.3 Length=0.11155 LineCode=80
+New Line.1308089 Bus1=4478.1.2.3 Bus2=4482.1.2.3 Length=0.09466 LineCode=74
+New Line.1308090 Bus1=4462.1.2.3 Bus2=4479.1.2.3 Length=0.00283 LineCode=74
+New Line.1307606 Bus1=5012.1 Bus2=4869.1 Length=0.26219 LineCode=105
+New Line.1307466 Bus1=5015.1.2.3 Bus2=5014.1.2.3 Length=0.04029 LineCode=74
+New Line.1307737 Bus1=4744.1.2.3 Bus2=4899.1.2.3 Length=0.29926 LineCode=74
+New Line.1307746 Bus1=4880.1.2.3 Bus2=4882.1.2.3 Length=0.11135 LineCode=80
+New Line.1306916 Bus1=5591.1.2 Bus2=5605.1.2 Length=0.18513 LineCode=83
+New Line.1306281 Bus1=6096.1 Bus2=6097.1 Length=0.00391 LineCode=105
+New Line.1306280 Bus1=6098.1 Bus2=6099.1 Length=0.00301 LineCode=105
+New Line.1306303 Bus1=6000.1 Bus2=6101.1 Length=0.12255 LineCode=105
+New Line.11639068 Bus1=3872.1.2 Bus2=3873.1.2 Length=0.0654 LineCode=112
+New Line.1307337 Bus1=5082.1 Bus2=5083.1 Length=0.00978 LineCode=105
+New Line.11639060 Bus1=3864.1.2 Bus2=3865.1.2 Length=0.03494 LineCode=112
+New Line.11639072 Bus1=3875.1.2 Bus2=3876.1.2 Length=0.07072 LineCode=112
+New Line.1307080 Bus1=5283.1.3 Bus2=5284.1.3 Length=0.02222 LineCode=93
+New Line.10780966 Bus1=4049.1.2 Bus2=4122.1.2 Length=0.01731 LineCode=83
+New Line.10781035 Bus1=4121.1.2 Bus2=4122.1.2 Length=0.0805 LineCode=83
+New Line.1307824 Bus1=4702.1.2.3 Bus2=4699.1.2.3 Length=0.13295 LineCode=74
+New Line.1308130 Bus1=4434.1.2.3 Bus2=6317.1.2.3 Length=0.15468 LineCode=80
+New Line.1308062 Bus1=4482.1.2.3 Bus2=4481.1.2.3 Length=0.04251 LineCode=74
+New Line.1307605 Bus1=4868.1 Bus2=4869.1 Length=0.25958 LineCode=105
+New Line.1307635 Bus1=5014.1.2.3 Bus2=5017.1.2.3 Length=0.03807 LineCode=74
+New Line.1307576 Bus1=4898.1.2.3 Bus2=4899.1.2.3 Length=0.1843 LineCode=74
+New Line.1307594 Bus1=4882.1.2.3 Bus2=4884.1.2.3 Length=0.03399 LineCode=74
+New Line.1307593 Bus1=4882.1.2.3 Bus2=4901.1.2.3 Length=0.17691 LineCode=80
+New Line.1306915 Bus1=5590.1.2 Bus2=5591.1.2 Length=0.13078 LineCode=83
+New Line.1306279 Bus1=6101.1 Bus2=6100.1 Length=0.07145 LineCode=105
+New Line.11639067 Bus1=3871.1.2 Bus2=3872.1.2 Length=0.01867 LineCode=112
+New Line.11639059 Bus1=3864.1.2 Bus2=3863.1.2 Length=0.04348 LineCode=112
+New Line.11639071 Bus1=3875.1.2 Bus2=3874.1.2 Length=0.06891 LineCode=112
+New Line.10772358 Bus1=5283.1.3 Bus2=4135.1.3 Length=0.01985 LineCode=93
+New Line.10780965 Bus1=4048.1.2 Bus2=4049.1.2 Length=0.01428 LineCode=83
+New Line.10780909 Bus1=3998.1.2 Bus2=4121.1.2 Length=0.09847 LineCode=83
+New Line.1307799 Bus1=4702.1.2.3 Bus2=4701.1.2.3 Length=0.18009 LineCode=74
+New Line.1308129 Bus1=4433.1.2.3 Bus2=4434.1.2.3 Length=0.20483 LineCode=80
+New Line.1308088 Bus1=4481.1.2.3 Bus2=4483.1.2.3 Length=0.23957 LineCode=74
+New Line.1308306 Bus1=4863.1 Bus2=4868.1 Length=0.10352 LineCode=105
+New Line.1307465 Bus1=5016.1.2.3 Bus2=5017.1.2.3 Length=0.0474 LineCode=74
+New Line.1307736 Bus1=4898.1.2.3 Bus2=4745.1.2.3 Length=0.13639 LineCode=74
+New Line.1307575 Bus1=4900.1.2.3 Bus2=4901.1.2.3 Length=0.21471 LineCode=80
+New Line.1307841 Bus1=5590.1.2 Bus2=5608.1.2 Length=0.13865 LineCode=83
+New Line.1306302 Bus1=6100.1 Bus2=6103.1 Length=0.21491 LineCode=105
+New Line.11639066 Bus1=3870.1.2 Bus2=3871.1.2 Length=0.04534 LineCode=112
+New Line.11639058 Bus1=3862.1.2 Bus2=3863.1.2 Length=0.09386 LineCode=112
+New Line.10780908 Bus1=3997.1.2 Bus2=3998.1.2 Length=0.08941 LineCode=83
+New Line.1307823 Bus1=4701.1.2.3 Bus2=5028.1.2.3 Length=0.19313 LineCode=74
+New Line.1308299 Bus1=4300.1.2.3 Bus2=4433.1.2.3 Length=0.1564 LineCode=80
+New Line.1308061 Bus1=4486.1.2.3 Bus2=4483.1.2.3 Length=0.09037 LineCode=74
+New Line.1307611 Bus1=4863.1 Bus2=4864.1 Length=0.17391 LineCode=105
+New Line.1307634 Bus1=5016.1.2.3 Bus2=5018.1.2.3 Length=0.05627 LineCode=74
+New Line.1307743 Bus1=4745.1.2.3 Bus2=4747.1.2.3 Length=0.03005 LineCode=74
+New Line.1307742 Bus1=4745.1.2 Bus2=4743.1.2 Length=0.05482 LineCode=83
+New Line.1307745 Bus1=4742.1.2.3 Bus2=4883.1.2.3 Length=0.00316 LineCode=74
+New Line.1307591 Bus1=4885.1.2.3 Bus2=4900.1.2.3 Length=0.09398 LineCode=80
+New Line.1306898 Bus1=5608.1.2 Bus2=5607.1.2 Length=0.22616 LineCode=83
+New Line.1306278 Bus1=6103.1 Bus2=6105.1 Length=0.12303 LineCode=105
+New Line.11639065 Bus1=3869.1.2 Bus2=3870.1.2 Length=0.0411 LineCode=112
+New Line.11639057 Bus1=3861.1.2 Bus2=3862.1.2 Length=0.0589 LineCode=112
+New Line.10780907 Bus1=4047.1.2 Bus2=3997.1.2 Length=0.14213 LineCode=83
+New Line.1307453 Bus1=5028.1.2.3 Bus2=5052.1.2.3 Length=0.11118 LineCode=74
+New Line.1308298 Bus1=4298.1.2.3 Bus2=4299.1.2.3 Length=0.00282 LineCode=74
+New Line.1308297 Bus1=4300.1.2.3 Bus2=4301.1.2.3 Length=0.1262 LineCode=80
+New Line.1308059 Bus1=4484.1.2.3 Bus2=4485.1.2.3 Length=0.00317 LineCode=74
+New Line.1308058 Bus1=4486.1.2.3 Bus2=4516.1.2.3 Length=0.17508 LineCode=74
+New Line.1307610 Bus1=4864.1 Bus2=4865.1 Length=0.18834 LineCode=105
+New Line.1307464 Bus1=5018.1.2.3 Bus2=5020.1.2.3 Length=0.04043 LineCode=74
+New Line.1307735 Bus1=4747.1.2.3 Bus2=4746.1.2.3 Length=0.00315 LineCode=74
+New Line.1307590 Bus1=4903.1.2.3 Bus2=4885.1.2.3 Length=0.10229 LineCode=80
+New Line.1306914 Bus1=5607.1.2 Bus2=5592.1.2 Length=0.09783 LineCode=83
+New Line.1306301 Bus1=6066.1 Bus2=6102.1 Length=0.00499 LineCode=105
+New Line.1306276 Bus1=6104.1 Bus2=6105.1 Length=0.1391 LineCode=105
+New Line.11639064 Bus1=3868.1.2 Bus2=3869.1.2 Length=0.03935 LineCode=112
+New Line.11639056 Bus1=3860.1.2 Bus2=3861.1.2 Length=0.04898 LineCode=112
+New Line.10780963 Bus1=4120.1.2 Bus2=4047.1.2 Length=0.06058 LineCode=83
+New Line.1307434 Bus1=5052.1.2.3 Bus2=5051.1.2.3 Length=0.18795 LineCode=74
+New Line.1308296 Bus1=4301.1.2.3 Bus2=4437.1.2.3 Length=0.12691 LineCode=80
+New Line.1308039 Bus1=4515.1.2.3 Bus2=4516.1.2.3 Length=0.10331 LineCode=74
+New Line.1307609 Bus1=4865.1 Bus2=4866.1 Length=0.10814 LineCode=105
+New Line.1307463 Bus1=5019.1.2.3 Bus2=5020.1.2.3 Length=0.03824 LineCode=74
+New Line.1307734 Bus1=4748.1.2 Bus2=4749.1.2 Length=0.13748 LineCode=83
+New Line.1307574 Bus1=4902.1.2.3 Bus2=4903.1.2.3 Length=0.14172 LineCode=80
+New Line.1306913 Bus1=5592.1.2 Bus2=5610.1.2 Length=0.22757 LineCode=83
+New Line.1306329 Bus1=5966.1 Bus2=6104.1 Length=0.07378 LineCode=105
+New Line.11639063 Bus1=3867.1.2 Bus2=3868.1.2 Length=0.0359 LineCode=112
+New Line.11639055 Bus1=3859.1.2 Bus2=3860.1.2 Length=0.02708 LineCode=112
+New Line.10781034 Bus1=4119.1.2 Bus2=4120.1.2 Length=0.15027 LineCode=83
+New Line.1307435 Bus1=5050.1.2.3 Bus2=5051.1.2.3 Length=0.12534 LineCode=74
+New Line.1308127 Bus1=4436.1.2.3 Bus2=4437.1.2.3 Length=0.11178 LineCode=80
+New Line.1308057 Bus1=4487.1.2.3 Bus2=4515.1.2.3 Length=0.0819 LineCode=74
+New Line.1307608 Bus1=4866.1 Bus2=4867.1 Length=0.17206 LineCode=105
+New Line.1307633 Bus1=5019.1.2.3 Bus2=4840.1.2.3 Length=0.00316 LineCode=74
+New Line.1307740 Bus1=4748.1.2 Bus2=4751.1.2 Length=0.10103 LineCode=83
+New Line.1307589 Bus1=4902.1.2.3 Bus2=4904.1.2.3 Length=0.08173 LineCode=80
+New Line.1306349 Bus1=5965.1 Bus2=5966.1 Length=0.22149 LineCode=105
+New Line.11639054 Bus1=3858.1.2 Bus2=3859.1.2 Length=0.06066 LineCode=112
+New Line.10780962 Bus1=4046.1.2 Bus2=4119.1.2 Length=0.05133 LineCode=83
+New Line.1307451 Bus1=5029.1.2.3 Bus2=5054.1.2.3 Length=0.12267 LineCode=74
+New Line.1308295 Bus1=4439.1.2.3 Bus2=4435.1.2.3 Length=0.05524 LineCode=74
+New Line.1308294 Bus1=4302.1.2.3 Bus2=4436.1.2.3 Length=0.22374 LineCode=80
+New Line.1308087 Bus1=4463.1.2.3 Bus2=4487.1.2.3 Length=0.16546 LineCode=74
+New Line.1307607 Bus1=4870.1 Bus2=4867.1 Length=0.09108 LineCode=105
+New Line.1307733 Bus1=4750.1.2 Bus2=4751.1.2 Length=0.09434 LineCode=83
+New Line.1307573 Bus1=4904.1.2.3 Bus2=4906.1.2.3 Length=0.16589 LineCode=80
+New Line.1306912 Bus1=5609.1.2 Bus2=5626.1.2 Length=0.05833 LineCode=83
+New Line.1306350 Bus1=5960.1 Bus2=5961.1 Length=0.005 LineCode=105
+New Line.1306330 Bus1=5964.1 Bus2=5965.1 Length=0.18218 LineCode=105
+New Line.11639053 Bus1=3858.1.2 Bus2=3963.1.2 Length=0.06058 LineCode=112
+New Line.10780960 Bus1=4044.1.2 Bus2=4046.1.2 Length=0.06096 LineCode=83
+New Line.1307433 Bus1=5053.1.2.3 Bus2=5054.1.2.3 Length=0.36064 LineCode=74
+New Line.1308126 Bus1=4438.1.2.3 Bus2=4439.1.2.3 Length=0.00316 LineCode=74
+New Line.1308293 Bus1=4302.1.2.3 Bus2=4448.1.2.3 Length=0.16475 LineCode=80
+New Line.1308086 Bus1=4489.1.2.3 Bus2=4463.1.2.3 Length=0.05595 LineCode=74
+New Line.1308085 Bus1=4463.1.2.3 Bus2=4491.1.2.3 Length=0.097 LineCode=74
+New Line.1307604 Bus1=4870.1 Bus2=4872.1 Length=0.21362 LineCode=105
+New Line.1307739 Bus1=4750.1.2 Bus2=4753.1.2 Length=0.12116 LineCode=83
+New Line.1307571 Bus1=4906.1.2.3 Bus2=4908.1.2.3 Length=0.1074 LineCode=80
+New Line.1306885 Bus1=5625.1.2 Bus2=5626.1.2 Length=0.10375 LineCode=83
+New Line.1306347 Bus1=5964.1 Bus2=5968.1 Length=0.18646 LineCode=105
+New Line.10780959 Bus1=4043.1.2 Bus2=4044.1.2 Length=0.05915 LineCode=83
+New Line.1307443 Bus1=5053.1.2.3 Bus2=5047.1.2.3 Length=0.06091 LineCode=74
+New Line.1308125 Bus1=4441.1.2.3 Bus2=4440.1.2.3 Length=0.21653 LineCode=74
+New Line.1308121 Bus1=4448.1.2.3 Bus2=4450.1.2.3 Length=0.25984 LineCode=80
+New Line.1308056 Bus1=4488.1.2.3 Bus2=4489.1.2.3 Length=0.00283 LineCode=74
+New Line.1308055 Bus1=4491.1.2.3 Bus2=4490.1.2.3 Length=0.02885 LineCode=74
+New Line.1307600 Bus1=4871.1 Bus2=4872.1 Length=0.13372 LineCode=105
+New Line.1307732 Bus1=4752.1.2 Bus2=4753.1.2 Length=0.12395 LineCode=83
+New Line.1307588 Bus1=4886.1.2 Bus2=4905.1.2 Length=0.00301 LineCode=83
+New Line.1307570 Bus1=4907.1.2.3 Bus2=4908.1.2.3 Length=0.1176 LineCode=80
+New Line.1306911 Bus1=5611.1.2 Bus2=5625.1.2 Length=0.14392 LineCode=83
+New Line.1306328 Bus1=5968.1 Bus2=5967.1 Length=0.13807 LineCode=105
+New Line.1307125 Bus1=5235.1 Bus2=5237.1 Length=0.0889 LineCode=105
+New Line.10780958 Bus1=4118.1.2 Bus2=4043.1.2 Length=0.03355 LineCode=83
+New Line.1307437 Bus1=5047.1.2.3 Bus2=5049.1.2.3 Length=0.04098 LineCode=74
+New Line.1308291 Bus1=4440.1.2.3 Bus2=4443.1.2.3 Length=0.14488 LineCode=74
+New Line.1308289 Bus1=4303.1.2.3 Bus2=4447.1.2.3 Length=0.00317 LineCode=74
+New Line.1308083 Bus1=4464.1.2.3 Bus2=4490.1.2.3 Length=0.11281 LineCode=74
+New Line.1307602 Bus1=4871.1 Bus2=4876.1 Length=0.11547 LineCode=105
+New Line.1307738 Bus1=4752.1.2 Bus2=4755.1.2 Length=0.13334 LineCode=83
+New Line.1307587 Bus1=4888.1 Bus2=4907.1 Length=0.07887 LineCode=105
+New Line.1307586 Bus1=4887.1.2.3 Bus2=4907.1.2.3 Length=0.21142 LineCode=80
+New Line.1306896 Bus1=5611.1.2 Bus2=5628.1.2 Length=0.14808 LineCode=83
+New Line.1306332 Bus1=5967.1 Bus2=5970.1 Length=0.14233 LineCode=105
+New Line.1307124 Bus1=5236.1 Bus2=5237.1 Length=0.22727 LineCode=105
+New Line.10781033 Bus1=4118.1.2 Bus2=4117.1.2 Length=0.02718 LineCode=83
+New Line.1307438 Bus1=5045.1.2.3 Bus2=5046.1.2.3 Length=0.15295 LineCode=74
+New Line.1307436 Bus1=5048.1.2.3 Bus2=5049.1.2.3 Length=0.00299 LineCode=74
+New Line.1308124 Bus1=4442.1.2.3 Bus2=4443.1.2.3 Length=0.17918 LineCode=74
+New Line.1308288 Bus1=4304.1.2.3 Bus2=4449.1.2.3 Length=0.08224 LineCode=80
+New Line.1308084 Bus1=4464.1.2.3 Bus2=4492.1.2.3 Length=0.09356 LineCode=74
+New Line.1307598 Bus1=4875.1 Bus2=4876.1 Length=0.16902 LineCode=105
+New Line.1307731 Bus1=4754.1.2 Bus2=4755.1.2 Length=0.00317 LineCode=83
+New Line.1307748 Bus1=4887.1.2.3 Bus2=4895.1.2.3 Length=0.08475 LineCode=80
+New Line.1306884 Bus1=5627.1.2 Bus2=5628.1.2 Length=0.28681 LineCode=83
+New Line.1306327 Bus1=5969.1 Bus2=5970.1 Length=0.13727 LineCode=105
+New Line.1307135 Bus1=5236.1 Bus2=5239.1 Length=0.07092 LineCode=105
+New Line.10781032 Bus1=4116.1.2 Bus2=4117.1.2 Length=0.05553 LineCode=83
+New Line.1307441 Bus1=5042.1.2.3 Bus2=5045.1.2.3 Length=0.16214 LineCode=74
+New Line.1308290 Bus1=4442.1.2.3 Bus2=4444.1.2.3 Length=0.24131 LineCode=74
+New Line.1308302 Bus1=4304.1.2.3 Bus2=4305.1.2.3 Length=0.05983 LineCode=80
+New Line.1308054 Bus1=4492.1.2.3 Bus2=4494.1.2.3 Length=0.04011 LineCode=74
+New Line.1307601 Bus1=4878.1 Bus2=4875.1 Length=0.1861 LineCode=105
+New Line.1307569 Bus1=4910.1 Bus2=4909.1 Length=0.23049 LineCode=105
+New Line.1307578 Bus1=4894.1.2.3 Bus2=4895.1.2.3 Length=0.14761 LineCode=80
+New Line.1306895 Bus1=5612.1.2 Bus2=5627.1.2 Length=0.1887 LineCode=83
+New Line.1306331 Bus1=5969.1 Bus2=5972.1 Length=0.09633 LineCode=105
+New Line.1307123 Bus1=5239.1 Bus2=5241.1 Length=0.10005 LineCode=105
+New Line.10780906 Bus1=4115.1.2 Bus2=4116.1.2 Length=0.05093 LineCode=83
+New Line.1307440 Bus1=5042.1.2.3 Bus2=5044.1.2.3 Length=0.03231 LineCode=74
+New Line.1308123 Bus1=4444.1.2.3 Bus2=4446.1.2.3 Length=0.05796 LineCode=74
+New Line.1308287 Bus1=4305.1.2.3 Bus2=4306.1.2.3 Length=0.14101 LineCode=80
+New Line.1308053 Bus1=4493.1.2.3 Bus2=4494.1.2.3 Length=0.12697 LineCode=74
+New Line.1307597 Bus1=4878.1 Bus2=4877.1 Length=0.29643 LineCode=105
+New Line.1307584 Bus1=4889.1 Bus2=4909.1 Length=0.13017 LineCode=105
+New Line.1307719 Bus1=4759.1.2.3 Bus2=4894.1.2.3 Length=0.06579 LineCode=80
+New Line.1306910 Bus1=5612.1.2 Bus2=5614.1.2 Length=0.15469 LineCode=83
+New Line.1306326 Bus1=5971.1 Bus2=5972.1 Length=0.11121 LineCode=105
+New Line.1307134 Bus1=5231.1 Bus2=5238.1 Length=0.00315 LineCode=105
+New Line.1307121 Bus1=5240.1 Bus2=5241.1 Length=0.20002 LineCode=105
+New Line.10781031 Bus1=4114.1.2 Bus2=4115.1.2 Length=0.02952 LineCode=83
+New Line.1307439 Bus1=5043.1.2.3 Bus2=5044.1.2.3 Length=0.00317 LineCode=74
+New Line.1308122 Bus1=4445.1.2.3 Bus2=4446.1.2.3 Length=0.00317 LineCode=74
+New Line.1308286 Bus1=4306.1.2.3 Bus2=4533.1.2.3 Length=0.16784 LineCode=80
+New Line.1308082 Bus1=4493.1.2.3 Bus2=4496.1.2.3 Length=0.08262 LineCode=74
+New Line.1307603 Bus1=4874.1 Bus2=4877.1 Length=0.0673 LineCode=105
+New Line.1307730 Bus1=4912.1 Bus2=4889.1 Length=0.08088 LineCode=105
+New Line.1307728 Bus1=4756.1.2.3 Bus2=4759.1.2.3 Length=0.24793 LineCode=80
+New Line.1306894 Bus1=5613.1.2 Bus2=5614.1.2 Length=0.26745 LineCode=83
+New Line.1306346 Bus1=5974.1 Bus2=5971.1 Length=0.09502 LineCode=105
+New Line.1307133 Bus1=5240.1 Bus2=5243.1 Length=0.13129 LineCode=105
+New Line.10780961 Bus1=4045.1.2 Bus2=4114.1.2 Length=0.19065 LineCode=83
+New Line.10781030 Bus1=4113.1.2 Bus2=4114.1.2 Length=0.05848 LineCode=83
+New Line.1308301 Bus1=4308.1.2.3 Bus2=4533.1.2.3 Length=0.06737 LineCode=80
+New Line.1308001 Bus1=4533.1.2.3 Bus2=4534.1.2.3 Length=0.08291 LineCode=74
+New Line.1308052 Bus1=4495.1.2.3 Bus2=4496.1.2.3 Length=0.08272 LineCode=74
+New Line.1307599 Bus1=4873.1 Bus2=4874.1 Length=0.22114 LineCode=105
+New Line.1307568 Bus1=4911.1 Bus2=4912.1 Length=0.19853 LineCode=105
+New Line.1307726 Bus1=4756.1.2.3 Bus2=4763.1.2.3 Length=0.04262 LineCode=80
+New Line.1306909 Bus1=5616.1.2 Bus2=5613.1.2 Length=0.18665 LineCode=83
+New Line.1306325 Bus1=5974.1 Bus2=5995.1 Length=0.15559 LineCode=105
+New Line.1307120 Bus1=5242.1 Bus2=5243.1 Length=0.12477 LineCode=105
+New Line.10780930 Bus1=4011.1.2 Bus2=4045.1.2 Length=0.10845 LineCode=83
+New Line.1308285 Bus1=4308.1.2.3 Bus2=4412.1.2.3 Length=0.08235 LineCode=80
+New Line.1308284 Bus1=4308.1.2.3 Bus2=4307.1.2.3 Length=0.00315 LineCode=80
+New Line.1308000 Bus1=4538.1.2.3 Bus2=4534.1.2.3 Length=0.1587 LineCode=74
+New Line.1308081 Bus1=4495.1.2.3 Bus2=4498.1.2.3 Length=0.06843 LineCode=74
+New Line.1308305 Bus1=4296.1 Bus2=4873.1 Length=0.2181 LineCode=105
+New Line.1307580 Bus1=4911.1 Bus2=4891.1 Length=0.21692 LineCode=105
+New Line.1307718 Bus1=4761.1.2.3 Bus2=4760.1.2.3 Length=0.00282 LineCode=80
+New Line.1307717 Bus1=4762.1.2.3 Bus2=4763.1.2.3 Length=0.27393 LineCode=80
+New Line.1306893 Bus1=5615.1.2 Bus2=5616.1.2 Length=0.1096 LineCode=83
+New Line.1306345 Bus1=5973.1 Bus2=5976.1 Length=0.05881 LineCode=105
+New Line.1306313 Bus1=5994.1 Bus2=5995.1 Length=0.11741 LineCode=105
+New Line.1307132 Bus1=5247.1 Bus2=5242.1 Length=0.10104 LineCode=105
+New Line.10780898 Bus1=3996.1.2 Bus2=4011.1.2 Length=0.11847 LineCode=83
+New Line.10780956 Bus1=4041.1.2 Bus2=4042.1.2 Length=0.04729 LineCode=83
+New Line.1308151 Bus1=4412.1.2.3 Bus2=4416.1.2.3 Length=0.13649 LineCode=80
+New Line.1307996 Bus1=4536.1.2.3 Bus2=4538.1.2.3 Length=0.1651 LineCode=74
+New Line.1307995 Bus1=4537.1.2.3 Bus2=4538.1.2.3 Length=0.00411 LineCode=74
+New Line.1308051 Bus1=4497.1.2.3 Bus2=4498.1.2.3 Length=0.13569 LineCode=74
+New Line.1308325 Bus1=4296.1 Bus2=4281.1 Length=0.24426 LineCode=105
+New Line.1307582 Bus1=4891.1 Bus2=4914.1 Length=0.05312 LineCode=105
+New Line.1307725 Bus1=4764.1.2.3 Bus2=4762.1.2.3 Length=0.12737 LineCode=80
+New Line.1306908 Bus1=5615.1.2 Bus2=5594.1.2 Length=0.16467 LineCode=83
+New Line.1306323 Bus1=5975.1 Bus2=5976.1 Length=0.04043 LineCode=105
+New Line.1306334 Bus1=5994.1 Bus2=5997.1 Length=0.11265 LineCode=105
+New Line.1307119 Bus1=5244.1 Bus2=5245.1 Length=0.00315 LineCode=105
+New Line.1307118 Bus1=5246.1 Bus2=5247.1 Length=0.10926 LineCode=105
+New Line.10780897 Bus1=4010.1.2 Bus2=3996.1.2 Length=0.08942 LineCode=83
+New Line.10780955 Bus1=4040.1.2 Bus2=4041.1.2 Length=0.07046 LineCode=83
+New Line.1308144 Bus1=4415.1.2.3 Bus2=4416.1.2.3 Length=0.18237 LineCode=80
+New Line.1307999 Bus1=4539.1.2.3 Bus2=4536.1.2.3 Length=0.17638 LineCode=74
+New Line.1308080 Bus1=4497.1.2.3 Bus2=4499.1.2.3 Length=0.13268 LineCode=74
+New Line.1308326 Bus1=4281.1 Bus2=4525.1 Length=0.14114 LineCode=105
+New Line.1307577 Bus1=4896.1 Bus2=4897.1 Length=0.26134 LineCode=105
+New Line.1307567 Bus1=4913.1 Bus2=4914.1 Length=0.00283 LineCode=105
+New Line.1307716 Bus1=4764.1.2.3 Bus2=4765.1.2.3 Length=0.09694 LineCode=80
+New Line.1308304 Bus1=5594.1.2 Bus2=4297.1.2 Length=0.00727 LineCode=83
+New Line.1306907 Bus1=5593.1.2 Bus2=5594.1.2 Length=0.06967 LineCode=83
+New Line.1306344 Bus1=5962.1 Bus2=5975.1 Length=0.00693 LineCode=105
+New Line.1306343 Bus1=5975.1 Bus2=5978.1 Length=0.05172 LineCode=105
+New Line.1306312 Bus1=5996.1 Bus2=5997.1 Length=0.12724 LineCode=105
+New Line.1307138 Bus1=5232.1 Bus2=5246.1 Length=0.29738 LineCode=105
+New Line.10780929 Bus1=4009.1.2 Bus2=4010.1.2 Length=0.11597 LineCode=83
+New Line.10780904 Bus1=4039.1.2 Bus2=4040.1.2 Length=0.05024 LineCode=83
+New Line.1308150 Bus1=4413.1.2.3 Bus2=4415.1.2.3 Length=0.16572 LineCode=80
+New Line.1307994 Bus1=4541.1.2.3 Bus2=4539.1.2.3 Length=0.04273 LineCode=74
+New Line.1308050 Bus1=4499.1.2.3 Bus2=4501.1.2.3 Length=0.12296 LineCode=74
+New Line.1308016 Bus1=4524.1 Bus2=4525.1 Length=0.14067 LineCode=105
+New Line.1307749 Bus1=4741.1 Bus2=4896.1 Length=0.0036 LineCode=105
+New Line.1307596 Bus1=4913.1 Bus2=4879.1 Length=0.22139 LineCode=105
+New Line.1307715 Bus1=4765.1.2.3 Bus2=4766.1.2.3 Length=0.11986 LineCode=80
+New Line.1306333 Bus1=5996.1 Bus2=5998.1 Length=0.12645 LineCode=105
+New Line.1307130 Bus1=5232.1 Bus2=5248.1 Length=0.16465 LineCode=105
+New Line.10780896 Bus1=4008.1.2 Bus2=4009.1.2 Length=0.14519 LineCode=83
+New Line.10780954 Bus1=4038.1.2 Bus2=4039.1.2 Length=0.14415 LineCode=83
+New Line.1308148 Bus1=4413.1.2.3 Bus2=4414.1.2.3 Length=0.17772 LineCode=80
+New Line.1307993 Bus1=4540.1.2.3 Bus2=4541.1.2.3 Length=0.08997 LineCode=74
+New Line.1308049 Bus1=4500.1.2.3 Bus2=4501.1.2.3 Length=0.17101 LineCode=74
+New Line.1308191 Bus1=4405.1 Bus2=4524.1 Length=0.10546 LineCode=105
+New Line.1307729 Bus1=4879.1 Bus2=4890.1 Length=0.22008 LineCode=105
+New Line.1307714 Bus1=4766.1.2.3 Bus2=4772.1.2.3 Length=0.09828 LineCode=80
+New Line.1306342 Bus1=5980.1 Bus2=5977.1 Length=0.10073 LineCode=105
+New Line.1306311 Bus1=6107.1 Bus2=5998.1 Length=0.12551 LineCode=105
+New Line.1307117 Bus1=5250.1 Bus2=5248.1 Length=0.12733 LineCode=105
+New Line.10780928 Bus1=4008.1.2 Bus2=4007.1.2 Length=0.10377 LineCode=83
+New Line.10780953 Bus1=4037.1.2 Bus2=4038.1.2 Length=0.08861 LineCode=83
+New Line.1308143 Bus1=4418.1.2.3 Bus2=4417.1.2.3 Length=0.00317 LineCode=74
+New Line.1308147 Bus1=4420.1.2.3 Bus2=4414.1.2.3 Length=0.09915 LineCode=80
+New Line.1307998 Bus1=4535.1.2.3 Bus2=4540.1.2.3 Length=0.13246 LineCode=74
+New Line.1308079 Bus1=4466.1.2.3 Bus2=4500.1.2.3 Length=0.03139 LineCode=74
+New Line.1308194 Bus1=4405.1 Bus2=4403.1 Length=0.25001 LineCode=105
+New Line.1307581 Bus1=4890.1 Bus2=4893.1 Length=0.10114 LineCode=105
+New Line.1307712 Bus1=4767.1.2.3 Bus2=4768.1.2.3 Length=0.08557 LineCode=74
+New Line.1307710 Bus1=4771.1.2.3 Bus2=4772.1.2.3 Length=0.16002 LineCode=80
+New Line.1306321 Bus1=5979.1 Bus2=5980.1 Length=0.19138 LineCode=105
+New Line.1306275 Bus1=6106.1 Bus2=6107.1 Length=0.12352 LineCode=105
+New Line.1307116 Bus1=5249.1 Bus2=5250.1 Length=0.20197 LineCode=105
+New Line.10780927 Bus1=4006.1.2 Bus2=4007.1.2 Length=0.13977 LineCode=83
+New Line.10780903 Bus1=4036.1.2 Bus2=4037.1.2 Length=0.07171 LineCode=83
+New Line.1308142 Bus1=4420.1.2.3 Bus2=4419.1.2.3 Length=0.18168 LineCode=80
+New Line.1307997 Bus1=4535.1.2.3 Bus2=4542.1.2.3 Length=0.05749 LineCode=74
+New Line.1308078 Bus1=4503.1.2.3 Bus2=4466.1.2.3 Length=0.06401 LineCode=74
+New Line.1308077 Bus1=4465.1.2.3 Bus2=4466.1.2.3 Length=0.00359 LineCode=74
+New Line.1308195 Bus1=4403.1 Bus2=4521.1 Length=0.28897 LineCode=105
+New Line.1307579 Bus1=4892.1 Bus2=4893.1 Length=0.06536 LineCode=105
+New Line.1307724 Bus1=4770.1.2.3 Bus2=4767.1.2.3 Length=0.05256 LineCode=74
+New Line.1307723 Bus1=4771.1.2.3 Bus2=4774.1.2.3 Length=0.08966 LineCode=80
+New Line.1306340 Bus1=5979.1 Bus2=5982.1 Length=0.15233 LineCode=105
+New Line.1306300 Bus1=6110.1 Bus2=6106.1 Length=0.10851 LineCode=105
+New Line.10780926 Bus1=4005.1.2 Bus2=4006.1.2 Length=0.11531 LineCode=83
+New Line.10780952 Bus1=4035.1.2 Bus2=4036.1.2 Length=0.10493 LineCode=83
+New Line.1308146 Bus1=4419.1.2.3 Bus2=4422.1.2.3 Length=0.12957 LineCode=74
+New Line.1307992 Bus1=4542.1.2.3 Bus2=4665.1.2.3 Length=0.17585 LineCode=74
+New Line.1308048 Bus1=4502.1.2.3 Bus2=4503.1.2.3 Length=0.14513 LineCode=74
+New Line.1308018 Bus1=4520.1 Bus2=4521.1 Length=0.09577 LineCode=105
+New Line.1307750 Bus1=4740.1 Bus2=4892.1 Length=0.01119 LineCode=105
+New Line.1307711 Bus1=4769.1.2.3 Bus2=4770.1.2.3 Length=0.00315 LineCode=74
+New Line.1307708 Bus1=4774.1.2.3 Bus2=4773.1.2.3 Length=0.14593 LineCode=80
+New Line.1306320 Bus1=5981.1 Bus2=5982.1 Length=0.1493 LineCode=105
+New Line.1306274 Bus1=6108.1 Bus2=6110.1 Length=0.06869 LineCode=105
+New Line.1306273 Bus1=6110.1 Bus2=6109.1 Length=0.00539 LineCode=105
+New Line.10780925 Bus1=4004.1.2 Bus2=4005.1.2 Length=0.11289 LineCode=83
+New Line.10780951 Bus1=4034.1.2 Bus2=4035.1.2 Length=0.13663 LineCode=83
+New Line.1308324 Bus1=4282.1.2.3 Bus2=4422.1.2.3 Length=0.1369 LineCode=74
+New Line.1307836 Bus1=4664.1.2.3 Bus2=4665.1.2.3 Length=0.07134 LineCode=74
+New Line.1308076 Bus1=4502.1.2.3 Bus2=4505.1.2.3 Length=0.2632 LineCode=74
+New Line.1308019 Bus1=4520.1 Bus2=4519.1 Length=0.15674 LineCode=105
+New Line.1307707 Bus1=4775.1.2.3 Bus2=4776.1.2.3 Length=0.14237 LineCode=74
+New Line.1306341 Bus1=5984.1 Bus2=5981.1 Length=0.18276 LineCode=105
+New Line.10780924 Bus1=4003.1.2 Bus2=4004.1.2 Length=0.13202 LineCode=83
+New Line.10780950 Bus1=4033.1.2 Bus2=4034.1.2 Length=0.26963 LineCode=83
+New Line.1308145 Bus1=4421.1.2.3 Bus2=4424.1.2.3 Length=0.04527 LineCode=74
+New Line.1308323 Bus1=4282.1.2.3 Bus2=4283.1.2.3 Length=0.07464 LineCode=74
+New Line.1308010 Bus1=4664.1.2.3 Bus2=4666.1.2.3 Length=0.13269 LineCode=74
+New Line.1308047 Bus1=4505.1.2.3 Bus2=4504.1.2.3 Length=0.06178 LineCode=74
+New Line.1308185 Bus1=4519.1 Bus2=4410.1 Length=0.15008 LineCode=105
+New Line.1307722 Bus1=4758.1.2.3 Bus2=4775.1.2.3 Length=0.02416 LineCode=74
+New Line.1307927 Bus1=4777.1.2.3 Bus2=4586.1.2.3 Length=0.20216 LineCode=74
+New Line.1306319 Bus1=5983.1 Bus2=5984.1 Length=0.12026 LineCode=105
+New Line.1306431 Bus1=6067.1 Bus2=6112.1 Length=0.08738 LineCode=105
+New Line.10780923 Bus1=4003.1.2 Bus2=4002.1.2 Length=0.15683 LineCode=83
+New Line.10780949 Bus1=4032.1.2 Bus2=4033.1.2 Length=0.10725 LineCode=83
+New Line.1308140 Bus1=4423.1.2.3 Bus2=4424.1.2.3 Length=0.01006 LineCode=74
+New Line.1308321 Bus1=4283.1.2.3 Bus2=6288.1.2.3 Length=0.15433 LineCode=74
+New Line.1307835 Bus1=4668.1.2.3 Bus2=4666.1.2.3 Length=0.18266 LineCode=74
+New Line.1308075 Bus1=4504.1.2.3 Bus2=4506.1.2.3 Length=0.24044 LineCode=74
+New Line.1308186 Bus1=4410.1 Bus2=4409.1 Length=0.1838 LineCode=105
+New Line.1307721 Bus1=4757.1.2.3 Bus2=4758.1.2.3 Length=0.00316 LineCode=74
+New Line.1307704 Bus1=4778.1.2.3 Bus2=4779.1.2.3 Length=0.15871 LineCode=80
+New Line.1307926 Bus1=4586.1.2.3 Bus2=4591.1.2.3 Length=0.19873 LineCode=74
+New Line.1306339 Bus1=5963.1 Bus2=5983.1 Length=0.20908 LineCode=105
+New Line.1306338 Bus1=5983.1 Bus2=5986.1 Length=0.09227 LineCode=105
+New Line.1306272 Bus1=6112.1 Bus2=6111.1 Length=0.12504 LineCode=105
+New Line.10780922 Bus1=4002.1.2 Bus2=4001.1.2 Length=0.17287 LineCode=83
+New Line.10780938 Bus1=4032.1.2 Bus2=4021.1.2 Length=0.15074 LineCode=83
+New Line.10780948 Bus1=4031.1.2 Bus2=4032.1.2 Length=0.04642 LineCode=83
+New Line.11479228 Bus1=6288.1.2.3 Bus2=6287.1.2.3 Length=0.09029 LineCode=74
+New Line.1307834 Bus1=4667.1.2.3 Bus2=4668.1.2.3 Length=0.22634 LineCode=74
+New Line.11656374 Bus1=3962.1.2.3 Bus2=3961.1.2.3 Length=0.03177 LineCode=88
+New Line.1308046 Bus1=4506.1.2.3 Bus2=4508.1.2.3 Length=0.05698 LineCode=74
+New Line.1308188 Bus1=4408.1 Bus2=4409.1 Length=0.27456 LineCode=105
+New Line.1307705 Bus1=4778.1.2.3 Bus2=4781.1.2.3 Length=0.03636 LineCode=80
+New Line.1307917 Bus1=4591.1.2.3 Bus2=4593.1.2.3 Length=0.08941 LineCode=74
+New Line.1306336 Bus1=5990.1 Bus2=5963.1 Length=0.26793 LineCode=105
+New Line.1306318 Bus1=5985.1 Bus2=5986.1 Length=0.07018 LineCode=105
+New Line.1306298 Bus1=6068.1 Bus2=6111.1 Length=0.15991 LineCode=105
+New Line.10780921 Bus1=4000.1.2 Bus2=4001.1.2 Length=0.07174 LineCode=83
+New Line.10780900 Bus1=4020.1.2 Bus2=4021.1.2 Length=0.13287 LineCode=83
+New Line.1308322 Bus1=4312.1.2.3 Bus2=6287.1.2.3 Length=0.22624 LineCode=74
+New Line.1308330 Bus1=4667.1.2.3 Bus2=4551.1.2.3 Length=0.12853 LineCode=74
+New Line.11656369 Bus1=3957.1.2.3 Bus2=3961.1.2.3 Length=0.36331 LineCode=88
+New Line.1308045 Bus1=4507.1.2.3 Bus2=4508.1.2.3 Length=0.00316 LineCode=74
+New Line.1308187 Bus1=4408.1 Bus2=4411.1 Length=0.15697 LineCode=105
+New Line.1307703 Bus1=4780.1.2.3 Bus2=4781.1.2.3 Length=0.0036 LineCode=80
+New Line.1307924 Bus1=4588.1.2.3 Bus2=4593.1.2.3 Length=0.09777 LineCode=74
+New Line.1307916 Bus1=4592.1.2.3 Bus2=4593.1.2.3 Length=0.02546 LineCode=74
+New Line.1306316 Bus1=5990.1 Bus2=5989.1 Length=0.14275 LineCode=105
+New Line.1306337 Bus1=5985.1 Bus2=5988.1 Length=0.05001 LineCode=105
+New Line.1306439 Bus1=6070.1 Bus2=6068.1 Length=0.15078 LineCode=105
+New Line.10780920 Bus1=3999.1.2 Bus2=4000.1.2 Length=0.04191 LineCode=83
+New Line.10780937 Bus1=4019.1.2 Bus2=4020.1.2 Length=0.04842 LineCode=83
+New Line.10780946 Bus1=6290.1.2 Bus2=4030.1.2 Length=0.18661 LineCode=83
+New Line.11483981 Bus1=6289.1.2 Bus2=6290.1.2 Length=0.03104 LineCode=83
+New Line.1308280 Bus1=4311.1.2.3 Bus2=4312.1.2.3 Length=0.09493 LineCode=74
+New Line.1307968 Bus1=4551.1.2.3 Bus2=4550.1.2.3 Length=0.12967 LineCode=74
+New Line.11656368 Bus1=3957.1.2.3 Bus2=3956.1.2.3 Length=0.11903 LineCode=88
+New Line.1308184 Bus1=4411.1 Bus2=4518.1 Length=0.36423 LineCode=105
+New Line.1307925 Bus1=4587.1.2.3 Bus2=4588.1.2.3 Length=0.00301 LineCode=74
+New Line.1308311 Bus1=4592.1.2.3 Bus2=4290.1.2.3 Length=0.21715 LineCode=74
+New Line.1306335 Bus1=5989.1 Bus2=5991.1 Length=0.08424 LineCode=105
+New Line.1306317 Bus1=5987.1 Bus2=5988.1 Length=0.00748 LineCode=105
+New Line.1306297 Bus1=6069.1 Bus2=6070.1 Length=0.15096 LineCode=105
+New Line.10780936 Bus1=4018.1.2 Bus2=4019.1.2 Length=0.04912 LineCode=83
+New Line.10780945 Bus1=4029.1.2 Bus2=4030.1.2 Length=0.1097 LineCode=83
+New Line.10926752 Bus1=4311.1.2.3 Bus2=4337.1.2.3 Length=0.00341 LineCode=74
+New Line.1307991 Bus1=4544.1.2.3 Bus2=4550.1.2.3 Length=0.18103 LineCode=74
+New Line.11656365 Bus1=3956.1.2.3 Bus2=3955.1.2.3 Length=0.38646 LineCode=88
+New Line.1308020 Bus1=4518.1 Bus2=4523.1 Length=0.09444 LineCode=105
+New Line.1308313 Bus1=4290.1.2.3 Bus2=4291.1.2.3 Length=0.10783 LineCode=74
+New Line.1306315 Bus1=5991.1 Bus2=5993.1 Length=0.04392 LineCode=105
+New Line.1306438 Bus1=6069.1 Bus2=6072.1 Length=0.13479 LineCode=105
+New Line.10780935 Bus1=4017.1.2 Bus2=4018.1.2 Length=0.12689 LineCode=83
+New Line.10780944 Bus1=4028.1.2 Bus2=4029.1.2 Length=0.14694 LineCode=83
+New Line.1308254 Bus1=4336.1.2.3 Bus2=4337.1.2.3 Length=0.11912 LineCode=74
+New Line.1307990 Bus1=4543.1.2.3 Bus2=4544.1.2.3 Length=0.00362 LineCode=74
+New Line.1307989 Bus1=4544.1.2.3 Bus2=4553.1.2.3 Length=0.1535 LineCode=74
+New Line.11656364 Bus1=3954.1.2.3 Bus2=3955.1.2.3 Length=0.09203 LineCode=88
+New Line.1308017 Bus1=4522.1 Bus2=4523.1 Length=0.12215 LineCode=105
+New Line.1306314 Bus1=5992.1 Bus2=5993.1 Length=0.00603 LineCode=105
+New Line.1306296 Bus1=6071.1 Bus2=6072.1 Length=0.15402 LineCode=105
+New Line.10780934 Bus1=4016.1.2 Bus2=4017.1.2 Length=0.08032 LineCode=83
+New Line.10780943 Bus1=4027.1.2 Bus2=4028.1.2 Length=0.10573 LineCode=83
+New Line.1308255 Bus1=4335.1.2.3 Bus2=4336.1.2.3 Length=0.14453 LineCode=74
+New Line.1307967 Bus1=4552.1.2.3 Bus2=4553.1.2.3 Length=0.16808 LineCode=74
+New Line.11656363 Bus1=3953.1.2.3 Bus2=3954.1.2.3 Length=0.34903 LineCode=88
+New Line.1308190 Bus1=4406.1 Bus2=4522.1 Length=0.30296 LineCode=105
+New Line.1308309 Bus1=4293.1.2.3 Bus2=4292.1.2.3 Length=0.07688 LineCode=74
+New Line.1306437 Bus1=6071.1 Bus2=6074.1 Length=0.04554 LineCode=105
+New Line.1306436 Bus1=5924.1 Bus2=6071.1 Length=0.05438 LineCode=105
+New Line.10780899 Bus1=4015.1.2 Bus2=4016.1.2 Length=0.04708 LineCode=83
+New Line.10780901 Bus1=4026.1.2 Bus2=4027.1.2 Length=0.19704 LineCode=83
+New Line.1308269 Bus1=4335.1.2.3 Bus2=4350.1.2.3 Length=0.16755 LineCode=74
+New Line.1307988 Bus1=4552.1.2.3 Bus2=4555.1.2.3 Length=0.07018 LineCode=74
+New Line.11656358 Bus1=3953.1.2.3 Bus2=3960.1.2.3 Length=0.06302 LineCode=88
+New Line.1308312 Bus1=4292.1.2.3 Bus2=4294.1.2.3 Length=0.09908 LineCode=74
+New Line.1306295 Bus1=6073.1 Bus2=6074.1 Length=0.00601 LineCode=105
+New Line.10780933 Bus1=4015.1.2 Bus2=4014.1.2 Length=0.12283 LineCode=83
+New Line.10780942 Bus1=4025.1.2 Bus2=4026.1.2 Length=0.20526 LineCode=83
+New Line.1308245 Bus1=4349.1.2.3 Bus2=4350.1.2.3 Length=0.17271 LineCode=74
+New Line.1307966 Bus1=4554.1.2.3 Bus2=4555.1.2.3 Length=0.18419 LineCode=74
+New Line.11656372 Bus1=3959.1.2.3 Bus2=3960.1.2.3 Length=0.23672 LineCode=88
+New Line.1308196 Bus1=4404.1 Bus2=4407.1 Length=0.02603 LineCode=105
+New Line.1308308 Bus1=4294.1.2.3 Bus2=4295.1.2.3 Length=0.11761 LineCode=74
+New Line.1306294 Bus1=6075.1 Bus2=6076.1 Length=0.16665 LineCode=105
+New Line.10780932 Bus1=4014.1.2 Bus2=4013.1.2 Length=0.05554 LineCode=83
+New Line.10780941 Bus1=4024.1.2 Bus2=4025.1.2 Length=0.11781 LineCode=83
+New Line.10926753 Bus1=4319.1.2.3 Bus2=4349.1.2.3 Length=0.01815 LineCode=74
+New Line.1307987 Bus1=4554.1.2.3 Bus2=4557.1.2.3 Length=0.25189 LineCode=74
+New Line.11656371 Bus1=3958.1.2.3 Bus2=3959.1.2.3 Length=0.21063 LineCode=88
+New Line.1308307 Bus1=4295.1.2.3 Bus2=4596.1.2.3 Length=0.14315 LineCode=74
+New Line.1306434 Bus1=6075.1 Bus2=6078.1 Length=0.28817 LineCode=105
+New Line.10780931 Bus1=4012.1.2 Bus2=4013.1.2 Length=0.04627 LineCode=83
+New Line.10780940 Bus1=4023.1.2 Bus2=4024.1.2 Length=0.05394 LineCode=83
+New Line.1308268 Bus1=4321.1.2.3 Bus2=4319.1.2.3 Length=0.22221 LineCode=74
+New Line.1307965 Bus1=4556.1.2.3 Bus2=4557.1.2.3 Length=0.04674 LineCode=74
+New Line.11656370 Bus1=3958.1.2.3 Bus2=3981.1.2.3 Length=0.03847 LineCode=88
+New Line.1308015 Bus1=4526.1 Bus2=4528.1 Length=0.16005 LineCode=105
+New Line.1307914 Bus1=4595.1.2.3 Bus2=4596.1.2.3 Length=0.10315 LineCode=74
+New Line.1306293 Bus1=6077.1 Bus2=6078.1 Length=0.21198 LineCode=105
+New Line.10780939 Bus1=4022.1.2 Bus2=4023.1.2 Length=0.05677 LineCode=83
+New Line.1308267 Bus1=4321.1.2.3 Bus2=4320.1.2.3 Length=0.08344 LineCode=74
+New Line.1307986 Bus1=4559.1.2.3 Bus2=4556.1.2.3 Length=0.06857 LineCode=74
+New Line.11803289 Bus1=3980.1.2.3 Bus2=3981.1.2.3 Length=0.06357 LineCode=88
+New Line.1308014 Bus1=4528.1 Bus2=4527.1 Length=0.09983 LineCode=105
+New Line.1307915 Bus1=4595.1.2.3 Bus2=4594.1.2.3 Length=0.14228 LineCode=74
+New Line.1306433 Bus1=6080.1 Bus2=6077.1 Length=0.23425 LineCode=105
+New Line.1308316 Bus1=4288.1.2 Bus2=4289.1.2 Length=0.17978 LineCode=83
+New Line.10926751 Bus1=4320.1.2.3 Bus2=4322.1.2.3 Length=0.14069 LineCode=74
+New Line.1307963 Bus1=4559.1.2.3 Bus2=4561.1.2.3 Length=0.12964 LineCode=74
+New Line.11803837 Bus1=3979.1.2 Bus2=3980.1.2 Length=0.07196 LineCode=112
+New Line.1307922 Bus1=4594.1.2.3 Bus2=4601.1.2.3 Length=0.15895 LineCode=74
+New Line.1306292 Bus1=6079.1 Bus2=6080.1 Length=0.15752 LineCode=105
+New Line.1308315 Bus1=4287.1.2 Bus2=4288.1.2 Length=0.02299 LineCode=83
+New Line.1308279 Bus1=4322.1.2.3 Bus2=4352.1.2.3 Length=0.26538 LineCode=74
+New Line.1307962 Bus1=4561.1.2.3 Bus2=4560.1.2.3 Length=0.0914 LineCode=74
+New Line.11803839 Bus1=3978.1.2 Bus2=3979.1.2 Length=0.09227 LineCode=112
+New Line.1307911 Bus1=4600.1.2.3 Bus2=4601.1.2.3 Length=0.06161 LineCode=74
+New Line.1306432 Bus1=6079.1 Bus2=6081.1 Length=0.13908 LineCode=105
+New Line.1308265 Bus1=4323.1.2.3 Bus2=4324.1.2.3 Length=0.00315 LineCode=74
+New Line.1308244 Bus1=4351.1.2.3 Bus2=4352.1.2.3 Length=0.1328 LineCode=74
+New Line.1307985 Bus1=4546.1.2.3 Bus2=4558.1.2.3 Length=0.03827 LineCode=74
+New Line.11803841 Bus1=3977.1.2 Bus2=3978.1.2 Length=0.04594 LineCode=112
+New Line.1307913 Bus1=4597.1.2.3 Bus2=4599.1.2.3 Length=0.12294 LineCode=74
+New Line.1307921 Bus1=4589.1.2.3 Bus2=4600.1.2.3 Length=0.08394 LineCode=74
+New Line.1306291 Bus1=6083.1 Bus2=6081.1 Length=0.03505 LineCode=105
+New Line.1308278 Bus1=4351.1.2.3 Bus2=4344.1.2.3 Length=0.22515 LineCode=74
+New Line.1307984 Bus1=4546.1 Bus2=4547.1 Length=0.09077 LineCode=105
+New Line.1307983 Bus1=4545.1.2.3 Bus2=4546.1.2.3 Length=0.00317 LineCode=74
+New Line.1308011 Bus1=4529.1.2.3 Bus2=4532.1.2.3 Length=0.0378 LineCode=74
+New Line.11803844 Bus1=3976.1.2 Bus2=3977.1.2 Length=0.07179 LineCode=112
+New Line.1307912 Bus1=4598.1.2.3 Bus2=4599.1.2.3 Length=0.00283 LineCode=74
+New Line.1307930 Bus1=4589.1.2.3 Bus2=4709.1.2.3 Length=0.22183 LineCode=74
+New Line.1306290 Bus1=6082.1 Bus2=6083.1 Length=0.00317 LineCode=105
+New Line.1308249 Bus1=4343.1.2.3 Bus2=4344.1.2.3 Length=0.10955 LineCode=74
+New Line.1307982 Bus1=4547.1 Bus2=4548.1 Length=0.02269 LineCode=105
+New Line.1308002 Bus1=4531.1.2.3 Bus2=4532.1.2.3 Length=0.04065 LineCode=74
+New Line.11803845 Bus1=3975.1.2 Bus2=3976.1.2 Length=0.06727 LineCode=112
+New Line.1307777 Bus1=4709.1.2.3 Bus2=4710.1.2.3 Length=0.11804 LineCode=74
+New Line.1308250 Bus1=4342.1.2.3 Bus2=4343.1.2.3 Length=0.16001 LineCode=74
+New Line.1307981 Bus1=4548.1 Bus2=4549.1 Length=0.06095 LineCode=105
+New Line.1308012 Bus1=4531.1.2.3 Bus2=4530.1.2.3 Length=0.26765 LineCode=74
+New Line.11803846 Bus1=3974.1.2 Bus2=3975.1.2 Length=0.06361 LineCode=112
+New Line.1307929 Bus1=4585.1.2.3 Bus2=4710.1.2.3 Length=0.12832 LineCode=74
+New Line.1308264 Bus1=4325.1.2.3 Bus2=4342.1.2.3 Length=0.12598 LineCode=74
+New Line.1308003 Bus1=4530.1.2.3 Bus2=4677.1.2.3 Length=0.19809 LineCode=74
+New Line.11803847 Bus1=3974.1.2 Bus2=3973.1.2 Length=0.06588 LineCode=112
+New Line.1307774 Bus1=4712.1.2.3 Bus2=4713.1.2.3 Length=0.03476 LineCode=74
+New Line.1307928 Bus1=4585.1.2.3 Bus2=4726.1.2.3 Length=0.11225 LineCode=74
+New Line.1308263 Bus1=4325.1.2.3 Bus2=4327.1.2.3 Length=0.16038 LineCode=74
+New Line.1307961 Bus1=4562.1 Bus2=4563.1 Length=0.12385 LineCode=105
+New Line.1307829 Bus1=4677.1.2.3 Bus2=4676.1.2.3 Length=0.04965 LineCode=74
+New Line.11803849 Bus1=3972.1.2 Bus2=3973.1.2 Length=0.06488 LineCode=112
+New Line.1307775 Bus1=4712.1.2.3 Bus2=4711.1.2.3 Length=0.00316 LineCode=74
+New Line.1307761 Bus1=4726.1.2.3 Bus2=4730.1.2.3 Length=0.10627 LineCode=74
+New Line.1308262 Bus1=4326.1.2.3 Bus2=4327.1.2.3 Length=0.12269 LineCode=74
+New Line.1307979 Bus1=4562.1 Bus2=4565.1 Length=0.10383 LineCode=105
+New Line.1308004 Bus1=4676.1.2.3 Bus2=4675.1.2.3 Length=0.02316 LineCode=74
+New Line.11803851 Bus1=3971.1.2 Bus2=3972.1.2 Length=0.04623 LineCode=112
+New Line.1307758 Bus1=4729.1.2.3 Bus2=4730.1.2.3 Length=0.14355 LineCode=74
+New Line.1308277 Bus1=4339.1.2.3 Bus2=4326.1.2.3 Length=0.09642 LineCode=74
+New Line.1307960 Bus1=4564.1 Bus2=4565.1 Length=0.12337 LineCode=105
+New Line.1307759 Bus1=4727.1.2.3 Bus2=4728.1.2.3 Length=0.00283 LineCode=74
+New Line.1307772 Bus1=4716.1.2.3 Bus2=4729.1.2.3 Length=0.26117 LineCode=74
+New Line.1308252 Bus1=4339.1.2.3 Bus2=4338.1.2.3 Length=0.25718 LineCode=74
+New Line.1307978 Bus1=4564.1 Bus2=4567.1 Length=0.18348 LineCode=105
+New Line.1308006 Bus1=4673.1.2.3 Bus2=4674.1.2.3 Length=0.17456 LineCode=74
+New Line.1307770 Bus1=4717.1.2.3 Bus2=4716.1.2.3 Length=0.06307 LineCode=74
+New Line.1308253 Bus1=4338.1.2.3 Bus2=4341.1.2.3 Length=0.20686 LineCode=74
+New Line.1307959 Bus1=4566.1 Bus2=4567.1 Length=0.1356 LineCode=105
+New Line.1307831 Bus1=4673.1.2.3 Bus2=4672.1.2.3 Length=0.15709 LineCode=74
+New Line.1307773 Bus1=4714.1.2.3 Bus2=4715.1.2.3 Length=0.00283 LineCode=74
+New Line.1307769 Bus1=4731.1.2.3 Bus2=4717.1.2.3 Length=0.07725 LineCode=74
+New Line.1308251 Bus1=4340.1.2.3 Bus2=4341.1.2.3 Length=0.20811 LineCode=74
+New Line.1307977 Bus1=4566.1 Bus2=4569.1 Length=0.12609 LineCode=105
+New Line.1308007 Bus1=4671.1.2.3 Bus2=4672.1.2.3 Length=0.10338 LineCode=74
+New Line.1307757 Bus1=4731.1.2.3 Bus2=4733.1.2.3 Length=0.20031 LineCode=74
+New Line.1308261 Bus1=4340.1.2.3 Bus2=4329.1.2.3 Length=0.19993 LineCode=74
+New Line.1307958 Bus1=4569.1 Bus2=4568.1 Length=0.11578 LineCode=105
+New Line.1307832 Bus1=4670.1.2.3 Bus2=4671.1.2.3 Length=0.18756 LineCode=74
+New Line.1307755 Bus1=4733.1.2.3 Bus2=4734.1.2.3 Length=0.16159 LineCode=74
+New Line.1308276 Bus1=4329.1.2.3 Bus2=4330.1.2.3 Length=0.0304 LineCode=74
+New Line.1307976 Bus1=4568.1 Bus2=4571.1 Length=0.06043 LineCode=105
+New Line.1307833 Bus1=4669.1.2.3 Bus2=4670.1.2.3 Length=0.0418 LineCode=74
+New Line.1307768 Bus1=4719.1.2.3 Bus2=4732.1.2.3 Length=0.06165 LineCode=74
+New Line.1307754 Bus1=4734.1.2.3 Bus2=4735.1.2.3 Length=0.14814 LineCode=74
+New Line.1308275 Bus1=4313.1.2.3 Bus2=4328.1.2.3 Length=0.00361 LineCode=74
+New Line.1308259 Bus1=4330.1.2.3 Bus2=4331.1.2.3 Length=0.09886 LineCode=74
+New Line.1307957 Bus1=4571.1 Bus2=4570.1 Length=0.19195 LineCode=105
+New Line.1307767 Bus1=4718.1.2.3 Bus2=4719.1.2.3 Length=0.00283 LineCode=74
+New Line.1307753 Bus1=4737.1.2.3 Bus2=4735.1.2.3 Length=0.14053 LineCode=74
+New Line.1308258 Bus1=4331.1.2.3 Bus2=4333.1.2.3 Length=0.20394 LineCode=74
+New Line.1307975 Bus1=4573.1 Bus2=4570.1 Length=0.24244 LineCode=105
+New Line.1307764 Bus1=4721.1.2.3 Bus2=4722.1.2.3 Length=0.04984 LineCode=74
+New Line.1307752 Bus1=4736.1.2.3 Bus2=4737.1.2.3 Length=0.11351 LineCode=74
+New Line.1308257 Bus1=4332.1.2.3 Bus2=4333.1.2.3 Length=0.06534 LineCode=74
+New Line.1307956 Bus1=4572.1 Bus2=4573.1 Length=0.172 LineCode=105
+New Line.1307765 Bus1=4720.1.2.3 Bus2=4721.1.2.3 Length=0.00318 LineCode=74
+New Line.1307934 Bus1=4736.1.2.3 Bus2=4739.1.2.3 Length=0.13699 LineCode=74
+New Line.1308274 Bus1=4315.1.2.3 Bus2=4332.1.2.3 Length=0.15764 LineCode=74
+New Line.1307974 Bus1=4572.1 Bus2=4575.1 Length=0.18293 LineCode=105
+New Line.1307933 Bus1=4584.1.2.3 Bus2=4739.1.2.3 Length=0.07507 LineCode=74
+New Line.1308272 Bus1=4315.1.2.3 Bus2=4314.1.2.3 Length=0.16578 LineCode=74
+New Line.1307955 Bus1=4574.1 Bus2=4575.1 Length=0.04171 LineCode=105
+New Line.1307763 Bus1=4738.1.2.3 Bus2=4723.1.2.3 Length=0.00317 LineCode=74
+New Line.1307931 Bus1=4584.1.2.3 Bus2=4603.1.2.3 Length=0.08428 LineCode=74
+New Line.1308273 Bus1=4314.1.2.3 Bus2=4316.1.2.3 Length=0.19786 LineCode=74
+New Line.1307973 Bus1=4574.1 Bus2=4583.1 Length=0.08851 LineCode=105
+New Line.1307910 Bus1=4603.1.2.3 Bus2=4602.1.2.3 Length=0.08883 LineCode=74
+New Line.1308271 Bus1=4316.1.2.3 Bus2=4318.1.2.3 Length=0.04361 LineCode=74
+New Line.1307950 Bus1=4582.1 Bus2=4583.1 Length=0.12769 LineCode=105
+New Line.1307762 Bus1=4724.1.2.3 Bus2=4725.1.2.3 Length=0.00283 LineCode=74
+New Line.1307920 Bus1=4590.1.2.3 Bus2=4602.1.2.3 Length=0.11267 LineCode=74
+New Line.1308270 Bus1=4317.1.2.3 Bus2=4318.1.2.3 Length=0.06664 LineCode=74
+New Line.1307972 Bus1=4577.1 Bus2=4582.1 Length=0.14805 LineCode=105
+New Line.1307918 Bus1=4590.1.2.3 Bus2=4606.1.2.3 Length=0.15745 LineCode=74
+New Line.1308282 Bus1=4317.1.2.3 Bus2=4348.1.2.3 Length=0.16092 LineCode=74
+New Line.1307954 Bus1=4576.1 Bus2=4577.1 Length=0.10639 LineCode=105
+New Line.1307909 Bus1=4605.1.2.3 Bus2=4604.1.2.3 Length=0.00317 LineCode=74
+New Line.1307908 Bus1=4606.1.2.3 Bus2=5208.1.2.3 Length=0.1274 LineCode=74
+New Line.1308246 Bus1=4347.1.2.3 Bus2=4348.1.2.3 Length=0.0985 LineCode=74
+New Line.1307971 Bus1=4576.1 Bus2=4579.1 Length=0.09673 LineCode=105
+New Line.1307188 Bus1=5189.1.2.3 Bus2=5208.1.2.3 Length=0.12691 LineCode=74
+New Line.1307153 Bus1=5207.1.2.3 Bus2=5208.1.2.3 Length=0.03187 LineCode=74
+New Line.1308281 Bus1=4309.1.2.3 Bus2=4310.1.2.3 Length=0.01044 LineCode=74
+New Line.1308247 Bus1=4346.1.2.3 Bus2=4347.1.2.3 Length=0.1857 LineCode=74
+New Line.1307953 Bus1=4578.1 Bus2=4579.1 Length=0.11951 LineCode=105
+New Line.1307840 Bus1=4663.1.2.3 Bus2=5206.1.2.3 Length=0.00401 LineCode=74
+New Line.1307187 Bus1=5189.1.2.3 Bus2=5191.1.2.3 Length=0.27518 LineCode=74
+New Line.1308248 Bus1=4345.1.2.3 Bus2=4346.1.2.3 Length=0.23879 LineCode=74
+New Line.1307970 Bus1=4580.1 Bus2=4578.1 Length=0.16273 LineCode=105
+New Line.1307184 Bus1=5191.1.2.3 Bus2=5335.1.2.3 Length=0.0524 LineCode=74
+New Line.1307152 Bus1=5209.1.2.3 Bus2=5210.1.2.3 Length=0.28543 LineCode=74
+New Line.1308256 Bus1=4334.1.2.3 Bus2=4345.1.2.3 Length=0.21162 LineCode=74
+New Line.1307952 Bus1=4581.1 Bus2=4580.1 Length=0.2706 LineCode=105
+New Line.1307185 Bus1=5190.1.2.3 Bus2=5333.1.2.3 Length=0.0664 LineCode=74
+New Line.1307026 Bus1=5334.1.2.3 Bus2=5335.1.2.3 Length=0.05485 LineCode=74
+New Line.1307168 Bus1=5199.1.2.3 Bus2=5209.1.2.3 Length=0.19326 LineCode=74
+New Line.1307027 Bus1=5332.1.2.3 Bus2=5333.1.2.3 Length=0.03593 LineCode=74
+New Line.1307183 Bus1=5334.1.2.3 Bus2=5336.1.2.3 Length=0.13961 LineCode=74
+New Line.1307149 Bus1=5213.1.2.3 Bus2=5212.1.2.3 Length=0.13378 LineCode=74
+New Line.1307166 Bus1=5199.1.2.3 Bus2=5215.1.2.3 Length=0.25479 LineCode=74
+New Line.11284100 Bus1=6338.1 Bus2=6337.1 Length=0.00527 LineCode=105
+New Line.1307028 Bus1=5331.1.2.3 Bus2=5332.1.2.3 Length=0.00408 LineCode=74
+New Line.1307025 Bus1=5336.1.2.3 Bus2=5338.1.2.3 Length=0.08787 LineCode=74
+New Line.1307150 Bus1=5212.1.2.3 Bus2=5211.1.2.3 Length=0.03236 LineCode=74
+New Line.1307148 Bus1=5214.1.2.3 Bus2=5215.1.2.3 Length=0.15074 LineCode=74
+New Line.1307023 Bus1=5340.1.2.3 Bus2=5338.1.2.3 Length=0.18944 LineCode=74
+New Line.1307165 Bus1=5201.1.2.3 Bus2=5214.1.2.3 Length=0.07437 LineCode=74
+New Line.1307182 Bus1=5192.1.2.3 Bus2=5337.1.2.3 Length=0.00565 LineCode=74
+New Line.1307022 Bus1=5340.1.2.3 Bus2=5339.1.2.3 Length=0.18006 LineCode=74
+New Line.1307163 Bus1=5201.1.2.3 Bus2=5200.1.2.3 Length=0.26446 LineCode=74
+New Line.1307181 Bus1=5342.1.2.3 Bus2=5339.1.2.3 Length=0.14289 LineCode=74
+New Line.1307164 Bus1=5200.1.2.3 Bus2=5216.1.2.3 Length=0.26798 LineCode=74
+New Line.1307021 Bus1=5341.1.2.3 Bus2=5342.1.2.3 Length=0.10707 LineCode=74
+New Line.1307147 Bus1=5216.1.2.3 Bus2=5219.1.2.3 Length=0.13327 LineCode=74
+New Line.1307180 Bus1=5341.1.2.3 Bus2=5344.1.2.3 Length=0.13254 LineCode=74
+New Line.1307145 Bus1=5218.1.2.3 Bus2=5219.1.2.3 Length=0.09742 LineCode=74
+New Line.1307020 Bus1=5343.1.2.3 Bus2=5344.1.2.3 Length=0.12496 LineCode=74
+New Line.1307162 Bus1=5217.1.2 Bus2=5202.1.2 Length=0.0064 LineCode=83
+New Line.1307161 Bus1=5218.1.2.3 Bus2=5221.1.2.3 Length=0.14286 LineCode=74
+New Line.1307179 Bus1=5343.1.2.3 Bus2=5346.1.2.3 Length=0.1229 LineCode=74
+New Line.1307144 Bus1=5220.1.2.3 Bus2=5221.1.2.3 Length=0.09505 LineCode=74
+New Line.1307019 Bus1=5345.1.2.3 Bus2=5346.1.2.3 Length=0.18399 LineCode=74
+New Line.1307160 Bus1=5220.1.2.3 Bus2=5223.1.2.3 Length=0.17016 LineCode=74
+New Line.1307177 Bus1=5193.1.2.3 Bus2=5345.1.2.3 Length=0.07288 LineCode=74
+New Line.1307143 Bus1=5223.1.2.3 Bus2=5222.1.2.3 Length=0.19216 LineCode=74
+New Line.1307176 Bus1=5193.1.2.3 Bus2=5350.1.2.3 Length=0.13194 LineCode=74
+New Line.1307159 Bus1=5222.1.2.3 Bus2=5225.1.2.3 Length=0.08398 LineCode=74
+New Line.1307018 Bus1=5347.1.2.3 Bus2=5348.1.2.3 Length=0.00538 LineCode=74
+New Line.1307017 Bus1=5350.1.2.3 Bus2=5349.1.2.3 Length=0.09928 LineCode=74
+New Line.1307142 Bus1=5224.1.2.3 Bus2=5225.1.2.3 Length=0.06041 LineCode=74
+New Line.1307175 Bus1=5194.1.2.3 Bus2=5349.1.2.3 Length=0.06596 LineCode=74
+New Line.1307158 Bus1=5224.1.2.3 Bus2=5227.1.2.3 Length=0.03972 LineCode=74
+New Line.1307174 Bus1=5194.1.2.3 Bus2=5352.1.2.3 Length=0.04744 LineCode=74
+New Line.1307173 Bus1=5194.1.2.3 Bus2=5353.1.2.3 Length=0.17417 LineCode=74
+New Line.1307141 Bus1=5226.1.2.3 Bus2=5227.1.2.3 Length=0.04045 LineCode=74
+New Line.1307016 Bus1=5351.1.2.3 Bus2=5352.1.2.3 Length=0.01195 LineCode=74
+New Line.1307015 Bus1=5353.1.2.3 Bus2=5355.1.2.3 Length=0.129 LineCode=74
+New Line.1307157 Bus1=5226.1.2.3 Bus2=5203.1.2.3 Length=0.00411 LineCode=74
+New Line.1307194 Bus1=5182.1.2.3 Bus2=5355.1.2.3 Length=0.09514 LineCode=74
+New Line.1307172 Bus1=5195.1.2.3 Bus2=5354.1.2.3 Length=0.00319 LineCode=74
+New Line.1307839 Bus1=5182.1.2.3 Bus2=5183.1.2.3 Length=0.08035 LineCode=74
+New Line.1307171 Bus1=5196.1.2.3 Bus2=5198.1.2.3 Length=0.08622 LineCode=74
+New Line.1307170 Bus1=5198.1.2.3 Bus2=5197.1.2.3 Length=0.14211 LineCode=74
+New Line.1307192 Bus1=5184.1.2.3 Bus2=5185.1.2.3 Length=0.00361 LineCode=74
+New Line.1307191 Bus1=5186.1.2.3 Bus2=5197.1.2.3 Length=0.18596 LineCode=74
+New Line.1307190 Bus1=5188.1.2.3 Bus2=5186.1.2.3 Length=0.02168 LineCode=74
+New Line.1307189 Bus1=5187.1.2.3 Bus2=5188.1.2.3 Length=0.00519 LineCode=74
+New Line.A79418 Phases=3 Bus1=6065.1.2.3 Bus2=19990.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W52829 Phases=3 Bus1=6035.1.2.3 Bus2=3995.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52004 Phases=3 Bus1=5166.1.2.3 Bus2=5167.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52005 Phases=3 Bus1=5169.1.2.3 Bus2=5180.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52007 Phases=3 Bus1=5101.1.2.3 Bus2=5255.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52011 Phases=3 Bus1=5106.1.2.3 Bus2=5107.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52009 Phases=3 Bus1=5261.1.2.3 Bus2=5262.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y03528 Phases=3 Bus1=4201.1.2.3 Bus2=5100.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52015 Phases=3 Bus1=4205.1.2.3 Bus2=5121.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y03529 Phases=2 Bus1=4205.1.3 Bus2=4206.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52017 Phases=3 Bus1=5138.1.2.3 Bus2=5136.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52019 Phases=1 Bus1=5140.1 Bus2=5125.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52021 Phases=3 Bus1=5143.1.2.3 Bus2=5160.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52027 Phases=3 Bus1=5128.1.2.3 Bus2=5161.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52032 Phases=3 Bus1=6047.1.2.3 Bus2=6046.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52030 Phases=2 Bus1=5084.1.2 Bus2=5085.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52033 Phases=3 Bus1=5804.1.2.3 Bus2=5805.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52023 Phases=3 Bus1=5127.1.2.3 Bus2=5155.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52034 Phases=3 Bus1=5834.1.2.3 Bus2=5835.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y01173 Phases=3 Bus1=5834.1.2.3 Bus2=4214.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52036 Phases=3 Bus1=5810.1.2.3 Bus2=5833.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52039 Phases=3 Bus1=5847.1.2.3 Bus2=5848.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52038 Phases=3 Bus1=5838.1.2.3 Bus2=5837.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52042 Phases=3 Bus1=5812.1.2.3 Bus2=6021.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52101 Phases=3 Bus1=6235.1.2.3 Bus2=6236.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52043 Phases=3 Bus1=5815.1.2.3 Bus2=5817.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52106 Phases=3 Bus1=6009.1.2.3 Bus2=6010.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52045 Phases=3 Bus1=5820.1.2.3 Bus2=5822.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52105 Phases=3 Bus1=6010.1.2.3 Bus2=6246.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52108 Phases=3 Bus1=6265.1.2.3 Bus2=6267.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52110 Phases=3 Bus1=6266.1.2.3 Bus2=6263.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52103 Phases=3 Bus1=6012.1.2.3 Bus2=6013.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52047 Phases=3 Bus1=5823.1.2.3 Bus2=5824.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52055 Phases=3 Bus1=5562.1.2.3 Bus2=5564.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52059 Phases=3 Bus1=5566.1.2.3 Bus2=5561.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52112 Phases=3 Bus1=6007.1.2.3 Bus2=6281.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W63154 Phases=3 Bus1=6355.1.2.3 Bus2=6353.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52061 Phases=3 Bus1=5738.1.2.3 Bus2=5736.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52051 Phases=3 Bus1=5528.1.2.3 Bus2=5530.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52049 Phases=3 Bus1=5524.1.2.3 Bus2=5525.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52063 Phases=2 Bus1=5741.1.2 Bus2=5742.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52066 Phases=3 Bus1=5559.1.2.3 Bus2=5749.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52064 Phases=2 Bus1=5745.1.2 Bus2=5747.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52070 Phases=3 Bus1=5754.1.2.3 Bus2=5438.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52053 Phases=3 Bus1=5539.1.2.3 Bus2=5541.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52115 Phases=3 Bus1=6251.1.2.3 Bus2=6252.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52072 Phases=3 Bus1=5441.1.2.3 Bus2=6336.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y13236 Phases=3 Bus1=6334.1.2.3 Bus2=6336.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52074 Phases=3 Bus1=5443.1.2.3 Bus2=6335.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A31601 Phases=3 Bus1=4212.1.2.3 Bus2=5549.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52076 Phases=3 Bus1=5762.1.2.3 Bus2=5764.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y08790 Phases=3 Bus1=4188.1.2.3 Bus2=5763.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52116 Phases=3 Bus1=6233.1.2.3 Bus2=6234.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52078 Phases=3 Bus1=5445.1.2.3 Bus2=5767.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52169 Phases=3 Bus1=5859.1.2.3 Bus2=5857.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52080 Phases=3 Bus1=5475.1.2.3 Bus2=5474.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52117 Phases=3 Bus1=6227.1.2.3 Bus2=6229.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52171 Phases=3 Bus1=5865.1.2.3 Bus2=5864.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52083 Phases=3 Bus1=5453.1.2.3 Bus2=5456.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52172 Phases=3 Bus1=5866.1.2.3 Bus2=5867.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52119 Phases=3 Bus1=6223.1.2.3 Bus2=6224.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52085 Phases=3 Bus1=5457.1.2.3 Bus2=5458.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52174 Phases=3 Bus1=5937.1.2.3 Bus2=5939.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52087 Phases=3 Bus1=5460.1.2.3 Bus2=5462.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W41222 Phases=3 Bus1=5910.1.2.3 Bus2=5911.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52175 Phases=3 Bus1=5909.1.2.3 Bus2=5910.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52090 Phases=3 Bus1=5461.1.2.3 Bus2=5462.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52088 Phases=3 Bus1=5488.1.2.3 Bus2=5493.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52178 Phases=3 Bus1=5928.1.2.3 Bus2=5929.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52188 Phases=3 Bus1=5915.1.2.3 Bus2=5912.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y18520 Phases=3 Bus1=6322.1.2.3 Bus2=6324.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52179 Phases=3 Bus1=5931.1.2.3 Bus2=5932.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52189 Phases=3 Bus1=5918.1.2.3 Bus2=5916.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W52985 Phases=3 Bus1=3988.1.2.3 Bus2=4177.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52094 Phases=3 Bus1=5465.1.2.3 Bus2=5469.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52195P Phases=3 Bus1=6275.1.2.3 Bus2=6276.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52195 Phases=3 Bus1=6276.1.2.3 Bus2=6278.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W41231 Phases=3 Bus1=5373.1.2.3 Bus2=6277.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52122 Phases=3 Bus1=6192.1.2.3 Bus2=6193.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52182 Phases=3 Bus1=5891.1.2.3 Bus2=5889.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52099 Phases=1 Bus1=5496.1 Bus2=5499.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52186 Phases=1 Bus1=5768.1 Bus2=5922.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52312 Phases=3 Bus1=5357.1.2.3 Bus2=5358.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52123 Phases=3 Bus1=6214.1.2.3 Bus2=6215.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52124 Phases=3 Bus1=4243.1.2.3 Bus2=4244.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52095 Phases=3 Bus1=5477.1.2.3 Bus2=5485.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52314 Phases=3 Bus1=5364.1.2.3 Bus2=5366.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52127 Phases=3 Bus1=4232.1.2.3 Bus2=4233.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52316 Phases=3 Bus1=5642.1.2.3 Bus2=5632.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52097 Phases=3 Bus1=5658.1.2.3 Bus2=5660.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66673 Phases=1 Bus1=5668.1 Bus2=5510.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52129 Phases=3 Bus1=4227.1.2.3 Bus2=4229.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52131 Phases=3 Bus1=4226.1.2.3 Bus2=4224.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N08419 Phases=3 Bus1=6285.1.2.3 Bus2=6286.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52318 Phases=3 Bus1=5637.1.2.3 Bus2=5640.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52134 Phases=3 Bus1=4221.1.2.3 Bus2=4256.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52135 Phases=3 Bus1=4217.1.2.3 Bus2=4245.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52137 Phases=3 Bus1=4246.1.2.3 Bus2=4257.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52139 Phases=3 Bus1=4248.1.2.3 Bus2=4250.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y23072 Phases=3 Bus1=4260.1.2.3 Bus2=4261.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52320 Phases=3 Bus1=5326.1.2.3 Bus2=5328.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52198 Phases=3 Bus1=5719.1.2.3 Bus2=5721.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52141 Phases=3 Bus1=4254.1.2.3 Bus2=4262.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52322 Phases=3 Bus1=4928.1.2.3 Bus2=4929.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52145 Phases=3 Bus1=6114.1.2.3 Bus2=4268.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52342 Phases=3 Bus1=5652.1.2.3 Bus2=5653.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52206 Phases=3 Bus1=5723.1.2.3 Bus2=6130.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52146 Phases=3 Bus1=6115.1.2.3 Bus2=6125.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52324 Phases=3 Bus1=4789.1.2.3 Bus2=4937.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52325 Phases=3 Bus1=4788.1.2.3 Bus2=4789.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52200 Phases=3 Bus1=5076.1.2.3 Bus2=5079.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52208 Phases=3 Bus1=6136.1.2.3 Bus2=6137.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10301 Phases=2 Bus1=4111.1.3 Bus2=4112.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52150 Phases=3 Bus1=6118.1.2.3 Bus2=5234.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N44685 Phases=3 Bus1=6293.1.2.3 Bus2=6294.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52372 Phases=3 Bus1=5097.1.2.3 Bus2=5099.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10306 Phases=2 Bus1=4097.1.3 Bus2=4106.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N58570 Phases=2 Bus1=3952.1.2 Bus2=3951.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10304 Phases=2 Bus1=4101.1.3 Bus2=4105.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52346 Phases=3 Bus1=5383.1.2.3 Bus2=5386.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A68913 Phases=3 Bus1=4797.1.2.3 Bus2=4800.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10308 Phases=2 Bus1=4085.1.2 Bus2=4086.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52351 Phases=3 Bus1=5229.1.2.3 Bus2=5230.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52350 Phases=3 Bus1=4151.1.2.3 Bus2=5389.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N44683 Phases=3 Bus1=6298.1.2.3 Bus2=6297.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66658 Phases=3 Bus1=5786.1.2.3 Bus2=5785.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52212 Phases=3 Bus1=5795.1.2.3 Bus2=6151.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10319 Phases=2 Bus1=5394.1.2 Bus2=5395.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10314 Phases=2 Bus1=4075.1.3 Bus2=4080.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10313 Phases=2 Bus1=4079.1.3 Bus2=4081.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52374 Phases=3 Bus1=4920.1.2.3 Bus2=4922.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A91968 Phases=3 Bus1=6152.1.2.3 Bus2=6279.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52353 Phases=1 Bus1=5396.1 Bus2=5393.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52376 Phases=3 Bus1=4940.1.2.3 Bus2=4955.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52213 Phases=3 Bus1=6142.1.2.3 Bus2=6153.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10316 Phases=2 Bus1=4070.1.3 Bus2=4069.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52153 Phases=2 Bus1=3930.1.2 Bus2=3931.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52358 Phases=2 Bus1=4130.1.3 Bus2=5294.1.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52155 Phases=2 Bus1=5094.1.2 Bus2=3970.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52354 Phases=1 Bus1=5403.1 Bus2=5401.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52215 Phases=3 Bus1=6145.1.2.3 Bus2=6158.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52359 Phases=3 Bus1=4126.1.2.3 Bus2=4662.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52379 Phases=3 Bus1=4968.1.2.3 Bus2=4965.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52440 Phases=3 Bus1=4831.1.2.3 Bus2=4787.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52438 Phases=3 Bus1=4374.1.2.3 Bus2=4373.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52437 Phases=3 Bus1=4654.1.2.3 Bus2=4655.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52217 Phases=3 Bus1=6167.1.2.3 Bus2=6168.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N58573 Phases=2 Bus1=3968.1.2 Bus2=3914.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N58575 Phases=2 Bus1=3910.1.2 Bus2=3967.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52435 Phases=3 Bus1=4381.1.2.3 Bus2=4382.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52219 Phases=3 Bus1=5570.1.2.3 Bus2=5572.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52363 Phases=3 Bus1=5281.1.2.3 Bus2=5416.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52432 Phases=3 Bus1=4383.1.2.3 Bus2=4384.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52459 Phases=3 Bus1=4607.1.2.3 Bus2=4616.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A70721 Phases=3 Bus1=4686.1.2.3 Bus2=4688.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52431 Phases=3 Bus1=4401.1.2.3 Bus2=4402.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52220 Phases=3 Bus1=6181.1.2.3 Bus2=5949.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52457 Phases=3 Bus1=4618.1.2.3 Bus2=4620.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52222 Phases=3 Bus1=5948.1.2.3 Bus2=6183.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52429 Phases=3 Bus1=4274.1.2.3 Bus2=4387.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52460 Phases=3 Bus1=4641.1.2.3 Bus2=4644.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A70722 Phases=3 Bus1=4690.1.2.3 Bus2=4707.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52427 Phases=3 Bus1=4276.1.2.3 Bus2=4391.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52454 Phases=3 Bus1=4610.1.2.3 Bus2=4622.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66668 Phases=3 Bus1=4517.1.2.3 Bus2=4613.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52425 Phases=3 Bus1=4362.1.2.3 Bus2=4363.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52452 Phases=3 Bus1=4626.1.2.3 Bus2=4624.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52381 Phases=3 Bus1=4994.1.2.3 Bus2=4995.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52449 Phases=3 Bus1=4631.1.2.3 Bus2=4661.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52382 Phases=3 Bus1=4844.1.2.3 Bus2=4860.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y19250 Phases=3 Bus1=6320.1.2.3 Bus2=6321.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52448 Phases=3 Bus1=4469.1.2.3 Bus2=4467.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52424 Phases=3 Bus1=4355.1.2.3 Bus2=4356.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y21431 Phases=3 Bus1=6310.1.2.3 Bus2=6312.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52387 Phases=3 Bus1=4842.1.2.3 Bus2=4848.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52223 Phases=1 Bus1=5944.1 Bus2=6190.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52420 Phases=3 Bus1=4396.1.2.3 Bus2=4278.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66679 Phases=3 Bus1=4457.1.2.3 Bus2=4458.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52384 Phases=3 Bus1=4851.1.2.3 Bus2=4854.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52225 Phases=1 Bus1=5953.1 Bus2=6084.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52245 Phases=2 Bus1=5595.1.2 Bus2=5599.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52227 Phases=1 Bus1=6087.1 Bus2=6088.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52369 Phases=2 Bus1=5301.1.2 Bus2=5310.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52246 Phases=3 Bus1=5623.1.2.3 Bus2=5624.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52230 Phases=1 Bus1=6093.1 Bus2=6095.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N58572 Phases=2 Bus1=3878.1.2 Bus2=3964.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N58571 Phases=2 Bus1=3877.1.2 Bus2=3879.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.Y21910 Phases=3 Bus1=6319.1.2.3 Bus2=6314.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52388 Phases=3 Bus1=5012.1.2.3 Bus2=5013.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52231 Phases=1 Bus1=6094.1 Bus2=6099.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52163 Phases=2 Bus1=3964.1.2 Bus2=3873.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52249 Phases=3 Bus1=4883.1.2.3 Bus2=4884.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52419 Phases=3 Bus1=4299.1.2.3 Bus2=4433.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66688 Phases=3 Bus1=4483.1.2.3 Bus2=4485.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52233 Phases=1 Bus1=6102.1 Bus2=6103.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52247 Phases=2 Bus1=4743.1.2 Bus2=4749.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66662 Phases=3 Bus1=5029.1.2.3 Bus2=5051.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52417 Phases=3 Bus1=4435.1.2.3 Bus2=4437.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A68911 Phases=2 Bus1=5609.1.2 Bus2=5610.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52236 Phases=1 Bus1=5966.1 Bus2=5961.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66660 Phases=3 Bus1=5030.1.2.3 Bus2=5050.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52414 Phases=3 Bus1=4441.1.2.3 Bus2=4302.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52251 Phases=3 Bus1=4906.1.2.3 Bus2=4905.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52151 Phases=2 Bus1=3963.1.2 Bus2=5235.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52412 Phases=3 Bus1=4447.1.2.3 Bus2=4448.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66663 Phases=3 Bus1=5047.1.2.3 Bus2=5046.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52411 Phases=3 Bus1=4449.1.2.3 Bus2=4450.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52253 Phases=1 Bus1=4888.1 Bus2=4910.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52165 Phases=1 Bus1=5239.1 Bus2=5238.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52258 Phases=3 Bus1=4756.1.2.3 Bus2=4761.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52237 Phases=1 Bus1=5973.1 Bus2=5974.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10337 Phases=2 Bus1=4042.1.2 Bus2=4113.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52167 Phases=1 Bus1=5242.1 Bus2=5245.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52256 Phases=1 Bus1=4891.1 Bus2=4897.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52239 Phases=1 Bus1=5977.1 Bus2=5978.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52401 Phases=3 Bus1=4413.1.2.3 Bus2=4418.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52261 Phases=3 Bus1=4766.1.2.3 Bus2=4768.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52262 Phases=3 Bus1=4776.1.2.3 Bus2=4774.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52398 Phases=3 Bus1=4421.1.2.3 Bus2=4422.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52264 Phases=3 Bus1=4777.1.2.3 Bus2=4773.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A70714 Phases=1 Bus1=6067.1 Bus2=6108.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52265 Phases=3 Bus1=4777.1.2.3 Bus2=4779.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.N37269 Phases=3 Bus1=3962.1.2.3 Bus2=4504.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.W10345 Phases=2 Bus1=4031.1.2 Bus2=6290.1.2 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52268 Phases=3 Bus1=4291.1.2.3 Bus2=4293.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66653 Phases=1 Bus1=4404.1 Bus2=4406.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52242 Phases=1 Bus1=5924.1 Bus2=6076.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A66655 Phases=1 Bus1=4407.1 Bus2=4526.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52397 Phases=3 Bus1=4289.1.2.3 Bus2=4321.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52394 Phases=3 Bus1=4324.1.2.3 Bus2=4322.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52403 Phases=3 Bus1=4561.1.2.3 Bus2=4558.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52270 Phases=3 Bus1=4597.1.2.3 Bus2=4601.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52404 Phases=3 Bus1=4529.1.2.3 Bus2=4560.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52272 Phases=3 Bus1=4710.1.2.3 Bus2=4713.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A68907 Phases=1 Bus1=4549.1 Bus2=4563.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52274 Phases=3 Bus1=4728.1.2.3 Bus2=4730.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52405 Phases=3 Bus1=4674.1.2.3 Bus2=4675.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52276 Phases=3 Bus1=4715.1.2.3 Bus2=4716.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52278 Phases=3 Bus1=4732.1.2.3 Bus2=4733.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52393 Phases=3 Bus1=4329.1.2.3 Bus2=4328.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52280 Phases=3 Bus1=4735.1.2.3 Bus2=4722.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52282 Phases=3 Bus1=4738.1.2.3 Bus2=4739.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52284 Phases=3 Bus1=4603.1.2.3 Bus2=4725.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52286 Phases=3 Bus1=4590.1.2.3 Bus2=4605.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52391 Phases=3 Bus1=4310.1.2.3 Bus2=4348.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52289 Phases=3 Bus1=5208.1.2.3 Bus2=5206.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52288 Phases=3 Bus1=5207.1.2.3 Bus2=5210.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52296 Phases=3 Bus1=5190.1.2.3 Bus2=5191.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52291 Phases=3 Bus1=5209.1.2.3 Bus2=5213.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A68908 Phases=1 Bus1=6338.1 Bus2=4581.1 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52298 Phases=3 Bus1=5337.1.2.3 Bus2=5338.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A56293 Phases=3 Bus1=5217.1.2.3 Bus2=5219.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52300 Phases=3 Bus1=5193.1.2.3 Bus2=5348.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52304 Phases=3 Bus1=5355.1.2.3 Bus2=5354.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52306 Phases=3 Bus1=5182.1.2.3 Bus2=5196.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
+New Line.A52307 Phases=3 Bus1=5183.1.2.3 Bus2=5185.1.2.3 Length=0.001 Units=km r1=0.001 r0=0.001 x1=0 x0=0 c1=0 c0=0
