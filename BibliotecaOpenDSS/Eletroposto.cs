@@ -21,6 +21,7 @@ namespace BibliotecaOpenDSS
         private Bus DSSBus;
         private Loads DSSLoads;
         private Lines DSSLines;
+        private LineCodes DSSLineCodes;
 
         public string FileName;
         public Boolean IsStarted;
@@ -57,7 +58,9 @@ namespace BibliotecaOpenDSS
             this.DSSPDElement = DSSCircuit.PDElements;
             this.DSSCktElement = DSSCircuit.ActiveCktElement;
             this.DSSBus = DSSCircuit.ActiveBus;
+            this.DSSLoads = DSSCircuit.Loads;
             this.DSSLines = DSSCircuit.Lines;
+            this.DSSLineCodes = DSSCircuit.LineCodes;
          
             this.DSSText.Command = "Set Mode = Snapshot";
 
@@ -82,23 +85,65 @@ namespace BibliotecaOpenDSS
         }
         
         //TRECHOS
-        public List<Trecho> CodTrechos()
+        public List<Trecho> TodosTrechos()
         {
             List<Trecho> lista = new List<Trecho>();
             Trecho trecho = null;
+            Barra barra = null;
             int LineCount = DSSLines.First;
 
             for (int i = 0; i < this.DSSLines.Count; i++)
             {
+                                
                 trecho = new Trecho();
+
                 DSSLines = DSSCircuit.Lines;
-                
-                trecho.trecho = DSSLines.Name;
+
+                trecho.CodTrecho = DSSLines.Name;
+
+                DSSCircuit.SetActiveElement(trecho.CodTrecho);
+                DSSLineCodes.Name = DSSLines.LineCode;
+
+                trecho.INom = DSSLineCodes.NormAmps;
+                trecho.Comprimento = DSSLines.Length;
+
+                barra = new Barra();
+
+                barra.CodBarra = DSSLines.Bus2.Split('.')[0];
+                trecho.barra2 = barra;
+                                  
+                    
+                trecho.Parametro = DSSLines.LineCode;
+
+
                 lista.Add(trecho);
 
                 LineCount = DSSLines.Next;
             }
 
+            return lista;
+        }
+
+        public List<Trecho> Info(List<Trecho> lista)
+        {
+            foreach (Trecho t in lista)
+            {
+                //DSSCircuit.SetActiveElement(t.trecho);
+                //t.comprimento = DSSLines.Length;
+                Lines ll = DSSLines;
+
+                // parâmetro
+                //t.linecode = DSSLines.LineCode;
+                
+                double amp = DSSLineCodes.NormAmps;
+
+                // barra 2
+                string xbarra = DSSLines.Bus2;
+                string[] barra2 = xbarra.Split(new char[1] {'.'});
+                                
+                //this.DSSBus = DSSCircuit.Buses[barra2];
+                
+            }
             return lista;
         }
 
@@ -113,7 +158,7 @@ namespace BibliotecaOpenDSS
                 barra = new Barra();
                 DSSBus = DSSCircuit.Buses[i];
                 //Ativar a barra para obter as informações de coordenadas para a geolocalização
-                barra.barra = DSSBus.Name;
+                //barra.barra = DSSBus.Name;
                 list.Add(barra);
             }
 
@@ -125,10 +170,10 @@ namespace BibliotecaOpenDSS
         {
             foreach(Barra b in list)
             {
-                DSSCircuit.SetActiveBus(b.barra);
+                // DSSCircuit.SetActiveBus(b.barra);
                 double d = DSSBus.kVBase;
                 Bus bb = DSSBus;
-                b.longitude = DSSBus.y;
+                //b.longitude = DSSBus.y;
             }
             return list;
         }

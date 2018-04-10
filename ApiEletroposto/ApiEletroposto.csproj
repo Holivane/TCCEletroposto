@@ -184,12 +184,13 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\barras.cs">
+    <Compile Include="Models\Barras.cs">
       <DependentUpon>Modelo_eletroposto.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Modelo_eletroposto.Context.cs">
@@ -207,13 +208,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Modelo_eletroposto.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\pessoas.cs">
+    <Compile Include="Models\Pessoas.cs">
       <DependentUpon>Modelo_eletroposto.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\simulacoes.cs">
+    <Compile Include="Models\Simulacoes.cs">
       <DependentUpon>Modelo_eletroposto.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\simulacoes_ppu.cs">
+    <Compile Include="Models\Simulacoes_ppu.cs">
+      <DependentUpon>Modelo_eletroposto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Trechos.cs">
       <DependentUpon>Modelo_eletroposto.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -290,6 +294,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

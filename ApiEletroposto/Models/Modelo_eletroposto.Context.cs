@@ -25,9 +25,10 @@ namespace ApiEletroposto.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<barras> barras { get; set; }
-        public virtual DbSet<pessoas> pessoas { get; set; }
-        public virtual DbSet<simulacoes> simulacoes { get; set; }
-        public virtual DbSet<simulacoes_ppu> simulacoes_ppu { get; set; }
+        public virtual DbSet<Barras> Barras { get; set; }
+        public virtual DbSet<Pessoas> Pessoas { get; set; }
+        public virtual DbSet<Simulacoes> Simulacoes { get; set; }
+        public virtual DbSet<Simulacoes_ppu> Simulacoes_ppu { get; set; }
+        public virtual DbSet<Trechos> Trechos { get; set; }
     }
 }

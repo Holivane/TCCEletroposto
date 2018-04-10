@@ -12,11 +12,12 @@ namespace ApiEletroposto.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class barras
+    public partial class Barras
     {
         public long id { get; set; }
-        public string barra { get; set; }
-        public Nullable<decimal> latitude { get; set; }
-        public Nullable<decimal> longitude { get; set; }
+        public string Barra { get; set; }
+        public Nullable<decimal> Latitude { get; set; }
+        public Nullable<decimal> Longitude { get; set; }
+        public string Rede { get; set; }
     }
 }

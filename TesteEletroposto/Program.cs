@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,14 @@ namespace TesteEletroposto
         //ananda
         static void Main(string[] args)
         {
+            Console.WriteLine("___________________________________________");
+            Console.WriteLine();
+            Console.WriteLine("Ler Arquivo CSV");
+            Console.WriteLine();
+            Console.WriteLine("___________________________________________");
+            
+
+
             //Holivane 
             Eletroposto lib = new Eletroposto("C:\\Users\\anand\\Documents\\TCCEletroposto\\TCCEletroposto\\ApiEletroposto\\Content\\Rede\\Sinap_Rede_CAI_teste_sem_trafos.dss");
 
@@ -32,27 +41,15 @@ namespace TesteEletroposto
 
             //TRECHOS
             List<Trecho> x = new List<Trecho>();
-            x = lib.CodTrechos();
-
+            x = lib.TodosTrechos();
+            
             foreach (Trecho t in x)
             {
-                Console.Out.WriteLine(t.trecho);
+                Console.Out.WriteLine(t.CodTrecho + " --- " + t.Comprimento + "---" + t.Parametro + "---" + t.barra2.CodBarra);
 
             }
 
-            ////BARRAS
-            //List<Barra> xyz = new List<Barra>();
-            //xyz = lib.AllScore();
-            //xyz = lib.GetCoordinates(xyz);
 
-            //foreach (Barra b in xyz)
-            //{
-            //    Console.Out.WriteLine(b.barra);
-            //    Console.Out.WriteLine(b.latitudade.ToString());
-            //    Console.Out.WriteLine(b.longitude.ToString());
-            //}
-
-            //Console.Out.WriteLine("Quantidade de barras: " + lib.GetCountBus());
             Console.ReadLine();
 
         }

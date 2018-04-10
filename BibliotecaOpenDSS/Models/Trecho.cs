@@ -8,9 +8,12 @@ namespace BibliotecaOpenDSS.Models
 {
     public class Trecho
     {
-        public string trecho { get; set; }
-        public float comprimento { get; set; }
-        public string lineCode { get; set; }
-        public string barra2 { get; set; }
+        public string CodTrecho { get; set; }
+        public string Parametro { get; set; }
+        public double INom { get; set; }
+        public double IAtual { get; set; }
+        public double ICalculada { get; set; }
+        public double Comprimento { get; set; }
+        public Barra barra2 { get; set; }
     }
 }
