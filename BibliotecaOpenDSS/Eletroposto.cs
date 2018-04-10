@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -153,15 +154,19 @@ namespace BibliotecaOpenDSS
             List<Barra> list = new List<Barra>();
             Barra barra = null;
 
+            StreamWriter writer = new StreamWriter("Barras.txt");
+
             for (int i = 0; i < this.DSSCircuit.NumBuses; i++)
             {
                 barra = new Barra();
                 DSSBus = DSSCircuit.Buses[i];
                 //Ativar a barra para obter as informações de coordenadas para a geolocalização
-                //barra.barra = DSSBus.Name;
+                writer.WriteLine(DSSBus.Name);
+                barra.CodBarra = DSSBus.Name;
                 list.Add(barra);
-            }
 
+            }
+            writer.Close();
             return list;
         }
 

@@ -14,11 +14,11 @@ namespace TesteEletroposto
         //ananda
         static void Main(string[] args)
         {
-            Console.WriteLine("___________________________________________");
-            Console.WriteLine();
-            Console.WriteLine("Ler Arquivo CSV");
-            Console.WriteLine();
-            Console.WriteLine("___________________________________________");
+            //Console.WriteLine("___________________________________________");
+            //Console.WriteLine();
+            //Console.WriteLine("Ler Arquivo CSV");
+            //Console.WriteLine();
+            //Console.WriteLine("___________________________________________");
             
 
 
@@ -38,6 +38,9 @@ namespace TesteEletroposto
             lib.AddLoad(carga);
 
             //lib.Solve();
+
+            List<Barra> b = new List<Barra>();
+            b = lib.AllScore();
 
             //TRECHOS
             List<Trecho> x = new List<Trecho>();
