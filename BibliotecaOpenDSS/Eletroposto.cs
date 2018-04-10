@@ -20,6 +20,7 @@ namespace BibliotecaOpenDSS
         private PDElements DSSPDElement;
         private Bus DSSBus;
         private Loads DSSLoads;
+        private Lines DSSLines;
 
         public string FileName;
         public Boolean IsStarted;
@@ -56,6 +57,7 @@ namespace BibliotecaOpenDSS
             this.DSSPDElement = DSSCircuit.PDElements;
             this.DSSCktElement = DSSCircuit.ActiveCktElement;
             this.DSSBus = DSSCircuit.ActiveBus;
+            this.DSSLines = DSSCircuit.Lines;
          
             this.DSSText.Command = "Set Mode = Snapshot";
 
@@ -78,7 +80,29 @@ namespace BibliotecaOpenDSS
         {
             return this.DSSCircuit.NumBuses;
         }
+        
+        //TRECHOS
+        public List<Trecho> CodTrechos()
+        {
+            List<Trecho> lista = new List<Trecho>();
+            Trecho trecho = null;
+            int LineCount = DSSLines.First;
 
+            for (int i = 0; i < this.DSSLines.Count; i++)
+            {
+                trecho = new Trecho();
+                DSSLines = DSSCircuit.Lines;
+                
+                trecho.trecho = DSSLines.Name;
+                lista.Add(trecho);
+
+                LineCount = DSSLines.Next;
+            }
+
+            return lista;
+        }
+
+        //BARRAS
         public List<Barra> AllScore()
         {
             List<Barra> list = new List<Barra>();
