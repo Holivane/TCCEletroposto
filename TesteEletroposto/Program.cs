@@ -28,12 +28,13 @@ namespace TesteEletroposto
             bool verificararquivoderede = lib.RunFile();
 
 
-            BibliotecaOpenDSS.Models.Carga carga = new BibliotecaOpenDSS.Models.Carga();
-
-
-            carga.Barra = "1115";
-            carga.Nome = "CargaTeste";
-            carga.PotenciaTotal = 50000;
+            BibliotecaOpenDSS.Models.Carga carga = new Carga
+            {
+                Barra = "1115",
+                Nome = "CargaTeste",
+                PotenciaTotal = 50000
+            };
+                       
 
             lib.AddLoad(carga);
 

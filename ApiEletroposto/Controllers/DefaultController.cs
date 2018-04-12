@@ -15,7 +15,7 @@ namespace ApiEletroposto.Controllers
         public string Get(string filename)
         {
             List<Barra> lista = new List<Barra>();
-            lista = BibliotecaOpenDSS.Utils.Utils.LerArquivo(filename);
+            lista = BibliotecaOpenDSS.Uteis.Uteis.LerArquivo(filename);
 
             apitcceletroEntities db = new apitcceletroEntities();
 
@@ -24,12 +24,15 @@ namespace ApiEletroposto.Controllers
             Barras barra = null;
             foreach (Barra b in lista)
             {
-                barra = new Barras();
-                barra.Barra = b.CodBarra;
-                barra.Latitude = Convert.ToDecimal(b.Latitudade);
-                barra.Longitude = Convert.ToDecimal(b.Longitude);
-                barra.Rede = b.Rede;
-                //barra.id = count++;
+                barra = new Barras
+                {
+                    Barra = b.CodBarra,
+                    Latitude = Convert.ToDecimal(b.Latitudade),
+                    Longitude = Convert.ToDecimal(b.Longitude),
+                    Rede = b.Rede
+                    //barra.id = count++;
+                };
+                
                 db.Barras.Add(barra);
             }
             db.SaveChanges();

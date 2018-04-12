@@ -45,7 +45,7 @@
     <Compile Include="Models\Carga.cs" />
     <Compile Include="Models\Trecho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Uteis\Uteis.cs" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="OpenDSSengine">

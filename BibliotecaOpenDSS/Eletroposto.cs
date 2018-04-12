@@ -108,9 +108,11 @@ namespace BibliotecaOpenDSS
                 trecho.INom = DSSLineCodes.NormAmps;
                 trecho.Comprimento = DSSLines.Length;
 
-                barra = new Barra();
+                barra = new Barra
+                {
+                    CodBarra = DSSLines.Bus2.Split('.')[0]
+                };
 
-                barra.CodBarra = DSSLines.Bus2.Split('.')[0];
                 trecho.barra2 = barra;
                                   
                     

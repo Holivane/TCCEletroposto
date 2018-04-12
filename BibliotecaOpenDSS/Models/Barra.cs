@@ -14,6 +14,5 @@ namespace BibliotecaOpenDSS.Models
         public double Longitude { get; set; }
         public double Latitudade { get; set; }
         public string Rede { get; set; }
-
     }
 }
