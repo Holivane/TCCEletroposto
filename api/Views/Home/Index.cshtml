@@ -1,0 +1,37 @@
+﻿<div id="dvMap" style="height:550px;"></div>
+<script type="text/javascript">
+    var map;
+    var marker;
+    var markers = [];
+    function initMap() {
+
+        var CDAM_Latlng = new google.maps.LatLng(-23.5585008, -46.7333438);
+        var CDAM_mapOptions = {
+            zoom: 12,
+            center: CDAM_Latlng
+        }
+        var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
+        
+        function deleteOverlays() {
+            if (markers) {
+                for (i in markers) {
+                    markers[i].setMap(null);
+                }
+                markers.length = 0;
+            }
+        }
+
+        //var iconHome = "/1.png";
+
+        $.getJSON("http://localhost:52542/api/eletroposto/getbus", function (json1) {
+            deleteOverlays();
+            $.each(json1, function (key, data) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                    map: map
+                });
+                markers.push(marker);
+            });
+        });
+    }
+</script>

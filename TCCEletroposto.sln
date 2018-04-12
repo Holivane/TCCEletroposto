@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEletroposto", "ApiEletro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteEletroposto", "TesteEletroposto\TesteEletroposto.csproj", "{A3929E9D-9F92-4D7A-B384-A3DBE7AFF910}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{620B6CC8-5254-4019-BD7B-DAA5B679B484}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{A3929E9D-9F92-4D7A-B384-A3DBE7AFF910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3929E9D-9F92-4D7A-B384-A3DBE7AFF910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3929E9D-9F92-4D7A-B384-A3DBE7AFF910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620B6CC8-5254-4019-BD7B-DAA5B679B484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620B6CC8-5254-4019-BD7B-DAA5B679B484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620B6CC8-5254-4019-BD7B-DAA5B679B484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620B6CC8-5254-4019-BD7B-DAA5B679B484}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
