@@ -12,3 +12,8 @@ C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Deb
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csproj.CoreCompileInputs.cache
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.dll
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.pdb
+D:\Projetos\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csprojResolveAssemblyReference.cache
+D:\Projetos\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csproj.ResolveComReference.cache
+D:\Projetos\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csproj.CoreCompileInputs.cache
+D:\Projetos\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.dll
+D:\Projetos\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.pdb

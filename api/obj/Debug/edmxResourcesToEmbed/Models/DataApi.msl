@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TCCModelStoreContainer" CdmEntityContainer="TCCELETROPOSTOEntities">
+    <EntitySetMapping Name="Barras">
+      <EntityTypeMapping TypeName="TCCModel.Barras">
+        <MappingFragment StoreEntitySet="Barras">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Barra" ColumnName="Barra" />
+          <ScalarProperty Name="NomedaBarra" ColumnName="NomedaBarra" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Rede" ColumnName="Rede" />
+          <ScalarProperty Name="NomedaRede" ColumnName="NomedaRede" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoas">
+      <EntityTypeMapping TypeName="TCCModel.Pessoas">
+        <MappingFragment StoreEntitySet="Pessoas">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TipodePessoa" ColumnName="TipodePessoa" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="Situacao" ColumnName="Situacao" />
+          <ScalarProperty Name="DatadeCriacao" ColumnName="DatadeCriacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Simulacoes">
+      <EntityTypeMapping TypeName="TCCModel.Simulacoes">
+        <MappingFragment StoreEntitySet="Simulacoes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idPessoa" ColumnName="idPessoa" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Potencia" ColumnName="Potencia" />
+          <ScalarProperty Name="Barra" ColumnName="Barra" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="Tensao" ColumnName="Tensao" />
+          <ScalarProperty Name="Sistema" ColumnName="Sistema" />
+          <ScalarProperty Name="NivelCC" ColumnName="NivelCC" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="DatadaSimulacao" ColumnName="DatadaSimulacao" />
+          <ScalarProperty Name="DadosComplementares" ColumnName="DadosComplementares" />
+          <ScalarProperty Name="SolicitacaodeAcesso" ColumnName="SolicitacaodeAcesso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Simulacoes_ppu">
+      <EntityTypeMapping TypeName="TCCModel.Simulacoes_ppu">
+        <MappingFragment StoreEntitySet="Simulacoes_ppu">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idSimulacao" ColumnName="idSimulacao" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+          <ScalarProperty Name="Potencia" ColumnName="Potencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trechos">
+      <EntityTypeMapping TypeName="TCCModel.Trechos">
+        <MappingFragment StoreEntitySet="Trechos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Trecho" ColumnName="Trecho" />
+          <ScalarProperty Name="Barra1" ColumnName="Barra1" />
+          <ScalarProperty Name="Barra2" ColumnName="Barra2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

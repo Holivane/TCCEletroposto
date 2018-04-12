@@ -1,0 +1,89 @@
+﻿<div id="dvMap" style="height:550px; width:650px; float:right; margin-top: 80px"></div>
+<script type="text/javascript">
+    var map;
+    var marker;
+    var markers = [];
+    function initMap() {
+
+        var CDAM_Latlng = new google.maps.LatLng(-23.5286193, -46.6338504);
+        var CDAM_mapOptions = {
+            zoom: 15,
+            center: CDAM_Latlng
+        }
+        var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
+        
+        function deleteOverlays() {
+            if (markers) {
+                for (i in markers) {
+                    markers[i].setMap(null);
+                }
+                markers.length = 0;
+            }
+        }
+        /*
+        google.maps.event.addListener(map, 'click', function (event) {
+            placeMarker(event.latLng);
+        });
+        */
+
+        function placeMarker(location) {
+            var data = 
+                {
+                    "Latitudade": location.lat().toFixed(3),
+                    "Longitude": location.lng().toFixed(3)                    
+                };
+            $.post('http://localhost:52542/api/eletroposto/addbus', data, function (response) {
+                deleteOverlays();
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                    map: map
+                });
+            }, 'json');
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+
+        var iconHome = "/1.png";
+        
+        $.getJSON("http://localhost:52542/api/eletroposto/getbus", function (json1) {
+            deleteOverlays();
+            $.each(json1, function (key, data) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                    map: map,
+                    icon: iconHome
+                });
+                markers.push(marker);
+                google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
+                    $.post('http://localhost:52542/api/eletroposto/calcscore', data, function (response) {
+                        
+                    }, 'json');
+                }));
+            });
+        });
+
+        var load = function () {
+            $.getJSON("http://localhost:52542/api/eletroposto/getbus", function (json1) {
+                deleteOverlays();
+                $.each(json1, function (key, data) {
+                    marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                        map: map,
+                        icon: iconHome
+                    });
+                    markers.push(marker);
+                    google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
+                        $.post('http://localhost:52542/api/eletroposto/calcscore', data, function (response) {
+                            load();
+                        }, 'json');
+                    }));
+                });
+            });
+        };
+
+        load();
+    }
+</script>
