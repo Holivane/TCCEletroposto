@@ -18,5 +18,30 @@ namespace api.Controllers
         {
             return db.Barras.ToList();
         }
+
+        [AcceptVerbs("POST")]
+        [Route("addbus")]
+        public List<Barras> addbus(markerbase marker)
+        {
+
+            //Math.PI
+            //Determinar o raio
+            //Obter todas as barras dentro de um raio
+            
+            return db.Barras.ToList();
+        }
+
+        [AcceptVerbs("POST")]
+        [Route("calcscore")]
+        public List<Barras> calcscore(Barras barra)
+        {
+
+            //Math.PI
+            //Determinar o raio
+            //Obter todas as barras dentro de um raio
+            
+            return db.Barras.ToList();
+        }
+
     }
 }
