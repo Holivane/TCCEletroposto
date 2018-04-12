@@ -14,6 +14,7 @@ namespace BibliotecaOpenDSS.Models
         public double IAtual { get; set; }
         public double ICalculada { get; set; }
         public double Comprimento { get; set; }
+        public Barra barra1 { get; set; }
         public Barra barra2 { get; set; }
     }
 }

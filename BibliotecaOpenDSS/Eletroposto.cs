@@ -72,7 +72,7 @@ namespace BibliotecaOpenDSS
         
         public void AddLoad(Carga carga)
         {
-            //this.DSSText.Command = "NEW " + carga.Nome;
+            this.DSSText.Command = "New Load.xxxx_ixxx phases=3 model=5 bus1=1508.1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=500 kvar=0 daily=755";
         }
 
         public float ConvertPower(float power)
@@ -90,7 +90,9 @@ namespace BibliotecaOpenDSS
         {
             List<Trecho> lista = new List<Trecho>();
             Trecho trecho = null;
-            Barra barra = null;
+            Barra barra1 = null;
+            Barra barra2 = null;
+
             int LineCount = DSSLines.First;
 
             for (int i = 0; i < this.DSSLines.Count; i++)
@@ -106,14 +108,23 @@ namespace BibliotecaOpenDSS
                 DSSLineCodes.Name = DSSLines.LineCode;
 
                 trecho.INom = DSSLineCodes.NormAmps;
+                trecho.IAtual = DSSCktElement.CurrentsMagAng[0];
                 trecho.Comprimento = DSSLines.Length;
 
-                barra = new Barra
+                barra1 = new Barra
+                {
+                    CodBarra = DSSLines.Bus1.Split('.')[0]
+                };
+
+                trecho.barra1 = barra1;
+
+
+                barra2 = new Barra
                 {
                     CodBarra = DSSLines.Bus2.Split('.')[0]
                 };
 
-                trecho.barra2 = barra;
+                trecho.barra2 = barra2;
                                   
                     
                 trecho.Parametro = DSSLines.LineCode;
@@ -170,6 +181,33 @@ namespace BibliotecaOpenDSS
             }
             writer.Close();
             return list;
+        }
+
+        //CARGA
+        public List<Carga> TodasCargas()
+        {
+            List<Carga> lista = new List<Carga>();
+            Carga carga = null;
+            Barra barra = null;
+            int ContarCarga = DSSLoads.First;
+
+            for (int i = 0; i < this.DSSLoads.Count; i++)
+            {
+
+                carga = new Carga();
+
+                DSSLoads = DSSCircuit.Loads;
+
+                carga.Nome = DSSLoads.Name;
+                DSSCircuit.SetActiveElement(carga.Nome);
+                carga.PotenciaTotal = DSSLoads.kW;
+
+                lista.Add(carga);
+
+                ContarCarga = DSSLoads.Next;
+            }
+
+            return lista;
         }
 
 

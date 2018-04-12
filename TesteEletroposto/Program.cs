@@ -34,22 +34,53 @@ namespace TesteEletroposto
                 Nome = "CargaTeste",
                 PotenciaTotal = 50000
             };
-                       
+
+
+            bool solve = lib.Solve();
+            //TRECHOS
+            List<Trecho> x = new List<Trecho>();
+            x = lib.TodosTrechos();
+
+            foreach (Trecho t in x)
+            {
+                if (t.barra2.CodBarra.Equals("1508"))
+                {
+                    Console.Out.WriteLine(t.CodTrecho + " --- " + t.IAtual);
+                }
+
+            }
+
+           
 
             lib.AddLoad(carga);
 
-            //lib.Solve();
+            solve = lib.Solve();
+
+            //TRECHOS
+            List<Trecho> xd = new List<Trecho>();
+            xd = lib.TodosTrechos();
+
+            foreach (Trecho t in xd)
+            {
+                if (t.barra2.CodBarra.Equals("1508"))
+                {
+                    Console.Out.WriteLine(t.CodTrecho + " --- " + t.IAtual);
+                }
+                
+
+            }
+
 
             List<Barra> b = new List<Barra>();
             b = lib.AllScore();
 
             //TRECHOS
-            List<Trecho> x = new List<Trecho>();
-            x = lib.TodosTrechos();
-            
-            foreach (Trecho t in x)
+            List<Carga> c = new List<Carga>();
+            c = lib.TodasCargas();
+
+            foreach (Carga t in c)
             {
-                Console.Out.WriteLine(t.CodTrecho + " --- " + t.Comprimento + "---" + t.Parametro + "---" + t.barra2.CodBarra);
+                //Console.Out.WriteLine(t.Nome + " --- " + t.PotenciaTotal);
 
             }
 
