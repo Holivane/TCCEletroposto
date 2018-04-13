@@ -50,7 +50,7 @@ namespace BibliotecaOpenDSS
             this.DSSText.Command = "Clear";
             this.DSSText.Command = "Compile " + this.FileName;
 
-            DSSCircuit = DSSobj.ActiveCircuit;
+            this.DSSCircuit = DSSobj.ActiveCircuit;
 
 
             this.DSSSolution = DSSCircuit.Solution;
@@ -69,10 +69,65 @@ namespace BibliotecaOpenDSS
 
             return retorno;
         }
-        
+
+        public List<Barra> CalcScore(List<Barra> listabarras, Barra barra, Carga carga)
+        {
+            //fazer o calculo
+            List<Barra> barrasmodificadas = new List<Barra>();
+            bool verificararquivoderede = this.RunFile();
+
+            bool solve = this.Solve();
+            List<Trecho> TrechosAntes = new List<Trecho>();
+            TrechosAntes = this.TodosTrechos();
+
+            this.AddLoad(carga);
+
+            solve = this.Solve();
+            List<Trecho> TrechosDepois = new List<Trecho>();
+            TrechosDepois = this.TodosTrechos();
+
+            List<Trecho> trechosmodficados = new List<Trecho>();
+
+            double mtotal = 0;
+
+            int index = 0;
+            foreach(Trecho t in TrechosAntes)
+            {
+                if ((1.01 * t.IAtual) < TrechosDepois[index].IAtual)
+                {
+                    trechosmodficados.Add(TrechosDepois[index]);
+                    if(TrechosDepois[index].INom <= TrechosDepois[index].IAtual)
+                    {
+                        mtotal = mtotal + (TrechosDepois[index].Comprimento * 1000);
+                    }
+                }
+                index++;                
+            }
+            
+
+            foreach(Barra b in listabarras)
+            {
+                b.Score = 10;
+                if (b.CodBarra == barra.CodBarra)
+                {
+                    b.Score = 10 - (0.01 * mtotal);
+
+                    if (b.Score < 0)
+                    {
+                        b.Score = 0;
+                    }
+                }
+                barrasmodificadas.Add(b);
+            }
+
+            return barrasmodificadas;
+        }
+
+
         public void AddLoad(Carga carga)
         {
-            this.DSSText.Command = "New Load.xxxx_ixxx phases=3 model=5 bus1=1508.1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=500 kvar=0 daily=755";
+
+            this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=5 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=" + carga.PotenciaTotal.ToString() + " kvar=0 daily=755";
         }
 
         public float ConvertPower(float power)

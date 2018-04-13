@@ -24,20 +24,27 @@ namespace BibliotecaOpenDSS.Uteis
                 string[] linhaseparada = null;
                 //realizo o while para ler o conteudo da linha 
                 Barra barra = null;
+                int count = 0;
                 while ((linha = rd.ReadLine()) != null)
                 {
-                    //com o split adiciono a string 'quebrada' dentro do array 
-                    linhaseparada = linha.Split(';');
-                    //aqui incluo o método necessário para continuar o trabalho 
-                    Console.Out.WriteLine(linhaseparada[0]);
-                    barra = new Barra
+                    if (count > 0)
                     {
-                        CodBarra = linhaseparada[1],
-                        Latitudade = Convert.ToDouble(linhaseparada[3]),
-                        Longitude = Convert.ToDouble(linhaseparada[2]),
-                        Rede = linhaseparada[0],
-                    };
-                    ListadeBarras.Add(barra);
+                        //com o split adiciono a string 'quebrada' dentro do array 
+                        linhaseparada = linha.Split(';');
+                        //aqui incluo o método necessário para continuar o trabalho 
+                        Console.Out.WriteLine(linhaseparada[0]);
+                        barra = new Barra
+                        {
+                            CodBarra = linhaseparada[3],
+                            Latitude = Convert.ToDouble(linhaseparada[6]),
+                            Longitude = Convert.ToDouble(linhaseparada[5]),
+                            Rede = linhaseparada[1],
+                            NomeRede = linhaseparada[0],
+                            NomeBarra = linhaseparada[2]                            
+                        };
+                        ListadeBarras.Add(barra);
+                    }
+                    count++;
 
                 }
                 rd.Close();

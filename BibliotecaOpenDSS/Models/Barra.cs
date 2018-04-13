@@ -8,11 +8,15 @@ namespace BibliotecaOpenDSS.Models
 {
     public class Barra
     {
-        public string CodBarra { get; set; }
         public dynamic Tensaopu { get; set; }
         public double TensaoBase { get; set; }
         public double Longitude { get; set; }
-        public double Latitudade { get; set; }
+        public double Latitude { get; set; }
         public string Rede { get; set; }
+        public string NomeRede { get; set; }
+        public string CodBarra { get; set; }
+        public string NomeBarra { get; set; }
+        public double Score { get; set; }
+
     }
 }

@@ -23,7 +23,9 @@
     <Property Name="Barra" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Latitude" Type="Decimal" Precision="25" Scale="18" />
     <Property Name="Longitude" Type="Decimal" Precision="25" Scale="18" />
-    <Property Name="Rede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Rede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NomedaBarra" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NomedaRede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="Pessoas">
     <Key>

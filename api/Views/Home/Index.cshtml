@@ -1,4 +1,16 @@
-﻿<div id="dvMap" style="height:550px; width:650px; float:right; margin-top: 80px"></div>
+﻿<div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nome do Projeto</label>
+            <input type="text" class="form-control" id="Nome" name="Nome" aria-describedby="emailHelp" placeholder="Digite o nome do projeto">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Potência</label>
+            <input type="number" class="form-control" id="potencia" name="potencia" aria-describedby="emailHelp" placeholder="Digite a potência" value="500">
+        </div>
+    </form>
+</div>
+<div id="dvMap" style="height:550px; width:650px; float:right; margin-top: 80px"></div>
 <script type="text/javascript">
     var map;
     var marker;
@@ -11,6 +23,7 @@
             center: CDAM_Latlng
         }
         var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
+        var potencia = document.getElementById('potencia').innerText;
         
         function deleteOverlays() {
             if (markers) {
@@ -32,7 +45,7 @@
                     "Latitudade": location.lat().toFixed(3),
                     "Longitude": location.lng().toFixed(3)                    
                 };
-            $.post('http://localhost:52542/api/eletroposto/addbus', data, function (response) {
+            $.post('/api/eletroposto/addbus', data, function (response) {
                 deleteOverlays();
                 marker = new google.maps.Marker({
                     position: new google.maps.LatLng(data.Latitude, data.Longitude),
@@ -47,40 +60,35 @@
         }
 
         var iconHome = "/1.png";
-        
-        $.getJSON("http://localhost:52542/api/eletroposto/getbus", function (json1) {
+
+        var calcscore = function (ListaBarras) {
             deleteOverlays();
-            $.each(json1, function (key, data) {
+            $.each(ListaBarras, function (key, barraweb) {
                 marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                    position: new google.maps.LatLng(barraweb.Latitude, barraweb.Longitude),
                     map: map,
                     icon: iconHome
                 });
                 markers.push(marker);
                 google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
-                    $.post('http://localhost:52542/api/eletroposto/calcscore', data, function (response) {
+                    alert(document.getElementById('potencia').value);
+                    var Carga = {
+                        Nome: "xxxxxx",
+                        Barra: barraweb.CodBarra,
+                        PotenciaTotal: document.getElementById('potencia').value
+                    };
+                    var Projeto = { carga: Carga, barra: barraweb};
+                    $.post('/api/eletroposto/calcscore', Projeto, function (response) {
                         
+                        calcscore(response);
                     }, 'json');
                 }));
             });
-        });
+        };
 
         var load = function () {
-            $.getJSON("http://localhost:52542/api/eletroposto/getbus", function (json1) {
-                deleteOverlays();
-                $.each(json1, function (key, data) {
-                    marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(data.Latitude, data.Longitude),
-                        map: map,
-                        icon: iconHome
-                    });
-                    markers.push(marker);
-                    google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
-                        $.post('http://localhost:52542/api/eletroposto/calcscore', data, function (response) {
-                            load();
-                        }, 'json');
-                    }));
-                });
+            $.getJSON("/api/eletroposto/getbus", function (response) {
+                calcscore(response);
             });
         };
 
