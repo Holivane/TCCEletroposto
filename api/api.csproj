@@ -226,6 +226,8 @@
   <ItemGroup>
     <Content Include="1.png" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="BarrasAfetadas.png" />
+    <Content Include="BarrasInicio.png" />
     <Content Include="Content\1.png" />
     <Content Include="Content\2.png" />
     <Content Include="Content\3.png" />
@@ -287,6 +289,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Views\Home\1.png" />
+    <Content Include="Barra0.png" />
+    <Content Include="Barra10.png" />
+    <Content Include="Barra05.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
