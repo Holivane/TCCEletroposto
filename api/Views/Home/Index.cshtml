@@ -19,7 +19,7 @@
 
         var CDAM_Latlng = new google.maps.LatLng(-23.525990, -46.633076);
         var CDAM_mapOptions = {
-            zoom: 15,
+            zoom: 16,
             center: CDAM_Latlng
         }
         var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
@@ -59,19 +59,48 @@
             });
         }
 
-        var iconHome = "/BarrasInicio_10px.png";
+        var BarraPadrao = "/BarrasInicio_10px.png";
+        var Barra00 = "/Barra0_24px.png";
+        var Barra05 = "/Barra5_28px.png";
+        var Barra10 = "/Barra10_32px.png";
+        var BarrasAfetadas = "/BarrasAfetadas_10px.png";
 
         var calcscore = function (ListaBarras) {
             deleteOverlays();
             $.each(ListaBarras, function (key, barraweb) {
+                var iconbarra = BarraPadrao;
+
+                if (barraweb.Score == -1) {
+                    iconbarra = BarraPadrao;
+                } else if (barraweb.Score >= 0 && barraweb.Score < 4) {
+                    iconbarra = Barra00;
+                } else if (barraweb.Score >= 4 && barraweb.Score < 7) {
+                    iconbarra = Barra05;
+                } else if (barraweb.Score >= 7 && barraweb.Score <= 10) {
+                    iconbarra = Barra10;
+                } else if (barraweb.Score == -2 ) {
+                    iconbarra = BarrasAfetadas;
+                }
+
                 marker = new google.maps.Marker({
                     position: new google.maps.LatLng(barraweb.Latitude, barraweb.Longitude),
                     map: map,
-                    icon: iconHome
+                    title: 'Barra:' + barraweb.CodBarra + ' Pontos:' + barraweb.Score ,
+                    icon: iconbarra
                 });
+
+                
+
                 markers.push(marker);
+                google.maps.event.addListener(marker, 'mouseover', function (event) {
+                    var infowindow = new google.maps.InfoWindow({
+                        content: barraweb.CodBarra
+                    });
+                    //infowindow.setPosition(event.latLng);
+                    //infowindow.open(map);
+                });
                 google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
-                    alert(document.getElementById('potencia').value);
+                    //alert(document.getElementById('potencia').value);
                     var Carga = {
                         Nome: "xxxxxx",
                         Barra: barraweb.CodBarra,

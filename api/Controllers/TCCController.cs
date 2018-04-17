@@ -26,7 +26,7 @@ namespace api.Controllers
             {
                 barra = new Barra
                 {
-                    Score = 10,
+                    Score = -1,
                     TensaoBase = 0,
                     Tensaopu = 0,
                     CodBarra = b.Barra,
@@ -54,7 +54,7 @@ namespace api.Controllers
             {
                 barrareturn = new Barra
                 {
-                    Score = 10,
+                    Score = -1,
                     TensaoBase = 0,
                     Tensaopu = 0,
                     CodBarra = b.Barra,
