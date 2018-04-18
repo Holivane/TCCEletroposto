@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using BibliotecaOpenDSS.Models;
 
 namespace api.Controllers
 {
@@ -11,36 +12,92 @@ namespace api.Controllers
     public class TCCController : ApiController
     {
         TCCELETROPOSTOEntities db = new TCCELETROPOSTOEntities();
-        
+
+        private string arquivoderede = @"C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\Canindé\OpenDSS\Sinap_Rede_CAI_teste_sem_trafos.dss";
+                
         [AcceptVerbs("GET")]
         [Route("getbus")]
-        public List<Barras> getbus()
+        public List<Barra> getbus()
         {
-            return db.Barras.ToList();
-        }
+            List<Barra> lista = new List<Barra>();
 
-        [AcceptVerbs("POST")]
-        [Route("addbus")]
-        public List<Barras> addbus(markerbase marker)
-        {
-
-            //Math.PI
-            //Determinar o raio
-            //Obter todas as barras dentro de um raio
-            
-            return db.Barras.ToList();
+            Barra barra = null;
+            foreach(Barras b in db.Barras.ToList())
+            {
+                barra = new Barra
+                {
+                    Score = -1,
+                    TensaoBase = 0,
+                    Tensaopu = 0,
+                    CodBarra = b.Barra,
+                    Latitude = Convert.ToDouble(b.Latitude),
+                    Longitude = Convert.ToDouble( b.Longitude),
+                    Rede = b.Rede,
+                    NomeRede = b.NomedaRede,
+                    NomeBarra = b.NomedaBarra
+                };
+                lista.Add(barra);
+            }
+            return lista;
         }
 
         [AcceptVerbs("POST")]
         [Route("calcscore")]
-        public List<Barras> calcscore(Barras barra)
+        public List<Barra> calcscore(Projeto projeto)
         {
 
-            //Math.PI
-            //Determinar o raio
-            //Obter todas as barras dentro de um raio
-            
-            return db.Barras.ToList();
+            BibliotecaOpenDSS.Eletroposto lib = new BibliotecaOpenDSS.Eletroposto(arquivoderede);
+            List<Barra> lista = new List<Barra>();
+
+            Barra barrareturn = null;
+            foreach (Barras b in db.Barras.ToList())
+            {
+                barrareturn = new Barra
+                {
+                    Score = -1,
+                    TensaoBase = 0,
+                    Tensaopu = 0,
+                    CodBarra = b.Barra,
+                    Latitude = Convert.ToDouble(b.Latitude),
+                    Longitude = Convert.ToDouble(b.Longitude),
+                    Rede = b.Rede,
+                    NomeRede = b.NomedaRede,
+                    NomeBarra = b.NomedaBarra
+                };
+
+                lista.Add(barrareturn);
+            }
+
+            lista = lib.CalcScore(lista, projeto.barra, projeto.carga);
+            return lista;
+        }
+
+        [AcceptVerbs("GET")]
+        [Route("updatebus")]
+        public string updatebus(string filename)
+        {
+            List<Barra> lista = new List<Barra>();
+            lista = BibliotecaOpenDSS.Uteis.Uteis.LerArquivo(filename);
+
+            // int count = 1;
+           
+            Barras barra = null;
+            foreach (Barra b in lista)
+            {
+                barra = new Barras
+                {
+                    Barra = b.CodBarra,
+                    Latitude = Convert.ToDecimal(b.Latitude),
+                    Longitude = Convert.ToDecimal(b.Longitude),
+                    Rede = b.Rede,
+                    NomedaBarra = b.NomeBarra,
+                    NomedaRede = b.NomeRede
+                };
+
+                db.Barras.Add(barra);
+            }
+            db.SaveChanges();
+            return "Dados enviados com sucesso!";
         }
 
     }

@@ -19,11 +19,12 @@ namespace TesteEletroposto
             //Console.WriteLine("Ler Arquivo CSV");
             //Console.WriteLine();
             //Console.WriteLine("___________________________________________");
-            
+
+            //rede rede_id barra barra_id    vnom_kv utm_x   utm_y
 
 
-            //Holivane 
-            Eletroposto lib = new Eletroposto("C:\\Users\\anand\\Documents\\TCCEletroposto\\TCCEletroposto\\ApiEletroposto\\Content\\Rede\\Sinap_Rede_CAI_teste_sem_trafos.dss");
+       //Holivane 
+       Eletroposto lib = new Eletroposto("C:\\Users\\anand\\Documents\\TCCEletroposto\\TCCEletroposto\\ApiEletroposto\\Content\\Rede\\Sinap_Rede_CAI_teste_sem_trafos.dss");
 
             bool verificararquivoderede = lib.RunFile();
 

@@ -226,6 +226,11 @@
   <ItemGroup>
     <Content Include="1.png" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Barra0_24px.png" />
+    <Content Include="Barra10_32px.png" />
+    <Content Include="Barra5_28px.png" />
+    <Content Include="BarrasAfetadas_10px.png" />
+    <Content Include="BarrasInicio_10px.png" />
     <Content Include="Content\1.png" />
     <Content Include="Content\2.png" />
     <Content Include="Content\3.png" />

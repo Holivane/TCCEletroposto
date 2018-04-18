@@ -19,5 +19,7 @@ namespace ApiEletroposto.Models
         public Nullable<decimal> Latitude { get; set; }
         public Nullable<decimal> Longitude { get; set; }
         public string Rede { get; set; }
+        public string NomedaBarra { get; set; }
+        public string NomedaRede { get; set; }
     }
 }

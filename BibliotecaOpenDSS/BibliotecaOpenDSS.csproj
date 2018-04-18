@@ -43,6 +43,7 @@
     <Compile Include="Eletroposto.cs" />
     <Compile Include="Models\Barra.cs" />
     <Compile Include="Models\Carga.cs" />
+    <Compile Include="Models\Projeto.cs" />
     <Compile Include="Models\Trecho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Uteis\Uteis.cs" />

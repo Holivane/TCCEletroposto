@@ -50,7 +50,7 @@ namespace BibliotecaOpenDSS
             this.DSSText.Command = "Clear";
             this.DSSText.Command = "Compile " + this.FileName;
 
-            DSSCircuit = DSSobj.ActiveCircuit;
+            this.DSSCircuit = DSSobj.ActiveCircuit;
 
 
             this.DSSSolution = DSSCircuit.Solution;
@@ -69,16 +69,88 @@ namespace BibliotecaOpenDSS
 
             return retorno;
         }
-        
-        public void AddLoad(Carga carga)
+
+        public List<Barra> CalcScore(List<Barra> listabarras, Barra barra, Carga carga)
         {
-            this.DSSText.Command = "New Load.xxxx_ixxx phases=3 model=5 bus1=1508.1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=500 kvar=0 daily=755";
+            //fazer o calculo
+            List<Barra> barrasmodificadas = new List<Barra>();
+            bool verificararquivoderede = this.RunFile();
+
+            bool solve = this.Solve();
+            List<Trecho> TrechosAntes = new List<Trecho>();
+            TrechosAntes = this.TodosTrechos(listabarras, barra);
+
+            this.AddLoad(carga);
+
+            solve = this.Solve();
+            List<Trecho> TrechosDepois = new List<Trecho>();
+            TrechosDepois = this.TodosTrechos(listabarras, barra);
+
+            List<Trecho> trechosmodficados = new List<Trecho>();
+
+            double mtotal = 0;
+
+            int index = 0;
+            foreach(Trecho t in TrechosAntes)
+            {
+
+                if ((1.35 * t.IAtual) < TrechosDepois[index].IAtual)
+                {
+                    trechosmodficados.Add(TrechosDepois[index]);
+                    if ((TrechosDepois[index].INom * 0.99) <= TrechosDepois[index].IAtual)
+                    {
+                        mtotal = mtotal + (TrechosDepois[index].Comprimento * 1000);
+                    }
+                }
+                
+                index++;                
+            }
+            
+
+            foreach(Barra b in listabarras)
+            {
+                b.Score = -1;
+                if (b.CodBarra == barra.CodBarra)
+                {
+                    b.Score = 10 - (0.1 * mtotal);
+
+                    if (b.Score < 0)
+                    {
+                        b.Score = 0;
+                    }
+                }
+                else
+                {
+                    foreach (Trecho t in trechosmodficados)
+                    {
+                        if(t.barra1.CodBarra == b.CodBarra)
+                        {
+                            b.Score = -2;
+                        }
+                        if (t.barra2.CodBarra == b.CodBarra)
+                        {
+                            b.Score = -2;
+                        }
+                    }
+                }
+                barrasmodificadas.Add(b);
+
+            }
+
+            return barrasmodificadas;
         }
 
-        public float ConvertPower(float power)
+
+        public void AddLoad(Carga carga)
         {
-            return power * 100;
+
+            this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=5 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=" + carga.PotenciaTotal.ToString() + " kvar=0 daily=755";
         }
+
+        //public float ConvertPower(float power)
+        //{
+        //    return power * 1000;
+        //}
 
         public int GetCountBus()
         {
@@ -86,7 +158,7 @@ namespace BibliotecaOpenDSS
         }
         
         //TRECHOS
-        public List<Trecho> TodosTrechos()
+        public List<Trecho> TodosTrechos(List<Barra> listabarras, Barra barra)
         {
             List<Trecho> lista = new List<Trecho>();
             Trecho trecho = null;
@@ -125,17 +197,33 @@ namespace BibliotecaOpenDSS
                 };
 
                 trecho.barra2 = barra2;
-                                  
-                    
                 trecho.Parametro = DSSLines.LineCode;
 
 
-                lista.Add(trecho);
+                if (this.getBarra(trecho.barra1.CodBarra, listabarras).Rede == barra.Rede && this.getBarra(trecho.barra2.CodBarra, listabarras).Rede == barra.Rede && trecho.IAtual > 1)
+                {
+                    lista.Add(trecho);
+                }
 
                 LineCount = DSSLines.Next;
             }
 
             return lista;
+        }
+
+
+        public Barra getBarra(String name, List<Barra> list)
+        {
+            Barra b = null;
+            foreach (Barra f in list)
+            {
+                if (f.CodBarra == name)
+                {
+                    b = new Barra();
+                    b = f;
+                }
+            }
+            return b;
         }
 
         public List<Trecho> Info(List<Trecho> lista)

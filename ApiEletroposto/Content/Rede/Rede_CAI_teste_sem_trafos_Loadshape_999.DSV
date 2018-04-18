@@ -1,0 +1,8 @@
+SetProp, 1E050,   -1E050, 1E050, -1E050, 16777215, 16777215, 0, 4
+Caption, "Loadshape.999"
+ChartCaption, "Loadshape = 999"
+Xlabel, "Hours"
+Ylabel, "p.u."
+Curve, 6, 16711680, 1, 0, 0, 1, "999", 0, 4, 8, 12, 16, 20, 0, 0.67255972, 0.64485739, 0.64018344, 0.62167027, 0.61216725
+KeepAspect, 0
+PctRim, 2

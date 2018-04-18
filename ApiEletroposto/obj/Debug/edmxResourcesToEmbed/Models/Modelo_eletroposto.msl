@@ -4,6 +4,8 @@
     <EntitySetMapping Name="Barras">
       <EntityTypeMapping TypeName="apimodel.Barras">
         <MappingFragment StoreEntitySet="Barras">
+          <ScalarProperty Name="NomedaRede" ColumnName="NomedaRede" />
+          <ScalarProperty Name="NomedaBarra" ColumnName="NomedaBarra" />
           <ScalarProperty Name="Rede" ColumnName="Rede" />
           <ScalarProperty Name="Longitude" ColumnName="Longitude" />
           <ScalarProperty Name="Latitude" ColumnName="Latitude" />
