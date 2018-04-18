@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaOpenDSS.Models
 {
-    public class Barra
+    public class Barra 
     {
         public dynamic Tensaopu { get; set; }
         public double TensaoBase { get; set; }
