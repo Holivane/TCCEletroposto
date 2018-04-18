@@ -12,13 +12,13 @@ namespace ApiEletroposto.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class simulacoes_ppu
+    public partial class Simulacoes_ppu
     {
         public int id { get; set; }
-        public Nullable<int> idsimulacao { get; set; }
-        public Nullable<int> quantidade { get; set; }
-        public Nullable<double> potencia { get; set; }
+        public Nullable<int> idSimulacao { get; set; }
+        public Nullable<int> Quantidade { get; set; }
+        public Nullable<double> Potencia { get; set; }
     
-        public virtual simulacoes simulacoes { get; set; }
+        public virtual Simulacoes Simulacoes { get; set; }
     }
 }

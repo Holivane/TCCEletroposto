@@ -12,24 +12,24 @@ namespace ApiEletroposto.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class pessoas
+    public partial class Pessoas
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public pessoas()
+        public Pessoas()
         {
-            this.simulacoes = new HashSet<simulacoes>();
+            this.Simulacoes = new HashSet<Simulacoes>();
         }
     
         public int id { get; set; }
-        public string tipodepessoa { get; set; }
-        public string nome { get; set; }
-        public string documento { get; set; }
-        public string email { get; set; }
-        public string senha { get; set; }
-        public Nullable<int> situacao { get; set; }
-        public Nullable<System.DateTime> datadecriacao { get; set; }
+        public string TipodePessoa { get; set; }
+        public string Nome { get; set; }
+        public string Documento { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+        public Nullable<int> Situacao { get; set; }
+        public Nullable<System.DateTime> DatadeCriacao { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<simulacoes> simulacoes { get; set; }
+        public virtual ICollection<Simulacoes> Simulacoes { get; set; }
     }
 }

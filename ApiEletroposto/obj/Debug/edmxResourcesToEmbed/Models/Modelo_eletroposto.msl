@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="apimodelStoreContainer" CdmEntityContainer="apitcceletroEntities">
+    <EntitySetMapping Name="Barras">
+      <EntityTypeMapping TypeName="apimodel.Barras">
+        <MappingFragment StoreEntitySet="Barras">
+          <ScalarProperty Name="Rede" ColumnName="Rede" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Barra" ColumnName="Barra" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoas">
+      <EntityTypeMapping TypeName="apimodel.Pessoas">
+        <MappingFragment StoreEntitySet="Pessoas">
+          <ScalarProperty Name="DatadeCriacao" ColumnName="DatadeCriacao" />
+          <ScalarProperty Name="Situacao" ColumnName="Situacao" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="TipodePessoa" ColumnName="TipodePessoa" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Simulacoes">
+      <EntityTypeMapping TypeName="apimodel.Simulacoes">
+        <MappingFragment StoreEntitySet="Simulacoes">
+          <ScalarProperty Name="SolicitacaodeAcesso" ColumnName="SolicitacaodeAcesso" />
+          <ScalarProperty Name="DadosComplementares" ColumnName="DadosComplementares" />
+          <ScalarProperty Name="DatadaSimulacao" ColumnName="DatadaSimulacao" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="NivelCC" ColumnName="NivelCC" />
+          <ScalarProperty Name="Sistema" ColumnName="Sistema" />
+          <ScalarProperty Name="Tensao" ColumnName="Tensao" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="Barra" ColumnName="Barra" />
+          <ScalarProperty Name="Potencia" ColumnName="Potencia" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="idPessoa" ColumnName="idPessoa" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Simulacoes_ppu">
+      <EntityTypeMapping TypeName="apimodel.Simulacoes_ppu">
+        <MappingFragment StoreEntitySet="Simulacoes_ppu">
+          <ScalarProperty Name="Potencia" ColumnName="Potencia" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+          <ScalarProperty Name="idSimulacao" ColumnName="idSimulacao" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trechos">
+      <EntityTypeMapping TypeName="apimodel.Trechos">
+        <MappingFragment StoreEntitySet="Trechos">
+          <ScalarProperty Name="Barra2" ColumnName="Barra2" />
+          <ScalarProperty Name="Barra1" ColumnName="Barra1" />
+          <ScalarProperty Name="Trecho" ColumnName="Trecho" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -10,6 +10,7 @@ namespace BibliotecaOpenDSS.Models
     {
         public string Nome { get; set; }
         public string Barra { get; set; }
-        public float PotenciaTotal { get; set; }
+        public double PotenciaTotal { get; set; }
+         
     }
 }

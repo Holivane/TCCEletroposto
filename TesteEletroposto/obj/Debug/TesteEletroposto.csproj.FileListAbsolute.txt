@@ -8,3 +8,12 @@ C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\TesteEletroposto\obj\Debu
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\TesteEletroposto\obj\Debug\TesteEletroposto.csproj.CopyComplete
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\TesteEletroposto\obj\Debug\TesteEletroposto.exe
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\TesteEletroposto\obj\Debug\TesteEletroposto.pdb
+D:\Projetos\TCCEletroposto\TesteEletroposto\bin\Debug\TesteEletroposto.exe.config
+D:\Projetos\TCCEletroposto\TesteEletroposto\bin\Debug\TesteEletroposto.exe
+D:\Projetos\TCCEletroposto\TesteEletroposto\bin\Debug\TesteEletroposto.pdb
+D:\Projetos\TCCEletroposto\TesteEletroposto\bin\Debug\BibliotecaOpenDSS.dll
+D:\Projetos\TCCEletroposto\TesteEletroposto\bin\Debug\BibliotecaOpenDSS.pdb
+D:\Projetos\TCCEletroposto\TesteEletroposto\obj\Debug\TesteEletroposto.csprojResolveAssemblyReference.cache
+D:\Projetos\TCCEletroposto\TesteEletroposto\obj\Debug\TesteEletroposto.csproj.CoreCompileInputs.cache
+D:\Projetos\TCCEletroposto\TesteEletroposto\obj\Debug\TesteEletroposto.exe
+D:\Projetos\TCCEletroposto\TesteEletroposto\obj\Debug\TesteEletroposto.pdb

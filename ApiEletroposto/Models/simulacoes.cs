@@ -12,30 +12,30 @@ namespace ApiEletroposto.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class simulacoes
+    public partial class Simulacoes
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public simulacoes()
+        public Simulacoes()
         {
-            this.simulacoes_ppu = new HashSet<simulacoes_ppu>();
+            this.Simulacoes_ppu = new HashSet<Simulacoes_ppu>();
         }
     
         public int id { get; set; }
-        public Nullable<int> idpessoa { get; set; }
-        public string nome { get; set; }
-        public Nullable<double> potencia { get; set; }
-        public string barra { get; set; }
-        public string endereco { get; set; }
-        public Nullable<double> tensao { get; set; }
-        public string sistema { get; set; }
-        public Nullable<double> nivelcc { get; set; }
-        public Nullable<int> nota { get; set; }
-        public Nullable<System.DateTime> datadasimulacao { get; set; }
-        public Nullable<int> dadoscomplementares { get; set; }
-        public Nullable<int> solicitacaodeacesso { get; set; }
+        public Nullable<int> idPessoa { get; set; }
+        public string Nome { get; set; }
+        public Nullable<double> Potencia { get; set; }
+        public string Barra { get; set; }
+        public string Endereco { get; set; }
+        public Nullable<double> Tensao { get; set; }
+        public string Sistema { get; set; }
+        public Nullable<double> NivelCC { get; set; }
+        public Nullable<int> Nota { get; set; }
+        public Nullable<System.DateTime> DatadaSimulacao { get; set; }
+        public Nullable<int> DadosComplementares { get; set; }
+        public Nullable<int> SolicitacaodeAcesso { get; set; }
     
-        public virtual pessoas pessoas { get; set; }
+        public virtual Pessoas Pessoas { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<simulacoes_ppu> simulacoes_ppu { get; set; }
+        public virtual ICollection<Simulacoes_ppu> Simulacoes_ppu { get; set; }
     }
 }

@@ -5,11 +5,12 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="26e0baff13334e57ba45da78d5fa9126" Name="Diagram1">
-        <EntityTypeShape EntityType="apimodel.barras" Width="1.5" PointX="9.625" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="apimodel.pessoas" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="apimodel.simulacoes" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="apimodel.simulacoes_ppu" Width="1.5" PointX="5.875" PointY="1.75" IsExpanded="true" />
-        <AssociationConnector Association="apimodel.FK_simulacoes_pessoas" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="apimodel.Barras" Width="1.5" PointX="2.375" PointY="5.875" />
+        <EntityTypeShape EntityType="apimodel.Pessoas" Width="1.5" PointX="2.375" PointY="1.75" />
+        <EntityTypeShape EntityType="apimodel.Simulacoes" Width="1.5" PointX="4.625" PointY="1.125" />
+        <EntityTypeShape EntityType="apimodel.Simulacoes_ppu" Width="1.5" PointX="6.875" PointY="2.125" />
+        <EntityTypeShape EntityType="apimodel.Trechos" Width="1.5" PointX="4.375" PointY="5.875" />
+        <AssociationConnector Association="apimodel.FK_simulacoes_pessoas" />
         <AssociationConnector Association="apimodel.FK_simulacoes_ppu_simulacoes" />
       </Diagram>
     </edmx:Diagrams>
