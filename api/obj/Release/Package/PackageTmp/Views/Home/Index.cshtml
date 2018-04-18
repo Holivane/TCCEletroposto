@@ -1,0 +1,126 @@
+﻿<div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nome do Projeto</label>
+            <input type="text" class="form-control" id="Nome" name="Nome" aria-describedby="emailHelp" placeholder="Digite o nome do projeto">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Potência</label>
+            <input type="number" class="form-control" id="potencia" name="potencia" aria-describedby="emailHelp" placeholder="Digite a potência" value="500">
+        </div>
+    </form>
+</div>
+<div id="dvMap" style="height:550px; width:650px; float:right; margin-top: 80px"></div>
+<script type="text/javascript">
+    var map;
+    var marker;
+    var markers = [];
+    function initMap() {
+
+        var CDAM_Latlng = new google.maps.LatLng(-23.525990, -46.633076);
+        var CDAM_mapOptions = {
+            zoom: 16,
+            center: CDAM_Latlng
+        }
+        var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
+        var potencia = document.getElementById('potencia').innerText;
+        
+        function deleteOverlays() {
+            if (markers) {
+                for (i in markers) {
+                    markers[i].setMap(null);
+                }
+                markers.length = 0;
+            }
+        }
+        /*
+        google.maps.event.addListener(map, 'click', function (event) {
+            placeMarker(event.latLng);
+        });
+        */
+
+        function placeMarker(location) {
+            var data = 
+                {
+                    "Latitudade": location.lat().toFixed(3),
+                    "Longitude": location.lng().toFixed(3)                    
+                };
+            $.post('/api/eletroposto/addbus', data, function (response) {
+                deleteOverlays();
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                    map: map
+                });
+            }, 'json');
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+
+        var BarraPadrao = "/BarrasInicio_10px.png";
+        var Barra00 = "/Barra0_24px.png";
+        var Barra05 = "/Barra5_28px.png";
+        var Barra10 = "/Barra10_32px.png";
+        var BarrasAfetadas = "/BarrasAfetadas_10px.png";
+
+        var calcscore = function (ListaBarras) {
+            deleteOverlays();
+            $.each(ListaBarras, function (key, barraweb) {
+                var iconbarra = BarraPadrao;
+
+                if (barraweb.Score == -1) {
+                    iconbarra = BarraPadrao;
+                } else if (barraweb.Score >= 0 && barraweb.Score < 4) {
+                    iconbarra = Barra00;
+                } else if (barraweb.Score >= 4 && barraweb.Score < 7) {
+                    iconbarra = Barra05;
+                } else if (barraweb.Score >= 7 && barraweb.Score <= 10) {
+                    iconbarra = Barra10;
+                } else if (barraweb.Score == -2 ) {
+                    iconbarra = BarrasAfetadas;
+                }
+
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(barraweb.Latitude, barraweb.Longitude),
+                    map: map,
+                    title: 'Barra:' + barraweb.CodBarra + ' Pontos:' + barraweb.Score ,
+                    icon: iconbarra
+                });
+
+                
+
+                markers.push(marker);
+                google.maps.event.addListener(marker, 'mouseover', function (event) {
+                    var infowindow = new google.maps.InfoWindow({
+                        content: barraweb.CodBarra
+                    });
+                    //infowindow.setPosition(event.latLng);
+                    //infowindow.open(map);
+                });
+                google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
+                    //alert(document.getElementById('potencia').value);
+                    var Carga = {
+                        Nome: "xxxxxx",
+                        Barra: barraweb.CodBarra,
+                        PotenciaTotal: document.getElementById('potencia').value
+                    };
+                    var Projeto = { carga: Carga, barra: barraweb};
+                    $.post('/api/eletroposto/calcscore', Projeto, function (response) {
+                        
+                        calcscore(response);
+                    }, 'json');
+                }));
+            });
+        };
+
+        var load = function () {
+            $.getJSON("/api/eletroposto/getbus", function (response) {
+                calcscore(response);
+            });
+        };
+
+        load();
+    }
+</script>

@@ -1,0 +1,8 @@
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\bin\Release\BibliotecaOpenDSS.dll
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\bin\Release\BibliotecaOpenDSS.pdb
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\obj\Release\BibliotecaOpenDSS.csprojResolveAssemblyReference.cache
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\obj\Release\Interop.OpenDSSengine.dll
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\obj\Release\BibliotecaOpenDSS.csproj.ResolveComReference.cache
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\obj\Release\BibliotecaOpenDSS.csproj.CoreCompileInputs.cache
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\obj\Release\BibliotecaOpenDSS.dll
+D:\HOLIVANE\TCC\TCCEletroposto\BibliotecaOpenDSS\obj\Release\BibliotecaOpenDSS.pdb
