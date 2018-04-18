@@ -1,0 +1,10 @@
+	
+	
+	
+	
+	
+	
+--------------------O arquivo OPENDSS utilizado na ferramenta--------------------
+-----------------está salvo na pasta TCCEletroposto\api. O que-------------------
+-----------------acaba com a necessidade de mudar o nome do caminho--------------
+-----------------quando testados em outras máquinas.-----------------------------
