@@ -97,7 +97,7 @@ namespace BibliotecaOpenDSS
                 if ((1.35 * t.IAtual) < TrechosDepois[index].IAtual)
                 {
                     trechosmodficados.Add(TrechosDepois[index]);
-                    if ((TrechosDepois[index].INom * 0.99) <= TrechosDepois[index].IAtual)
+                    if ((TrechosDepois[index].INom) <= TrechosDepois[index].IAtual)
                     {
                         mtotal = mtotal + (TrechosDepois[index].Comprimento * 1000);
                     }
