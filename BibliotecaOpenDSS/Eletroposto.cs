@@ -70,6 +70,54 @@ namespace BibliotecaOpenDSS
             return retorno;
         }
 
+
+        public List<Barra> GetBus()
+        {
+            List<Barra> buses = new List<Barra>();
+            Trecho trecho = new Trecho();
+            Barra barra1 = null;
+            Barra barra2 = null;
+
+            bool verificararquivoderede = this.RunFile();
+            bool solve = this.Solve();
+            int LineCount = DSSLines.First;
+            
+            for (int i = 0; i < this.DSSLines.Count; i++)
+            {
+                trecho = new Trecho();
+                trecho.CodTrecho = DSSLines.Name;
+
+                if (DSSCktElement.CurrentsMagAng[0] > 0.1)
+                {
+                    barra1 = new Barra
+                    {
+                        CodBarra = DSSLines.Bus1.Split('.')[0]
+                    };
+
+                    trecho.barra1 = barra1;
+
+
+                    barra2 = new Barra
+                    {
+                        CodBarra = DSSLines.Bus2.Split('.')[0]
+                    };
+                }
+
+                if (!buses.Contains(barra1))
+                {
+                    buses.Add(barra1);
+                }
+
+                if (!buses.Contains(barra2))
+                {
+                    buses.Add(barra2);
+                }
+
+                LineCount = DSSLines.Next;
+            }
+            return buses;
+        }
+
         public List<Barra> CalcScore(List<Barra> listabarras, Barra barra, Carga carga)
         {
             //fazer o calculo
@@ -94,10 +142,10 @@ namespace BibliotecaOpenDSS
             foreach(Trecho t in TrechosAntes)
             {
 
-                if ((1.35 * t.IAtual) < TrechosDepois[index].IAtual)
+                if ((1.08 * t.IAtual) < TrechosDepois[index].IAtual)
                 {
                     trechosmodficados.Add(TrechosDepois[index]);
-                    if ((TrechosDepois[index].INom) <= TrechosDepois[index].IAtual)
+                    if ((TrechosDepois[index].INom * 0.9) <= TrechosDepois[index].IAtual)
                     {
                         mtotal = mtotal + (TrechosDepois[index].Comprimento * 1000);
                     }
@@ -123,14 +171,21 @@ namespace BibliotecaOpenDSS
                 {
                     foreach (Trecho t in trechosmodficados)
                     {
-                        if(t.barra1.CodBarra == b.CodBarra)
+                        if (t.barra1 != null)
                         {
-                            b.Score = -2;
+                            if (t.barra1.CodBarra == b.CodBarra)
+                            {
+                                b.Score = -2;
+                            }
                         }
-                        if (t.barra2.CodBarra == b.CodBarra)
+                        if (t.barra2 != null)
                         {
-                            b.Score = -2;
+                            if (t.barra2.CodBarra == b.CodBarra)
+                            {
+                                b.Score = -2;
+                            }
                         }
+
                     }
                 }
                 barrasmodificadas.Add(b);
@@ -191,12 +246,23 @@ namespace BibliotecaOpenDSS
                 barra2 = new Barra();
                 trecho.barra2 = this.getBarra(DSSLines.Bus2.Split('.')[0].ToString(), listabarras);
                 trecho.Parametro = DSSLines.LineCode;
-
-
-                if (this.getBarra(trecho.barra1.CodBarra, listabarras).Rede == barra.Rede && this.getBarra(trecho.barra2.CodBarra, listabarras).Rede == barra.Rede && trecho.IAtual > 1)
+                
+                if (trecho.barra1 != null)
                 {
-                    lista.Add(trecho);
+                    if (this.getBarra(trecho.barra1.CodBarra, listabarras).Rede == barra.Rede && trecho.IAtual > 1)
+                    {
+                        lista.Add(trecho);
+                    }
                 }
+
+                else if (trecho.barra2 != null)
+                {
+                    if (this.getBarra(trecho.barra2.CodBarra, listabarras).Rede == barra.Rede && trecho.IAtual > 1)
+                    {
+                        lista.Add(trecho);
+                    }
+                }
+
 
                 LineCount = DSSLines.Next;
             }
