@@ -285,6 +285,7 @@
     <Content Include="Models\DataApi.edmx.diagram">
       <DependentUpon>DataApi.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -306,6 +307,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Sinap_Rede_CAI_teste_sem_trafos.dss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

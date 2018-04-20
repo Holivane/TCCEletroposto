@@ -9,7 +9,7 @@ using BibliotecaOpenDSS.Models;
 
 namespace TesteEletroposto
 {
-    class Program
+    class Program 
     {
         //ananda
         static void Main(string[] args)
