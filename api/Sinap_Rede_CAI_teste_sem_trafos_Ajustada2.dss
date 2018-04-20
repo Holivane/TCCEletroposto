@@ -5294,10 +5294,10 @@ set mode=daily
 set algorithm=Newton
 //--------------------------------------------------------------------------------
 //Cálculo
-solve
+//solve
 //--------------------------------------------------------------------------------
 //Opções de apresentação de resultados
-Show Voltage LN Nodes
-Show Current Elements
+//Show Voltage LN Nodes
+//Show Current Elements
 //--------------------------------------------------------------------------------
 //fim
