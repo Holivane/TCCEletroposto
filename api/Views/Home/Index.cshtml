@@ -15,6 +15,11 @@
     var map;
     var marker;
     var markers = [];
+    var BarraPadrao = "/BarrasInicio_10px.png";
+
+    var marker1, marker2;
+    var poly, geodesicPoly;
+
     function initMap() {
 
         var CDAM_Latlng = new google.maps.LatLng(-23.525990, -46.633076);
@@ -24,6 +29,36 @@
         }
         var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
         var potencia = document.getElementById('potencia').innerText;
+
+
+        //marker1 = new google.maps.Marker({
+        //    map: map,
+        //    icon: BarraPadrao,
+        //    draggable: true,
+        //    position: { lat: 40.714, lng: -74.006 }
+        //});
+
+        //marker2 = new google.maps.Marker({
+        //    map: map,
+        //    icon: BarraPadrao,
+        //    draggable: true,
+        //    position: { lat: 48.857, lng: 2.352 }
+        //});
+
+        //var bounds = new google.maps.LatLngBounds(
+        //    marker1.getPosition(), marker2.getPosition());
+        //map.fitBounds(bounds);
+
+        //poly = new google.maps.Polyline({
+        //    strokeColor: '#FF0000',
+        //    strokeOpacity: 1.0,
+        //    strokeWeight: 3,
+        //    map: map,
+        //});
+
+                
+        //poly.setPath([marker1.getPosition(), marker2.getPosition()]);
+
         
         function deleteOverlays() {
             if (markers) {
@@ -59,7 +94,7 @@
             });
         }
 
-        var BarraPadrao = "/BarrasInicio_10px.png";
+        
         var Barra00 = "/Barra0_24px.png";
         var Barra05 = "/Barra5_28px.png";
         var Barra10 = "/Barra10_32px.png";
