@@ -183,20 +183,13 @@ namespace BibliotecaOpenDSS
                 trecho.IAtual = DSSCktElement.CurrentsMagAng[0];
                 trecho.Comprimento = DSSLines.Length;
 
-                barra1 = new Barra
-                {
-                    CodBarra = DSSLines.Bus1.Split('.')[0]
-                };
 
-                trecho.barra1 = barra1;
+                barra1 = new Barra();
+                trecho.barra1 = this.getBarra(DSSLines.Bus1.Split('.')[0].ToString(), listabarras);
 
 
-                barra2 = new Barra
-                {
-                    CodBarra = DSSLines.Bus2.Split('.')[0]
-                };
-
-                trecho.barra2 = barra2;
+                barra2 = new Barra();
+                trecho.barra2 = this.getBarra(DSSLines.Bus2.Split('.')[0].ToString(), listabarras);
                 trecho.Parametro = DSSLines.LineCode;
 
 

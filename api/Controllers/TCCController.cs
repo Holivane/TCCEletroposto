@@ -14,7 +14,7 @@ namespace api.Controllers
         TCCELETROPOSTOEntities db = new TCCELETROPOSTOEntities();
 
         //private string arquivoderede = @"D:\HOLIVANE\TCC\TCCEletroposto\Canindé\OpenDSS\Sinap_Rede_CAI_teste_sem_trafos.dss";
-       private string arquivoderede = HttpRuntime.AppDomainAppPath + "/Sinap_Rede_CAI_teste_sem_trafos.dss";
+       private string arquivoderede = HttpRuntime.AppDomainAppPath + "/Sinap_Rede_CAI_teste_sem_trafos_Ajustada.dss";
 
 
         [AcceptVerbs("GET")]
@@ -22,9 +22,12 @@ namespace api.Controllers
         public List<Barra> getbus()
         {
             List<Barra> lista = new List<Barra>();
+            List<Barras> listax = new List<Barras>();
+
+            listax = db.Barras.Where(c => !c.Rede.Equals("3360") && !c.Rede.Equals("3361")).ToList();
 
             Barra barra = null;
-            foreach(Barras b in db.Barras.ToList())
+            foreach(Barras b in listax)
             {
                 barra = new Barra
                 {
@@ -51,8 +54,12 @@ namespace api.Controllers
             BibliotecaOpenDSS.Eletroposto lib = new BibliotecaOpenDSS.Eletroposto(arquivoderede);
             List<Barra> lista = new List<Barra>();
 
+            List<Barras> listax = new List<Barras>();
+
+            listax = db.Barras.Where(c => !c.Rede.Equals("3360") && !c.Rede.Equals("3361")).ToList();
+
             Barra barrareturn = null;
-            foreach (Barras b in db.Barras.ToList())
+            foreach (Barras b in listax)
             {
                 barrareturn = new Barra
                 {
