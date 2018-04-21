@@ -309,6 +309,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Sinap_Rede_CAI_teste_sem_trafos.dss" />
     <Content Include="Sinap_Rede_CAI_teste_sem_trafos_Ajustada.dss" />
+    <Content Include="Sinap_Rede_CAI_teste_sem_trafos_Ajustada2.dss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
