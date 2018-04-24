@@ -95,9 +95,17 @@
         }
 
         
-        var Barra00 = "/Barra0_24px.png";
-        var Barra05 = "/Barra5_28px.png";
-        var Barra10 = "/Barra10_32px.png";
+        var Barra00 = "/Barra00.png";
+        var Barra01 = "/Barra01.png";
+        var Barra02 = "/Barra02.png";
+        var Barra03 = "/Barra03.png";
+        var Barra04 = "/Barra04.png";
+        var Barra05 = "/Barra05.png";
+        var Barra06 = "/Barra06.png";
+        var Barra07 = "/Barra07.png";
+        var Barra08 = "/Barra08.png";
+        var Barra09 = "/Barra09.png";
+        var Barra10 = "/Barra10.png";
         var BarrasAfetadas = "/BarrasAfetadas_10px.png";
 
         var calcscore = function (ListaBarras) {
@@ -107,11 +115,27 @@
 
                 if (barraweb.Score == -1) {
                     iconbarra = BarraPadrao;
-                } else if (barraweb.Score >= 0 && barraweb.Score < 4) {
+                } else if (barraweb.Score >= 0 && barraweb.Score < 0.99) {
                     iconbarra = Barra00;
-                } else if (barraweb.Score >= 4 && barraweb.Score < 7) {
+                } else if (barraweb.Score >= 1 && barraweb.Score < 1.99) {
+                    iconbarra = Barra01;
+                } else if (barraweb.Score >= 2 && barraweb.Score < 2.99) {
+                    iconbarra = Barra02;
+                } else if (barraweb.Score >= 3 && barraweb.Score < 3.99) {
+                    iconbarra = Barra03;
+                } else if (barraweb.Score >= 4 && barraweb.Score < 4.99) {
+                    iconbarra = Barra04;
+                } else if (barraweb.Score >= 5 && barraweb.Score < 5.99) {
                     iconbarra = Barra05;
-                } else if (barraweb.Score >= 7 && barraweb.Score <= 10) {
+                } else if (barraweb.Score >= 6 && barraweb.Score < 6.99) {
+                    iconbarra = Barra06;
+                } else if (barraweb.Score >= 7 && barraweb.Score < 7.99) {
+                    iconbarra = Barra07;
+                } else if (barraweb.Score >= 8 && barraweb.Score < 8.99) {
+                    iconbarra = Barra08;
+                } else if (barraweb.Score >= 9 && barraweb.Score < 9.99) {
+                    iconbarra = Barra09;
+                } else if (barraweb.Score == 10) {
                     iconbarra = Barra10;
                 } else if (barraweb.Score == -2 ) {
                     iconbarra = BarrasAfetadas;
