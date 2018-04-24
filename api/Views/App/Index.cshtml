@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Main component for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <h2>
+        Deseja fazer uma simulação da sua futura instalação?
+    </h2>
+    <p>
+        Programa de apoio para análise do impacto da instalação de eletropostos na rede de distribuição e auxílio na escolha da melhor ligação.
+        Além de encaminhamento direto para solicitar o parecer de acesso e documentação parcialmente pronta.
+    </p>
+    <p>
+        @Html.ActionLink("Registre-se", "Cadastro", "App", new { area = "" }, new { @class = "btn btn-lg btn-primary" })
+        @Html.ActionLink("Login", "Login", "App", new { area = "" }, new { @class = "btn btn-lg btn-success" })
+    </p>
+</div>
+
