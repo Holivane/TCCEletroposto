@@ -160,7 +160,7 @@ namespace BibliotecaOpenDSS
                 b.Score = -1;
                 if (b.CodBarra == barra.CodBarra)
                 {
-                    b.Score = 10 - (0.1 * mtotal);
+                    b.Score = 10 - (0.05 * mtotal);
 
                     if (b.Score < 0)
                     {
