@@ -184,6 +184,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AppController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TCCController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -241,6 +242,7 @@
     <Content Include="Barra10_32px.png" />
     <Content Include="Barra5_28px.png" />
     <Content Include="BarrasAfetadas_10px.png" />
+    <Content Include="BarrasInicio.png" />
     <Content Include="BarrasInicio_10px.png" />
     <Content Include="Content\1.png" />
     <Content Include="Content\2.png" />
@@ -321,6 +323,13 @@
     <Content Include="Sinap_Rede_CAI_teste_sem_trafos.dss" />
     <Content Include="Sinap_Rede_CAI_teste_sem_trafos_Ajustada.dss" />
     <Content Include="Sinap_Rede_CAI_teste_sem_trafos_Ajustada2.dss" />
+    <Content Include="Views\App\Index.cshtml" />
+    <Content Include="Views\App\Cadastro.cshtml" />
+    <Content Include="Views\App\Login.cshtml" />
+    <Content Include="Views\App\Perfil.cshtml" />
+    <Content Include="Views\App\AltDados.cshtml" />
+    <Content Include="Views\App\Simulacao.cshtml" />
+    <Content Include="Views\App\Sobre.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

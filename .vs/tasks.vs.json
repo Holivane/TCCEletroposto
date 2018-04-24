@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "tarefa-ApiEletroposto",
+      "appliesTo": "ApiEletroposto/ApiEletroposto.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskName": "tarefa-api",
+      "appliesTo": "api/api.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskName": "tarefa-api",
+      "appliesTo": "api/",
+      "type": "launch"
+    }
+  ]
+}

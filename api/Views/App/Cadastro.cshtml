@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cadastro</h2>
+<form>
+    <div class="radio">
+        <label>
+            <input type="radio" name="optionsRadios" id="tipoPF" value="PF" checked>
+            Pessoa Física
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="optionsRadios" id="tipoPJ" value="PJ">
+            Pessoa Jurídica
+        </label>
+    </div>
+    <div class="form-group">
+        <label for="nome">Nome Completo/Fantasia</label>
+        <input type="text" class="form-control" id="nome" placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="documento">CPF/CNPJ</label>
+        <input type="text" class="form-control" id="documento" placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" class="form-control" id="senha" placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="Csenha">Confirmar Senha</label>
+        <input type="password" class="form-control" id="Csenha" placeholder="">
+    </div>
+    <button type="submit" class="btn btn-default">Registrar</button>
+</form>
+
