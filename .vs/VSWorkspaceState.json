@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\api",
+    "\\ApiEletroposto",
+    "\\AppEletroposto\\Bin"
   ],
+  "SelectedNode": "\\api",
   "PreviewInSolutionExplorer": false
 }
