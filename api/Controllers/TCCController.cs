@@ -14,7 +14,7 @@ namespace api.Controllers
         TCCELETROPOSTOEntities db = new TCCELETROPOSTOEntities();
 
         //private string arquivoderede = @"D:\HOLIVANE\TCC\TCCEletroposto\Canindé\OpenDSS\Sinap_Rede_CAI_teste_sem_trafos.dss";
-       private string arquivoderede = HttpRuntime.AppDomainAppPath + "/Sinap_Rede_CAI_teste_sem_trafos_Ajustada2.dss";
+       private string arquivoderede = HttpRuntime.AppDomainAppPath + "/Sinap_Rede_CAI_teste_sem_trafos_vf.dss";
 
 
         [AcceptVerbs("GET")]

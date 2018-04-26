@@ -237,13 +237,9 @@
     <Content Include="Barra07.png" />
     <Content Include="Barra08.png" />
     <Content Include="Barra09.png" />
-    <Content Include="Barra0_24px.png" />
     <Content Include="Barra10.png" />
-    <Content Include="Barra10_32px.png" />
-    <Content Include="Barra5_28px.png" />
-    <Content Include="BarrasAfetadas_10px.png" />
+    <Content Include="BarrasAfetadas.png" />
     <Content Include="BarrasInicio.png" />
-    <Content Include="BarrasInicio_10px.png" />
     <Content Include="Content\1.png" />
     <Content Include="Content\2.png" />
     <Content Include="Content\3.png" />
@@ -321,8 +317,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Sinap_Rede_CAI_teste_sem_trafos.dss" />
-    <Content Include="Sinap_Rede_CAI_teste_sem_trafos_Ajustada.dss" />
-    <Content Include="Sinap_Rede_CAI_teste_sem_trafos_Ajustada2.dss" />
     <Content Include="Views\App\Index.cshtml" />
     <Content Include="Views\App\Cadastro.cshtml" />
     <Content Include="Views\App\Login.cshtml" />
