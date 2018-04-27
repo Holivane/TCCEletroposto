@@ -16,7 +16,7 @@ namespace BibliotecaOpenDSS.Uteis
             try
             {
                 //Declaro o StreamReader para o caminho onde se encontra o arquivo 
-                //C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\Canindé\VBA\BarrasGeo.csv
+                FileName = @"C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\Canindé\VBA\Barrasid_vf.csv";
                 StreamReader rd = new StreamReader(FileName);
                 //Declaro uma string que será utilizada para receber a linha completa do arquivo 
                 string linha = null;
@@ -26,9 +26,7 @@ namespace BibliotecaOpenDSS.Uteis
                 Barra barra = null;
                 int count = 0;
                 while ((linha = rd.ReadLine()) != null)
-                {
-                    if (count > 0)
-                    {
+                {                                      
                         //com o split adiciono a string 'quebrada' dentro do array 
                         linhaseparada = linha.Split(';');
                         //aqui incluo o método necessário para continuar o trabalho 
@@ -43,9 +41,7 @@ namespace BibliotecaOpenDSS.Uteis
                             NomeBarra = linhaseparada[2]                            
                         };
                         ListadeBarras.Add(barra);
-                    }
-                    count++;
-
+                    
                 }
                 rd.Close();
             }

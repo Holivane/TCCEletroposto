@@ -85,7 +85,6 @@ namespace BibliotecaOpenDSS
             for (int i = 0; i < this.DSSLines.Count; i++)
             {
                 trecho = new Trecho();
-                trecho.CodTrecho = DSSLines.Name;
 
                 if (DSSCktElement.CurrentsMagAng[0] > 0.1)
                 {
@@ -141,8 +140,8 @@ namespace BibliotecaOpenDSS
             int index = 0;
             foreach(Trecho t in TrechosAntes)
             {
-
-                if ((1.08 * t.IAtual) < TrechosDepois[index].IAtual)
+                
+                if ((1.08 * t.IAtual) < TrechosDepois[index].IAtual && TrechosDepois[index].IAtual > 1)
                 {
                     trechosmodficados.Add(TrechosDepois[index]);
                     if ((TrechosDepois[index].INom * 0.9) <= TrechosDepois[index].IAtual)
@@ -171,6 +170,7 @@ namespace BibliotecaOpenDSS
                 {
                     foreach (Trecho t in trechosmodficados)
                     {
+
                         if (t.barra1 != null)
                         {
                             if (t.barra1.CodBarra == b.CodBarra)
@@ -199,7 +199,7 @@ namespace BibliotecaOpenDSS
         public void AddLoad(Carga carga)
         {
 
-            this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=5 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=" + carga.PotenciaTotal.ToString() + " kvar=0 daily=755";
+            this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=5 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=" + carga.PotenciaTotal.ToString() + " kvar=0 daily=225";
         }
 
         //public float ConvertPower(float power)
@@ -249,7 +249,7 @@ namespace BibliotecaOpenDSS
                 
                 if (trecho.barra1 != null)
                 {
-                    if (this.getBarra(trecho.barra1.CodBarra, listabarras).Rede == barra.Rede && trecho.IAtual > 1)
+                    if (this.getBarra(trecho.barra1.CodBarra, listabarras).Rede == barra.Rede)
                     {
                         lista.Add(trecho);
                     }
@@ -257,7 +257,7 @@ namespace BibliotecaOpenDSS
 
                 else if (trecho.barra2 != null)
                 {
-                    if (this.getBarra(trecho.barra2.CodBarra, listabarras).Rede == barra.Rede && trecho.IAtual > 1)
+                    if (this.getBarra(trecho.barra2.CodBarra, listabarras).Rede == barra.Rede)
                     {
                         lista.Add(trecho);
                     }

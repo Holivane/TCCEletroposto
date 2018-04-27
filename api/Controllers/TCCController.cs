@@ -75,10 +75,10 @@ namespace api.Controllers
 
         [AcceptVerbs("GET")]
         [Route("updatebus")]
-        public string updatebus(string filename)
+        public string updatebus()
         {
             List<Barra> lista = new List<Barra>();
-            lista = BibliotecaOpenDSS.Uteis.Uteis.LerArquivo(filename);
+            lista = BibliotecaOpenDSS.Uteis.Uteis.LerArquivo("");
 
             // int count = 1;
            
