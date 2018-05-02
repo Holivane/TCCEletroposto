@@ -1,8 +1,254 @@
 ﻿
 @{
-    ViewBag.Title = "Simulacao";
+    ViewBag.Title = "Simulação";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Simulacao</h2>
+<div class="row">
+    <div class="col-sm-5">
+        <h3>Dados da Simulação</h3>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="NomedoProjeto" class="col-sm-4 control-label">Nome do Projeto</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="NomedoProjeto" placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group col-sm-8 col-sm-offset-4">
+                    <div class="input-group-addon">00:00 - 03:59h</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <div class="input-group-addon">kW</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group col-sm-8 col-sm-offset-4">
+                    <div class="input-group-addon">04:00 - 07:59h</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <div class="input-group-addon">kW</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group col-sm-8 col-sm-offset-4">
+                    <div class="input-group-addon">08:00 - 11:59h</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <div class="input-group-addon">kW</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group col-sm-8 col-sm-offset-4">
+                    <div class="input-group-addon">12:00 - 15:59h</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <div class="input-group-addon">kW</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group col-sm-8 col-sm-offset-4">
+                    <div class="input-group-addon">16:00 - 19:59h</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <div class="input-group-addon">kW</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group col-sm-8 col-sm-offset-4">
+                    <div class="input-group-addon">20:00 - 23:59h</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <div class="input-group-addon">kW</div>
+                </div>
+            </div>
+            <div class="form-group text-center">ou</div>
+            <div class="form-group">
+                <div class="input-group col-sm-8 col-sm-offset-4">
+                    <div class="input-group-addon">Potência Máxima</div>
+                    <input type="text" class="form-control" value="500" name="potencia" id="potencia">
+                    <div class="input-group-addon">kW</div>
+                </div>
+            </div>
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-success">Salvar Simulação</button>
+                @Html.ActionLink("Voltar para meus dados", "Perfil", "App", new { area = "" }, new { @class = "btn btn-primary" })
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-1">
+        <img src="~/Escala_Barras.png"  width="100%"/>
+    </div>
+        <div class="col-sm-6">
+            <div id="dvMap" style="height:550px; width:100%;"></div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    var map;
+    var marker;
+    var markers = [];
+    var BarraPadrao = "/BarrasInicio.png";
+
+    var marker1, marker2;
+    var poly, geodesicPoly;
+
+    function initMap() {
+
+        var CDAM_Latlng = new google.maps.LatLng(-23.525990, -46.633076);
+        var CDAM_mapOptions = {
+            zoom: 16,
+            center: CDAM_Latlng
+        }
+        var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
+        var potencia = document.getElementById('potencia').innerText;
+
+
+        //marker1 = new google.maps.Marker({
+        //    map: map,
+        //    icon: BarraPadrao,
+        //    draggable: true,
+        //    position: { lat: 40.714, lng: -74.006 }
+        //});
+
+        //marker2 = new google.maps.Marker({
+        //    map: map,
+        //    icon: BarraPadrao,
+        //    draggable: true,
+        //    position: { lat: 48.857, lng: 2.352 }
+        //});
+
+        //var bounds = new google.maps.LatLngBounds(
+        //    marker1.getPosition(), marker2.getPosition());
+        //map.fitBounds(bounds);
+
+        //poly = new google.maps.Polyline({
+        //    strokeColor: '#FF0000',
+        //    strokeOpacity: 1.0,
+        //    strokeWeight: 3,
+        //    map: map,
+        //});
+
+
+        //poly.setPath([marker1.getPosition(), marker2.getPosition()]);
+
+
+        function deleteOverlays() {
+            if (markers) {
+                for (i in markers) {
+                    markers[i].setMap(null);
+                }
+                markers.length = 0;
+            }
+        }
+        /*
+        google.maps.event.addListener(map, 'click', function (event) {
+            placeMarker(event.latLng);
+        });
+        */
+
+        function placeMarker(location) {
+            var data =
+                {
+                    "Latitudade": location.lat().toFixed(3),
+                    "Longitude": location.lng().toFixed(3)
+                };
+            $.post('/api/eletroposto/addbus', data, function (response) {
+                deleteOverlays();
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                    map: map
+                });
+            }, 'json');
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+
+
+        var Barra00 = "/Barra00.png";
+        var Barra01 = "/Barra01.png";
+        var Barra02 = "/Barra02.png";
+        var Barra03 = "/Barra03.png";
+        var Barra04 = "/Barra04.png";
+        var Barra05 = "/Barra05.png";
+        var Barra06 = "/Barra06.png";
+        var Barra07 = "/Barra07.png";
+        var Barra08 = "/Barra08.png";
+        var Barra09 = "/Barra09.png";
+        var Barra10 = "/Barra10.png";
+        var BarrasAfetadas = "/BarrasAfetadas.png";
+
+        var calcscore = function (ListaBarras) {
+            deleteOverlays();
+            $.each(ListaBarras, function (key, barraweb) {
+                var iconbarra = BarraPadrao;
+
+                if (barraweb.Score == -1) {
+                    iconbarra = BarraPadrao;
+                } else if (barraweb.Score >= 0 && barraweb.Score < 0.99) {
+                    iconbarra = Barra00;
+                } else if (barraweb.Score >= 1 && barraweb.Score < 1.99) {
+                    iconbarra = Barra01;
+                } else if (barraweb.Score >= 2 && barraweb.Score < 2.99) {
+                    iconbarra = Barra02;
+                } else if (barraweb.Score >= 3 && barraweb.Score < 3.99) {
+                    iconbarra = Barra03;
+                } else if (barraweb.Score >= 4 && barraweb.Score < 4.99) {
+                    iconbarra = Barra04;
+                } else if (barraweb.Score >= 5 && barraweb.Score < 5.99) {
+                    iconbarra = Barra05;
+                } else if (barraweb.Score >= 6 && barraweb.Score < 6.99) {
+                    iconbarra = Barra06;
+                } else if (barraweb.Score >= 7 && barraweb.Score < 7.99) {
+                    iconbarra = Barra07;
+                } else if (barraweb.Score >= 8 && barraweb.Score < 8.99) {
+                    iconbarra = Barra08;
+                } else if (barraweb.Score >= 9 && barraweb.Score < 9.99) {
+                    iconbarra = Barra09;
+                } else if (barraweb.Score == 10) {
+                    iconbarra = Barra10;
+                } else if (barraweb.Score == -2 ) {
+                    iconbarra = BarrasAfetadas;
+                }
+
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(barraweb.Latitude, barraweb.Longitude),
+                    map: map,
+                    title: 'Barra: ' + barraweb.CodBarra + ' Pontos: ' + barraweb.Score + ' Rede: ' + barraweb.Rede ,
+                    icon: iconbarra
+                });
+
+
+
+                markers.push(marker);
+                google.maps.event.addListener(marker, 'mouseover', function (event) {
+                    var infowindow = new google.maps.InfoWindow({
+                        content: barraweb.CodBarra
+                    });
+                    //infowindow.setPosition(event.latLng);
+                    //infowindow.open(map);
+                });
+                google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
+                    //alert(document.getElementById('potencia').value);
+                    var Carga = {
+                        Nome: "xxxxxx",
+                        Barra: barraweb.CodBarra,
+                        PotenciaTotal: document.getElementById('potencia').value
+                    };
+                    var Projeto = { carga: Carga, barra: barraweb};
+                    $.post('/api/eletroposto/calcscore', Projeto, function (response) {
+
+                        calcscore(response);
+                    }, 'json');
+                }));
+            });
+        };
+
+        var load = function () {
+            $.getJSON("/api/eletroposto/getbus", function (response) {
+                calcscore(response);
+            });
+        };
+
+        load();
+    }
+</script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDSavBQ07lCS7mjLKnExHKUcYNkmCv5Dn0&callback=initMap&libraries=drawing" async defer></script>
 

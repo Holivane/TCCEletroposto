@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Alteração de Senha";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Alteração de Senha</h2>
+<form>
+    <div class="form-group">
+        <label for="Asenha">Senha atual</label>
+        <input type="password" class="form-control" id="Asenha" placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" class="form-control" id="senha" placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="Csenha">Confirmar Senha</label>
+        <input type="password" class="form-control" id="Csenha" placeholder="">
+    </div>
+    <button type="submit" class="btn btn-default">Alterar</button>
+    @Html.ActionLink("Cancelar", "Perfil", "App", new { area = "" }, new { @class = "btn btn-danger" })
+</form>
+

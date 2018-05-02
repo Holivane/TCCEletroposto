@@ -15,7 +15,7 @@
     var map;
     var marker;
     var markers = [];
-    var BarraPadrao = "/BarrasInicio_10px.png";
+    var BarraPadrao = "/BarrasInicio.png";
 
     var marker1, marker2;
     var poly, geodesicPoly;
@@ -106,7 +106,7 @@
         var Barra08 = "/Barra08.png";
         var Barra09 = "/Barra09.png";
         var Barra10 = "/Barra10.png";
-        var BarrasAfetadas = "/BarrasAfetadas_10px.png";
+        var BarrasAfetadas = "/BarrasAfetadas.png";
 
         var calcscore = function (ListaBarras) {
             deleteOverlays();
@@ -144,7 +144,7 @@
                 marker = new google.maps.Marker({
                     position: new google.maps.LatLng(barraweb.Latitude, barraweb.Longitude),
                     map: map,
-                    title: 'Barra:' + barraweb.CodBarra + ' Pontos:' + barraweb.Score + ' Rede:' + barraweb.Rede ,
+                    title: 'Barra: ' + barraweb.CodBarra + ' Pontos: ' + barraweb.Score + ' Rede: ' + barraweb.Rede ,
                     icon: iconbarra
                 });
 
