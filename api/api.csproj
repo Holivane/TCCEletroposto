@@ -250,6 +250,7 @@
     <Content Include="Content\8.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Escala_Barras.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -324,6 +325,7 @@
     <Content Include="Views\App\Simulacao.cshtml" />
     <Content Include="Views\App\Sobre.cshtml" />
     <Content Include="Sinap_Rede_CAI_teste_sem_trafos_vf.dss" />
+    <Content Include="Views\App\AltSenha.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

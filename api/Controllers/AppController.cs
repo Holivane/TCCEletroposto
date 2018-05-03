@@ -49,5 +49,10 @@ namespace api.Controllers
         {
             return View();
         }
+        // GET: Alteração de Dados
+        public ActionResult AltSenha()
+        {
+            return View();
+        }
     }
 }

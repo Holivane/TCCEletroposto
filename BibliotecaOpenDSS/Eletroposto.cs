@@ -335,7 +335,6 @@ namespace BibliotecaOpenDSS
         {
             List<Carga> lista = new List<Carga>();
             Carga carga = null;
-            Barra barra = null;
             int ContarCarga = DSSLoads.First;
 
             for (int i = 0; i < this.DSSLoads.Count; i++)
