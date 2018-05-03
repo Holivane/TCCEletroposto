@@ -17,51 +17,43 @@
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">00:00 - 03:59h</div>
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <input type="text" class="form-control" id="potencia00" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">04:00 - 07:59h</div>
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <input type="text" class="form-control" id="potencia04" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">08:00 - 11:59h</div>
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <input type="text" class="form-control" id="potencia08" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">12:00 - 15:59h</div>
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <input type="text" class="form-control" id="potencia12" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">16:00 - 19:59h</div>
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <input type="text" class="form-control" id="potencia16" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">20:00 - 23:59h</div>
-                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                    <input type="text" class="form-control" id="potencia20" placeholder="">
                     <div class="input-group-addon">kW</div>
-                </div>
-            </div>
-            <div class="form-group text-center">ou</div>
-            <div class="form-group">
-                <div class="input-group col-sm-8 col-sm-offset-4">
-                   <div class="input-group-addon">Potência Máxima</div>
-                   <input type="text" class="form-control" value="500" name="potencia" id="potencia">
-                   <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group text-right">
@@ -95,7 +87,7 @@
             center: CDAM_Latlng
         }
         var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
-        var potencia = document.getElementById('potencia').innerText;
+        var potencia = document.getElementById('potencia12').innerText;
 
 
         //marker1 = new google.maps.Marker({
@@ -228,9 +220,14 @@
                 google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
                     //alert(document.getElementById('potencia').value);
                     var Carga = {
-                        Nome: "xxxxxx",
+                        Nome: document.getElementById('NomedoProjeto').value,
                         Barra: barraweb.CodBarra,
-                        PotenciaTotal: document.getElementById('potencia').value
+                        Potencia00: document.getElementById('potencia00').value,
+                        Potencia04: document.getElementById('potencia04').value,
+                        Potencia08: document.getElementById('potencia08').value,
+                        PotenciaTotal: document.getElementById('potencia12').value,
+                        Potencia16: document.getElementById('potencia16').value,
+                        Potencia20: document.getElementById('potencia20').value,
                     };
                     var Projeto = { carga: Carga, barra: barraweb};
                     $.post('/api/eletroposto/calcscore', Projeto, function (response) {
