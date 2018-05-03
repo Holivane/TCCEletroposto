@@ -316,7 +316,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Sinap_Rede_CAI_teste_sem_trafos.dss" />
     <Content Include="Views\App\Index.cshtml" />
     <Content Include="Views\App\Cadastro.cshtml" />
     <Content Include="Views\App\Login.cshtml" />
@@ -324,6 +323,7 @@
     <Content Include="Views\App\AltDados.cshtml" />
     <Content Include="Views\App\Simulacao.cshtml" />
     <Content Include="Views\App\Sobre.cshtml" />
+    <Content Include="Sinap_Rede_CAI_teste_sem_trafos_vf.dss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
