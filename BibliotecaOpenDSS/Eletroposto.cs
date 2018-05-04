@@ -197,10 +197,36 @@ namespace BibliotecaOpenDSS
 
 
         public void AddLoad(Carga carga)
-        {
+        {   // depois inserir o mult da forma que voces encontrarem     
+            this.DSSText.Command = "New Loadshape." + carga.Nome + "_curva npts=24 interval=1 mult=(0.98802318 0.88500968 0.81049210 0.78461502 0.75908133 0.74241084 0.76963982 0.80480593 0.86259743 0.90485707 0.92762777 0.89857360 0.98382700 1.03174907 0.97327998 1.04404931 1.08630272 1.10348275 1.19519472 1.41969298 1.31428476 1.29648025 1.28227387 1.13164882)" ;
+            //this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=5 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=" + carga.PotenciaTotal.ToString() + " kvar=0 daily=225";
+            this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=1 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=1 pf=0.96 daily=" + carga.Nome + "_curva";
 
-            this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=5 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=" + carga.PotenciaTotal.ToString() + " kvar=0 daily=225";
         }
+
+        public bool Solve()
+        {
+            this.DSSText.Command = "Set voltagebases=[88.000 13.800]";
+            this.DSSText.Command = "calcv";
+            this.DSSText.Command = "set DemandInterval=true";
+            this.DSSText.Command = "set overloadreport=false";
+            this.DSSText.Command = "set voltexceptionreport=true";
+            this.DSSText.Command = "set DIVerbose=false";
+            this.DSSText.Command = "set mode=daily";
+            this.DSSText.Command = "set stepsize=1h";
+            this.DSSText.Command = "set number=24";
+            this.DSSText.Command = "solve";
+            //this.DSSText.Command = "closeDI";
+
+            return false;
+
+        }
+
+        //public Resultados()
+        //{
+        //    this.DSSText.Command = "Show Voltage LN Nodes";
+        //    this.DSSText.Command = "Show Current Elements";
+        //}
 
         //public float ConvertPower(float power)
         //{
@@ -371,17 +397,17 @@ namespace BibliotecaOpenDSS
 
         
 
-        public bool Solve()
-        {
+        //public bool Solve()
+        //{
 
-            bool retorno = false;
-            this.DSSSolution.Solve();
+        //    bool retorno = false;
+        //    this.DSSSolution.Solve();
 
-            if (this.DSSSolution.Converged)
-            {
-                retorno = true;
-            }
-            return retorno;
-        }
+        //    if (this.DSSSolution.Converged)
+        //    {
+        //        retorno = true;
+        //    }
+        //    return retorno;
+        //}
     }
 }
