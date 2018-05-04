@@ -5295,13 +5295,13 @@ New Capacitor.7157 bus1=2376 bus2=2376.0.0.0 phases=3 conn=wye kvar=1200.000 kv=
 New Capacitor.7156 bus1=2032 bus2=2032.0.0.0 phases=3 conn=wye kvar=600.000 kv=13.80000019
 //--------------------------------------------------------------------------------
 //Configura tensão de base
-Set voltagebases=[88.000 13.800]
-calcv
+//Set voltagebases=[88.000 13.800]
+//calcv
 //--------------------------------------------------------------------------------
 //Opções de cálculo
-set maxiterations=50
-set mode=daily
-set algorithm=Normal
+//set maxiterations=50
+//set mode=daily
+//set algorithm=Normal
 //--------------------------------------------------------------------------------
 //Cálculo
 //solve
