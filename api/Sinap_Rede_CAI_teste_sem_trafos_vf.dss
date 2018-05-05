@@ -5311,3 +5311,12 @@ New Capacitor.7156 bus1=2032 bus2=2032.0.0.0 phases=3 conn=wye kvar=600.000 kv=1
 //Show Current Elements
 //--------------------------------------------------------------------------------
 //fim
+
+//New Loadshape.Projeto_curva npts=24 interval=1 mult=(0 0 0 0 200 200 200 200 450 450 450 450 500 500 500 500 500 500 500 500 200 200 200 200)
+//New Load.Projeto phases=3 model=1 bus1=3244.1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=1 pf=0.96 daily=Projeto_curva
+
+//Set voltagebases=[88.000 13.800]
+//calcv
+//set mode=daily
+//set stepsize=1h
+//set number=12

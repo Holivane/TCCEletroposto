@@ -60,14 +60,33 @@
                 <button type="submit" class="btn btn-success">Salvar Simulação</button>
                 @Html.ActionLink("Voltar para meus dados", "Perfil", "App", new { area = "" }, new { @class = "btn btn-primary" })
             </div>
+            <div class="form-group text-right">
+                <div class="col-sm-8 col-sm-offset-4" id="especificacoes" style="visibility:hidden">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Especificações</div>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <h5>Tensão: <i id="dtensao"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Hora: <i id="dhora"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Distancia: <i id="ddist"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Corrente de Curto: <i id="dcc"></i></h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </form>
     </div>
-    <div class="col-sm-1">
-        <img src="~/Escala_Barras.png"  width="100%"/>
+    <div class="col-sm-7">
+        <div id="dvMap" style="height:550px; width:100%;"></div>
+        <img src="~/Escala_Barras.png" width="550" />
     </div>
-        <div class="col-sm-6">
-            <div id="dvMap" style="height:550px; width:100%;"></div>
-        </div>
     </div>
 
 <script type="text/javascript">
@@ -80,7 +99,7 @@
     var poly, geodesicPoly;
 
     function initMap() {
-
+        document.getElementById("especificacoes").style.visibility = "hidden";
         var CDAM_Latlng = new google.maps.LatLng(-23.525990, -46.633076);
         var CDAM_mapOptions = {
             zoom: 16,
@@ -198,6 +217,16 @@
                     iconbarra = Barra10;
                 } else if (barraweb.Score == -2 ) {
                     iconbarra = BarrasAfetadas;
+                }
+
+
+                if (barraweb.Score >= 0) {
+                    document.getElementById("especificacoes").style.visibility = "visible";
+                    document.getElementById('dtensao').innerHTML = barraweb.TensaoBase * barraweb.Tensaopu;
+                    document.getElementById('dhora').innerHTML = barraweb.Hora;
+                    document.getElementById('ddist').innerHTML = barraweb.Mtotal;
+                    document.getElementById('dcc').innerHTML = barraweb.Score;
+
                 }
 
                 marker = new google.maps.Marker({

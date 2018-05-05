@@ -47,7 +47,6 @@ namespace BibliotecaOpenDSS
         {
             bool retorno = false;
 
-            this.DSSText.Command = "Clear";
             this.DSSText.Command = "Compile " + this.FileName;
 
             this.DSSCircuit = DSSobj.ActiveCircuit;
@@ -71,7 +70,7 @@ namespace BibliotecaOpenDSS
         }
 
 
-        public List<Barra> GetBus()
+        public List<Barra> GetBus(int hora)
         {
             List<Barra> buses = new List<Barra>();
             Trecho trecho = new Trecho();
@@ -79,7 +78,7 @@ namespace BibliotecaOpenDSS
             Barra barra2 = null;
 
             bool verificararquivoderede = this.RunFile();
-            bool solve = this.Solve();
+            bool solve = this.SolveH(hora);
             int LineCount = DSSLines.First;
             
             for (int i = 0; i < this.DSSLines.Count; i++)
@@ -117,49 +116,60 @@ namespace BibliotecaOpenDSS
             return buses;
         }
 
-        public List<Barra> CalcScore(List<Barra> listabarras, Barra barra, Carga carga)
+        public List<Barra> CalcSolve(List<Barra> listabarras, Barra barra, Carga carga, int hora, ref double[] pior)
         {
-            //fazer o calculo
+            
+            //fazer o calculo por 
             List<Barra> barrasmodificadas = new List<Barra>();
-            bool verificararquivoderede = this.RunFile();
-
-            bool solve = this.Solve();
+            bool verificararquivoderede;
+            bool solve;
             List<Trecho> TrechosAntes = new List<Trecho>();
+            List<Trecho> TrechosDepois = new List<Trecho>();
+            List<Trecho> trechosmodficados = new List<Trecho>();
+
+            verificararquivoderede = this.RunFile();
+            solve = this.SolveH(hora);
             TrechosAntes = this.TodosTrechos(listabarras, barra);
 
-            this.AddLoad(carga);
-
-            solve = this.Solve();
-            List<Trecho> TrechosDepois = new List<Trecho>();
+            verificararquivoderede = this.RunFile();
+            this.AddLoad(carga);            
+            solve = this.SolveH(hora);
             TrechosDepois = this.TodosTrechos(listabarras, barra);
-
-            List<Trecho> trechosmodficados = new List<Trecho>();
 
             double mtotal = 0;
 
             int index = 0;
-            foreach(Trecho t in TrechosAntes)
+            foreach (Trecho t in TrechosAntes)
             {
-                
+
                 if ((1.08 * t.IAtual) < TrechosDepois[index].IAtual && TrechosDepois[index].IAtual > 1)
                 {
                     trechosmodficados.Add(TrechosDepois[index]);
                     if ((TrechosDepois[index].INom * 0.9) <= TrechosDepois[index].IAtual)
                     {
                         mtotal = mtotal + (TrechosDepois[index].Comprimento * 1000);
+
+                        if (mtotal > pior[0])
+                        {
+                            pior = new double[2] { mtotal, hora };
+                        }
+
                     }
                 }
-                
-                index++;                
-            }
-            
 
-            foreach(Barra b in listabarras)
+                index++;
+            }
+
+
+            foreach (Barra b in listabarras)
             {
                 b.Score = -1;
                 if (b.CodBarra == barra.CodBarra)
                 {
                     b.Score = 10 - (0.05 * mtotal);
+
+                    b.Hora = Convert.ToInt32(pior[1]);
+                    b.Mtotal = Convert.ToInt32(pior[0]);
 
                     if (b.Score < 0)
                     {
@@ -195,6 +205,26 @@ namespace BibliotecaOpenDSS
             return barrasmodificadas;
         }
 
+        public List<Barra> CalcScore(List<Barra> listabarras, Barra barra, Carga carga)
+        {
+            int hora = 1;
+            List<Barra> barrasmodificadas = new List<Barra>();
+            double[] pior = new double[2] { 0, hora };
+
+            for (hora = 1; hora <= 24; hora++)
+            {
+                barrasmodificadas = this.CalcSolve(listabarras, barra, carga, hora, ref pior);
+            }
+
+            hora = Convert.ToInt32(pior[1]);
+            this.CalcSolve(listabarras, barra, carga, hora, ref pior);
+
+            return barrasmodificadas;
+        }
+
+
+
+
 
         public void AddLoad(Carga carga)
         {   // depois inserir o mult da forma que voces encontrarem     
@@ -210,21 +240,24 @@ namespace BibliotecaOpenDSS
 
         }
 
-        public bool Solve()
+
+        public bool SolveH(int hora)
         {
             this.DSSText.Command = "Set voltagebases=[88.000 13.800]";
             this.DSSText.Command = "calcv";
-            this.DSSText.Command = "set DemandInterval=true";
-            this.DSSText.Command = "set overloadreport=false";
-            this.DSSText.Command = "set voltexceptionreport=true";
-            this.DSSText.Command = "set DIVerbose=false";
             this.DSSText.Command = "set mode=daily";
             this.DSSText.Command = "set stepsize=1h";
-            this.DSSText.Command = "set number=24";
-            this.DSSText.Command = "solve";
-            //this.DSSText.Command = "closeDI";
+            this.DSSText.Command = "set number=" + hora;
 
-            return false;
+
+            bool retorno = false;
+            this.DSSSolution.Solve();
+
+            if (this.DSSSolution.Converged)
+            {
+                retorno = true;
+            }
+            return retorno;
 
         }
 

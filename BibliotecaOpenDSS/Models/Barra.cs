@@ -17,6 +17,7 @@ namespace BibliotecaOpenDSS.Models
         public string CodBarra { get; set; }
         public string NomeBarra { get; set; }
         public double Score { get; set; }
-
+        public double Mtotal { get; set; }
+        public int Hora { get; set; }
     }
 }

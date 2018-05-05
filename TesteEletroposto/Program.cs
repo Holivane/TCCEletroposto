@@ -37,7 +37,7 @@ namespace TesteEletroposto
             //     };
 
 
-            //     bool solve = lib.Solve();
+            //     bool solve = lib.SolveH();
             //     //TRECHOS
             //     List<Trecho> x = new List<Trecho>();
             //     x = lib.TodosTrechos();
@@ -55,7 +55,7 @@ namespace TesteEletroposto
 
             //     lib.AddLoad(carga);
 
-            //     solve = lib.Solve();
+            //     solve = lib.SolveH();
 
             //     //TRECHOS
             //     List<Trecho> xd = new List<Trecho>();
