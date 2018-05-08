@@ -11,48 +11,48 @@
             <div class="form-group">
                 <label for="NomedoProjeto" class="col-sm-4 control-label">Nome do Projeto</label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="NomedoProjeto" placeholder="">
+                    <input type="text" class="form-control" value="Projeto" id="NomedoProjeto" placeholder="">
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">00:00 - 03:59h</div>
-                    <input type="text" class="form-control" id="potencia00" placeholder="">
+                    <input type="text" class="form-control" value="0" id="potencia00" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">04:00 - 07:59h</div>
-                    <input type="text" class="form-control" id="potencia04" placeholder="">
+                    <input type="text" class="form-control" value="200" id="potencia04" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">08:00 - 11:59h</div>
-                    <input type="text" class="form-control" id="potencia08" placeholder="">
+                    <input type="text" class="form-control" value="450" id="potencia08" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">12:00 - 15:59h</div>
-                    <input type="text" class="form-control" id="potencia12" placeholder="">
+                    <input type="text" class="form-control" value="500" id="potencia12" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">16:00 - 19:59h</div>
-                    <input type="text" class="form-control" id="potencia16" placeholder="">
+                    <input type="text" class="form-control" value="500" id="potencia16" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group col-sm-8 col-sm-offset-4">
                     <div class="input-group-addon">20:00 - 23:59h</div>
-                    <input type="text" class="form-control" id="potencia20" placeholder="">
+                    <input type="text" class="form-control" value="200" id="potencia20" placeholder="">
                     <div class="input-group-addon">kW</div>
                 </div>
             </div>
@@ -60,14 +60,33 @@
                 <button type="submit" class="btn btn-success">Salvar Simulação</button>
                 @Html.ActionLink("Voltar para meus dados", "Perfil", "App", new { area = "" }, new { @class = "btn btn-primary" })
             </div>
+            <div class="form-group text-right">
+                <div class="col-sm-8 col-sm-offset-4" id="especificacoes" style="visibility:hidden">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Especificações</div>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <h5>Tensão: <i id="dtensao"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Hora: <i id="dhora"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Distancia: <i id="ddist"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Corrente de Curto: <i id="dcc"></i></h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </form>
     </div>
-    <div class="col-sm-1">
-        <img src="~/Escala_Barras.png"  width="100%"/>
+    <div class="col-sm-7">
+        <div id="dvMap" style="height:550px; width:100%;"></div>
+        <img src="~/Escala_Barras.png" width="550" />
     </div>
-        <div class="col-sm-6">
-            <div id="dvMap" style="height:550px; width:100%;"></div>
-        </div>
     </div>
 
 <script type="text/javascript">
@@ -80,14 +99,14 @@
     var poly, geodesicPoly;
 
     function initMap() {
-
+        document.getElementById("especificacoes").style.visibility = "hidden";
         var CDAM_Latlng = new google.maps.LatLng(-23.525990, -46.633076);
         var CDAM_mapOptions = {
             zoom: 16,
             center: CDAM_Latlng
         }
         var map = new google.maps.Map(document.getElementById('dvMap'), CDAM_mapOptions);
-        var potencia = document.getElementById('potencia12').innerText;
+        var potencia12 = document.getElementById('potencia12').innerText;
 
 
         //marker1 = new google.maps.Marker({
@@ -200,6 +219,16 @@
                     iconbarra = BarrasAfetadas;
                 }
 
+
+                if (barraweb.Score >= 0) {
+                    document.getElementById("especificacoes").style.visibility = "visible";
+                    document.getElementById('dtensao').innerHTML = barraweb.TensaoBase * barraweb.Tensaopu;
+                    document.getElementById('dhora').innerHTML = barraweb.Hora;
+                    document.getElementById('ddist').innerHTML = barraweb.Mtotal;
+                    document.getElementById('dcc').innerHTML = barraweb.Score;
+
+                }
+
                 marker = new google.maps.Marker({
                     position: new google.maps.LatLng(barraweb.Latitude, barraweb.Longitude),
                     map: map,
@@ -225,9 +254,10 @@
                         Potencia00: document.getElementById('potencia00').value,
                         Potencia04: document.getElementById('potencia04').value,
                         Potencia08: document.getElementById('potencia08').value,
-                        PotenciaTotal: document.getElementById('potencia12').value,
+                        Potencia12: document.getElementById('potencia12').value,
                         Potencia16: document.getElementById('potencia16').value,
                         Potencia20: document.getElementById('potencia20').value,
+                        //PotenciaTotal: document.getElementById('potencia12').value
                     };
                     var Projeto = { carga: Carga, barra: barraweb};
                     $.post('/api/eletroposto/calcscore', Projeto, function (response) {

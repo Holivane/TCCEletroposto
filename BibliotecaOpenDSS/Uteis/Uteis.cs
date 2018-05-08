@@ -24,7 +24,7 @@ namespace BibliotecaOpenDSS.Uteis
                 string[] linhaseparada = null;
                 //realizo o while para ler o conteudo da linha 
                 Barra barra = null;
-                int count = 0;
+                //int count = 0;
                 while ((linha = rd.ReadLine()) != null)
                 {                                      
                         //com o split adiciono a string 'quebrada' dentro do array 
@@ -51,5 +51,6 @@ namespace BibliotecaOpenDSS.Uteis
             }
             return ListadeBarras;
         }
+
     }
 }
