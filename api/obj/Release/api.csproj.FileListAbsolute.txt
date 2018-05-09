@@ -123,8 +123,8 @@ C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\bin\pt-br\System.Web.
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\bin\pt-br\System.Web.WebPages.resources.dll
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\bin\pt-br\System.Web.WebPages.Razor.resources.dll
-C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\obj\Release\api.csprojResolveAssemblyReference.cache
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\obj\Release\api.csproj.CoreCompileInputs.cache
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\obj\Release\api.csproj.CopyComplete
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\obj\Release\api.dll
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\obj\Release\api.pdb
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\api\obj\Release\api.csprojAssemblyReference.cache

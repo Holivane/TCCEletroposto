@@ -35,7 +35,8 @@ namespace api.Controllers
                     Longitude = Convert.ToDouble( b.Longitude),
                     Rede = b.Rede,
                     NomeRede = b.NomedaRede,
-                    NomeBarra = b.NomedaBarra
+                    NomeBarra = b.NomedaBarra,
+                    NivelCC = Convert.ToDouble(b.NivelCC)
                 };
                 lista.Add(barra);
             }
@@ -63,7 +64,8 @@ namespace api.Controllers
                     Longitude = Convert.ToDouble(b.Longitude),
                     Rede = b.Rede,
                     NomeRede = b.NomedaRede,
-                    NomeBarra = b.NomedaBarra
+                    NomeBarra = b.NomedaBarra,
+                    NivelCC = Convert.ToDouble(b.NivelCC)
                 };
 
                 lista.Add(barrareturn);
@@ -92,12 +94,33 @@ namespace api.Controllers
                     Longitude = Convert.ToDecimal(b.Longitude),
                     Rede = b.Rede,
                     NomedaBarra = b.NomeBarra,
-                    NomedaRede = b.NomeRede
+                    NomedaRede = b.NomeRede,
+                    NivelCC = Convert.ToDecimal(b.NivelCC)
                 };
 
                 db.Barras.Add(barra);
             }
             db.SaveChanges();
+            return "Dados enviados com sucesso!";
+        }
+
+        [AcceptVerbs("GET")]
+        [Route("updatecc")]
+        public string updatecc()
+        {
+            List<Barra> lista = new List<Barra>();
+            lista = BibliotecaOpenDSS.Uteis.Uteis.LerArqCC("");
+            Barras barra = null;
+            foreach (Barra b in lista)
+            {
+                barra = db.Barras.Where(c => c.Barra.Equals(b.CodBarra)).FirstOrDefault();
+                if(barra != null)
+                {
+                    barra.NivelCC = Convert.ToDecimal(b.NivelCC);
+                    db.SaveChanges();
+                }
+                
+            }            
             return "Dados enviados com sucesso!";
         }
 

@@ -80,7 +80,7 @@ namespace BibliotecaOpenDSS
             bool verificararquivoderede = this.RunFile();
             bool solve = this.SolveH(hora);
             int LineCount = DSSLines.First;
-            
+
             for (int i = 0; i < this.DSSLines.Count; i++)
             {
                 trecho = new Trecho();
@@ -89,7 +89,7 @@ namespace BibliotecaOpenDSS
                 {
                     barra1 = new Barra
                     {
-                        CodBarra = DSSLines.Bus1.Split('.')[0]
+                        CodBarra = DSSLines.Bus1.Split('.')[0],
                     };
 
                     trecho.barra1 = barra1;
@@ -97,7 +97,7 @@ namespace BibliotecaOpenDSS
 
                     barra2 = new Barra
                     {
-                        CodBarra = DSSLines.Bus2.Split('.')[0]
+                        CodBarra = DSSLines.Bus2.Split('.')[0],
                     };
                 }
 
@@ -167,9 +167,9 @@ namespace BibliotecaOpenDSS
                 if (b.CodBarra == barra.CodBarra)
                 {
                     b.Score = 10 - (0.05 * mtotal);
-                                      
+
                     b.Mtotal = Convert.ToInt32(pior[0]);
-                    
+
                     if (b.Score < 0)
                     {
                         b.Score = 0;
@@ -204,6 +204,7 @@ namespace BibliotecaOpenDSS
                     {
                         b.Periodo = "20:00 - 23:59";
                     }
+
                 }
                 else
                 {
@@ -252,10 +253,6 @@ namespace BibliotecaOpenDSS
             return barrasmodificadas;
         }
 
-
-
-
-
         public void AddLoad(Carga carga)
         {   // depois inserir o mult da forma que voces encontrarem     
             this.DSSText.Command = "New Loadshape." + carga.Nome + 
@@ -269,8 +266,7 @@ namespace BibliotecaOpenDSS
             this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=1 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=1 pf=0.96 daily=" + carga.Nome + "_curva";
 
         }
-
-
+        
         public bool SolveH(int hora)
         {
             this.DSSText.Command = "Set voltagebases=[88.000 13.800]";
@@ -290,8 +286,6 @@ namespace BibliotecaOpenDSS
             return retorno;
 
         }
-
-
 
         public int GetCountBus()
         {
@@ -410,6 +404,8 @@ namespace BibliotecaOpenDSS
                 writer.WriteLine(DSSBus.Name);
                 barra.CodBarra = DSSBus.Name;
                 list.Add(barra);
+                barra.TensaoBase = DSSBus.kVBase;
+                barra.Tensaopu = DSSBus.puVoltages;
 
             }
             writer.Close();
