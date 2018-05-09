@@ -10,6 +10,7 @@ namespace BibliotecaOpenDSS.Models
     {
         public dynamic Tensaopu { get; set; }
         public double TensaoBase { get; set; }
+        public double NivelCC { get; set; }
         public double Longitude { get; set; }
         public double Latitude { get; set; }
         public string Rede { get; set; }
@@ -18,6 +19,6 @@ namespace BibliotecaOpenDSS.Models
         public string NomeBarra { get; set; }
         public double Score { get; set; }
         public double Mtotal { get; set; }
-        public int Hora { get; set; }
+        public string Periodo { get; set; }
     }
 }
