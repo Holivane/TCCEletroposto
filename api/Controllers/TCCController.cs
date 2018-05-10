@@ -28,7 +28,6 @@ namespace api.Controllers
                 barra = new Barra
                 {
                     Score = -1,
-                    TensaoBase = 0,
                     Tensaopu = 0,
                     CodBarra = b.Barra,
                     Latitude = Convert.ToDouble(b.Latitude),
@@ -36,7 +35,8 @@ namespace api.Controllers
                     Rede = b.Rede,
                     NomeRede = b.NomedaRede,
                     NomeBarra = b.NomedaBarra,
-                    NivelCC = Convert.ToDouble(b.NivelCC)
+                    NivelCC = Convert.ToDouble(b.NivelCC),
+                    TensaoBase = Convert.ToDouble(b.TensaoNominal)
                 };
                 lista.Add(barra);
             }
@@ -57,7 +57,6 @@ namespace api.Controllers
                 barrareturn = new Barra
                 {
                     Score = -1,
-                    TensaoBase = 0,
                     Tensaopu = 0,
                     CodBarra = b.Barra,
                     Latitude = Convert.ToDouble(b.Latitude),
@@ -65,7 +64,8 @@ namespace api.Controllers
                     Rede = b.Rede,
                     NomeRede = b.NomedaRede,
                     NomeBarra = b.NomedaBarra,
-                    NivelCC = Convert.ToDouble(b.NivelCC)
+                    NivelCC = Convert.ToDouble(b.NivelCC),
+                    TensaoBase = Convert.ToDouble(b.TensaoNominal)
                 };
 
                 lista.Add(barrareturn);
@@ -124,5 +124,24 @@ namespace api.Controllers
             return "Dados enviados com sucesso!";
         }
 
+        [AcceptVerbs("GET")]
+        [Route("updatetn")]
+        public string updatetn()
+        {
+            List<Barra> lista = new List<Barra>();
+            lista = BibliotecaOpenDSS.Uteis.Uteis.LerArqTN("");
+            Barras barra = null;
+            foreach (Barra b in lista)
+            {
+                barra = db.Barras.Where(c => c.Barra.Equals(b.CodBarra)).FirstOrDefault();
+                if (barra != null)
+                {
+                    barra.TensaoNominal = Convert.ToDecimal(b.TensaoBase);
+                    db.SaveChanges();
+                }
+
+            }
+            return "Dados enviados com sucesso!";
+        }
     }
 }

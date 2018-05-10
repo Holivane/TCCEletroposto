@@ -22,5 +22,6 @@ namespace api.Models
         public string Rede { get; set; }
         public string NomedaRede { get; set; }
         public Nullable<decimal> NivelCC { get; set; }
+        public Nullable<decimal> TensaoNominal { get; set; }
     }
 }

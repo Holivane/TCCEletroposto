@@ -12,6 +12,7 @@
     <Property Name="Rede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="NomedaRede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="NivelCC" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="TensaoNominal" Type="Decimal" Precision="18" Scale="9" />
   </EntityType>
   <EntityType Name="Pessoas">
     <Key>

@@ -404,8 +404,6 @@ namespace BibliotecaOpenDSS
                 writer.WriteLine(DSSBus.Name);
                 barra.CodBarra = DSSBus.Name;
                 list.Add(barra);
-                barra.TensaoBase = DSSBus.kVBase;
-                barra.Tensaopu = DSSBus.puVoltages;
 
             }
             writer.Close();
