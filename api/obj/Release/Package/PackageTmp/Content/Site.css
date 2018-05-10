@@ -82,10 +82,17 @@
     .periodomais:before {
         content:"Período mais afetado: ";
     }
+    .distanciamais:before {
+        content:"Distância de trechos críticos: ";
+    }
 }
 
 @media only screen and (max-width: 749px) {
     .periodomais:before {
-        content: "Período: ";
+        content:"Período: ";
+    }
+    .distanciamais:before {
+        content:"Distância: ";
     }
 }
+
