@@ -82,7 +82,7 @@
                                 <h5 class="periodomais"><i id="dhora"></i></h5>
                             </li>
                             <li class="list-group-item">
-                                <h5 class="distanciamais"><i id="ddist"></i></h5class="periodomais">
+                                <h5 class="distanciamais"><i id="ddist"></i></h5>
                             </li>
                         </ul>
                     </div>
@@ -96,6 +96,16 @@
     <div class="col-sm-7">
         <div id="dvMap" style="height:550px; width:100%;"></div>
         <img class="img_nota" src="~/Escala_Barras.png" width="550" />
+        <h5>Informações sobre a barra podem ser vistas mantendo o ponteiro do mouse sobre ela.</h5>
+        <div id="DiscEspec" style="visibility:hidden">
+            <h5>Descrição das Especificações (à esquerda):</h5>
+            <ul>
+                <li>O período mais afetado indica o intervalo de horas em que a carga causou mais impacto;</li>
+                <li>Trechos críticos são os trechos que estão acima de 90% da sua corrente nominal;</li>
+                <li>A distância é dada através da soma do comprimento dos trechos.</li>
+
+            </ul>
+        </div>
     </div>
     </div>
 
@@ -235,16 +245,22 @@
                 if (barraweb.Score >= 0) {
                     document.getElementById("especificacoes").style.visibility = "visible";
                     document.getElementById('dtensao').innerHTML = barraweb.TensaoBase + " kV";
-                    document.getElementById('dhora').innerHTML = barraweb.Periodo + "h";
                     document.getElementById('ddist').innerHTML = barraweb.Mtotal + " m";
+
                     if (barraweb.NivelCC == 0) {
                         document.getElementById('dcc').innerHTML = "Consultar concessionária";
                     } else {
                         document.getElementById('dcc').innerHTML = barraweb.NivelCC + " A";
                     }
-                    
-                    document.getElementById("salvar").style.visibility = "visible";
 
+                    if (barraweb.Mtotal == 0) {
+                        document.getElementById('dhora').innerHTML = "Não houve";
+                    } else {
+                        document.getElementById('dhora').innerHTML = barraweb.Periodo + "h";;
+                    }
+
+                    document.getElementById("salvar").style.visibility = "visible";
+                    document.getElementById("DiscEspec").style.visibility = "visible";
                 }
 
                 marker = new google.maps.Marker({
