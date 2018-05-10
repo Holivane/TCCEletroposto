@@ -68,7 +68,7 @@
                 @Html.ActionLink("Voltar para meus dados", "Perfil", "App", new { area = "" }, new { @class = "btn btn-primary" })
             </div>
             <div class="form-group text-left">
-                <div class="col-sm-12 col-md-8" id="especificacoes" style="visibility:hidden">
+                <div class="col-sm-12 col-md-12" id="especificacoes" style="visibility:hidden">
                     <div class="panel panel-default">
                         <div class="panel-heading">Especificações</div>
                         <ul class="list-group">
@@ -76,13 +76,13 @@
                                 <h5>Tensão nominal: <i id="dtensao"></i></h5>
                             </li>
                             <li class="list-group-item">
+                                <h5>Corrente de Curto: <i id="dcc"></i></h5>
+                            </li>
+                            <li class="list-group-item">
                                 <h5 class="periodomais"><i id="dhora"></i></h5>
                             </li>
                             <li class="list-group-item">
-                                <h5>Distância: <i id="ddist"></i></h5>
-                            </li>
-                            <li class="list-group-item">
-                                <h5>Corrente de Curto: <i id="dcc"></i></h5>
+                                <h5 class="distanciamais"><i id="ddist"></i></h5class="periodomais">
                             </li>
                         </ul>
                     </div>
@@ -234,13 +234,13 @@
 
                 if (barraweb.Score >= 0) {
                     document.getElementById("especificacoes").style.visibility = "visible";
-                    document.getElementById('dtensao').innerHTML = barraweb.TensaoBase;
-                    document.getElementById('dhora').innerHTML = barraweb.Periodo;
-                    document.getElementById('ddist').innerHTML = barraweb.Mtotal;
+                    document.getElementById('dtensao').innerHTML = barraweb.TensaoBase + " kV";
+                    document.getElementById('dhora').innerHTML = barraweb.Periodo + "h";
+                    document.getElementById('ddist').innerHTML = barraweb.Mtotal + " m";
                     if (barraweb.NivelCC == 0) {
                         document.getElementById('dcc').innerHTML = "Consultar concessionária";
                     } else {
-                        document.getElementById('dcc').innerHTML = barraweb.NivelCC;
+                        document.getElementById('dcc').innerHTML = barraweb.NivelCC + " A";
                     }
                     
                     document.getElementById("salvar").style.visibility = "visible";

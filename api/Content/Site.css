@@ -89,3 +89,15 @@
         content: "Período: ";
     }
 }
+
+@media only screen and (min-width: 750px) {
+    .distanciamais:before {
+        content: "Distância de trechos críticos: ";
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .distanciamais:before {
+        content: "Distância: ";
+    }
+}
