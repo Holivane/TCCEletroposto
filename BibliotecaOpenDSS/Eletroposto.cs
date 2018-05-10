@@ -80,7 +80,7 @@ namespace BibliotecaOpenDSS
             bool verificararquivoderede = this.RunFile();
             bool solve = this.SolveH(hora);
             int LineCount = DSSLines.First;
-            
+
             for (int i = 0; i < this.DSSLines.Count; i++)
             {
                 trecho = new Trecho();
@@ -89,7 +89,7 @@ namespace BibliotecaOpenDSS
                 {
                     barra1 = new Barra
                     {
-                        CodBarra = DSSLines.Bus1.Split('.')[0]
+                        CodBarra = DSSLines.Bus1.Split('.')[0],
                     };
 
                     trecho.barra1 = barra1;
@@ -97,7 +97,7 @@ namespace BibliotecaOpenDSS
 
                     barra2 = new Barra
                     {
-                        CodBarra = DSSLines.Bus2.Split('.')[0]
+                        CodBarra = DSSLines.Bus2.Split('.')[0],
                     };
                 }
 
@@ -168,13 +168,43 @@ namespace BibliotecaOpenDSS
                 {
                     b.Score = 10 - (0.05 * mtotal);
 
-                    b.Hora = Convert.ToInt32(pior[1]);
                     b.Mtotal = Convert.ToInt32(pior[0]);
 
                     if (b.Score < 0)
                     {
                         b.Score = 0;
                     }
+
+                    if (pior[1] > 0 && pior[1] <= 4)
+                    {
+                        b.Periodo = "00:00 - 03:59";
+                    }
+
+                    if (pior[1] > 4 && pior[1] <= 8)
+                    {
+                        b.Periodo = "04:00 - 07:59";
+                    }
+
+                    if (pior[1] > 8 && pior[1] <= 12)
+                    {
+                        b.Periodo = "08:00 - 11:59";
+                    }
+
+                    if (pior[1] > 12 && pior[1] <= 16)
+                    {
+                        b.Periodo = "12:00 - 15:59";
+                    }
+
+                    if (pior[1] > 16 && pior[1] <= 20)
+                    {
+                        b.Periodo = "16:00 - 19:59";
+                    }
+
+                    if (pior[1] > 20 && pior[1] <= 24)
+                    {
+                        b.Periodo = "20:00 - 23:59";
+                    }
+
                 }
                 else
                 {
@@ -205,13 +235,14 @@ namespace BibliotecaOpenDSS
             return barrasmodificadas;
         }
 
+
         public List<Barra> CalcScore(List<Barra> listabarras, Barra barra, Carga carga)
         {
             int hora = 1;
             List<Barra> barrasmodificadas = new List<Barra>();
             double[] pior = new double[2] { 0, hora };
 
-            for (hora = 1; hora <= 24; hora++)
+            for (hora = 1; hora <= 24; hora = hora + 2)
             {
                 barrasmodificadas = this.CalcSolve(listabarras, barra, carga, hora, ref pior);
             }
@@ -221,10 +252,6 @@ namespace BibliotecaOpenDSS
 
             return barrasmodificadas;
         }
-
-
-
-
 
         public void AddLoad(Carga carga)
         {   // depois inserir o mult da forma que voces encontrarem     
@@ -239,8 +266,7 @@ namespace BibliotecaOpenDSS
             this.DSSText.Command = "New Load." + carga.Nome + " phases=3 model=1 bus1=" + carga.Barra + ".1.2.3 conn=delta kv=13.80000019 vminpu=0.800 kw=1 pf=0.96 daily=" + carga.Nome + "_curva";
 
         }
-
-
+        
         public bool SolveH(int hora)
         {
             this.DSSText.Command = "Set voltagebases=[88.000 13.800]";
@@ -260,17 +286,6 @@ namespace BibliotecaOpenDSS
             return retorno;
 
         }
-
-        //public Resultados()
-        //{
-        //    this.DSSText.Command = "Show Voltage LN Nodes";
-        //    this.DSSText.Command = "Show Current Elements";
-        //}
-
-        //public float ConvertPower(float power)
-        //{
-        //    return power * 1000;
-        //}
 
         public int GetCountBus()
         {

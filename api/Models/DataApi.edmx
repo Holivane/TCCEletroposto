@@ -16,6 +16,8 @@
           <Property Name="Longitude" Type="decimal" Precision="25" Scale="18" />
           <Property Name="Rede" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="NomedaRede" Type="varchar" MaxLength="50" />
+          <Property Name="NivelCC" Type="decimal" Precision="18" Scale="9" />
+          <Property Name="TensaoNominal" Type="decimal" Precision="18" Scale="9" />
         </EntityType>
         <EntityType Name="Pessoas">
           <Key>
@@ -120,6 +122,8 @@
           <Property Name="Longitude" Type="Decimal" Precision="25" Scale="18" />
           <Property Name="Rede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="NomedaRede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NivelCC" Type="Decimal" Precision="18" Scale="9" />
+          <Property Name="TensaoNominal" Type="Decimal" Precision="18" Scale="9" />
         </EntityType>
         <EntityType Name="Pessoas">
           <Key>
@@ -222,6 +226,8 @@
           <EntitySetMapping Name="Barras">
             <EntityTypeMapping TypeName="TCCModel.Barras">
               <MappingFragment StoreEntitySet="Barras">
+                <ScalarProperty Name="TensaoNominal" ColumnName="TensaoNominal" />
+                <ScalarProperty Name="NivelCC" ColumnName="NivelCC" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="Barra" ColumnName="Barra" />
                 <ScalarProperty Name="NomedaBarra" ColumnName="NomedaBarra" />

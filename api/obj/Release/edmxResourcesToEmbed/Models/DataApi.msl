@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Barras">
       <EntityTypeMapping TypeName="TCCModel.Barras">
         <MappingFragment StoreEntitySet="Barras">
+          <ScalarProperty Name="NivelCC" ColumnName="NivelCC" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="Barra" ColumnName="Barra" />
           <ScalarProperty Name="NomedaBarra" ColumnName="NomedaBarra" />
