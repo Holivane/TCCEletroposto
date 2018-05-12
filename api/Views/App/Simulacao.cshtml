@@ -3,7 +3,15 @@
     ViewBag.Title = "Simulação";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<div id="cover-spin">
+    <p>Aguarde...</p>
+    <div class="loading">
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+    </div>
+</div>
 <div class="row">
     <div class="col-sm-5">
         <h3>Dados da Simulação</h3>
@@ -15,77 +23,89 @@
                 </div>
             </div>
             <div class="form-group">
-                <div class="input-group col-sm-8 col-sm-offset-4">
-                    <div class="input-group-addon">00:00 - 03:59h</div>
-                    <input type="text" class="form-control" value="0" id="potencia00" placeholder="">
-                    <div class="input-group-addon">kW</div>
+                <label class="col-sm-4 col-md-offset-3 control-label">00:00 - 03:59h</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" value="100" id="potencia00" placeholder="">
                 </div>
+                <label class="col-sm-1 control-label">kW</label>
             </div>
             <div class="form-group">
-                <div class="input-group col-sm-8 col-sm-offset-4">
-                    <div class="input-group-addon">04:00 - 07:59h</div>
+                <label class="col-sm-4 col-md-offset-3 control-label">04:00 - 07:59h</label>
+                <div class="col-sm-2">
                     <input type="text" class="form-control" value="200" id="potencia04" placeholder="">
-                    <div class="input-group-addon">kW</div>
                 </div>
+                <label class="col-sm-1 control-label">kW</label>
             </div>
             <div class="form-group">
-                <div class="input-group col-sm-8 col-sm-offset-4">
-                    <div class="input-group-addon">08:00 - 11:59h</div>
-                    <input type="text" class="form-control" value="450" id="potencia08" placeholder="">
-                    <div class="input-group-addon">kW</div>
+                <label class="col-sm-4 col-md-offset-3 control-label">08:00 - 11:59h</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" value="500" id="potencia08" placeholder="">
                 </div>
+                <label class="col-sm-1 control-label">kW</label>
             </div>
             <div class="form-group">
-                <div class="input-group col-sm-8 col-sm-offset-4">
-                    <div class="input-group-addon">12:00 - 15:59h</div>
+                <label class="col-sm-4 col-md-offset-3 control-label">12:00 - 15:59h</label>
+                <div class="col-sm-2">
                     <input type="text" class="form-control" value="500" id="potencia12" placeholder="">
-                    <div class="input-group-addon">kW</div>
                 </div>
+                <label class="col-sm-1 control-label">kW</label>
             </div>
             <div class="form-group">
-                <div class="input-group col-sm-8 col-sm-offset-4">
-                    <div class="input-group-addon">16:00 - 19:59h</div>
-                    <input type="text" class="form-control" value="500" id="potencia16" placeholder="">
-                    <div class="input-group-addon">kW</div>
+                <label class="col-sm-4 col-md-offset-3 control-label">16:00 - 19:59h</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" value="450" id="potencia16" placeholder="">
                 </div>
+                <label class="col-sm-1 control-label">kW</label>
             </div>
             <div class="form-group">
-                <div class="input-group col-sm-8 col-sm-offset-4">
-                    <div class="input-group-addon">20:00 - 23:59h</div>
-                    <input type="text" class="form-control" value="200" id="potencia20" placeholder="">
-                    <div class="input-group-addon">kW</div>
+                <label class="col-sm-4 col-md-offset-3 control-label">20:00 - 23:59h</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" value="300" id="potencia20" placeholder="">
                 </div>
-            </div>
-            <div class="form-group text-right">
-                <button type="submit" class="btn btn-success">Salvar Simulação</button>
+                <label class="col-sm-1 control-label">kW</label>
+            </div>            
+            <div class="form-group text-center">
                 @Html.ActionLink("Voltar para meus dados", "Perfil", "App", new { area = "" }, new { @class = "btn btn-primary" })
             </div>
-            <div class="form-group text-right">
-                <div class="col-sm-8 col-sm-offset-4" id="especificacoes" style="visibility:hidden">
+            <div class="form-group text-left">
+                <div class="col-sm-12 col-md-12" id="especificacoes" style="visibility:hidden">
                     <div class="panel panel-default">
                         <div class="panel-heading">Especificações</div>
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <h5>Tensão: <i id="dtensao"></i></h5>
-                            </li>
-                            <li class="list-group-item">
-                                <h5>Hora: <i id="dhora"></i></h5>
-                            </li>
-                            <li class="list-group-item">
-                                <h5>Distancia: <i id="ddist"></i></h5>
+                                <h5>Tensão nominal: <i id="dtensao"></i></h5>
                             </li>
                             <li class="list-group-item">
                                 <h5>Corrente de Curto: <i id="dcc"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5 class="periodomais"><i id="dhora"></i></h5>
+                            </li>
+                            <li class="list-group-item">
+                                <h5 class="distanciamais"><i id="ddist"></i></h5>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div class="form-group text-center" style="visibility:hidden">
+                <button type="submit" id="salvar" class="btn btn-success">Salvar Simulação</button>
+            </div>
         </form>
     </div>
     <div class="col-sm-7">
         <div id="dvMap" style="height:550px; width:100%;"></div>
-        <img src="~/Escala_Barras.png" width="550" />
+        <img class="img_nota" src="~/Escala_Barras.png" width="550" />
+        <h5>Informações sobre a barra podem ser vistas mantendo o ponteiro do mouse sobre ela.</h5>
+        <div id="DiscEspec" style="visibility:hidden">
+            <h5>Descrição das Especificações (à esquerda):</h5>
+            <ul>
+                <li>O período mais afetado indica o intervalo de horas em que a carga causou mais impacto;</li>
+                <li>Trechos críticos são os trechos que estão acima de 90% da sua corrente nominal;</li>
+                <li>A distância é dada através da soma do comprimento dos trechos.</li>
+
+            </ul>
+        </div>
     </div>
     </div>
 
@@ -97,6 +117,8 @@
 
     var marker1, marker2;
     var poly, geodesicPoly;
+
+    var bloqueio = false;
 
     function initMap() {
         document.getElementById("especificacoes").style.visibility = "hidden";
@@ -222,11 +244,23 @@
 
                 if (barraweb.Score >= 0) {
                     document.getElementById("especificacoes").style.visibility = "visible";
-                    document.getElementById('dtensao').innerHTML = barraweb.TensaoBase * barraweb.Tensaopu;
-                    document.getElementById('dhora').innerHTML = barraweb.Hora;
-                    document.getElementById('ddist').innerHTML = barraweb.Mtotal;
-                    document.getElementById('dcc').innerHTML = barraweb.Score;
+                    document.getElementById('dtensao').innerHTML = barraweb.TensaoBase + " kV";
+                    document.getElementById('ddist').innerHTML = barraweb.Mtotal + " m";
 
+                    if (barraweb.NivelCC == 0) {
+                        document.getElementById('dcc').innerHTML = "Consultar concessionária";
+                    } else {
+                        document.getElementById('dcc').innerHTML = barraweb.NivelCC + " A";
+                    }
+
+                    if (barraweb.Mtotal == 0) {
+                        document.getElementById('dhora').innerHTML = "Não houve";
+                    } else {
+                        document.getElementById('dhora').innerHTML = barraweb.Periodo + "h";;
+                    }
+
+                    document.getElementById("salvar").style.visibility = "visible";
+                    document.getElementById("DiscEspec").style.visibility = "visible";
                 }
 
                 marker = new google.maps.Marker({
@@ -248,22 +282,28 @@
                 });
                 google.maps.event.addListener(marker, 'click', (function (marker, ikey) {
                     //alert(document.getElementById('potencia').value);
-                    var Carga = {
-                        Nome: document.getElementById('NomedoProjeto').value,
-                        Barra: barraweb.CodBarra,
-                        Potencia00: document.getElementById('potencia00').value,
-                        Potencia04: document.getElementById('potencia04').value,
-                        Potencia08: document.getElementById('potencia08').value,
-                        Potencia12: document.getElementById('potencia12').value,
-                        Potencia16: document.getElementById('potencia16').value,
-                        Potencia20: document.getElementById('potencia20').value,
-                        //PotenciaTotal: document.getElementById('potencia12').value
-                    };
-                    var Projeto = { carga: Carga, barra: barraweb};
-                    $.post('/api/eletroposto/calcscore', Projeto, function (response) {
-
-                        calcscore(response);
-                    }, 'json');
+                    if (bloqueio == false) {
+                        $('#cover-spin').show(0)
+                        bloqueio = true;
+                        var Carga = {
+                            Nome: document.getElementById('NomedoProjeto').value,
+                            Barra: barraweb.CodBarra,
+                            Potencia00: document.getElementById('potencia00').value,
+                            Potencia04: document.getElementById('potencia04').value,
+                            Potencia08: document.getElementById('potencia08').value,
+                            Potencia12: document.getElementById('potencia12').value,
+                            Potencia16: document.getElementById('potencia16').value,
+                            Potencia20: document.getElementById('potencia20').value,
+                            //PotenciaTotal: document.getElementById('potencia12').value
+                        };
+                        var Projeto = { carga: Carga, barra: barraweb };
+                        $.post('/api/eletroposto/calcscore', Projeto, function (response) {
+                            bloqueio = false;
+                            $('#cover-spin').hide(0)
+                            calcscore(response);
+                        }, 'json');
+                    }
+                    
                 }));
             });
         };

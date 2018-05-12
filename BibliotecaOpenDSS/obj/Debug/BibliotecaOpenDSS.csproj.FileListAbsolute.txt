@@ -24,3 +24,4 @@ C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Deb
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csproj.CoreCompileInputs.cache
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.dll
 C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.pdb
+C:\Users\anand\Documents\TCCEletroposto\TCCEletroposto\BibliotecaOpenDSS\obj\Debug\BibliotecaOpenDSS.csprojAssemblyReference.cache
