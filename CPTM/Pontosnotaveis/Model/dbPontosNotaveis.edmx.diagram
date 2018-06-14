@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="feec544dea084a7e8c51e9caa3ff45b9" Name="Diagram1">
+        <EntityTypeShape EntityType="dbcptmModel.conexao" Width="1.5" PointX="4.75" PointY="2.5" />
+        <EntityTypeShape EntityType="dbcptmModel.estacao" Width="1.5" PointX="2.5" PointY="4.25" />
+        <EntityTypeShape EntityType="dbcptmModel.linha" Width="1.5" PointX="2.5" PointY="1.125" />
+        <EntityTypeShape EntityType="dbcptmModel.pontosnotaveis" Width="1.5" PointX="7.75" PointY="3.625" />
+        <EntityTypeShape EntityType="dbcptmModel.tipodeelemento" Width="1.5" PointX="9.875" PointY="3.625" />
+        <AssociationConnector Association="dbcptmModel.FK_conexao_estacao" />
+        <AssociationConnector Association="dbcptmModel.FK_conexao_linha" />
+        <AssociationConnector Association="dbcptmModel.FK_pontosnotaveis_estacao1" />
+        <AssociationConnector Association="dbcptmModel.FK_pontosnotaveis_linha" />
+        <AssociationConnector Association="dbcptmModel.FK_pontosnotaveis_tipodeelemento1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

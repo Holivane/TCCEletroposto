@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dbcptmModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="conexao">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idlinha" Type="int" />
+          <Property Name="idestacao" Type="int" />
+        </EntityType>
+        <EntityType Name="estacao">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="linha">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="50" />
+          <Property Name="numero" Type="int" />
+        </EntityType>
+        <EntityType Name="pontosnotaveis">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idlinha" Type="int" />
+          <Property Name="idestacao" Type="int" />
+          <Property Name="idtipodeelemento" Type="int" />
+          <Property Name="via" Type="int" />
+          <Property Name="especificacoes" Type="varchar" MaxLength="50" />
+          <Property Name="localkm" Type="decimal" Precision="10" Scale="4" />
+        </EntityType>
+        <EntityType Name="tipodeelemento">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_conexao_estacao">
+          <End Role="estacao" Type="Self.estacao" Multiplicity="0..1" />
+          <End Role="conexao" Type="Self.conexao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estacao">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="conexao">
+              <PropertyRef Name="idestacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_conexao_linha">
+          <End Role="linha" Type="Self.linha" Multiplicity="0..1" />
+          <End Role="conexao" Type="Self.conexao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="linha">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="conexao">
+              <PropertyRef Name="idlinha" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pontosnotaveis_estacao1">
+          <End Role="estacao" Type="Self.estacao" Multiplicity="0..1" />
+          <End Role="pontosnotaveis" Type="Self.pontosnotaveis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estacao">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="pontosnotaveis">
+              <PropertyRef Name="idestacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pontosnotaveis_linha">
+          <End Role="linha" Type="Self.linha" Multiplicity="0..1" />
+          <End Role="pontosnotaveis" Type="Self.pontosnotaveis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="linha">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="pontosnotaveis">
+              <PropertyRef Name="idlinha" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pontosnotaveis_tipodeelemento1">
+          <End Role="tipodeelemento" Type="Self.tipodeelemento" Multiplicity="0..1" />
+          <End Role="pontosnotaveis" Type="Self.pontosnotaveis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tipodeelemento">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="pontosnotaveis">
+              <PropertyRef Name="idtipodeelemento" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="dbcptmModelStoreContainer">
+          <EntitySet Name="conexao" EntityType="Self.conexao" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="estacao" EntityType="Self.estacao" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="linha" EntityType="Self.linha" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pontosnotaveis" EntityType="Self.pontosnotaveis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tipodeelemento" EntityType="Self.tipodeelemento" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_conexao_estacao" Association="Self.FK_conexao_estacao">
+            <End Role="estacao" EntitySet="estacao" />
+            <End Role="conexao" EntitySet="conexao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_conexao_linha" Association="Self.FK_conexao_linha">
+            <End Role="linha" EntitySet="linha" />
+            <End Role="conexao" EntitySet="conexao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pontosnotaveis_estacao1" Association="Self.FK_pontosnotaveis_estacao1">
+            <End Role="estacao" EntitySet="estacao" />
+            <End Role="pontosnotaveis" EntitySet="pontosnotaveis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pontosnotaveis_linha" Association="Self.FK_pontosnotaveis_linha">
+            <End Role="linha" EntitySet="linha" />
+            <End Role="pontosnotaveis" EntitySet="pontosnotaveis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pontosnotaveis_tipodeelemento1" Association="Self.FK_pontosnotaveis_tipodeelemento1">
+            <End Role="tipodeelemento" EntitySet="tipodeelemento" />
+            <End Role="pontosnotaveis" EntitySet="pontosnotaveis" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbcptmModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="dbcptmEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="conexao" EntityType="dbcptmModel.conexao" />
+          <EntitySet Name="estacao" EntityType="dbcptmModel.estacao" />
+          <EntitySet Name="linha" EntityType="dbcptmModel.linha" />
+          <EntitySet Name="pontosnotaveis" EntityType="dbcptmModel.pontosnotaveis" />
+          <EntitySet Name="tipodeelemento" EntityType="dbcptmModel.tipodeelemento" />
+          <AssociationSet Name="FK_conexao_estacao" Association="dbcptmModel.FK_conexao_estacao">
+            <End Role="estacao" EntitySet="estacao" />
+            <End Role="conexao" EntitySet="conexao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_conexao_linha" Association="dbcptmModel.FK_conexao_linha">
+            <End Role="linha" EntitySet="linha" />
+            <End Role="conexao" EntitySet="conexao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pontosnotaveis_estacao1" Association="dbcptmModel.FK_pontosnotaveis_estacao1">
+            <End Role="estacao" EntitySet="estacao" />
+            <End Role="pontosnotaveis" EntitySet="pontosnotaveis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pontosnotaveis_linha" Association="dbcptmModel.FK_pontosnotaveis_linha">
+            <End Role="linha" EntitySet="linha" />
+            <End Role="pontosnotaveis" EntitySet="pontosnotaveis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pontosnotaveis_tipodeelemento1" Association="dbcptmModel.FK_pontosnotaveis_tipodeelemento1">
+            <End Role="tipodeelemento" EntitySet="tipodeelemento" />
+            <End Role="pontosnotaveis" EntitySet="pontosnotaveis" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="conexao">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idlinha" Type="Int32" />
+          <Property Name="idestacao" Type="Int32" />
+          <NavigationProperty Name="estacao" Relationship="dbcptmModel.FK_conexao_estacao" FromRole="conexao" ToRole="estacao" />
+          <NavigationProperty Name="linha" Relationship="dbcptmModel.FK_conexao_linha" FromRole="conexao" ToRole="linha" />
+        </EntityType>
+        <EntityType Name="estacao">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="conexao" Relationship="dbcptmModel.FK_conexao_estacao" FromRole="estacao" ToRole="conexao" />
+          <NavigationProperty Name="pontosnotaveis" Relationship="dbcptmModel.FK_pontosnotaveis_estacao1" FromRole="estacao" ToRole="pontosnotaveis" />
+        </EntityType>
+        <EntityType Name="linha">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="numero" Type="Int32" />
+          <NavigationProperty Name="conexao" Relationship="dbcptmModel.FK_conexao_linha" FromRole="linha" ToRole="conexao" />
+          <NavigationProperty Name="pontosnotaveis" Relationship="dbcptmModel.FK_pontosnotaveis_linha" FromRole="linha" ToRole="pontosnotaveis" />
+        </EntityType>
+        <EntityType Name="pontosnotaveis">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idlinha" Type="Int32" />
+          <Property Name="idestacao" Type="Int32" />
+          <Property Name="idtipodeelemento" Type="Int32" />
+          <Property Name="via" Type="Int32" />
+          <Property Name="especificacoes" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="localkm" Type="Decimal" Precision="10" Scale="4" />
+          <NavigationProperty Name="estacao" Relationship="dbcptmModel.FK_pontosnotaveis_estacao1" FromRole="pontosnotaveis" ToRole="estacao" />
+          <NavigationProperty Name="linha" Relationship="dbcptmModel.FK_pontosnotaveis_linha" FromRole="pontosnotaveis" ToRole="linha" />
+          <NavigationProperty Name="tipodeelemento" Relationship="dbcptmModel.FK_pontosnotaveis_tipodeelemento1" FromRole="pontosnotaveis" ToRole="tipodeelemento" />
+        </EntityType>
+        <EntityType Name="tipodeelemento">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="pontosnotaveis" Relationship="dbcptmModel.FK_pontosnotaveis_tipodeelemento1" FromRole="tipodeelemento" ToRole="pontosnotaveis" />
+        </EntityType>
+        <Association Name="FK_conexao_estacao">
+          <End Type="dbcptmModel.estacao" Role="estacao" Multiplicity="0..1" />
+          <End Type="dbcptmModel.conexao" Role="conexao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estacao">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="conexao">
+              <PropertyRef Name="idestacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_conexao_linha">
+          <End Type="dbcptmModel.linha" Role="linha" Multiplicity="0..1" />
+          <End Type="dbcptmModel.conexao" Role="conexao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="linha">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="conexao">
+              <PropertyRef Name="idlinha" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pontosnotaveis_estacao1">
+          <End Type="dbcptmModel.estacao" Role="estacao" Multiplicity="0..1" />
+          <End Type="dbcptmModel.pontosnotaveis" Role="pontosnotaveis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estacao">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="pontosnotaveis">
+              <PropertyRef Name="idestacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pontosnotaveis_linha">
+          <End Type="dbcptmModel.linha" Role="linha" Multiplicity="0..1" />
+          <End Type="dbcptmModel.pontosnotaveis" Role="pontosnotaveis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="linha">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="pontosnotaveis">
+              <PropertyRef Name="idlinha" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pontosnotaveis_tipodeelemento1">
+          <End Type="dbcptmModel.tipodeelemento" Role="tipodeelemento" Multiplicity="0..1" />
+          <End Type="dbcptmModel.pontosnotaveis" Role="pontosnotaveis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tipodeelemento">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="pontosnotaveis">
+              <PropertyRef Name="idtipodeelemento" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbcptmModelStoreContainer" CdmEntityContainer="dbcptmEntities">
+          <EntitySetMapping Name="conexao">
+            <EntityTypeMapping TypeName="dbcptmModel.conexao">
+              <MappingFragment StoreEntitySet="conexao">
+                <ScalarProperty Name="idestacao" ColumnName="idestacao" />
+                <ScalarProperty Name="idlinha" ColumnName="idlinha" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="estacao">
+            <EntityTypeMapping TypeName="dbcptmModel.estacao">
+              <MappingFragment StoreEntitySet="estacao">
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="linha">
+            <EntityTypeMapping TypeName="dbcptmModel.linha">
+              <MappingFragment StoreEntitySet="linha">
+                <ScalarProperty Name="numero" ColumnName="numero" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pontosnotaveis">
+            <EntityTypeMapping TypeName="dbcptmModel.pontosnotaveis">
+              <MappingFragment StoreEntitySet="pontosnotaveis">
+                <ScalarProperty Name="localkm" ColumnName="localkm" />
+                <ScalarProperty Name="especificacoes" ColumnName="especificacoes" />
+                <ScalarProperty Name="via" ColumnName="via" />
+                <ScalarProperty Name="idtipodeelemento" ColumnName="idtipodeelemento" />
+                <ScalarProperty Name="idestacao" ColumnName="idestacao" />
+                <ScalarProperty Name="idlinha" ColumnName="idlinha" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tipodeelemento">
+            <EntityTypeMapping TypeName="dbcptmModel.tipodeelemento">
+              <MappingFragment StoreEntitySet="tipodeelemento">
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
