@@ -12,6 +12,7 @@
     <Property Name="Rede" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="NomedaRede" Type="varchar" MaxLength="50" />
     <Property Name="NivelCC" Type="decimal" Precision="18" Scale="9" />
+    <Property Name="TensaoNominal" Type="decimal" Precision="18" Scale="9" />
   </EntityType>
   <EntityType Name="Pessoas">
     <Key>
